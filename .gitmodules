@@ -2,3 +2,4 @@
 	path = KiCad_Library
 	url = https://github.com/ut-ras/KiCad_Library.git
 	branch = main
+	update = checkout
