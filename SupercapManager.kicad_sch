@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "6197145b-e7d4-44cc-9d90-537b6501bf60")
 	(paper "A4")
 	(title_block
@@ -14,7 +14,9 @@
 	(lib_symbols
 		(symbol "Connector:Conn_01x02_Pin"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -88,16 +90,26 @@
 				)
 			)
 			(symbol "Conn_01x02_Pin_1_1"
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(polyline
@@ -112,26 +124,16 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(pin passive line
@@ -171,10 +173,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector:Conn_01x04_Pin"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -248,21 +253,53 @@
 				)
 			)
 			(symbol "Conn_01x04_Pin_1_1"
-				(polyline
-					(pts
-						(xy 1.27 -5.08) (xy 0.8636 -5.08)
-					)
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(polyline
 					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+						(xy 1.27 2.54) (xy 0.8636 2.54)
 					)
 					(stroke
 						(width 0.1524)
@@ -286,7 +323,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
 					)
 					(stroke
 						(width 0.1524)
@@ -296,48 +333,16 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start 0.8636 -4.953)
-					(end 0 -5.207)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(pin passive line
@@ -413,12 +418,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+24V"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -490,7 +500,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -502,7 +512,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -533,12 +543,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+3.3VA"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -610,7 +625,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -622,7 +637,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -653,12 +668,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+3V3"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -730,7 +750,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -742,7 +762,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -773,12 +793,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+5V"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -850,7 +875,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -862,7 +887,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -893,12 +918,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:-3V3"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -989,12 +1019,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1085,12 +1120,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GNDD"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1192,12 +1232,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GNDPWR"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1257,18 +1302,6 @@
 			(symbol "GNDPWR_0_1"
 				(polyline
 					(pts
-						(xy 0 -1.27) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy -1.016 -1.27) (xy -1.27 -2.032) (xy -1.27 -2.032)
 					)
 					(stroke
@@ -1285,6 +1318,18 @@
 					)
 					(stroke
 						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -1360,7 +1405,203 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 226.06 74.93)
+		(end 264.16 125.73)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 14e3cb50-7cd0-45ee-8b53-d4823d825f49)
+	)
+	(rectangle
+		(start 226.06 40.64)
+		(end 264.16 72.39)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4a945be9-53e0-4e2d-a77f-f4eaa0b9abea)
+	)
+	(text "+3.3V to Mini PC GND"
+		(exclude_from_sim no)
+		(at 238.125 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "09b4180a-d589-4452-91fc-a33b3ccb01be")
+	)
+	(text "+3.3V to Mini PC GND"
+		(exclude_from_sim no)
+		(at 238.125 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0aba8803-8cb6-461b-a217-47667178c006")
+	)
+	(text "Connector IN"
+		(exclude_from_sim no)
+		(at 41.91 85.852 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify bottom)
+		)
+		(uuid "139027b2-514a-49e2-ba87-acc5286f1db5")
+	)
+	(text "Power symbol legend"
+		(exclude_from_sim no)
+		(at 245.11 37.465 0)
+		(effects
+			(font
+				(size 2.159 2.159)
+				(thickness 0.508)
+				(bold yes)
+				(italic yes)
+			)
+			(justify bottom)
+		)
+		(uuid "4033c054-edc0-4ad1-a96e-54899bafca73")
+	)
+	(text "Connectors OUT"
+		(exclude_from_sim no)
+		(at 217.424 85.852 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify top)
+		)
+		(uuid "4bd92fec-73e1-4b69-8d87-1efb2ca6e661")
+	)
+	(text "GND reference:"
+		(exclude_from_sim no)
+		(at 237.49 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6cfefe16-f8b6-4bb7-822c-fbfefa5afd13")
+	)
+	(text "-3.3V to GNDPWR"
+		(exclude_from_sim no)
+		(at 238.125 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "86bf3f8c-6df8-432d-852a-fca1bf43e55c")
+	)
+	(text "+24V to GNDPWR"
+		(exclude_from_sim no)
+		(at 238.125 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8e092567-a942-4cd5-88d5-b5be0c119faf")
+	)
+	(text "Connectors to &\nfrom supercap + SCMM"
+		(exclude_from_sim no)
+		(at 132.334 168.402 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify top)
+		)
+		(uuid "94118ac7-92e3-49c2-9d05-872ee10ba5c9")
+	)
+	(text "BLOCK DIAGRAM"
+		(exclude_from_sim no)
+		(at 114.935 36.83 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(italic yes)
+			)
+			(justify top)
+		)
+		(uuid "98616e61-43ad-4043-b9e8-77b945ff0725")
+	)
+	(text "Dev board ground"
+		(exclude_from_sim no)
+		(at 236.855 66.675 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cb09da32-af41-49cd-b3dd-1532d87e4ae9")
+	)
+	(text "Chassis (power) ground"
+		(exclude_from_sim no)
+		(at 237.49 48.895 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cf6e361f-0343-46fd-a302-ff28a240a00e")
+	)
+	(text "+3.3V to GNDPWR"
+		(exclude_from_sim no)
+		(at 238.125 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d2417087-82ce-4017-8cdf-58b8ffcf6d90")
+	)
+	(text "Mini PC ground"
+		(exclude_from_sim no)
+		(at 237.49 56.515 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dd82ee9d-3149-4740-99a4-7b81b55c6109")
+	)
+	(text "PWR reference:"
+		(exclude_from_sim no)
+		(at 238.125 78.105 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f85728e9-e2e6-4334-a024-a5fb6fd9e634")
 	)
 	(junction
 		(at 127 119.38)
@@ -1891,201 +2132,6 @@
 			(type default)
 		)
 		(uuid "f2fc87fd-722b-4bb4-a780-32b673439bf3")
-	)
-	(rectangle
-		(start 226.06 74.93)
-		(end 264.16 125.73)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 14e3cb50-7cd0-45ee-8b53-d4823d825f49)
-	)
-	(rectangle
-		(start 226.06 40.64)
-		(end 264.16 72.39)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 4a945be9-53e0-4e2d-a77f-f4eaa0b9abea)
-	)
-	(text "+3.3V to Mini PC GND"
-		(exclude_from_sim no)
-		(at 238.125 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "09b4180a-d589-4452-91fc-a33b3ccb01be")
-	)
-	(text "+3.3V to Mini PC GND"
-		(exclude_from_sim no)
-		(at 238.125 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0aba8803-8cb6-461b-a217-47667178c006")
-	)
-	(text "Connector IN"
-		(exclude_from_sim no)
-		(at 41.91 85.852 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify bottom)
-		)
-		(uuid "139027b2-514a-49e2-ba87-acc5286f1db5")
-	)
-	(text "Power symbol legend"
-		(exclude_from_sim no)
-		(at 245.11 37.465 0)
-		(effects
-			(font
-				(size 2.159 2.159)
-				(thickness 0.508)
-				(bold yes)
-				(italic yes)
-			)
-			(justify bottom)
-		)
-		(uuid "4033c054-edc0-4ad1-a96e-54899bafca73")
-	)
-	(text "Connectors OUT"
-		(exclude_from_sim no)
-		(at 217.424 85.852 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify top)
-		)
-		(uuid "4bd92fec-73e1-4b69-8d87-1efb2ca6e661")
-	)
-	(text "GND reference:"
-		(exclude_from_sim no)
-		(at 237.49 43.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6cfefe16-f8b6-4bb7-822c-fbfefa5afd13")
-	)
-	(text "-3.3V to GNDPWR"
-		(exclude_from_sim no)
-		(at 238.125 119.38 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "86bf3f8c-6df8-432d-852a-fca1bf43e55c")
-	)
-	(text "+24V to GNDPWR"
-		(exclude_from_sim no)
-		(at 238.125 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8e092567-a942-4cd5-88d5-b5be0c119faf")
-	)
-	(text "Connectors to &\nfrom supercap + SCMM"
-		(exclude_from_sim no)
-		(at 132.334 168.402 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify top)
-		)
-		(uuid "94118ac7-92e3-49c2-9d05-872ee10ba5c9")
-	)
-	(text "BLOCK DIAGRAM"
-		(exclude_from_sim no)
-		(at 114.935 36.83 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(italic yes)
-			)
-			(justify top)
-		)
-		(uuid "98616e61-43ad-4043-b9e8-77b945ff0725")
-	)
-	(text "Dev board ground"
-		(exclude_from_sim no)
-		(at 236.855 66.675 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cb09da32-af41-49cd-b3dd-1532d87e4ae9")
-	)
-	(text "Chassis (power) ground"
-		(exclude_from_sim no)
-		(at 237.49 48.895 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cf6e361f-0343-46fd-a302-ff28a240a00e")
-	)
-	(text "+3.3V to GNDPWR"
-		(exclude_from_sim no)
-		(at 238.125 110.49 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d2417087-82ce-4017-8cdf-58b8ffcf6d90")
-	)
-	(text "Mini PC ground"
-		(exclude_from_sim no)
-		(at 237.49 56.515 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "dd82ee9d-3149-4740-99a4-7b81b55c6109")
-	)
-	(text "PWR reference:"
-		(exclude_from_sim no)
-		(at 238.125 78.105 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f85728e9-e2e6-4334-a024-a5fb6fd9e634")
 	)
 	(label "CHARGING_EN"
 		(at 137.16 115.57 180)
@@ -3492,6 +3538,10 @@
 	(sheet
 		(at 55.88 50.8)
 		(size 26.67 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -3521,93 +3571,93 @@
 		)
 		(pin "SCL_{IN}" input
 			(at 55.88 55.88 180)
+			(uuid "5c81c109-284a-49e7-b916-f03c81e7475b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "5c81c109-284a-49e7-b916-f03c81e7475b")
 		)
 		(pin "+3V3_{DEV}" bidirectional
 			(at 55.88 53.34 180)
+			(uuid "819dac94-a871-46d6-8ecf-09c73ea63a1e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "819dac94-a871-46d6-8ecf-09c73ea63a1e")
 		)
 		(pin "SDA_{IN}" bidirectional
 			(at 55.88 58.42 180)
+			(uuid "269338b0-1cc9-4835-9ed8-3988ec9a562c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "269338b0-1cc9-4835-9ed8-3988ec9a562c")
 		)
 		(pin "POW_DRAW" output
 			(at 82.55 62.23 0)
+			(uuid "b2f6a221-9d74-4cec-b8a5-8c64df4aa676")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "b2f6a221-9d74-4cec-b8a5-8c64df4aa676")
 		)
 		(pin "DAC_{2}_FB" input
 			(at 82.55 64.77 0)
+			(uuid "1064ea71-ab5d-469b-8859-cb603a8663d6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "1064ea71-ab5d-469b-8859-cb603a8663d6")
 		)
 		(pin "POW_LIMIT" output
 			(at 82.55 54.61 0)
+			(uuid "5e931032-4a91-4148-b6d4-ebe15c96d3cd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "5e931032-4a91-4148-b6d4-ebe15c96d3cd")
 		)
 		(pin "DAC_{1}_FB" input
 			(at 82.55 57.15 0)
+			(uuid "166b2d7c-0971-49b1-8b18-4b3ac24c1994")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "166b2d7c-0971-49b1-8b18-4b3ac24c1994")
 		)
 		(pin "CURR" input
 			(at 82.55 71.12 0)
+			(uuid "f61cd1cf-0a50-4893-856a-e8bf93771594")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "f61cd1cf-0a50-4893-856a-e8bf93771594")
 		)
 		(pin "V_{SC}" input
 			(at 82.55 68.58 0)
+			(uuid "8159856e-322e-4994-8ba1-6e668baa040a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "8159856e-322e-4994-8ba1-6e668baa040a")
 		)
 		(instances
 			(project "SupercapManager"
@@ -3620,6 +3670,10 @@
 	(sheet
 		(at 143.51 53.34)
 		(size 38.1 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -3649,13 +3703,13 @@
 		)
 		(pin "+24_{MiniPC}" input
 			(at 143.51 59.69 180)
+			(uuid "f2a8be59-22bc-4189-a440-d3c7aac6920e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "f2a8be59-22bc-4189-a440-d3c7aac6920e")
 		)
 		(instances
 			(project "SupercapManager"
@@ -3668,6 +3722,10 @@
 	(sheet
 		(at 97.79 111.76)
 		(size 25.4 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -3697,33 +3755,33 @@
 		)
 		(pin "IN" input
 			(at 97.79 119.38 180)
+			(uuid "1eeee62a-82b9-4618-9163-6790534ffd47")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "1eeee62a-82b9-4618-9163-6790534ffd47")
 		)
 		(pin "CHARGE_EN" input
 			(at 123.19 115.57 0)
+			(uuid "0b6fcc22-2a69-47bf-9e09-a5ba16fa6f6f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "0b6fcc22-2a69-47bf-9e09-a5ba16fa6f6f")
 		)
 		(pin "OUT" output
 			(at 123.19 119.38 0)
+			(uuid "058bcd0b-c7cf-43d2-b1d0-4903e9f7c331")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "058bcd0b-c7cf-43d2-b1d0-4903e9f7c331")
 		)
 		(instances
 			(project "SupercapManager"
@@ -3736,6 +3794,10 @@
 	(sheet
 		(at 170.18 111.76)
 		(size 26.67 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -3774,6 +3836,10 @@
 	(sheet
 		(at 55.88 87.63)
 		(size 26.67 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -3803,63 +3869,63 @@
 		)
 		(pin "PWR_{OUT}" output
 			(at 82.55 93.98 0)
+			(uuid "4078025c-8fcb-43d4-9a05-96081583613f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "4078025c-8fcb-43d4-9a05-96081583613f")
 		)
 		(pin "PWR_{IN}" input
 			(at 55.88 93.98 180)
+			(uuid "a58cee3b-ab6c-4386-bb4c-ea1d796bacfe")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "a58cee3b-ab6c-4386-bb4c-ea1d796bacfe")
 		)
 		(pin "CURR" output
 			(at 82.55 100.33 0)
+			(uuid "0ea6c143-09da-4b72-b7f3-c42374ac4d09")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "0ea6c143-09da-4b72-b7f3-c42374ac4d09")
 		)
 		(pin "CHARGING_IEN" output
 			(at 82.55 105.41 0)
+			(uuid "00d53ce8-c67a-43a9-a538-a5d5ef4e2243")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "00d53ce8-c67a-43a9-a538-a5d5ef4e2243")
 		)
 		(pin "DIRECT_IEN" output
 			(at 82.55 102.87 0)
+			(uuid "35c6e4c7-d0f8-4eb1-9f19-aa238f2cb013")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "35c6e4c7-d0f8-4eb1-9f19-aa238f2cb013")
 		)
 		(pin "POW_LIMIT" input
 			(at 82.55 97.79 0)
+			(uuid "acb86f57-38ce-42e8-bec4-00a1f24bafcc")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "acb86f57-38ce-42e8-bec4-00a1f24bafcc")
 		)
 		(instances
 			(project "SupercapManager"
@@ -3872,6 +3938,10 @@
 	(sheet
 		(at 139.7 135.89)
 		(size 26.67 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -3901,13 +3971,13 @@
 		)
 		(pin "+V_{supercap}" input
 			(at 139.7 143.51 180)
+			(uuid "ba4b34a4-ef93-456b-9aa2-608e84d8e82e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ba4b34a4-ef93-456b-9aa2-608e84d8e82e")
 		)
 		(instances
 			(project "SupercapManager"
@@ -3920,6 +3990,10 @@
 	(sheet
 		(at 114.3 83.82)
 		(size 33.02 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -3949,53 +4023,53 @@
 		)
 		(pin "OUT" output
 			(at 147.32 93.98 0)
+			(uuid "e96f52eb-5244-4f30-9117-ef2a7932dad2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "e96f52eb-5244-4f30-9117-ef2a7932dad2")
 		)
 		(pin "IN" input
 			(at 114.3 93.98 180)
+			(uuid "15e07623-a37d-459c-ae34-3f44f5b26a92")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "15e07623-a37d-459c-ae34-3f44f5b26a92")
 		)
 		(pin "DIRECT_IEN" input
 			(at 123.19 100.33 270)
+			(uuid "44945f4d-1dd9-4ebd-9bda-6ce9b398eb95")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "44945f4d-1dd9-4ebd-9bda-6ce9b398eb95")
 		)
 		(pin "CHARGING_IEN" input
 			(at 125.73 100.33 270)
+			(uuid "28eae9fa-eb0b-416b-88c9-7ce31f4c12e1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "28eae9fa-eb0b-416b-88c9-7ce31f4c12e1")
 		)
 		(pin "CHARGING_EN" output
 			(at 137.16 100.33 270)
+			(uuid "89cf4664-41d2-424a-8a97-3b011d3bf94e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "89cf4664-41d2-424a-8a97-3b011d3bf94e")
 		)
 		(instances
 			(project "SupercapManager"
@@ -4008,6 +4082,10 @@
 	(sheet
 		(at 139.7 111.76)
 		(size 26.67 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -4048,4 +4126,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )

@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "8e1ef1bb-0256-489e-b9c8-e9ca61e45ee1")
 	(paper "A4")
 	(title_block
@@ -13,7 +13,9 @@
 	)
 	(lib_symbols
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -86,7 +88,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -98,7 +100,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -147,9 +149,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C_Polarized"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -305,9 +310,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R_US"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -378,18 +386,6 @@
 			(symbol "R_US_0_1"
 				(polyline
 					(pts
-						(xy 0 -2.286) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 0 2.286) (xy 0 2.54)
 					)
 					(stroke
@@ -402,7 +398,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
 					)
 					(stroke
 						(width 0)
@@ -426,7 +422,19 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -475,9 +483,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "boost2:B560C-13-F"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -605,18 +616,6 @@
 				)
 				(polyline
 					(pts
-						(xy 10.16 0) (xy 12.7 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 5.08 0) (xy 10.16 2.54) (xy 10.16 -2.54) (xy 5.08 0)
 					)
 					(stroke
@@ -625,6 +624,18 @@
 					)
 					(fill
 						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 12.7 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(pin passive line
@@ -664,6 +675,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "boost2:CSD18543Q3A"
 			(exclude_from_sim no)
@@ -779,60 +791,6 @@
 					)
 				)
 				(pin passive line
-					(at 8.89 7.62 270)
-					(length 5.08)
-					(name "S_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 7.62 270)
-					(length 5.08)
-					(name "S_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 16.51 7.62 270)
-					(length 5.08)
-					(name "S_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 0 -5.08 0)
 					(length 5.08)
 					(name "G"
@@ -869,6 +827,24 @@
 					)
 				)
 				(pin passive line
+					(at 8.89 7.62 270)
+					(length 5.08)
+					(name "S_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 10.16 -17.78 90)
 					(length 5.08)
 					(name "D_2"
@@ -879,6 +855,24 @@
 						)
 					)
 					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 7.62 270)
+					(length 5.08)
+					(name "S_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -923,6 +917,24 @@
 					)
 				)
 				(pin passive line
+					(at 16.51 7.62 270)
+					(length 5.08)
+					(name "S_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 17.78 -17.78 90)
 					(length 5.08)
 					(name "D_5"
@@ -941,6 +953,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "boost2:DRQ125-6R8-R"
 			(exclude_from_sim no)
@@ -1056,16 +1069,16 @@
 					)
 				)
 				(pin passive line
-					(at 16.51 -10.16 90)
+					(at 11.43 13.97 270)
 					(length 5.08)
-					(name "L1_1"
+					(name "L2_2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1110,16 +1123,16 @@
 					)
 				)
 				(pin passive line
-					(at 11.43 13.97 270)
+					(at 16.51 -10.16 90)
 					(length 5.08)
-					(name "L2_2"
+					(name "L1_1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1128,6 +1141,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "boost2:LM3481QMMX_NOPB"
 			(exclude_from_sim no)
@@ -1243,24 +1257,6 @@
 					)
 				)
 				(pin passive line
-					(at 35.56 -8.89 180)
-					(length 5.08)
-					(name "ISEN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 0 -2.54 0)
 					(length 5.08)
 					(name "VIN"
@@ -1315,24 +1311,6 @@
 					)
 				)
 				(pin passive line
-					(at 17.78 8.89 270)
-					(length 5.08)
-					(name "FB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 11.43 -27.94 90)
 					(length 5.08)
 					(name "AGND"
@@ -1351,16 +1329,16 @@
 					)
 				)
 				(pin passive line
-					(at 24.13 -27.94 90)
+					(at 17.78 8.89 270)
 					(length 5.08)
-					(name "FA/SYNC/SD"
+					(name "FB"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "6"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1387,6 +1365,24 @@
 					)
 				)
 				(pin passive line
+					(at 24.13 -27.94 90)
+					(length 5.08)
+					(name "FA/SYNC/SD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 35.56 -1.27 180)
 					(length 5.08)
 					(name "DR"
@@ -1397,6 +1393,24 @@
 						)
 					)
 					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -8.89 180)
+					(length 5.08)
+					(name "ISEN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1423,12 +1437,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+24V"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1500,7 +1519,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1512,7 +1531,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1543,12 +1562,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+6V"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1620,7 +1644,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1632,7 +1656,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1663,12 +1687,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1759,7 +1788,41 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "Input:\n- +6V and GND (Chassis)\n- Other necessary voltage lines\n- Enable (active high)"
+		(exclude_from_sim no)
+		(at 23.876 32.766 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "107a032a-97d6-4431-bf88-b0ba4db433c5")
+	)
+	(text "Output:\n- +24V (Chassis) and GND (Chassis)"
+		(exclude_from_sim no)
+		(at 68.072 32.766 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "7ade2713-7256-4e67-98fc-5ae052a84509")
+	)
+	(text "TODO:\n- Boost a constant +6V from the previous stage to +24V\n  - Figure out line & load regulation\n- Be able to shut off the boost converter with an active low signal\n- Will likely have to be a synchronous boost to handle the amount of current needed"
+		(exclude_from_sim no)
+		(at 23.876 20.574 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "c2d827de-501a-4a3d-ae72-b9338a6d75f1")
 	)
 	(junction
 		(at 127 111.76)
@@ -2760,39 +2823,6 @@
 			(type default)
 		)
 		(uuid "ff716207-1fca-480f-a040-d654e7d33849")
-	)
-	(text "Input:\n- +6V and GND (Chassis)\n- Other necessary voltage lines\n- Enable (active high)"
-		(exclude_from_sim no)
-		(at 23.876 32.766 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "107a032a-97d6-4431-bf88-b0ba4db433c5")
-	)
-	(text "Output:\n- +24V (Chassis) and GND (Chassis)"
-		(exclude_from_sim no)
-		(at 68.072 32.766 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "7ade2713-7256-4e67-98fc-5ae052a84509")
-	)
-	(text "TODO:\n- Boost a constant +6V from the previous stage to +24V\n  - Figure out line & load regulation\n- Be able to shut off the boost converter with an active low signal\n- Will likely have to be a synchronous boost to handle the amount of current needed"
-		(exclude_from_sim no)
-		(at 23.876 20.574 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "c2d827de-501a-4a3d-ae72-b9338a6d75f1")
 	)
 	(symbol
 		(lib_id "Device:R_US")
@@ -4929,4 +4959,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )

@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "b286b652-e3d6-4208-a475-1eede24dbc02")
 	(paper "A3")
 	(title_block
@@ -91,6 +91,78 @@
 					)
 				)
 				(pin passive line
+					(at -8.89 -2.54 0)
+					(length 2.54)
+					(name "DC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 -6.35 0)
+					(length 2.54)
+					(name "I_{PK}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -8.89 -10.16 0)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -8.89 -13.97 0)
+					(length 2.54)
+					(name "COMP-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 8.89 -2.54 180)
 					(length 2.54)
 					(name "SC"
@@ -162,84 +234,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -8.89 -13.97 0)
-					(length 2.54)
-					(name "COMP-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -8.89 -10.16 0)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -8.89 -6.35 0)
-					(length 2.54)
-					(name "I_{PK}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -8.89 -2.54 0)
-					(length 2.54)
-					(name "DC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C_Polarized_Small_US"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -344,9 +349,9 @@
 					)
 				)
 				(arc
-					(start 1.524 -0.762)
+					(start -1.524 -0.762)
 					(mid 0 -0.3734)
-					(end -1.524 -0.762)
+					(end 1.524 -0.762)
 					(stroke
 						(width 0.3048)
 						(type default)
@@ -394,11 +399,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -468,10 +478,10 @@
 			(symbol "C_Small_0_1"
 				(polyline
 					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
+						(xy -1.524 0.508) (xy 1.524 0.508)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -480,10 +490,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3048)
+						(width 0.3302)
 						(type default)
 					)
 					(fill
@@ -529,11 +539,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:D_Schottky"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -601,10 +616,10 @@
 			(symbol "D_Schottky_0_1"
 				(polyline
 					(pts
-						(xy 1.27 0) (xy -1.27 0)
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -625,10 +640,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+						(xy 1.27 0) (xy -1.27 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -637,24 +652,6 @@
 				)
 			)
 			(symbol "D_Schottky_1_1"
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -673,12 +670,35 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:L_Iron_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -747,8 +767,32 @@
 			)
 			(symbol "L_Iron_Small_0_1"
 				(arc
-					(start 0 -2.032)
-					(mid 0.5058 -1.524)
+					(start 0 2.032)
+					(mid 0.5058 1.524)
+					(end 0 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.016)
+					(mid 0.5058 0.508)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.5058 -0.508)
 					(end 0 -1.016)
 					(stroke
 						(width 0)
@@ -760,8 +804,8 @@
 				)
 				(arc
 					(start 0 -1.016)
-					(mid 0.5058 -0.508)
-					(end 0 0)
+					(mid 0.5058 -1.524)
+					(end 0 -2.032)
 					(stroke
 						(width 0)
 						(type default)
@@ -786,30 +830,6 @@
 					(pts
 						(xy 1.016 -2.032) (xy 1.016 2.032)
 					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.5058 0.508)
-					(end 0 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 1.016)
-					(mid 0.5058 1.524)
-					(end 0 2.032)
 					(stroke
 						(width 0)
 						(type default)
@@ -857,11 +877,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -979,12 +1004,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+24V"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1056,7 +1086,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1068,7 +1098,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1099,12 +1129,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+3.3VA"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1176,7 +1211,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1188,7 +1223,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1219,12 +1254,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+3V3"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1296,7 +1336,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1308,7 +1348,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1339,12 +1379,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+5V"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1416,7 +1461,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1428,7 +1473,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1459,12 +1504,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:-3V3"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1555,12 +1605,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1651,12 +1706,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GNDPWR"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1716,18 +1776,6 @@
 			(symbol "GNDPWR_0_1"
 				(polyline
 					(pts
-						(xy 0 -1.27) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy -1.016 -1.27) (xy -1.27 -2.032) (xy -1.27 -2.032)
 					)
 					(stroke
@@ -1744,6 +1792,18 @@
 					)
 					(stroke
 						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -1819,7 +1879,295 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "~70 mV ripple (with filter)"
+		(exclude_from_sim no)
+		(at 81.534 208.788 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "0f3d13ff-1b53-40c6-828d-a9c71058a26e")
+	)
+	(text "Typical Apps Circuit"
+		(exclude_from_sim no)
+		(at 82.296 145.542 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "107c2124-e235-4216-a548-221de2ff01e1")
+	)
+	(text "No filter\n(reduced ringing)"
+		(exclude_from_sim no)
+		(at 261.62 175.895 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "114ea8e5-dae5-47aa-9aca-922f852a6175")
+	)
+	(text "+5V"
+		(exclude_from_sim no)
+		(at 33.274 168.402 90)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
+			)
+			(justify right top)
+		)
+		(uuid "15b26f9e-b754-4e5d-b521-b74f48174883")
+	)
+	(text "VOUT = -1.25 * (1 + ^{R56}/_{R57}) = -3.295 V"
+		(exclude_from_sim no)
+		(at 210.312 205.486 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "17c7763e-cb4c-4a16-a34b-2570bac0da91")
+	)
+	(text "Typical Apps Circuit"
+		(exclude_from_sim no)
+		(at 206.756 69.342 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "32328b91-fe5d-4d9d-b020-9dc07fe2e5ce")
+	)
+	(text "~70 mV ripple (with filter)"
+		(exclude_from_sim no)
+		(at 205.994 208.788 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "349875a3-44e3-487b-a181-d82c5e35f553")
+	)
+	(text "+3V3"
+		(exclude_from_sim no)
+		(at 33.274 88.392 90)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
+			)
+			(justify right top)
+		)
+		(uuid "3d0d1832-5492-480f-8811-74cfbdb280c9")
+	)
+	(text "Outputs:\n- +5V (for boost convertor flyback)\n- +3V3 (for various ICs, such as the ideal diode)\n- Any other voltage rails required by other subsheets"
+		(exclude_from_sim no)
+		(at 220.218 272.288 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "4ab50546-fb59-4f00-9e9a-2812c3271a7b")
+	)
+	(text "Inputs:\n- +24V (mini PC)"
+		(exclude_from_sim no)
+		(at 159.004 272.034 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "639ae363-557c-448a-beb3-c024310ba97e")
+	)
+	(text "TODO:\n- Take in a constant +24V power (e.g. from mini PC) and convert it to the various voltages that are needed across the board\n  - e.g., +3V3 for communication with the Dev board\nTo research:\n- Is this necessary? Can we have everything function properly from cold startup?"
+		(exclude_from_sim no)
+		(at 158.496 260.096 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "6e724d71-ac33-407d-8532-19d2de32f954")
+	)
+	(text "VOUT = 1.25 * (1 + ^{R51}/_{R50}) = 3.295 V"
+		(exclude_from_sim no)
+		(at 210.312 129.286 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "722d48f0-980b-4c73-a48d-32f8536ca7b1")
+	)
+	(text "+3V3A"
+		(exclude_from_sim no)
+		(at 157.734 92.202 90)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
+			)
+			(justify right top)
+		)
+		(uuid "75cb88c4-2672-4fbc-9881-300399367309")
+	)
+	(text "~70 mV ripple (with filter)"
+		(exclude_from_sim no)
+		(at 81.534 128.778 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "7a19bfa2-2aba-4d3d-8290-7b8c84a5b008")
+	)
+	(text "~70 mV ripple (with filter)"
+		(exclude_from_sim no)
+		(at 205.994 132.588 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "7dd7a43e-9a76-431c-ba78-e6c06013e6e4")
+	)
+	(text "Ripple network design follows https://www.ti.com/lit/an/snva776a/snva776a.pdf"
+		(exclude_from_sim no)
+		(at 335.026 181.102 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8dec49de-681e-4f99-9e9f-72133ff04034")
+	)
+	(text "No filter\n(reduced ringing)"
+		(exclude_from_sim no)
+		(at 261.62 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "9fee715e-8988-4fe7-afa1-86a1beb0413a")
+	)
+	(text "VOUT = 1.25 * (1 + ^{R54}/_{R53}) = 3.295 V"
+		(exclude_from_sim no)
+		(at 85.852 125.476 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "b6ffd73c-eb87-4446-897c-b2e40773905d")
+	)
+	(text "-3V3"
+		(exclude_from_sim no)
+		(at 157.734 168.402 90)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
+			)
+			(justify right top)
+		)
+		(uuid "cd767a4c-234e-41cb-a2b2-807a118eca9d")
+	)
+	(text "No filter\n(reduced ringing)"
+		(exclude_from_sim no)
+		(at 137.16 88.265 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "d980ef18-62a9-4fa0-b3ae-954bc60934bd")
+	)
+	(text "VOUT = 1.25 * (1 + ^{R48}/_{R47}) = 5.00 V"
+		(exclude_from_sim no)
+		(at 85.852 205.486 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "ebde5de0-f76a-48ca-94f6-19f70b66c365")
+	)
+	(text "Typical Apps Circuit"
+		(exclude_from_sim no)
+		(at 82.296 65.532 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "f2930529-f7c0-4441-b589-2e68881a4b43")
+	)
+	(text "No filter\n(reduced ringing)"
+		(exclude_from_sim no)
+		(at 137.16 168.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "f6a6a35f-5e82-4edb-a16d-65b316d290d1")
+	)
+	(text "Typical Apps Circuit"
+		(exclude_from_sim no)
+		(at 206.756 145.542 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "f6d16fc3-8062-40b5-b2fc-401dcf7338ea")
 	)
 	(junction
 		(at 223.52 99.06)
@@ -3590,293 +3938,6 @@
 			(type default)
 		)
 		(uuid "fe8dba60-445d-4ab4-84b8-9f1922e06df5")
-	)
-	(text "~70 mV ripple (with filter)"
-		(exclude_from_sim no)
-		(at 81.534 208.788 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "0f3d13ff-1b53-40c6-828d-a9c71058a26e")
-	)
-	(text "Typical Apps Circuit"
-		(exclude_from_sim no)
-		(at 82.296 145.542 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "107c2124-e235-4216-a548-221de2ff01e1")
-	)
-	(text "No filter\n(reduced ringing)"
-		(exclude_from_sim no)
-		(at 261.62 175.895 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "114ea8e5-dae5-47aa-9aca-922f852a6175")
-	)
-	(text "+5V"
-		(exclude_from_sim no)
-		(at 33.274 168.402 90)
-		(effects
-			(font
-				(size 3.81 3.81)
-				(thickness 0.762)
-				(bold yes)
-			)
-			(justify right top)
-		)
-		(uuid "15b26f9e-b754-4e5d-b521-b74f48174883")
-	)
-	(text "VOUT = -1.25 * (1 + ^{R56}/_{R57}) = -3.295 V"
-		(exclude_from_sim no)
-		(at 210.312 205.486 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "17c7763e-cb4c-4a16-a34b-2570bac0da91")
-	)
-	(text "Typical Apps Circuit"
-		(exclude_from_sim no)
-		(at 206.756 69.342 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "32328b91-fe5d-4d9d-b020-9dc07fe2e5ce")
-	)
-	(text "~70 mV ripple (with filter)"
-		(exclude_from_sim no)
-		(at 205.994 208.788 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "349875a3-44e3-487b-a181-d82c5e35f553")
-	)
-	(text "+3V3"
-		(exclude_from_sim no)
-		(at 33.274 88.392 90)
-		(effects
-			(font
-				(size 3.81 3.81)
-				(thickness 0.762)
-				(bold yes)
-			)
-			(justify right top)
-		)
-		(uuid "3d0d1832-5492-480f-8811-74cfbdb280c9")
-	)
-	(text "Outputs:\n- +5V (for boost convertor flyback)\n- +3V3 (for various ICs, such as the ideal diode)\n- Any other voltage rails required by other subsheets"
-		(exclude_from_sim no)
-		(at 220.218 272.288 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "4ab50546-fb59-4f00-9e9a-2812c3271a7b")
-	)
-	(text "Inputs:\n- +24V (mini PC)"
-		(exclude_from_sim no)
-		(at 159.004 272.034 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "639ae363-557c-448a-beb3-c024310ba97e")
-	)
-	(text "TODO:\n- Take in a constant +24V power (e.g. from mini PC) and convert it to the various voltages that are needed across the board\n  - e.g., +3V3 for communication with the Dev board\nTo research:\n- Is this necessary? Can we have everything function properly from cold startup?"
-		(exclude_from_sim no)
-		(at 158.496 260.096 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "6e724d71-ac33-407d-8532-19d2de32f954")
-	)
-	(text "VOUT = 1.25 * (1 + ^{R51}/_{R50}) = 3.295 V"
-		(exclude_from_sim no)
-		(at 210.312 129.286 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "722d48f0-980b-4c73-a48d-32f8536ca7b1")
-	)
-	(text "+3V3A"
-		(exclude_from_sim no)
-		(at 157.734 92.202 90)
-		(effects
-			(font
-				(size 3.81 3.81)
-				(thickness 0.762)
-				(bold yes)
-			)
-			(justify right top)
-		)
-		(uuid "75cb88c4-2672-4fbc-9881-300399367309")
-	)
-	(text "~70 mV ripple (with filter)"
-		(exclude_from_sim no)
-		(at 81.534 128.778 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "7a19bfa2-2aba-4d3d-8290-7b8c84a5b008")
-	)
-	(text "~70 mV ripple (with filter)"
-		(exclude_from_sim no)
-		(at 205.994 132.588 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "7dd7a43e-9a76-431c-ba78-e6c06013e6e4")
-	)
-	(text "Ripple network design follows https://www.ti.com/lit/an/snva776a/snva776a.pdf"
-		(exclude_from_sim no)
-		(at 335.026 181.102 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "8dec49de-681e-4f99-9e9f-72133ff04034")
-	)
-	(text "No filter\n(reduced ringing)"
-		(exclude_from_sim no)
-		(at 261.62 91.44 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "9fee715e-8988-4fe7-afa1-86a1beb0413a")
-	)
-	(text "VOUT = 1.25 * (1 + ^{R54}/_{R53}) = 3.295 V"
-		(exclude_from_sim no)
-		(at 85.852 125.476 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "b6ffd73c-eb87-4446-897c-b2e40773905d")
-	)
-	(text "-3V3"
-		(exclude_from_sim no)
-		(at 157.734 168.402 90)
-		(effects
-			(font
-				(size 3.81 3.81)
-				(thickness 0.762)
-				(bold yes)
-			)
-			(justify right top)
-		)
-		(uuid "cd767a4c-234e-41cb-a2b2-807a118eca9d")
-	)
-	(text "No filter\n(reduced ringing)"
-		(exclude_from_sim no)
-		(at 137.16 88.265 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "d980ef18-62a9-4fa0-b3ae-954bc60934bd")
-	)
-	(text "VOUT = 1.25 * (1 + ^{R48}/_{R47}) = 5.00 V"
-		(exclude_from_sim no)
-		(at 85.852 205.486 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "ebde5de0-f76a-48ca-94f6-19f70b66c365")
-	)
-	(text "Typical Apps Circuit"
-		(exclude_from_sim no)
-		(at 82.296 65.532 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "f2930529-f7c0-4441-b589-2e68881a4b43")
-	)
-	(text "No filter\n(reduced ringing)"
-		(exclude_from_sim no)
-		(at 137.16 168.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "f6a6a35f-5e82-4edb-a16d-65b316d290d1")
-	)
-	(text "Typical Apps Circuit"
-		(exclude_from_sim no)
-		(at 206.756 145.542 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "f6d16fc3-8062-40b5-b2fc-401dcf7338ea")
 	)
 	(hierarchical_label "+24_{MiniPC}"
 		(shape input)

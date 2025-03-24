@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "a21eb1d9-0dbb-493b-a6b4-bdf1ecb7cda4")
 	(paper "A4")
 	(title_block
@@ -114,17 +114,17 @@
 						(type none)
 					)
 				)
-				(pin open_collector line
-					(at 7.62 0 180)
+				(pin input line
+					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "~"
+					(name "+"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -150,17 +150,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at -7.62 2.54 0)
+				(pin open_collector line
+					(at 7.62 0 180)
 					(length 2.54)
-					(name "+"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -252,24 +252,6 @@
 			)
 			(symbol "TS3902_3_1"
 				(pin power_in line
-					(at -2.54 -7.62 90)
-					(length 3.81)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
 					(at -2.54 7.62 270)
 					(length 3.81)
 					(name "V+"
@@ -287,7 +269,26 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Amplifier_Current:INA138"
 			(pin_names
@@ -374,42 +375,6 @@
 				)
 			)
 			(symbol "INA138_1_1"
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -7.62 90)
-					(length 3.81)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -7.62 2.54 0)
 					(length 2.54)
@@ -464,7 +429,44 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Amplifier_Operational:LM321"
 			(pin_names
@@ -558,42 +560,6 @@
 				)
 			)
 			(symbol "LM321_1_1"
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -7.62 90)
-					(length 3.81)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -7.62 2.54 0)
 					(length 2.54)
@@ -648,7 +614,44 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Amplifier_Operational:TLV9302xD"
 			(pin_names
@@ -741,17 +744,17 @@
 						(type background)
 					)
 				)
-				(pin output line
-					(at 7.62 0 180)
+				(pin input line
+					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "~"
+					(name "+"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -777,17 +780,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at -7.62 2.54 0)
+				(pin output line
+					(at 7.62 0 180)
 					(length 2.54)
-					(name "+"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -866,24 +869,6 @@
 			)
 			(symbol "TLV9302xD_3_1"
 				(pin power_in line
-					(at -2.54 -7.62 90)
-					(length 3.81)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
 					(at -2.54 7.62 270)
 					(length 3.81)
 					(name "V+"
@@ -901,10 +886,31 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -977,7 +983,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -989,7 +995,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -1038,9 +1044,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -1159,10 +1168,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R_Potentiometer"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1228,12 +1240,11 @@
 				)
 			)
 			(symbol "R_Potentiometer_0_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.524 0)
-					)
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -1252,11 +1263,12 @@
 						(type outline)
 					)
 				)
-				(rectangle
-					(start 1.016 2.54)
-					(end -1.016 -2.54)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0)
+					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -1284,24 +1296,6 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name "3"
@@ -1319,13 +1313,36 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+3.3VA"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1397,7 +1414,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1409,7 +1426,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1440,12 +1457,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:-3V3"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1536,12 +1558,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GNDPWR"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1601,18 +1628,6 @@
 			(symbol "GNDPWR_0_1"
 				(polyline
 					(pts
-						(xy 0 -1.27) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy -1.016 -1.27) (xy -1.27 -2.032) (xy -1.27 -2.032)
 					)
 					(stroke
@@ -1629,6 +1644,18 @@
 					)
 					(stroke
 						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -1704,7 +1731,260 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 210.82 24.13)
+		(end 281.94 134.62)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 643dc79c-21ea-4a59-a2f4-d6c643fc2539)
+	)
+	(rectangle
+		(start 15.24 52.07)
+		(end 210.82 109.22)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 84291dca-8a7b-4e4d-98ca-64c3bedb8868)
+	)
+	(text "Inputs:\n- +24V (Chassis) & GND (Chassis)\n- Other necessary power rails\n- Max power allotted (scaled)\n  - Check with firmware for exact scaling\n- Current power draw from PMM (scaled)\n  - May be unnecessary"
+		(exclude_from_sim no)
+		(at 30.48 176.276 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "0a6d3942-88a6-4014-b2d0-4d39ac27884e")
+	)
+	(text "Comparator power filtering"
+		(exclude_from_sim no)
+		(at 185.42 113.792 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(italic yes)
+			)
+			(justify top)
+		)
+		(uuid "1912ae5c-a5d0-472a-8e1f-839a920440d7")
+	)
+	(text "Values calculated with http://sim.okawa-denshi.jp/en/compkeisan.htm"
+		(exclude_from_sim no)
+		(at 210.566 136.398 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+				(italic yes)
+			)
+			(justify left top)
+		)
+		(uuid "3d4fe8d7-2e99-4ffd-b86f-77fb82893752")
+	)
+	(text "Schmitt Triggers"
+		(exclude_from_sim no)
+		(at 212.598 26.924 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(italic yes)
+			)
+			(justify left top)
+		)
+		(uuid "4fbd6b72-6bcb-4963-af2e-826a96624501")
+	)
+	(text "100kΩ = 20x amplification\n= ~2V of swing (0-120W)"
+		(exclude_from_sim no)
+		(at 54.61 92.456 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "5a4b1730-58a3-4091-8b5a-0630bb3ce312")
+	)
+	(text "V_{TL}"
+		(exclude_from_sim no)
+		(at 260.604 93.472 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify top)
+		)
+		(uuid "627e816d-47a1-46b9-baa0-4a6d48e59922")
+	)
+	(text "Outputs:\n- +24V (Chassis) & GND (Chassis)\n- Active high (& active low) if I_{in} > I_{critical}\n  - or equivalent for Schmitt trigger\n  - may need multiple different I_{critical}s depending on final simulated design"
+		(exclude_from_sim no)
+		(at 79.502 176.784 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "7255a0fe-532a-4cbb-9096-33bd4664f2ca")
+	)
+	(text "Difference Amp"
+		(exclude_from_sim no)
+		(at 138.684 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(italic yes)
+			)
+			(justify left top)
+		)
+		(uuid "85702bee-1cf7-4464-ab82-0a3712aac80f")
+	)
+	(text "Trimmer goes up to 3kΩ"
+		(exclude_from_sim no)
+		(at 237.49 43.815 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "91098c4e-b2cb-43d1-a4b4-2fc5296dbd0e")
+	)
+	(text "R_{S} chosen such that the max\ncurrent of 5A (@120W) is 100mV"
+		(exclude_from_sim no)
+		(at 48.006 59.436 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a83f0490-7c52-4054-b3d8-0a375955be88")
+	)
+	(text "TODO:\n- Use an op amp to measure the amount of current coming in\n- Use a comparator to determine whether the current being drawn is over the limit set by the Dev Board\n  - Configure as Schmitt trigger to avoid chatter"
+		(exclude_from_sim no)
+		(at 30.353 166.116 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "a8d008a8-40bd-46be-ad9c-9f738c963948")
+	)
+	(text "To isolate from input impedances"
+		(exclude_from_sim no)
+		(at 105.41 57.912 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify top)
+		)
+		(uuid "c13b6ed3-2391-4681-ba2e-bd66b3b2f70d")
+	)
+	(text "to ADC"
+		(exclude_from_sim no)
+		(at 128.524 93.472 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+			(justify left)
+		)
+		(uuid "cb57482a-271d-40dc-8c9f-b22b68a6c06f")
+	)
+	(text "Charging enable @120W max\nV_{TH} (~105W) = -1.000V\nV_{TL} (~100W) = -1.333V"
+		(exclude_from_sim no)
+		(at 249.174 70.104 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cf4f627d-6c9a-400c-8e6b-23c9bf9f5c12")
+	)
+	(text "Buffering"
+		(exclude_from_sim no)
+		(at 88.138 54.356 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(italic yes)
+			)
+			(justify left top)
+		)
+		(uuid "d285f9ea-6cd3-48cd-90d6-475dd1cf463a")
+	)
+	(text "Direct drive enable @120W max\nV_{TH} (~115W) = -0.3333V\nV_{TL} (~110W) = -0.6667V"
+		(exclude_from_sim no)
+		(at 246.126 127.254 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d3f6e566-8473-4c0b-8dd5-063d104af8b7")
+	)
+	(text "V_{TH}"
+		(exclude_from_sim no)
+		(at 265.43 81.026 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify bottom)
+		)
+		(uuid "da91bde6-f204-4e34-8692-0184ab68d194")
+	)
+	(text "Current sensing"
+		(exclude_from_sim no)
+		(at 17.018 54.356 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(italic yes)
+			)
+			(justify left top)
+		)
+		(uuid "dbfc078e-9a80-47f5-9db4-e46d3bff74d9")
+	)
+	(text "Amplification: ^{120kΩ}/_{30kΩ} = 4\nV_{out} = 4(V_{curr} - V_{lim})"
+		(exclude_from_sim no)
+		(at 193.548 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify top)
+		)
+		(uuid "e05c24a1-b18c-4773-8e7e-e6408dc44f5b")
 	)
 	(junction
 		(at 240.03 33.02)
@@ -2973,258 +3253,6 @@
 			(type default)
 		)
 		(uuid "febbed27-d0d6-4eab-8c2a-fa89d7bdc6a1")
-	)
-	(rectangle
-		(start 210.82 24.13)
-		(end 281.94 134.62)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 643dc79c-21ea-4a59-a2f4-d6c643fc2539)
-	)
-	(rectangle
-		(start 15.24 52.07)
-		(end 210.82 109.22)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 84291dca-8a7b-4e4d-98ca-64c3bedb8868)
-	)
-	(text "Inputs:\n- +24V (Chassis) & GND (Chassis)\n- Other necessary power rails\n- Max power allotted (scaled)\n  - Check with firmware for exact scaling\n- Current power draw from PMM (scaled)\n  - May be unnecessary"
-		(exclude_from_sim no)
-		(at 30.48 176.276 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "0a6d3942-88a6-4014-b2d0-4d39ac27884e")
-	)
-	(text "Comparator power filtering"
-		(exclude_from_sim no)
-		(at 185.42 113.792 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-				(italic yes)
-			)
-			(justify top)
-		)
-		(uuid "1912ae5c-a5d0-472a-8e1f-839a920440d7")
-	)
-	(text "Values calculated with http://sim.okawa-denshi.jp/en/compkeisan.htm"
-		(exclude_from_sim no)
-		(at 210.566 136.398 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-				(italic yes)
-			)
-			(justify left top)
-		)
-		(uuid "3d4fe8d7-2e99-4ffd-b86f-77fb82893752")
-	)
-	(text "Schmitt Triggers"
-		(exclude_from_sim no)
-		(at 212.598 26.924 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-				(italic yes)
-			)
-			(justify left top)
-		)
-		(uuid "4fbd6b72-6bcb-4963-af2e-826a96624501")
-	)
-	(text "100kΩ = 20x amplification\n= ~2V of swing (0-120W)"
-		(exclude_from_sim no)
-		(at 54.61 92.456 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "5a4b1730-58a3-4091-8b5a-0630bb3ce312")
-	)
-	(text "V_{TL}"
-		(exclude_from_sim no)
-		(at 260.604 93.472 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify top)
-		)
-		(uuid "627e816d-47a1-46b9-baa0-4a6d48e59922")
-	)
-	(text "Outputs:\n- +24V (Chassis) & GND (Chassis)\n- Active high (& active low) if I_{in} > I_{critical}\n  - or equivalent for Schmitt trigger\n  - may need multiple different I_{critical}s depending on final simulated design"
-		(exclude_from_sim no)
-		(at 79.502 176.784 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "7255a0fe-532a-4cbb-9096-33bd4664f2ca")
-	)
-	(text "Difference Amp"
-		(exclude_from_sim no)
-		(at 138.684 54.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-				(italic yes)
-			)
-			(justify left top)
-		)
-		(uuid "85702bee-1cf7-4464-ab82-0a3712aac80f")
-	)
-	(text "Trimmer goes up to 3kΩ"
-		(exclude_from_sim no)
-		(at 237.49 43.815 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "91098c4e-b2cb-43d1-a4b4-2fc5296dbd0e")
-	)
-	(text "R_{S} chosen such that the max\ncurrent of 5A (@120W) is 100mV"
-		(exclude_from_sim no)
-		(at 48.006 59.436 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a83f0490-7c52-4054-b3d8-0a375955be88")
-	)
-	(text "TODO:\n- Use an op amp to measure the amount of current coming in\n- Use a comparator to determine whether the current being drawn is over the limit set by the Dev Board\n  - Configure as Schmitt trigger to avoid chatter"
-		(exclude_from_sim no)
-		(at 30.353 166.116 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "a8d008a8-40bd-46be-ad9c-9f738c963948")
-	)
-	(text "To isolate from input impedances"
-		(exclude_from_sim no)
-		(at 105.41 57.912 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify top)
-		)
-		(uuid "c13b6ed3-2391-4681-ba2e-bd66b3b2f70d")
-	)
-	(text "to ADC"
-		(exclude_from_sim no)
-		(at 128.524 93.472 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(italic yes)
-			)
-			(justify left)
-		)
-		(uuid "cb57482a-271d-40dc-8c9f-b22b68a6c06f")
-	)
-	(text "Charging enable @120W max\nV_{TH} (~105W) = -1.000V\nV_{TL} (~100W) = -1.333V"
-		(exclude_from_sim no)
-		(at 249.174 70.104 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cf4f627d-6c9a-400c-8e6b-23c9bf9f5c12")
-	)
-	(text "Buffering"
-		(exclude_from_sim no)
-		(at 88.138 54.356 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-				(italic yes)
-			)
-			(justify left top)
-		)
-		(uuid "d285f9ea-6cd3-48cd-90d6-475dd1cf463a")
-	)
-	(text "Direct drive enable @120W max\nV_{TH} (~115W) = -0.3333V\nV_{TL} (~110W) = -0.6667V"
-		(exclude_from_sim no)
-		(at 246.126 127.254 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d3f6e566-8473-4c0b-8dd5-063d104af8b7")
-	)
-	(text "V_{TH}"
-		(exclude_from_sim no)
-		(at 265.43 81.026 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify bottom)
-		)
-		(uuid "da91bde6-f204-4e34-8692-0184ab68d194")
-	)
-	(text "Current sensing"
-		(exclude_from_sim no)
-		(at 17.018 54.356 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-				(italic yes)
-			)
-			(justify left top)
-		)
-		(uuid "dbfc078e-9a80-47f5-9db4-e46d3bff74d9")
-	)
-	(text "Amplification: ^{120kΩ}/_{30kΩ} = 4\nV_{out} = 4(V_{curr} - V_{lim})"
-		(exclude_from_sim no)
-		(at 193.548 100.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify top)
-		)
-		(uuid "e05c24a1-b18c-4773-8e7e-e6408dc44f5b")
 	)
 	(label "V_EXTRA"
 		(at 200.66 80.01 0)
