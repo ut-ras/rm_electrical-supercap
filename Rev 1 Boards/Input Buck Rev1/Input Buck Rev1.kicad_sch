@@ -1,0 +1,56 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "3b860e9b-bc45-416d-b09e-893d0b22ad61")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 49.53 83.82)
+		(size 93.98 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "013921e8-055b-4930-a2c6-9be4a4ca23d3")
+		(property "Sheetname" "Input Buck"
+			(at 49.53 83.1084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../../buck.kicad_sch"
+			(at 49.53 122.5046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Input Buck Rev1"
+				(path "/3b860e9b-bc45-416d-b09e-893d0b22ad61"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
