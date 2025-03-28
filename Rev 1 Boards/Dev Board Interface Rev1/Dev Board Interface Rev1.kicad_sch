@@ -1,0 +1,56 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "2a5a6391-2d82-47e5-b958-29252a68a56f")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 54.61 80.01)
+		(size 35.56 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c394f43b-a1ae-4b13-8590-15c7019d65c9")
+		(property "Sheetname" "Dev Board Interface"
+			(at 54.61 79.2984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../../dev_interface.kicad_sch"
+			(at 54.61 93.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Dev Board Interface Rev1"
+				(path "/2a5a6391-2d82-47e5-b958-29252a68a56f"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

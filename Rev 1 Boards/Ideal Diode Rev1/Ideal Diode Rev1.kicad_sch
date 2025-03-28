@@ -1,0 +1,56 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "1958bbb1-b715-4a10-a229-bee0eabb28b0")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 77.47 97.79)
+		(size 36.83 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4a024d55-f91f-4b32-882f-0df7d5ec96e3")
+		(property "Sheetname" "Ideal Diode"
+			(at 77.47 97.0784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../../ideal_diode.kicad_sch"
+			(at 77.47 112.3446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Ideal Diode Rev1"
+				(path "/1958bbb1-b715-4a10-a229-bee0eabb28b0"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

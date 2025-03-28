@@ -1,0 +1,56 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "d2a5f610-b666-4f42-b17a-f8b6e55a52c2")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 97.79 77.47)
+		(size 41.91 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cf44cff7-953d-44e5-a075-e68fa0d90013")
+		(property "Sheetname" "Housekeeping Power Supplies"
+			(at 97.79 76.7584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../../housekeeping.kicad_sch"
+			(at 97.79 97.1046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Housekeeping Rev1"
+				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
