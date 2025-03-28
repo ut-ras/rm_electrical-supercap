@@ -12,284 +12,6 @@
 		(comment 1 "Robomaster")
 	)
 	(lib_symbols
-		(symbol "! Robomaster ICs:TS3902"
-			(pin_names
-				(offset 0.127)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 3.81 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TS3702"
-				(at 6.35 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.mouser.com/datasheet/2/389/ts3702-1852552.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Micropower dual CMOS voltage comparator"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "cmp push pull"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* SOP*5.28x5.23mm*P1.27mm* VSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TS3902_1_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 -0.508) (xy 2.794 -0.508) (xy 3.302 0) (xy 2.794 0.508) (xy 2.286 0) (xy 2.794 -0.508)
-						(xy 2.286 -0.508)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "TS3902_2_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 -0.508) (xy 2.794 -0.508) (xy 3.302 0) (xy 2.794 0.508) (xy 2.286 0) (xy 2.794 -0.508)
-						(xy 2.286 -0.508)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "TS3902_3_1"
-				(pin power_in line
-					(at -2.54 7.62 270)
-					(length 3.81)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -7.62 90)
-					(length 3.81)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Amplifier_Current:INA138"
 			(pin_names
 				(offset 0.127)
@@ -653,7 +375,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Amplifier_Operational:TLV9302xD"
+		(symbol "Amplifier_Operational:TLV9301xDBV"
 			(pin_names
 				(offset 0.127)
 			)
@@ -661,42 +383,43 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
+				(at -1.27 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "TLV9301xDBV"
+				(at -1.27 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+				(at -2.54 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9301.pdf"
 				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
-				)
-			)
-			(property "Value" "TLV9302xD"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-				(at 0 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9302.pdf"
-				(at 0 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "40-V, 1-MHz, RRO Operational Amplifiers for Cost-Sensitive Systems, SOIC-8"
+			(property "Description" "40-V, 1-MHz, RRO Operational Amplifiers for Cost-Sensitive Systems, SOT-23-5"
 				(at 0 0 0)
 				(effects
 					(font
@@ -705,15 +428,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "dual opamp 40V rail to rail output"
+			(property "ki_keywords" "single opamp 40V rail to rail output"
 				(at 0 0 0)
 				(effects
 					(font
@@ -722,7 +437,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
+			(property "ki_fp_filters" "SOT?23*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -731,7 +446,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "TLV9302xD_1_1"
+			(symbol "TLV9301xDBV_0_1"
 				(polyline
 					(pts
 						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
@@ -744,6 +459,44 @@
 						(type background)
 					)
 				)
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TLV9301xDBV_1_1"
 				(pin input line
 					(at -7.62 2.54 0)
 					(length 2.54)
@@ -772,7 +525,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -791,112 +544,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "TLV9302xD_2_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "TLV9302xD_3_1"
-				(pin power_in line
-					(at -2.54 7.62 270)
-					(length 3.81)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -7.62 90)
-					(length 3.81)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1324,6 +971,284 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Robomaster_IC:TS3902"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 3.81 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TS3702"
+				(at 6.35 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.mouser.com/datasheet/2/389/ts3702-1852552.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Micropower dual CMOS voltage comparator"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cmp push pull"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* SOP*5.28x5.23mm*P1.27mm* VSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TS3902_1_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.508) (xy 2.794 -0.508) (xy 3.302 0) (xy 2.794 0.508) (xy 2.286 0) (xy 2.794 -0.508)
+						(xy 2.286 -0.508)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TS3902_2_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.508) (xy 2.794 -0.508) (xy 3.302 0) (xy 2.794 0.508) (xy 2.286 0) (xy 2.794 -0.508)
+						(xy 2.286 -0.508)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TS3902_3_1"
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3456,6 +3381,12 @@
 					(unit 1)
 				)
 			)
+			(project "Current Sense Rev1"
+				(path "/d149d1fa-5de7-4dc0-b1ef-e9c4223d2865/d74a941e-a2f2-4038-9bd8-2d6a304e330c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3538,6 +3469,12 @@
 					(unit 1)
 				)
 			)
+			(project "Current Sense Rev1"
+				(path "/d149d1fa-5de7-4dc0-b1ef-e9c4223d2865/d74a941e-a2f2-4038-9bd8-2d6a304e330c"
+					(reference "RV?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3601,6 +3538,12 @@
 			(project ""
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+			(project "Current Sense Rev1"
+				(path "/d149d1fa-5de7-4dc0-b1ef-e9c4223d2865/d74a941e-a2f2-4038-9bd8-2d6a304e330c"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -3686,6 +3629,12 @@
 					(unit 1)
 				)
 			)
+			(project "Current Sense Rev1"
+				(path "/d149d1fa-5de7-4dc0-b1ef-e9c4223d2865/d74a941e-a2f2-4038-9bd8-2d6a304e330c"
+					(reference "RV?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3753,6 +3702,12 @@
 					(unit 1)
 				)
 			)
+			(project "Current Sense Rev1"
+				(path "/d149d1fa-5de7-4dc0-b1ef-e9c4223d2865/d74a941e-a2f2-4038-9bd8-2d6a304e330c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3816,6 +3771,12 @@
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+			(project "Current Sense Rev1"
+				(path "/d149d1fa-5de7-4dc0-b1ef-e9c4223d2865/d74a941e-a2f2-4038-9bd8-2d6a304e330c"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -3890,6 +3851,12 @@
 					(unit 1)
 				)
 			)
+			(project "Current Sense Rev1"
+				(path "/d149d1fa-5de7-4dc0-b1ef-e9c4223d2865/d74a941e-a2f2-4038-9bd8-2d6a304e330c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3956,6 +3923,12 @@
 					(unit 1)
 				)
 			)
+			(project "Current Sense Rev1"
+				(path "/d149d1fa-5de7-4dc0-b1ef-e9c4223d2865/d74a941e-a2f2-4038-9bd8-2d6a304e330c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4019,6 +3992,12 @@
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+			(project "Current Sense Rev1"
+				(path "/d149d1fa-5de7-4dc0-b1ef-e9c4223d2865/d74a941e-a2f2-4038-9bd8-2d6a304e330c"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -4100,6 +4079,12 @@
 					(unit 1)
 				)
 			)
+			(project "Current Sense Rev1"
+				(path "/d149d1fa-5de7-4dc0-b1ef-e9c4223d2865/d74a941e-a2f2-4038-9bd8-2d6a304e330c"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4166,6 +4151,12 @@
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+			(project "Current Sense Rev1"
+				(path "/d149d1fa-5de7-4dc0-b1ef-e9c4223d2865/d74a941e-a2f2-4038-9bd8-2d6a304e330c"
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -4236,89 +4227,9 @@
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "! Robomaster ICs:TS3902")
-		(at 251.46 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4be8585d-23f1-404d-bfa6-d99de5c3357e")
-		(property "Reference" "U1"
-			(at 251.46 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TS3702"
-			(at 251.46 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 251.46 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/389/ts3702-1852552.pdf"
-			(at 251.46 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Micropower dual CMOS voltage comparator"
-			(at 251.46 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "feeaf02c-a97e-4c4b-b4a0-fb9288542b01")
-		)
-		(pin "6"
-			(uuid "9994681a-7079-4ee4-bb74-7fdb5b689684")
-		)
-		(pin "8"
-			(uuid "bbad6b6a-e125-4978-b7d6-77da67b38f7f")
-		)
-		(pin "5"
-			(uuid "2b2ea214-3144-447c-99b9-fdf51462fc6d")
-		)
-		(pin "1"
-			(uuid "feeb6544-88c8-4fd7-9e6a-7c9d050abc37")
-		)
-		(pin "4"
-			(uuid "478bed56-919e-4ecf-925e-5636a3e37bfb")
-		)
-		(pin "7"
-			(uuid "51baec39-ec57-4bb4-99df-72fccd01d68b")
-		)
-		(pin "2"
-			(uuid "8edaf938-aa7c-4c79-8a78-d3d12c905523")
-		)
-		(instances
-			(project ""
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
-					(reference "U1")
+			(project "Current Sense Rev1"
+				(path "/d149d1fa-5de7-4dc0-b1ef-e9c4223d2865/d74a941e-a2f2-4038-9bd8-2d6a304e330c"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -4391,6 +4302,12 @@
 					(unit 1)
 				)
 			)
+			(project "Current Sense Rev1"
+				(path "/d149d1fa-5de7-4dc0-b1ef-e9c4223d2865/d74a941e-a2f2-4038-9bd8-2d6a304e330c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4459,6 +4376,12 @@
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+			(project "Current Sense Rev1"
+				(path "/d149d1fa-5de7-4dc0-b1ef-e9c4223d2865/d74a941e-a2f2-4038-9bd8-2d6a304e330c"
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -4538,6 +4461,104 @@
 					(unit 1)
 				)
 			)
+			(project "Current Sense Rev1"
+				(path "/d149d1fa-5de7-4dc0-b1ef-e9c4223d2865/d74a941e-a2f2-4038-9bd8-2d6a304e330c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Robomaster_IC:TS3902")
+		(at 251.46 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65ba6b07-61fa-4cf6-bc97-243437cd20d5")
+		(property "Reference" "U5"
+			(at 251.46 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TS3702"
+			(at 251.46 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 251.46 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/389/ts3702-1852552.pdf"
+			(at 251.46 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Micropower dual CMOS voltage comparator"
+			(at 251.46 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "21dd0de1-e501-48a1-88e6-5f780c56f928")
+		)
+		(pin "3"
+			(uuid "52199d66-4857-4283-8dfb-cf9094cdbe25")
+		)
+		(pin "4"
+			(uuid "e38de597-861f-472d-98b9-7c16541e4a71")
+		)
+		(pin "5"
+			(uuid "1825134e-7c93-4060-a4f2-7cb664e8551d")
+		)
+		(pin "1"
+			(uuid "955b2b90-1724-4ca9-a60d-b55fc3ce29f5")
+		)
+		(pin "6"
+			(uuid "a3f6677e-a651-4e66-8318-25a3ac551669")
+		)
+		(pin "7"
+			(uuid "9db9248e-89c1-49d9-8e6f-3663d0724dea")
+		)
+		(pin "8"
+			(uuid "979fa94e-6fe0-4734-9167-589bd189178d")
+		)
+		(instances
+			(project "SupercapManager"
+				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/d149d1fa-5de7-4dc0-b1ef-e9c4223d2865/d74a941e-a2f2-4038-9bd8-2d6a304e330c"
+					(reference "U1")
+					(unit 2)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4602,6 +4623,12 @@
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+			(project "Current Sense Rev1"
+				(path "/d149d1fa-5de7-4dc0-b1ef-e9c4223d2865/d74a941e-a2f2-4038-9bd8-2d6a304e330c"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -4673,6 +4700,12 @@
 					(unit 1)
 				)
 			)
+			(project "Current Sense Rev1"
+				(path "/d149d1fa-5de7-4dc0-b1ef-e9c4223d2865/d74a941e-a2f2-4038-9bd8-2d6a304e330c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4740,98 +4773,9 @@
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:TLV9302xD")
-		(at 99.06 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "78fccd0d-e81b-4519-924e-b41b2e452e97")
-		(property "Reference" "U4"
-			(at 99.06 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TLV9302xD"
-			(at 99.06 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 99.06 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9302.pdf"
-			(at 99.06 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "40-V, 1-MHz, RRO Operational Amplifiers for Cost-Sensitive Systems, SOIC-8"
-			(at 99.06 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "595-LM2903DR"
-			(at 99.06 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "e79db754-910c-4229-8d69-8f5dfbf66c4d")
-		)
-		(pin "5"
-			(uuid "aadfcc90-157f-4596-9ee5-0c2d3edae8da")
-		)
-		(pin "8"
-			(uuid "3d2e79c7-f8ae-43f3-bbc0-728c2b053ce3")
-		)
-		(pin "4"
-			(uuid "d983411b-0393-424f-aff3-a053d4e1bb27")
-		)
-		(pin "3"
-			(uuid "0751500c-625b-4e10-91d7-fa22aa336946")
-		)
-		(pin "1"
-			(uuid "c5f71527-e4ba-4594-8830-bd857be09b15")
-		)
-		(pin "6"
-			(uuid "5b479136-8759-4296-8bdf-a2deb7201eaa")
-		)
-		(pin "2"
-			(uuid "0592c0b9-9baa-45a6-a015-ff205f6011ba")
-		)
-		(instances
-			(project ""
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
-					(reference "U4")
+			(project "Current Sense Rev1"
+				(path "/d149d1fa-5de7-4dc0-b1ef-e9c4223d2865/d74a941e-a2f2-4038-9bd8-2d6a304e330c"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -4905,6 +4849,104 @@
 					(unit 1)
 				)
 			)
+			(project "Current Sense Rev1"
+				(path "/d149d1fa-5de7-4dc0-b1ef-e9c4223d2865/d74a941e-a2f2-4038-9bd8-2d6a304e330c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Robomaster_IC:TS3902")
+		(at 251.46 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a376fb5-5791-43f0-8157-288d1c4f3c6a")
+		(property "Reference" "U1"
+			(at 251.46 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TS3702"
+			(at 251.46 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 251.46 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/389/ts3702-1852552.pdf"
+			(at 251.46 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Micropower dual CMOS voltage comparator"
+			(at 251.46 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "21dd0de1-e501-48a1-88e6-5f780c56f929")
+		)
+		(pin "3"
+			(uuid "52199d66-4857-4283-8dfb-cf9094cdbe26")
+		)
+		(pin "4"
+			(uuid "e38de597-861f-472d-98b9-7c16541e4a72")
+		)
+		(pin "5"
+			(uuid "1825134e-7c93-4060-a4f2-7cb664e8551e")
+		)
+		(pin "1"
+			(uuid "955b2b90-1724-4ca9-a60d-b55fc3ce29f6")
+		)
+		(pin "6"
+			(uuid "a3f6677e-a651-4e66-8318-25a3ac55166a")
+		)
+		(pin "7"
+			(uuid "9db9248e-89c1-49d9-8e6f-3663d0724deb")
+		)
+		(pin "8"
+			(uuid "979fa94e-6fe0-4734-9167-589bd189178e")
+		)
+		(instances
+			(project "SupercapManager"
+				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/d149d1fa-5de7-4dc0-b1ef-e9c4223d2865/d74a941e-a2f2-4038-9bd8-2d6a304e330c"
+					(reference "U1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4973,6 +5015,106 @@
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
 					(reference "R8")
 					(unit 1)
+				)
+			)
+			(project "Current Sense Rev1"
+				(path "/d149d1fa-5de7-4dc0-b1ef-e9c4223d2865/d74a941e-a2f2-4038-9bd8-2d6a304e330c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Robomaster_IC:TS3902")
+		(at 181.61 135.89 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ac435dd-653d-40ba-aba6-ec2cdacd930e")
+		(property "Reference" "U1"
+			(at 180.34 134.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TS3702"
+			(at 180.34 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 181.61 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/389/ts3702-1852552.pdf"
+			(at 181.61 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Micropower dual CMOS voltage comparator"
+			(at 181.61 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "21dd0de1-e501-48a1-88e6-5f780c56f92a")
+		)
+		(pin "3"
+			(uuid "52199d66-4857-4283-8dfb-cf9094cdbe27")
+		)
+		(pin "4"
+			(uuid "e38de597-861f-472d-98b9-7c16541e4a73")
+		)
+		(pin "5"
+			(uuid "1825134e-7c93-4060-a4f2-7cb664e8551f")
+		)
+		(pin "1"
+			(uuid "955b2b90-1724-4ca9-a60d-b55fc3ce29f7")
+		)
+		(pin "6"
+			(uuid "a3f6677e-a651-4e66-8318-25a3ac55166b")
+		)
+		(pin "7"
+			(uuid "9db9248e-89c1-49d9-8e6f-3663d0724dec")
+		)
+		(pin "8"
+			(uuid "979fa94e-6fe0-4734-9167-589bd189178f")
+		)
+		(instances
+			(project "SupercapManager"
+				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
+					(reference "U1")
+					(unit 3)
+				)
+			)
+			(project ""
+				(path "/d149d1fa-5de7-4dc0-b1ef-e9c4223d2865/d74a941e-a2f2-4038-9bd8-2d6a304e330c"
+					(reference "U1")
+					(unit 3)
 				)
 			)
 		)
@@ -5045,6 +5187,12 @@
 					(unit 1)
 				)
 			)
+			(project "Current Sense Rev1"
+				(path "/d149d1fa-5de7-4dc0-b1ef-e9c4223d2865/d74a941e-a2f2-4038-9bd8-2d6a304e330c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5108,6 +5256,12 @@
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+			(project "Current Sense Rev1"
+				(path "/d149d1fa-5de7-4dc0-b1ef-e9c4223d2865/d74a941e-a2f2-4038-9bd8-2d6a304e330c"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -5176,6 +5330,12 @@
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+			(project "Current Sense Rev1"
+				(path "/d149d1fa-5de7-4dc0-b1ef-e9c4223d2865/d74a941e-a2f2-4038-9bd8-2d6a304e330c"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -5256,6 +5416,12 @@
 					(unit 1)
 				)
 			)
+			(project "Current Sense Rev1"
+				(path "/d149d1fa-5de7-4dc0-b1ef-e9c4223d2865/d74a941e-a2f2-4038-9bd8-2d6a304e330c"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5322,6 +5488,12 @@
 			(project ""
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+			(project "Current Sense Rev1"
+				(path "/d149d1fa-5de7-4dc0-b1ef-e9c4223d2865/d74a941e-a2f2-4038-9bd8-2d6a304e330c"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -5392,92 +5564,10 @@
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "! Robomaster ICs:TS3902")
-		(at 181.61 135.89 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c5e3cec1-7d52-4790-9e58-0e9f4052ae64")
-		(property "Reference" "U1"
-			(at 180.34 134.6199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TS3702"
-			(at 180.34 137.1599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 181.61 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/389/ts3702-1852552.pdf"
-			(at 181.61 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Micropower dual CMOS voltage comparator"
-			(at 181.61 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "feeaf02c-a97e-4c4b-b4a0-fb9288542b02")
-		)
-		(pin "6"
-			(uuid "9994681a-7079-4ee4-bb74-7fdb5b689685")
-		)
-		(pin "8"
-			(uuid "bbad6b6a-e125-4978-b7d6-77da67b38f80")
-		)
-		(pin "5"
-			(uuid "2b2ea214-3144-447c-99b9-fdf51462fc6e")
-		)
-		(pin "1"
-			(uuid "feeb6544-88c8-4fd7-9e6a-7c9d050abc38")
-		)
-		(pin "4"
-			(uuid "478bed56-919e-4ecf-925e-5636a3e37bfc")
-		)
-		(pin "7"
-			(uuid "51baec39-ec57-4bb4-99df-72fccd01d68c")
-		)
-		(pin "2"
-			(uuid "8edaf938-aa7c-4c79-8a78-d3d12c905524")
-		)
-		(instances
-			(project ""
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
-					(reference "U1")
-					(unit 3)
+			(project "Current Sense Rev1"
+				(path "/d149d1fa-5de7-4dc0-b1ef-e9c4223d2865/d74a941e-a2f2-4038-9bd8-2d6a304e330c"
+					(reference "#PWR?")
+					(unit 1)
 				)
 			)
 		)
@@ -5565,6 +5655,12 @@
 					(unit 1)
 				)
 			)
+			(project "Current Sense Rev1"
+				(path "/d149d1fa-5de7-4dc0-b1ef-e9c4223d2865/d74a941e-a2f2-4038-9bd8-2d6a304e330c"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5628,6 +5724,96 @@
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+			(project "Current Sense Rev1"
+				(path "/d149d1fa-5de7-4dc0-b1ef-e9c4223d2865/d74a941e-a2f2-4038-9bd8-2d6a304e330c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TLV9301xDBV")
+		(at 99.06 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf84c64d-ee54-426e-942a-a112dd5dc960")
+		(property "Reference" "U4"
+			(at 111.76 83.7498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV9301xDBV"
+			(at 111.76 86.2898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
+			(at 96.52 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9301.pdf"
+			(at 99.06 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40-V, 1-MHz, RRO Operational Amplifiers for Cost-Sensitive Systems, SOT-23-5"
+			(at 99.06 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55f9c38f-12aa-4fc6-a10e-fb386d15ddf6")
+		)
+		(pin "2"
+			(uuid "c12fe206-3e85-4f4d-ac73-87c10c776cee")
+		)
+		(pin "3"
+			(uuid "fca1db1a-df8d-4336-8c15-53624678d2c0")
+		)
+		(pin "4"
+			(uuid "6d2588c8-9237-4c88-9855-37bd9adbab12")
+		)
+		(pin "5"
+			(uuid "6b8b6909-d798-4f04-9b4e-d49cbac7e638")
+		)
+		(instances
+			(project "SupercapManager"
+				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/d149d1fa-5de7-4dc0-b1ef-e9c4223d2865/d74a941e-a2f2-4038-9bd8-2d6a304e330c"
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -5700,6 +5886,12 @@
 					(unit 1)
 				)
 			)
+			(project "Current Sense Rev1"
+				(path "/d149d1fa-5de7-4dc0-b1ef-e9c4223d2865/d74a941e-a2f2-4038-9bd8-2d6a304e330c"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5763,6 +5955,12 @@
 			(project ""
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+			(project "Current Sense Rev1"
+				(path "/d149d1fa-5de7-4dc0-b1ef-e9c4223d2865/d74a941e-a2f2-4038-9bd8-2d6a304e330c"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -5832,90 +6030,10 @@
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "! Robomaster ICs:TS3902")
-		(at 251.46 45.72 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e6b8c892-c6c9-4d44-9b13-bc8d5dd784d4")
-		(property "Reference" "U1"
-			(at 251.46 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TS3702"
-			(at 251.46 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 251.46 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/389/ts3702-1852552.pdf"
-			(at 251.46 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Micropower dual CMOS voltage comparator"
-			(at 251.46 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "feeaf02c-a97e-4c4b-b4a0-fb9288542b03")
-		)
-		(pin "6"
-			(uuid "9994681a-7079-4ee4-bb74-7fdb5b689686")
-		)
-		(pin "8"
-			(uuid "bbad6b6a-e125-4978-b7d6-77da67b38f81")
-		)
-		(pin "5"
-			(uuid "2b2ea214-3144-447c-99b9-fdf51462fc6f")
-		)
-		(pin "1"
-			(uuid "feeb6544-88c8-4fd7-9e6a-7c9d050abc39")
-		)
-		(pin "4"
-			(uuid "478bed56-919e-4ecf-925e-5636a3e37bfd")
-		)
-		(pin "7"
-			(uuid "51baec39-ec57-4bb4-99df-72fccd01d68d")
-		)
-		(pin "2"
-			(uuid "8edaf938-aa7c-4c79-8a78-d3d12c905525")
-		)
-		(instances
-			(project ""
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
-					(reference "U1")
-					(unit 2)
+			(project "Current Sense Rev1"
+				(path "/d149d1fa-5de7-4dc0-b1ef-e9c4223d2865/d74a941e-a2f2-4038-9bd8-2d6a304e330c"
+					(reference "#PWR?")
+					(unit 1)
 				)
 			)
 		)
@@ -5980,6 +6098,12 @@
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+			(project "Current Sense Rev1"
+				(path "/d149d1fa-5de7-4dc0-b1ef-e9c4223d2865/d74a941e-a2f2-4038-9bd8-2d6a304e330c"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
