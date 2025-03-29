@@ -2,10 +2,10 @@ Version 4
 SymbolType BLOCK
 RECTANGLE Normal -64 -56 64 56
 WINDOW 0 0 -56 Bottom 2
+WINDOW 3 0 56 Top 2
 SYMATTR Prefix X
 SYMATTR Value TLV9302
-SYMATTR ModelFile C:\Users\Tachi\Documents\robomaster_hardware\SupercapManager\SPICE_sims\libraries\tlv9302.lib
-WINDOW 3 0 56 Top 2
+SYMATTR ModelFile .\libraries\tlv9302.lib
 PIN -64 -16 LEFT 8
 PINATTR PinName IN+
 PINATTR SpiceOrder 1
