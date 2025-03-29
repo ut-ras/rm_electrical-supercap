@@ -7378,7 +7378,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "! Robomaster Passives:ASPIAIGS6055221MT"
 			(at 120.65 171.45 0)
 			(effects
 				(font
@@ -7387,7 +7387,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/3/ASPIAIG_S_series-1774797.pdf"
 			(at 120.65 171.45 0)
 			(effects
 				(font
@@ -7397,6 +7397,15 @@
 			)
 		)
 		(property "Description" "Inductor with iron core, small symbol"
+			(at 120.65 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "815-ASPIAIGS6055221T"
 			(at 120.65 171.45 0)
 			(effects
 				(font
@@ -8408,7 +8417,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "! Robomaster Passives:ASPIAIGS6055221MT"
 			(at 120.65 91.44 0)
 			(effects
 				(font
@@ -8417,7 +8426,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/3/ASPIAIG_S_series-1774797.pdf"
 			(at 120.65 91.44 0)
 			(effects
 				(font
@@ -8427,6 +8436,15 @@
 			)
 		)
 		(property "Description" "Inductor with iron core, small symbol"
+			(at 120.65 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "815-ASPIAIGS6055221T"
 			(at 120.65 91.44 0)
 			(effects
 				(font
@@ -9199,7 +9217,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "! Robomaster Passives:ASPIAIGS6055221MT"
 			(at 245.11 95.25 0)
 			(effects
 				(font
@@ -9208,7 +9226,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/3/ASPIAIG_S_series-1774797.pdf"
 			(at 245.11 95.25 0)
 			(effects
 				(font
@@ -9218,6 +9236,15 @@
 			)
 		)
 		(property "Description" "Inductor with iron core, small symbol"
+			(at 245.11 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "815-ASPIAIGS6055221T"
 			(at 245.11 95.25 0)
 			(effects
 				(font
