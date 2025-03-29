@@ -2645,7 +2645,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02e9d2f4-7253-411f-be2d-e6b07f2e4ea9")
-		(property "Reference" "R31"
+		(property "Reference" "R?"
 			(at 91.44 110.4899 0)
 			(effects
 				(font
@@ -2697,6 +2697,12 @@
 			(uuid "0afb96dc-66bf-41d8-9547-8edf16c71196")
 		)
 		(instances
+			(project "Ideal Diode Rev1"
+				(path "/1958bbb1-b715-4a10-a229-bee0eabb28b0/4a024d55-f91f-4b32-882f-0df7d5ec96e3"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/f28a7bbd-a217-4ab0-a73c-be6ca56ea928"
 					(reference "R31")
@@ -2715,7 +2721,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04c96c43-cc8e-4863-8f6a-a16675efac8c")
-		(property "Reference" "R30"
+		(property "Reference" "R?"
 			(at 118.11 100.33 90)
 			(effects
 				(font
@@ -2765,6 +2771,12 @@
 			(uuid "efb9f927-1870-4190-8718-41d441b3d420")
 		)
 		(instances
+			(project "Ideal Diode Rev1"
+				(path "/1958bbb1-b715-4a10-a229-bee0eabb28b0/4a024d55-f91f-4b32-882f-0df7d5ec96e3"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/f28a7bbd-a217-4ab0-a73c-be6ca56ea928"
 					(reference "R30")
@@ -2783,7 +2795,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "05c3a421-b346-4cd7-82dc-e27ab934f813")
-		(property "Reference" "C32"
+		(property "Reference" "C?"
 			(at 172.72 53.3399 0)
 			(effects
 				(font
@@ -2835,6 +2847,12 @@
 			(uuid "4273eeff-727d-4534-ac33-dafa0f7d3e25")
 		)
 		(instances
+			(project "Ideal Diode Rev1"
+				(path "/1958bbb1-b715-4a10-a229-bee0eabb28b0/4a024d55-f91f-4b32-882f-0df7d5ec96e3"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/f28a7bbd-a217-4ab0-a73c-be6ca56ea928"
 					(reference "C32")
@@ -2853,7 +2871,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "33abc974-8c04-4592-b3ae-7787282efa8b")
-		(property "Reference" "D8"
+		(property "Reference" "D?"
 			(at 123.19 110.1724 90)
 			(effects
 				(font
@@ -2914,6 +2932,12 @@
 			(uuid "6ae329a1-7bf5-47b6-92f1-d4dd862459ee")
 		)
 		(instances
+			(project "Ideal Diode Rev1"
+				(path "/1958bbb1-b715-4a10-a229-bee0eabb28b0/4a024d55-f91f-4b32-882f-0df7d5ec96e3"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/f28a7bbd-a217-4ab0-a73c-be6ca56ea928"
 					(reference "D8")
@@ -2932,7 +2956,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3d0189c3-c554-4c2b-85f6-357eb526c6da")
-		(property "Reference" "C31"
+		(property "Reference" "C?"
 			(at 120.65 53.3399 0)
 			(effects
 				(font
@@ -2984,6 +3008,12 @@
 			(uuid "82d3c4ac-61ed-4e03-b85f-cbd3825c99e1")
 		)
 		(instances
+			(project "Ideal Diode Rev1"
+				(path "/1958bbb1-b715-4a10-a229-bee0eabb28b0/4a024d55-f91f-4b32-882f-0df7d5ec96e3"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/f28a7bbd-a217-4ab0-a73c-be6ca56ea928"
 					(reference "C31")
@@ -3002,7 +3032,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3e04a1e5-19dc-439e-ba69-59ff54674f1b")
-		(property "Reference" "D9"
+		(property "Reference" "D?"
 			(at 129.54 134.3024 90)
 			(effects
 				(font
@@ -3063,6 +3093,12 @@
 			(uuid "acf89fad-ce2b-4e72-81eb-9605a543822d")
 		)
 		(instances
+			(project "Ideal Diode Rev1"
+				(path "/1958bbb1-b715-4a10-a229-bee0eabb28b0/4a024d55-f91f-4b32-882f-0df7d5ec96e3"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/f28a7bbd-a217-4ab0-a73c-be6ca56ea928"
 					(reference "D9")
@@ -3081,7 +3117,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41e8b1fb-b73a-4753-9f24-4f50bb3ebd45")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR?"
 			(at 125.73 121.92 0)
 			(effects
 				(font
@@ -3129,6 +3165,12 @@
 			(uuid "6e302747-78c4-42c9-8981-93533869ed18")
 		)
 		(instances
+			(project "Ideal Diode Rev1"
+				(path "/1958bbb1-b715-4a10-a229-bee0eabb28b0/4a024d55-f91f-4b32-882f-0df7d5ec96e3"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/f28a7bbd-a217-4ab0-a73c-be6ca56ea928"
 					(reference "#PWR056")
@@ -3147,7 +3189,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43831cb6-c067-426f-8d45-efd77e9c69ed")
-		(property "Reference" "R33"
+		(property "Reference" "R?"
 			(at 116.84 124.46 90)
 			(effects
 				(font
@@ -3197,6 +3239,12 @@
 			(uuid "58dcea14-fe35-44a1-b5ce-053e65288b32")
 		)
 		(instances
+			(project "Ideal Diode Rev1"
+				(path "/1958bbb1-b715-4a10-a229-bee0eabb28b0/4a024d55-f91f-4b32-882f-0df7d5ec96e3"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/f28a7bbd-a217-4ab0-a73c-be6ca56ea928"
 					(reference "R33")
@@ -3215,7 +3263,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4aff8422-d992-42e9-90f9-456ed6e80938")
-		(property "Reference" "U9"
+		(property "Reference" "U?"
 			(at 147.3089 118.11 0)
 			(effects
 				(font
@@ -3283,6 +3331,12 @@
 			(uuid "7deaa223-93e3-4005-8a82-68e931c2d240")
 		)
 		(instances
+			(project "Ideal Diode Rev1"
+				(path "/1958bbb1-b715-4a10-a229-bee0eabb28b0/4a024d55-f91f-4b32-882f-0df7d5ec96e3"
+					(reference "U?")
+					(unit 2)
+				)
+			)
 			(project ""
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/f28a7bbd-a217-4ab0-a73c-be6ca56ea928"
 					(reference "U9")
@@ -3301,7 +3355,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c9fd1e9-c4c0-44bd-a6cd-8d4b9dde6f2c")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR?"
 			(at 189.23 135.89 0)
 			(effects
 				(font
@@ -3349,6 +3403,12 @@
 			(uuid "d9488fd3-70af-45db-9424-356441395ced")
 		)
 		(instances
+			(project "Ideal Diode Rev1"
+				(path "/1958bbb1-b715-4a10-a229-bee0eabb28b0/4a024d55-f91f-4b32-882f-0df7d5ec96e3"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/f28a7bbd-a217-4ab0-a73c-be6ca56ea928"
 					(reference "#PWR057")
@@ -3367,7 +3427,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58b3ceea-3858-4b4b-ac9e-8c553d9d6269")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR?"
 			(at 189.23 109.22 0)
 			(effects
 				(font
@@ -3415,6 +3475,12 @@
 			(uuid "88cbe862-f8a2-429b-bbd3-0aca5ac8c1f5")
 		)
 		(instances
+			(project "Ideal Diode Rev1"
+				(path "/1958bbb1-b715-4a10-a229-bee0eabb28b0/4a024d55-f91f-4b32-882f-0df7d5ec96e3"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/f28a7bbd-a217-4ab0-a73c-be6ca56ea928"
 					(reference "#PWR055")
@@ -3433,7 +3499,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ae9b942-029c-4ec2-b113-05d359f296bb")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR?"
 			(at 124.46 88.9 0)
 			(effects
 				(font
@@ -3481,6 +3547,12 @@
 			(uuid "ba17866d-1fa9-435b-967c-f5d0eb37a4e8")
 		)
 		(instances
+			(project "Ideal Diode Rev1"
+				(path "/1958bbb1-b715-4a10-a229-bee0eabb28b0/4a024d55-f91f-4b32-882f-0df7d5ec96e3"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/f28a7bbd-a217-4ab0-a73c-be6ca56ea928"
 					(reference "#PWR054")
@@ -3499,7 +3571,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "82390f5e-226d-4cf8-8516-c7d0698b10a4")
-		(property "Reference" "C33"
+		(property "Reference" "C?"
 			(at 135.89 62.2299 0)
 			(effects
 				(font
@@ -3551,6 +3623,12 @@
 			(uuid "bdcaeaa7-4881-4a95-81b0-227bc3c370f2")
 		)
 		(instances
+			(project "Ideal Diode Rev1"
+				(path "/1958bbb1-b715-4a10-a229-bee0eabb28b0/4a024d55-f91f-4b32-882f-0df7d5ec96e3"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/f28a7bbd-a217-4ab0-a73c-be6ca56ea928"
 					(reference "C33")
@@ -3569,7 +3647,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "83443bec-7744-4d9b-b60f-5edd192ea371")
-		(property "Reference" "Q5"
+		(property "Reference" "Q?"
 			(at 154.94 41.91 90)
 			(effects
 				(font
@@ -3628,6 +3706,12 @@
 			(uuid "6b67fac7-e0a9-45e9-9d45-823a750a1d02")
 		)
 		(instances
+			(project "Ideal Diode Rev1"
+				(path "/1958bbb1-b715-4a10-a229-bee0eabb28b0/4a024d55-f91f-4b32-882f-0df7d5ec96e3"
+					(reference "Q?")
+					(unit 1)
+				)
+			)
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/f28a7bbd-a217-4ab0-a73c-be6ca56ea928"
 					(reference "Q5")
@@ -3646,7 +3730,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "838d2051-1c85-42be-b6e2-2649f694cfd8")
-		(property "Reference" "U8"
+		(property "Reference" "U?"
 			(at 166.37 68.5799 0)
 			(effects
 				(font
@@ -3710,6 +3794,12 @@
 			(uuid "33bef98b-d28a-4f21-8a3c-6f468adf57cc")
 		)
 		(instances
+			(project "Ideal Diode Rev1"
+				(path "/1958bbb1-b715-4a10-a229-bee0eabb28b0/4a024d55-f91f-4b32-882f-0df7d5ec96e3"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/f28a7bbd-a217-4ab0-a73c-be6ca56ea928"
 					(reference "U8")
@@ -3728,7 +3818,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99c1bbdb-ea4c-4869-8924-58697e61ff9c")
-		(property "Reference" "U9"
+		(property "Reference" "U?"
 			(at 195.58 116.8399 0)
 			(effects
 				(font
@@ -3798,6 +3888,12 @@
 			(uuid "7deaa223-93e3-4005-8a82-68e931c2d241")
 		)
 		(instances
+			(project "Ideal Diode Rev1"
+				(path "/1958bbb1-b715-4a10-a229-bee0eabb28b0/4a024d55-f91f-4b32-882f-0df7d5ec96e3"
+					(reference "U?")
+					(unit 3)
+				)
+			)
 			(project ""
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/f28a7bbd-a217-4ab0-a73c-be6ca56ea928"
 					(reference "U9")
@@ -3816,7 +3912,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a289e609-6a2a-4e94-9115-e1e9f7763e94")
-		(property "Reference" "R32"
+		(property "Reference" "R?"
 			(at 91.44 125.7299 0)
 			(effects
 				(font
@@ -3868,6 +3964,12 @@
 			(uuid "c1aa1f5e-f8e7-4e7b-9dd3-1cc2d7345aff")
 		)
 		(instances
+			(project "Ideal Diode Rev1"
+				(path "/1958bbb1-b715-4a10-a229-bee0eabb28b0/4a024d55-f91f-4b32-882f-0df7d5ec96e3"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/f28a7bbd-a217-4ab0-a73c-be6ca56ea928"
 					(reference "R32")
@@ -3886,7 +3988,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a945176e-28bb-437e-98a6-68521a0c9290")
-		(property "Reference" "D6"
+		(property "Reference" "D?"
 			(at 106.68 53.3399 90)
 			(effects
 				(font
@@ -3938,6 +4040,12 @@
 			(uuid "8753af86-cc5a-4943-9df5-429c58a975f2")
 		)
 		(instances
+			(project "Ideal Diode Rev1"
+				(path "/1958bbb1-b715-4a10-a229-bee0eabb28b0/4a024d55-f91f-4b32-882f-0df7d5ec96e3"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/f28a7bbd-a217-4ab0-a73c-be6ca56ea928"
 					(reference "D6")
@@ -3956,7 +4064,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af7650e9-ea39-434e-88f9-e17c170a533f")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR?"
 			(at 176.53 66.04 0)
 			(effects
 				(font
@@ -4004,6 +4112,12 @@
 			(uuid "e4414644-2d04-4454-b77b-b2c18edad2cf")
 		)
 		(instances
+			(project "Ideal Diode Rev1"
+				(path "/1958bbb1-b715-4a10-a229-bee0eabb28b0/4a024d55-f91f-4b32-882f-0df7d5ec96e3"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/f28a7bbd-a217-4ab0-a73c-be6ca56ea928"
 					(reference "#PWR053")
@@ -4022,7 +4136,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b2e617ae-2c0b-468d-bf48-69352df18f86")
-		(property "Reference" "C34"
+		(property "Reference" "C?"
 			(at 176.53 116.8399 0)
 			(effects
 				(font
@@ -4074,6 +4188,12 @@
 			(uuid "7614f041-2fe3-4388-afc2-35ba1601933d")
 		)
 		(instances
+			(project "Ideal Diode Rev1"
+				(path "/1958bbb1-b715-4a10-a229-bee0eabb28b0/4a024d55-f91f-4b32-882f-0df7d5ec96e3"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/f28a7bbd-a217-4ab0-a73c-be6ca56ea928"
 					(reference "C34")
@@ -4092,7 +4212,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc6cfe3f-9288-4dcd-baa9-01304bebbe84")
-		(property "Reference" "U9"
+		(property "Reference" "U?"
 			(at 147.3089 99.06 0)
 			(effects
 				(font
@@ -4160,6 +4280,12 @@
 			(uuid "7deaa223-93e3-4005-8a82-68e931c2d242")
 		)
 		(instances
+			(project "Ideal Diode Rev1"
+				(path "/1958bbb1-b715-4a10-a229-bee0eabb28b0/4a024d55-f91f-4b32-882f-0df7d5ec96e3"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/f28a7bbd-a217-4ab0-a73c-be6ca56ea928"
 					(reference "U9")
@@ -4178,7 +4304,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eef62e0b-8ddd-4a8f-ade2-e4db67570ecf")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR?"
 			(at 88.9 138.43 0)
 			(effects
 				(font
@@ -4226,6 +4352,12 @@
 			(uuid "f7009e4b-cfbf-4b76-967c-5ef9f34f0258")
 		)
 		(instances
+			(project "Ideal Diode Rev1"
+				(path "/1958bbb1-b715-4a10-a229-bee0eabb28b0/4a024d55-f91f-4b32-882f-0df7d5ec96e3"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/f28a7bbd-a217-4ab0-a73c-be6ca56ea928"
 					(reference "#PWR058")
@@ -4244,7 +4376,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f051fe8f-c976-41b3-bf3d-1bd6fed816bb")
-		(property "Reference" "D7"
+		(property "Reference" "D?"
 			(at 106.68 63.4999 90)
 			(effects
 				(font
@@ -4296,6 +4428,12 @@
 			(uuid "d0d52682-b415-47f1-8559-aaa48560dbe1")
 		)
 		(instances
+			(project "Ideal Diode Rev1"
+				(path "/1958bbb1-b715-4a10-a229-bee0eabb28b0/4a024d55-f91f-4b32-882f-0df7d5ec96e3"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/f28a7bbd-a217-4ab0-a73c-be6ca56ea928"
 					(reference "D7")
@@ -4314,7 +4452,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2dab40b-b51d-4b4d-a2af-afd012777335")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR?"
 			(at 132.08 146.05 0)
 			(effects
 				(font
@@ -4362,6 +4500,12 @@
 			(uuid "5a8ece06-9227-4678-9440-0bb45f94f6ea")
 		)
 		(instances
+			(project "Ideal Diode Rev1"
+				(path "/1958bbb1-b715-4a10-a229-bee0eabb28b0/4a024d55-f91f-4b32-882f-0df7d5ec96e3"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/f28a7bbd-a217-4ab0-a73c-be6ca56ea928"
 					(reference "#PWR059")
