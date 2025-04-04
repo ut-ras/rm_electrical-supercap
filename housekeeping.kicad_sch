@@ -4662,7 +4662,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 184.15 87.63 0)
 			(effects
 				(font
@@ -4671,7 +4671,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDN0000/AOA0000C313.pdf"
 			(at 184.15 87.63 0)
 			(effects
 				(font
@@ -4687,6 +4687,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "667-ERJ-3RQFR33V"
+			(at 184.15 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -4866,7 +4874,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 59.69 83.82 0)
 			(effects
 				(font
@@ -4875,7 +4883,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDN0000/AOA0000C313.pdf"
 			(at 59.69 83.82 0)
 			(effects
 				(font
@@ -4891,6 +4899,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "667-ERJ-3RQFR33V"
+			(at 59.69 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -5012,7 +5028,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 85.09 104.14 0)
 			(effects
 				(font
@@ -5021,7 +5037,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_15-3461507.pdf"
 			(at 85.09 104.14 0)
 			(effects
 				(font
@@ -5037,6 +5053,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RT0603FRE133K6L"
+			(at 85.09 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -5234,7 +5258,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 85.09 184.15 0)
 			(effects
 				(font
@@ -5243,7 +5267,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_15-3461507.pdf"
 			(at 85.09 184.15 0)
 			(effects
 				(font
@@ -5259,6 +5283,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RT0603FRE133K6L"
+			(at 85.09 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -5456,7 +5488,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 209.55 107.95 0)
 			(effects
 				(font
@@ -5465,7 +5497,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_15-3461507.pdf"
 			(at 209.55 107.95 0)
 			(effects
 				(font
@@ -5481,6 +5513,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RT0603FRE133K6L"
+			(at 209.55 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -6067,7 +6107,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "! Robomaster Passives:ASPIAIGS6055221MT"
 			(at 234.95 170.18 0)
 			(effects
 				(font
@@ -6076,7 +6116,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/3/ASPIAIG_S_series-1774797.pdf"
 			(at 234.95 170.18 0)
 			(effects
 				(font
@@ -6092,6 +6132,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "815-ASPIAIGS6055221T"
+			(at 234.95 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -7151,7 +7199,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 195.58 189.23 0)
 			(effects
 				(font
@@ -7160,7 +7208,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_15-3461507.pdf"
 			(at 195.58 189.23 0)
 			(effects
 				(font
@@ -7176,6 +7224,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RT0603FRE133K6L"
+			(at 195.58 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -7763,7 +7819,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 71.12 189.23 0)
 			(effects
 				(font
@@ -7772,7 +7828,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_15-3461507.pdf"
 			(at 71.12 189.23 0)
 			(effects
 				(font
@@ -7788,6 +7844,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RT0603FRE071K2L"
+			(at 71.12 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -7921,7 +7985,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 209.55 184.15 0)
 			(effects
 				(font
@@ -7930,7 +7994,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.rohm.com/datasheet?p=ESR03EZPJ&dist=Mouser&media=referral&source=mouser.com&campaign=Mouser"
 			(at 209.55 184.15 0)
 			(effects
 				(font
@@ -7946,6 +8010,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "755-ESR03EZPJ222"
+			(at 209.55 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -7997,7 +8069,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 184.15 163.83 0)
 			(effects
 				(font
@@ -8006,7 +8078,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_RL_Group_521_RoHS_L_3-3447146.pdf"
 			(at 184.15 163.83 0)
 			(effects
 				(font
@@ -8022,6 +8094,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RL0603JR-070R24L"
+			(at 184.15 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -8574,7 +8654,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 195.58 113.03 0)
 			(effects
 				(font
@@ -8583,7 +8663,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.rohm.com/datasheet?p=ESR03EZPJ&dist=Mouser&media=referral&source=mouser.com&campaign=Mouser"
 			(at 195.58 113.03 0)
 			(effects
 				(font
@@ -8599,6 +8679,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "755-ESR03EZPJ222"
+			(at 195.58 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -8650,7 +8738,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 59.69 163.83 0)
 			(effects
 				(font
@@ -8659,7 +8747,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDN0000/AOA0000C313.pdf"
 			(at 59.69 163.83 0)
 			(effects
 				(font
@@ -8675,6 +8763,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "667-ERJ-3RQFR33V"
+			(at 59.69 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -8798,7 +8894,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 71.12 109.22 0)
 			(effects
 				(font
@@ -8807,7 +8903,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.rohm.com/datasheet?p=ESR03EZPJ&dist=Mouser&media=referral&source=mouser.com&campaign=Mouser"
 			(at 71.12 109.22 0)
 			(effects
 				(font
@@ -8823,6 +8919,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "755-ESR03EZPJ222"
+			(at 71.12 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
