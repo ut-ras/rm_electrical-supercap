@@ -1663,7 +1663,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 187.96 102.108 90)
 			(effects
 				(font
@@ -1672,7 +1672,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
 			(at 187.96 100.33 0)
 			(effects
 				(font
@@ -1682,6 +1682,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 187.96 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-TNPW060350R0DEEA"
 			(at 187.96 100.33 0)
 			(effects
 				(font
@@ -1797,7 +1806,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 187.96 75.438 90)
 			(effects
 				(font
@@ -1806,7 +1815,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
 			(at 187.96 73.66 0)
 			(effects
 				(font
@@ -1816,6 +1825,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 187.96 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-TNPW060350R0DEEA"
 			(at 187.96 73.66 0)
 			(effects
 				(font
@@ -1867,7 +1885,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector:Banana_Jack_2Pin"
 			(at 246.38 100.33 0)
 			(effects
 				(font
@@ -2467,7 +2485,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 231.14 102.108 90)
 			(effects
 				(font
@@ -2476,7 +2494,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
 			(at 231.14 100.33 0)
 			(effects
 				(font
@@ -2486,6 +2504,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 231.14 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-TNPW060350R0DEEA"
 			(at 231.14 100.33 0)
 			(effects
 				(font
@@ -2669,7 +2696,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector:Banana_Jack_2Pin"
 			(at 201.93 100.33 0)
 			(effects
 				(font
@@ -2739,7 +2766,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector:Banana_Jack_2Pin"
 			(at 246.38 73.66 0)
 			(effects
 				(font
@@ -2809,7 +2836,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector:Banana_Jack_2Pin"
 			(at 201.93 73.66 0)
 			(effects
 				(font
@@ -2877,7 +2904,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 231.14 75.438 90)
 			(effects
 				(font
@@ -2886,7 +2913,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
 			(at 231.14 73.66 0)
 			(effects
 				(font
@@ -2896,6 +2923,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 231.14 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-TNPW060350R0DEEA"
 			(at 231.14 73.66 0)
 			(effects
 				(font
