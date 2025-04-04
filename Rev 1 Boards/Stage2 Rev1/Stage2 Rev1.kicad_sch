@@ -1,0 +1,56 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "1b9401e8-fd27-4be8-b5df-9c0f9024bbc8")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 105.41 106.68)
+		(size 39.37 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9a443f61-5193-497a-8ee4-36a902f0cb78")
+		(property "Sheetname" "Stage 2 Boost"
+			(at 105.41 105.9684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../../boost2.kicad_sch"
+			(at 105.41 126.3146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Stage2 Rev1"
+				(path "/1b9401e8-fd27-4be8-b5df-9c0f9024bbc8"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
