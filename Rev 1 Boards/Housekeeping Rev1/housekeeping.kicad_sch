@@ -237,6 +237,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Polarized_Small_US"
 			(pin_numbers
 				(hide yes)
@@ -2200,6 +2307,12 @@
 		(uuid "14f01b0f-2eef-4e6f-969a-5c699b8f50a9")
 	)
 	(junction
+		(at 220.98 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20acbec2-c493-42d9-a1cd-a246df2f0359")
+	)
+	(junction
 		(at 59.69 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2218,10 +2331,22 @@
 		(uuid "306aa269-f472-48f0-8bfd-c6f3ef2eff83")
 	)
 	(junction
+		(at 238.76 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d565f22-3264-463b-8c50-a57dcc91f01c")
+	)
+	(junction
 		(at 120.65 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "45528728-d3e5-4b05-a12b-60933e9b67f5")
+	)
+	(junction
+		(at 96.52 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45dbadfd-aad2-4879-aa0f-23a9fbd1a6e3")
 	)
 	(junction
 		(at 71.12 104.14)
@@ -2314,6 +2439,12 @@
 		(uuid "98a457a1-6547-40d4-848f-38e837709af2")
 	)
 	(junction
+		(at 96.52 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99c903a9-1eaa-480f-bf6c-9fa80f97d9e3")
+	)
+	(junction
 		(at 59.69 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2330,6 +2461,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "abc42342-24ff-4ba6-b258-01a920c4deff")
+	)
+	(junction
+		(at 238.76 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac286171-bc57-4962-b505-072cc2701338")
+	)
+	(junction
+		(at 220.98 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "add9d851-7913-4bc6-8f24-197719f81a86")
 	)
 	(junction
 		(at 123.19 184.15)
@@ -2398,6 +2541,18 @@
 		(uuid "ea51f7f3-5079-43c8-b22b-7090293244f8")
 	)
 	(junction
+		(at 114.3 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eea7e3d3-6662-4cdf-a069-31b2618424d1")
+	)
+	(junction
+		(at 114.3 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0adbaf9-4285-4958-af68-c1fc927d0d72")
+	)
+	(junction
 		(at 234.95 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2418,6 +2573,16 @@
 			(type default)
 		)
 		(uuid "01337cd1-82ae-40b7-a19b-7f901a2490c0")
+	)
+	(wire
+		(pts
+			(xy 238.76 163.83) (xy 245.11 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02d8cd26-dae6-4070-b153-833713f08201")
 	)
 	(wire
 		(pts
@@ -2691,16 +2856,6 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 163.83) (xy 245.11 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "423546eb-d645-47ca-a3cd-0588a0fe8e39")
-	)
-	(wire
-		(pts
 			(xy 87.63 184.15) (xy 120.65 184.15)
 		)
 		(stroke
@@ -2708,6 +2863,16 @@
 			(type default)
 		)
 		(uuid "42f1f6a6-e045-48e1-9533-27d454b7a636")
+	)
+	(wire
+		(pts
+			(xy 220.98 78.74) (xy 220.98 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42f5a566-97f9-4d19-886d-d035fab64709")
 	)
 	(wire
 		(pts
@@ -2738,6 +2903,16 @@
 			(type default)
 		)
 		(uuid "483ddc50-9bba-4674-b9c2-c02d4b438520")
+	)
+	(wire
+		(pts
+			(xy 96.52 154.94) (xy 96.52 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48747028-f0d7-4dd4-b10c-567bb7b7d427")
 	)
 	(wire
 		(pts
@@ -2891,6 +3066,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 87.63) (xy 238.76 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d46cffe-0c16-4c6d-a294-0b660eb41cf9")
+	)
+	(wire
+		(pts
 			(xy 247.65 115.57) (xy 247.65 119.38)
 		)
 		(stroke
@@ -2988,16 +3173,6 @@
 			(type default)
 		)
 		(uuid "73c79c02-8865-433f-b4c2-6509a65ffa56")
-	)
-	(wire
-		(pts
-			(xy 234.95 87.63) (xy 245.11 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76881688-5761-4f56-a6a2-0ccf6530ba57")
 	)
 	(wire
 		(pts
@@ -3251,7 +3426,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 160.02) (xy 96.52 149.86)
+			(xy 96.52 160.02) (xy 96.52 154.94)
 		)
 		(stroke
 			(width 0)
@@ -3268,6 +3443,16 @@
 			(type default)
 		)
 		(uuid "9fed7402-118b-47e3-a641-877675c07ed4")
+	)
+	(wire
+		(pts
+			(xy 114.3 163.83) (xy 120.65 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0d71057-2c57-461a-a4ef-394dfa868bf8")
 	)
 	(wire
 		(pts
@@ -3298,6 +3483,16 @@
 			(type default)
 		)
 		(uuid "a370d775-ec94-4822-84a2-c9c11639d90b")
+	)
+	(wire
+		(pts
+			(xy 220.98 149.86) (xy 220.98 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4293ed3-cb97-476b-9c58-56d4c5162bf6")
 	)
 	(wire
 		(pts
@@ -3391,16 +3586,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 160.02) (xy 220.98 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2c8d6a0-3421-47eb-aeb9-f998b26e03d9")
-	)
-	(wire
-		(pts
 			(xy 245.11 97.79) (xy 245.11 107.95)
 		)
 		(stroke
@@ -3471,7 +3656,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 163.83) (xy 120.65 163.83)
+			(xy 110.49 163.83) (xy 114.3 163.83)
 		)
 		(stroke
 			(width 0)
@@ -3521,6 +3706,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 74.93) (xy 96.52 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be94061e-ea58-4738-962f-1cd70b6bf78a")
+	)
+	(wire
+		(pts
 			(xy 71.12 91.44) (xy 71.12 104.14)
 		)
 		(stroke
@@ -3561,6 +3756,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 154.94) (xy 220.98 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c926b0c8-fb50-4960-a38d-40f83a22f4b3")
+	)
+	(wire
+		(pts
 			(xy 217.17 95.25) (xy 218.44 95.25)
 		)
 		(stroke
@@ -3598,6 +3803,16 @@
 			(type default)
 		)
 		(uuid "caaffbee-ab9c-44ba-9406-110d26c9c8e9")
+	)
+	(wire
+		(pts
+			(xy 114.3 83.82) (xy 120.65 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccd2ede3-0689-492a-8833-a5ab2622e93c")
 	)
 	(wire
 		(pts
@@ -3651,7 +3866,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 83.82) (xy 120.65 83.82)
+			(xy 110.49 83.82) (xy 114.3 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3731,6 +3946,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 87.63) (xy 245.11 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de02d2f8-8a9d-4ccc-b52a-6b1b9c11f9bf")
+	)
+	(wire
+		(pts
 			(xy 110.49 83.82) (xy 92.71 83.82)
 		)
 		(stroke
@@ -3791,7 +4016,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 80.01) (xy 96.52 69.85)
+			(xy 96.52 69.85) (xy 96.52 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3848,6 +4073,16 @@
 			(type default)
 		)
 		(uuid "ecdd1fe5-bc66-4cb0-ae57-fbe7ee1dce93")
+	)
+	(wire
+		(pts
+			(xy 234.95 163.83) (xy 238.76 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee88f210-a93e-4808-a666-3a34a084ee47")
 	)
 	(wire
 		(pts
@@ -3921,7 +4156,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 83.82) (xy 220.98 73.66)
+			(xy 220.98 73.66) (xy 220.98 78.74)
 		)
 		(stroke
 			(width 0)
@@ -4093,8 +4328,75 @@
 				)
 			)
 			(project "SupercapManager"
-				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/cf44cff7-953d-44e5-a075-e68fa0d90013"
+				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/25bdba42-617b-4aa1-85da-258c1454f7e3"
 					(reference "U13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 96.52 154.94 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "01b3b030-9e1a-41f2-b573-fcee19626450")
+		(property "Reference" "TP7"
+			(at 101.6 153.6699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "V_{C}"
+			(at 101.6 156.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.0mm_Drill0.7mm"
+			(at 96.52 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 96.52 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fddc1969-ed3a-4aeb-8ea2-7a3916e429da")
+		)
+		(instances
+			(project "Housekeeping Rev1"
+				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/25bdba42-617b-4aa1-85da-258c1454f7e3"
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -4165,7 +4467,7 @@
 				)
 			)
 			(project "SupercapManager"
-				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/cf44cff7-953d-44e5-a075-e68fa0d90013"
+				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/25bdba42-617b-4aa1-85da-258c1454f7e3"
 					(reference "#PWR085")
 					(unit 1)
 				)
@@ -4249,7 +4551,7 @@
 				)
 			)
 			(project ""
-				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/cf44cff7-953d-44e5-a075-e68fa0d90013"
+				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/25bdba42-617b-4aa1-85da-258c1454f7e3"
 					(reference "C37")
 					(unit 1)
 				)
@@ -4284,7 +4586,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 223.52 171.45 0)
 			(effects
 				(font
@@ -4325,7 +4627,7 @@
 				)
 			)
 			(project "SupercapManager"
-				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/cf44cff7-953d-44e5-a075-e68fa0d90013"
+				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/25bdba42-617b-4aa1-85da-258c1454f7e3"
 					(reference "C36")
 					(unit 1)
 				)
@@ -4360,7 +4662,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 184.15 87.63 0)
 			(effects
 				(font
@@ -4369,7 +4671,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDN0000/AOA0000C313.pdf"
 			(at 184.15 87.63 0)
 			(effects
 				(font
@@ -4379,6 +4681,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 184.15 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "667-ERJ-3RQFR33V"
 			(at 184.15 87.63 0)
 			(effects
 				(font
@@ -4401,7 +4712,7 @@
 				)
 			)
 			(project "SupercapManager"
-				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/cf44cff7-953d-44e5-a075-e68fa0d90013"
+				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/25bdba42-617b-4aa1-85da-258c1454f7e3"
 					(reference "R35")
 					(unit 1)
 				)
@@ -4529,7 +4840,7 @@
 				)
 			)
 			(project "SupercapManager"
-				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/cf44cff7-953d-44e5-a075-e68fa0d90013"
+				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/25bdba42-617b-4aa1-85da-258c1454f7e3"
 					(reference "U16")
 					(unit 1)
 				)
@@ -4564,7 +4875,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 59.69 83.82 0)
 			(effects
 				(font
@@ -4573,7 +4884,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDN0000/AOA0000C313.pdf"
 			(at 59.69 83.82 0)
 			(effects
 				(font
@@ -4583,6 +4894,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 59.69 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "667-ERJ-3RQFR33V"
 			(at 59.69 83.82 0)
 			(effects
 				(font
@@ -4605,7 +4925,7 @@
 				)
 			)
 			(project "SupercapManager"
-				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/cf44cff7-953d-44e5-a075-e68fa0d90013"
+				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/25bdba42-617b-4aa1-85da-258c1454f7e3"
 					(reference "R34")
 					(unit 1)
 				)
@@ -4677,7 +4997,7 @@
 				)
 			)
 			(project "SupercapManager"
-				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/cf44cff7-953d-44e5-a075-e68fa0d90013"
+				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/25bdba42-617b-4aa1-85da-258c1454f7e3"
 					(reference "#PWR0102")
 					(unit 1)
 				)
@@ -4710,7 +5030,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 85.09 104.14 0)
 			(effects
 				(font
@@ -4719,7 +5039,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_15-3461507.pdf"
 			(at 85.09 104.14 0)
 			(effects
 				(font
@@ -4729,6 +5049,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 85.09 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RT0603FRE133K6L"
 			(at 85.09 104.14 0)
 			(effects
 				(font
@@ -4751,7 +5080,7 @@
 				)
 			)
 			(project "SupercapManager"
-				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/cf44cff7-953d-44e5-a075-e68fa0d90013"
+				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/25bdba42-617b-4aa1-85da-258c1454f7e3"
 					(reference "R36")
 					(unit 1)
 				)
@@ -4786,7 +5115,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 99.06 171.45 0)
 			(effects
 				(font
@@ -4827,7 +5156,7 @@
 				)
 			)
 			(project ""
-				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/cf44cff7-953d-44e5-a075-e68fa0d90013"
+				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/25bdba42-617b-4aa1-85da-258c1454f7e3"
 					(reference "C35")
 					(unit 1)
 				)
@@ -4899,7 +5228,7 @@
 				)
 			)
 			(project "SupercapManager"
-				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/cf44cff7-953d-44e5-a075-e68fa0d90013"
+				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/25bdba42-617b-4aa1-85da-258c1454f7e3"
 					(reference "#PWR090")
 					(unit 1)
 				)
@@ -4932,7 +5261,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 85.09 184.15 0)
 			(effects
 				(font
@@ -4941,7 +5270,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_15-3461507.pdf"
 			(at 85.09 184.15 0)
 			(effects
 				(font
@@ -4951,6 +5280,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 85.09 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RT0603FRE133K6L"
 			(at 85.09 184.15 0)
 			(effects
 				(font
@@ -4973,7 +5311,7 @@
 				)
 			)
 			(project "SupercapManager"
-				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/cf44cff7-953d-44e5-a075-e68fa0d90013"
+				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/25bdba42-617b-4aa1-85da-258c1454f7e3"
 					(reference "R42")
 					(unit 1)
 				)
@@ -5045,7 +5383,7 @@
 				)
 			)
 			(project "SupercapManager"
-				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/cf44cff7-953d-44e5-a075-e68fa0d90013"
+				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/25bdba42-617b-4aa1-85da-258c1454f7e3"
 					(reference "#PWR0100")
 					(unit 1)
 				)
@@ -5080,7 +5418,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 99.06 91.44 0)
 			(effects
 				(font
@@ -5121,7 +5459,7 @@
 				)
 			)
 			(project "SupercapManager"
-				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/cf44cff7-953d-44e5-a075-e68fa0d90013"
+				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/25bdba42-617b-4aa1-85da-258c1454f7e3"
 					(reference "C29")
 					(unit 1)
 				)
@@ -5154,7 +5492,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 209.55 107.95 0)
 			(effects
 				(font
@@ -5163,7 +5501,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_15-3461507.pdf"
 			(at 209.55 107.95 0)
 			(effects
 				(font
@@ -5173,6 +5511,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 209.55 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RT0603FRE133K6L"
 			(at 209.55 107.95 0)
 			(effects
 				(font
@@ -5195,7 +5542,7 @@
 				)
 			)
 			(project "SupercapManager"
-				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/cf44cff7-953d-44e5-a075-e68fa0d90013"
+				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/25bdba42-617b-4aa1-85da-258c1454f7e3"
 					(reference "R37")
 					(unit 1)
 				)
@@ -5267,7 +5614,7 @@
 				)
 			)
 			(project "SupercapManager"
-				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/cf44cff7-953d-44e5-a075-e68fa0d90013"
+				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/25bdba42-617b-4aa1-85da-258c1454f7e3"
 					(reference "#PWR095")
 					(unit 1)
 				)
@@ -5339,7 +5686,7 @@
 				)
 			)
 			(project "SupercapManager"
-				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/cf44cff7-953d-44e5-a075-e68fa0d90013"
+				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/25bdba42-617b-4aa1-85da-258c1454f7e3"
 					(reference "#PWR082")
 					(unit 1)
 				)
@@ -5423,8 +5770,75 @@
 				)
 			)
 			(project "SupercapManager"
-				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/cf44cff7-953d-44e5-a075-e68fa0d90013"
+				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/25bdba42-617b-4aa1-85da-258c1454f7e3"
 					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 238.76 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3bf7282d-a55a-4c4d-8f1b-89d65ae4f723")
+		(property "Reference" "TP14"
+			(at 241.3 159.2579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "V_{E}"
+			(at 241.3 161.7979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.0mm_Drill0.7mm"
+			(at 243.84 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 238.76 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f988900-005d-4d36-b1b0-ef3cdc23fb27")
+		)
+		(instances
+			(project "Housekeeping Rev1"
+				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/25bdba42-617b-4aa1-85da-258c1454f7e3"
+					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -5507,7 +5921,7 @@
 				)
 			)
 			(project "SupercapManager"
-				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/cf44cff7-953d-44e5-a075-e68fa0d90013"
+				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/25bdba42-617b-4aa1-85da-258c1454f7e3"
 					(reference "C39")
 					(unit 1)
 				)
@@ -5591,7 +6005,7 @@
 				)
 			)
 			(project "SupercapManager"
-				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/cf44cff7-953d-44e5-a075-e68fa0d90013"
+				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/25bdba42-617b-4aa1-85da-258c1454f7e3"
 					(reference "D11")
 					(unit 1)
 				)
@@ -5663,7 +6077,7 @@
 				)
 			)
 			(project "SupercapManager"
-				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/cf44cff7-953d-44e5-a075-e68fa0d90013"
+				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/25bdba42-617b-4aa1-85da-258c1454f7e3"
 					(reference "#PWR093")
 					(unit 1)
 				)
@@ -5698,7 +6112,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "! Robomaster Passives:ASPIAIGS6055221MT"
 			(at 234.95 170.18 0)
 			(effects
 				(font
@@ -5707,7 +6121,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/3/ASPIAIG_S_series-1774797.pdf"
 			(at 234.95 170.18 0)
 			(effects
 				(font
@@ -5717,6 +6131,15 @@
 			)
 		)
 		(property "Description" "Inductor with iron core, small symbol"
+			(at 234.95 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "815-ASPIAIGS6055221T"
 			(at 234.95 170.18 0)
 			(effects
 				(font
@@ -5739,7 +6162,7 @@
 				)
 			)
 			(project "SupercapManager"
-				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/cf44cff7-953d-44e5-a075-e68fa0d90013"
+				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/25bdba42-617b-4aa1-85da-258c1454f7e3"
 					(reference "L6")
 					(unit 1)
 				)
@@ -5823,7 +6246,7 @@
 				)
 			)
 			(project "SupercapManager"
-				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/cf44cff7-953d-44e5-a075-e68fa0d90013"
+				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/25bdba42-617b-4aa1-85da-258c1454f7e3"
 					(reference "C38")
 					(unit 1)
 				)
@@ -5895,8 +6318,75 @@
 				)
 			)
 			(project "SupercapManager"
-				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/cf44cff7-953d-44e5-a075-e68fa0d90013"
+				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/25bdba42-617b-4aa1-85da-258c1454f7e3"
 					(reference "#PWR099")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 238.76 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "552b1c7a-30f1-4415-a1c3-86fb5a6a85ca")
+		(property "Reference" "TP12"
+			(at 241.3 83.0579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "V_{E}"
+			(at 241.3 85.5979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.0mm_Drill0.7mm"
+			(at 243.84 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 238.76 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8edacd69-d9fc-45e0-8099-228b184054f6")
+		)
+		(instances
+			(project "Housekeeping Rev1"
+				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/25bdba42-617b-4aa1-85da-258c1454f7e3"
+					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -5967,7 +6457,7 @@
 				)
 			)
 			(project "SupercapManager"
-				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/cf44cff7-953d-44e5-a075-e68fa0d90013"
+				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/25bdba42-617b-4aa1-85da-258c1454f7e3"
 					(reference "#PWR097")
 					(unit 1)
 				)
@@ -6078,8 +6568,142 @@
 				)
 			)
 			(project "SupercapManager"
-				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/cf44cff7-953d-44e5-a075-e68fa0d90013"
+				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/25bdba42-617b-4aa1-85da-258c1454f7e3"
 					(reference "C40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 96.52 74.93 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b0ffc62-3a22-46c5-9127-b5b1a89d235a")
+		(property "Reference" "TP9"
+			(at 101.6 73.6599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "V_{C}"
+			(at 101.6 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.0mm_Drill0.7mm"
+			(at 96.52 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 96.52 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "738cadd8-f2ec-4ed2-8b62-e0df0d60852a")
+		)
+		(instances
+			(project "Housekeeping Rev1"
+				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/25bdba42-617b-4aa1-85da-258c1454f7e3"
+					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 220.98 78.74 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5df01d71-6f53-45f8-b667-d67fafbf21e9")
+		(property "Reference" "TP11"
+			(at 226.06 77.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "V_{C}"
+			(at 226.06 80.0099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.0mm_Drill0.7mm"
+			(at 220.98 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 220.98 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 220.98 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "897acf14-ee12-4948-bfde-e0668c9a1f64")
+		)
+		(instances
+			(project "Housekeeping Rev1"
+				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/25bdba42-617b-4aa1-85da-258c1454f7e3"
+					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -6162,7 +6786,7 @@
 				)
 			)
 			(project "SupercapManager"
-				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/cf44cff7-953d-44e5-a075-e68fa0d90013"
+				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/25bdba42-617b-4aa1-85da-258c1454f7e3"
 					(reference "D10")
 					(unit 1)
 				)
@@ -6246,7 +6870,7 @@
 				)
 			)
 			(project "SupercapManager"
-				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/cf44cff7-953d-44e5-a075-e68fa0d90013"
+				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/25bdba42-617b-4aa1-85da-258c1454f7e3"
 					(reference "D13")
 					(unit 1)
 				)
@@ -6330,7 +6954,7 @@
 				)
 			)
 			(project "SupercapManager"
-				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/cf44cff7-953d-44e5-a075-e68fa0d90013"
+				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/25bdba42-617b-4aa1-85da-258c1454f7e3"
 					(reference "C33")
 					(unit 1)
 				)
@@ -6402,7 +7026,7 @@
 				)
 			)
 			(project "SupercapManager"
-				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/cf44cff7-953d-44e5-a075-e68fa0d90013"
+				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/25bdba42-617b-4aa1-85da-258c1454f7e3"
 					(reference "#PWR087")
 					(unit 1)
 				)
@@ -6474,7 +7098,7 @@
 				)
 			)
 			(project "SupercapManager"
-				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/cf44cff7-953d-44e5-a075-e68fa0d90013"
+				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/25bdba42-617b-4aa1-85da-258c1454f7e3"
 					(reference "#PWR096")
 					(unit 1)
 				)
@@ -6546,7 +7170,7 @@
 				)
 			)
 			(project "SupercapManager"
-				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/cf44cff7-953d-44e5-a075-e68fa0d90013"
+				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/25bdba42-617b-4aa1-85da-258c1454f7e3"
 					(reference "#PWR092")
 					(unit 1)
 				)
@@ -6581,7 +7205,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 195.58 189.23 0)
 			(effects
 				(font
@@ -6590,7 +7214,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_15-3461507.pdf"
 			(at 195.58 189.23 0)
 			(effects
 				(font
@@ -6600,6 +7224,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 195.58 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RT0603FRE133K6L"
 			(at 195.58 189.23 0)
 			(effects
 				(font
@@ -6622,7 +7255,7 @@
 				)
 			)
 			(project "SupercapManager"
-				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/cf44cff7-953d-44e5-a075-e68fa0d90013"
+				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/25bdba42-617b-4aa1-85da-258c1454f7e3"
 					(reference "R45")
 					(unit 1)
 				)
@@ -6706,8 +7339,75 @@
 				)
 			)
 			(project "SupercapManager"
-				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/cf44cff7-953d-44e5-a075-e68fa0d90013"
+				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/25bdba42-617b-4aa1-85da-258c1454f7e3"
 					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 114.3 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8092f067-142b-458a-906f-25159575077d")
+		(property "Reference" "TP8"
+			(at 116.84 159.2579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "V_{E}"
+			(at 116.84 161.7979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.0mm_Drill0.7mm"
+			(at 119.38 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 114.3 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab59883e-0b9c-4d96-aae4-29303df581c9")
+		)
+		(instances
+			(project "Housekeeping Rev1"
+				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/25bdba42-617b-4aa1-85da-258c1454f7e3"
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -6741,7 +7441,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "! Robomaster Passives:ASPIAIGS6055221MT"
 			(at 120.65 171.45 0)
 			(effects
 				(font
@@ -6750,7 +7450,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/3/ASPIAIG_S_series-1774797.pdf"
 			(at 120.65 171.45 0)
 			(effects
 				(font
@@ -6760,6 +7460,15 @@
 			)
 		)
 		(property "Description" "Inductor with iron core, small symbol"
+			(at 120.65 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "815-ASPIAIGS6055221T"
 			(at 120.65 171.45 0)
 			(effects
 				(font
@@ -6782,7 +7491,7 @@
 				)
 			)
 			(project ""
-				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/cf44cff7-953d-44e5-a075-e68fa0d90013"
+				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/25bdba42-617b-4aa1-85da-258c1454f7e3"
 					(reference "L7")
 					(unit 1)
 				)
@@ -6854,7 +7563,7 @@
 				)
 			)
 			(project "SupercapManager"
-				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/cf44cff7-953d-44e5-a075-e68fa0d90013"
+				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/25bdba42-617b-4aa1-85da-258c1454f7e3"
 					(reference "#PWR084")
 					(unit 1)
 				)
@@ -6926,7 +7635,7 @@
 				)
 			)
 			(project "SupercapManager"
-				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/cf44cff7-953d-44e5-a075-e68fa0d90013"
+				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/25bdba42-617b-4aa1-85da-258c1454f7e3"
 					(reference "#PWR083")
 					(unit 1)
 				)
@@ -6998,7 +7707,7 @@
 				)
 			)
 			(project "SupercapManager"
-				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/cf44cff7-953d-44e5-a075-e68fa0d90013"
+				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/25bdba42-617b-4aa1-85da-258c1454f7e3"
 					(reference "#PWR089")
 					(unit 1)
 				)
@@ -7082,7 +7791,7 @@
 				)
 			)
 			(project ""
-				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/cf44cff7-953d-44e5-a075-e68fa0d90013"
+				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/25bdba42-617b-4aa1-85da-258c1454f7e3"
 					(reference "D12")
 					(unit 1)
 				)
@@ -7117,7 +7826,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 71.12 189.23 0)
 			(effects
 				(font
@@ -7126,7 +7835,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_15-3461507.pdf"
 			(at 71.12 189.23 0)
 			(effects
 				(font
@@ -7136,6 +7845,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 71.12 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RT0603FRE071K2L"
 			(at 71.12 189.23 0)
 			(effects
 				(font
@@ -7158,7 +7876,7 @@
 				)
 			)
 			(project ""
-				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/cf44cff7-953d-44e5-a075-e68fa0d90013"
+				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/25bdba42-617b-4aa1-85da-258c1454f7e3"
 					(reference "R44")
 					(unit 1)
 				)
@@ -7242,7 +7960,7 @@
 				)
 			)
 			(project "SupercapManager"
-				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/cf44cff7-953d-44e5-a075-e68fa0d90013"
+				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/25bdba42-617b-4aa1-85da-258c1454f7e3"
 					(reference "C32")
 					(unit 1)
 				)
@@ -7275,7 +7993,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 209.55 184.15 0)
 			(effects
 				(font
@@ -7284,7 +8002,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.rohm.com/datasheet?p=ESR03EZPJ&dist=Mouser&media=referral&source=mouser.com&campaign=Mouser"
 			(at 209.55 184.15 0)
 			(effects
 				(font
@@ -7294,6 +8012,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 209.55 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "755-ESR03EZPJ222"
 			(at 209.55 184.15 0)
 			(effects
 				(font
@@ -7316,7 +8043,7 @@
 				)
 			)
 			(project "SupercapManager"
-				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/cf44cff7-953d-44e5-a075-e68fa0d90013"
+				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/25bdba42-617b-4aa1-85da-258c1454f7e3"
 					(reference "R43")
 					(unit 1)
 				)
@@ -7351,7 +8078,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 184.15 163.83 0)
 			(effects
 				(font
@@ -7360,7 +8087,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_RL_Group_521_RoHS_L_3-3447146.pdf"
 			(at 184.15 163.83 0)
 			(effects
 				(font
@@ -7370,6 +8097,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 184.15 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RL0603JR-070R24L"
 			(at 184.15 163.83 0)
 			(effects
 				(font
@@ -7392,7 +8128,7 @@
 				)
 			)
 			(project "SupercapManager"
-				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/cf44cff7-953d-44e5-a075-e68fa0d90013"
+				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/25bdba42-617b-4aa1-85da-258c1454f7e3"
 					(reference "R41")
 					(unit 1)
 				)
@@ -7464,7 +8200,7 @@
 				)
 			)
 			(project "SupercapManager"
-				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/cf44cff7-953d-44e5-a075-e68fa0d90013"
+				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/25bdba42-617b-4aa1-85da-258c1454f7e3"
 					(reference "#PWR0101")
 					(unit 1)
 				)
@@ -7592,7 +8328,7 @@
 				)
 			)
 			(project "SupercapManager"
-				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/cf44cff7-953d-44e5-a075-e68fa0d90013"
+				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/25bdba42-617b-4aa1-85da-258c1454f7e3"
 					(reference "U14")
 					(unit 1)
 				)
@@ -7664,7 +8400,7 @@
 				)
 			)
 			(project "SupercapManager"
-				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/cf44cff7-953d-44e5-a075-e68fa0d90013"
+				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/25bdba42-617b-4aa1-85da-258c1454f7e3"
 					(reference "#PWR091")
 					(unit 1)
 				)
@@ -7736,7 +8472,7 @@
 				)
 			)
 			(project "SupercapManager"
-				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/cf44cff7-953d-44e5-a075-e68fa0d90013"
+				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/25bdba42-617b-4aa1-85da-258c1454f7e3"
 					(reference "#PWR094")
 					(unit 1)
 				)
@@ -7771,7 +8507,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "! Robomaster Passives:ASPIAIGS6055221MT"
 			(at 120.65 91.44 0)
 			(effects
 				(font
@@ -7780,7 +8516,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/3/ASPIAIG_S_series-1774797.pdf"
 			(at 120.65 91.44 0)
 			(effects
 				(font
@@ -7790,6 +8526,15 @@
 			)
 		)
 		(property "Description" "Inductor with iron core, small symbol"
+			(at 120.65 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "815-ASPIAIGS6055221T"
 			(at 120.65 91.44 0)
 			(effects
 				(font
@@ -7812,7 +8557,7 @@
 				)
 			)
 			(project "SupercapManager"
-				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/cf44cff7-953d-44e5-a075-e68fa0d90013"
+				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/25bdba42-617b-4aa1-85da-258c1454f7e3"
 					(reference "L4")
 					(unit 1)
 				)
@@ -7884,7 +8629,7 @@
 				)
 			)
 			(project ""
-				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/cf44cff7-953d-44e5-a075-e68fa0d90013"
+				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/25bdba42-617b-4aa1-85da-258c1454f7e3"
 					(reference "#PWR098")
 					(unit 1)
 				)
@@ -7919,7 +8664,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 195.58 113.03 0)
 			(effects
 				(font
@@ -7928,7 +8673,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.rohm.com/datasheet?p=ESR03EZPJ&dist=Mouser&media=referral&source=mouser.com&campaign=Mouser"
 			(at 195.58 113.03 0)
 			(effects
 				(font
@@ -7938,6 +8683,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 195.58 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "755-ESR03EZPJ222"
 			(at 195.58 113.03 0)
 			(effects
 				(font
@@ -7960,7 +8714,7 @@
 				)
 			)
 			(project "SupercapManager"
-				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/cf44cff7-953d-44e5-a075-e68fa0d90013"
+				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/25bdba42-617b-4aa1-85da-258c1454f7e3"
 					(reference "R39")
 					(unit 1)
 				)
@@ -7995,7 +8749,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 59.69 163.83 0)
 			(effects
 				(font
@@ -8004,7 +8758,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDN0000/AOA0000C313.pdf"
 			(at 59.69 163.83 0)
 			(effects
 				(font
@@ -8014,6 +8768,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 59.69 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "667-ERJ-3RQFR33V"
 			(at 59.69 163.83 0)
 			(effects
 				(font
@@ -8036,7 +8799,7 @@
 				)
 			)
 			(project ""
-				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/cf44cff7-953d-44e5-a075-e68fa0d90013"
+				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/25bdba42-617b-4aa1-85da-258c1454f7e3"
 					(reference "R40")
 					(unit 1)
 				)
@@ -8108,7 +8871,7 @@
 				)
 			)
 			(project "SupercapManager"
-				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/cf44cff7-953d-44e5-a075-e68fa0d90013"
+				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/25bdba42-617b-4aa1-85da-258c1454f7e3"
 					(reference "#PWR088")
 					(unit 1)
 				)
@@ -8143,7 +8906,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 71.12 109.22 0)
 			(effects
 				(font
@@ -8152,7 +8915,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.rohm.com/datasheet?p=ESR03EZPJ&dist=Mouser&media=referral&source=mouser.com&campaign=Mouser"
 			(at 71.12 109.22 0)
 			(effects
 				(font
@@ -8162,6 +8925,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 71.12 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "755-ESR03EZPJ222"
 			(at 71.12 109.22 0)
 			(effects
 				(font
@@ -8184,7 +8956,7 @@
 				)
 			)
 			(project "SupercapManager"
-				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/cf44cff7-953d-44e5-a075-e68fa0d90013"
+				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/25bdba42-617b-4aa1-85da-258c1454f7e3"
 					(reference "R38")
 					(unit 1)
 				)
@@ -8312,7 +9084,7 @@
 				)
 			)
 			(project "SupercapManager"
-				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/cf44cff7-953d-44e5-a075-e68fa0d90013"
+				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/25bdba42-617b-4aa1-85da-258c1454f7e3"
 					(reference "U15")
 					(unit 1)
 				)
@@ -8347,7 +9119,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 223.52 95.25 0)
 			(effects
 				(font
@@ -8388,7 +9160,7 @@
 				)
 			)
 			(project "SupercapManager"
-				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/cf44cff7-953d-44e5-a075-e68fa0d90013"
+				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/25bdba42-617b-4aa1-85da-258c1454f7e3"
 					(reference "C31")
 					(unit 1)
 				)
@@ -8460,8 +9232,75 @@
 				)
 			)
 			(project "SupercapManager"
-				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/cf44cff7-953d-44e5-a075-e68fa0d90013"
+				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/25bdba42-617b-4aa1-85da-258c1454f7e3"
 					(reference "#PWR086")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 220.98 154.94 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6801eb6-9746-4806-84fe-e1d668a49431")
+		(property "Reference" "TP13"
+			(at 226.06 153.6699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "V_{C}"
+			(at 226.06 156.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.0mm_Drill0.7mm"
+			(at 220.98 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 220.98 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 220.98 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15315a17-6b23-46d3-9b85-5a4d2fb69c35")
+		)
+		(instances
+			(project "Housekeeping Rev1"
+				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/25bdba42-617b-4aa1-85da-258c1454f7e3"
+					(reference "TP13")
 					(unit 1)
 				)
 			)
@@ -8495,7 +9334,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "! Robomaster Passives:ASPIAIGS6055221MT"
 			(at 245.11 95.25 0)
 			(effects
 				(font
@@ -8504,7 +9343,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/3/ASPIAIG_S_series-1774797.pdf"
 			(at 245.11 95.25 0)
 			(effects
 				(font
@@ -8514,6 +9353,15 @@
 			)
 		)
 		(property "Description" "Inductor with iron core, small symbol"
+			(at 245.11 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "815-ASPIAIGS6055221T"
 			(at 245.11 95.25 0)
 			(effects
 				(font
@@ -8536,8 +9384,75 @@
 				)
 			)
 			(project "SupercapManager"
-				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/cf44cff7-953d-44e5-a075-e68fa0d90013"
+				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/25bdba42-617b-4aa1-85da-258c1454f7e3"
 					(reference "L5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 114.3 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fcc6f6c1-e559-4913-8878-daac6b5a0d71")
+		(property "Reference" "TP10"
+			(at 116.84 79.2479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "V_{E}"
+			(at 116.84 81.7879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.0mm_Drill0.7mm"
+			(at 119.38 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 114.3 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d2f175a-2e7c-42ab-ad31-090f082afccb")
+		)
+		(instances
+			(project "Housekeeping Rev1"
+				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/25bdba42-617b-4aa1-85da-258c1454f7e3"
+					(reference "TP10")
 					(unit 1)
 				)
 			)
