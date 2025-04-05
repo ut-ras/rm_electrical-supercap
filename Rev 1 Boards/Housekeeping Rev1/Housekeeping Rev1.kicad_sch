@@ -1172,16 +1172,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 69.85) (xy 147.32 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0679b510-a61e-4a13-bca2-ea058a83e86d")
-	)
-	(wire
-		(pts
 			(xy 151.13 76.2) (xy 147.32 76.2)
 		)
 		(stroke
@@ -1412,6 +1402,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 85.09) (xy 97.79 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec98379b-fbcf-4008-a14d-c65f110019e5")
+	)
+	(wire
+		(pts
 			(xy 196.85 102.87) (xy 193.04 102.87)
 		)
 		(stroke
@@ -1470,6 +1470,16 @@
 		)
 		(uuid "4fbdda80-ab7b-4d1a-844f-e36942ab0639")
 	)
+	(label "+24_{MiniPC}"
+		(at 96.52 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "59d8aa37-63f8-404d-9d49-cd684f331996")
+	)
 	(label "5VbR"
 		(at 191.77 100.33 0)
 		(effects
@@ -1490,16 +1500,15 @@
 		)
 		(uuid "97b8c755-3b50-4b03-bedb-07fed17e7787")
 	)
-	(hierarchical_label "+24_{MiniPC}"
-		(shape input)
-		(at 147.32 69.85 90)
+	(label "+24_{MiniPC}"
+		(at 147.32 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right bottom)
 		)
-		(uuid "34dd34d3-2199-4dc7-abcd-92440b8bddae")
+		(uuid "e65b38a2-e483-40ef-95e2-aaffa2fc8feb")
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
@@ -1663,7 +1672,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 187.96 102.108 90)
 			(effects
 				(font
@@ -1672,7 +1681,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
 			(at 187.96 100.33 0)
 			(effects
 				(font
@@ -1682,6 +1691,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 187.96 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-TNPW060350R0DEEA"
 			(at 187.96 100.33 0)
 			(effects
 				(font
@@ -1797,7 +1815,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 187.96 75.438 90)
 			(effects
 				(font
@@ -1806,7 +1824,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
 			(at 187.96 73.66 0)
 			(effects
 				(font
@@ -1816,6 +1834,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 187.96 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-TNPW060350R0DEEA"
 			(at 187.96 73.66 0)
 			(effects
 				(font
@@ -1867,7 +1894,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector:Banana_Jack_2Pin"
 			(at 246.38 100.33 0)
 			(effects
 				(font
@@ -2467,7 +2494,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 231.14 102.108 90)
 			(effects
 				(font
@@ -2476,7 +2503,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
 			(at 231.14 100.33 0)
 			(effects
 				(font
@@ -2486,6 +2513,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 231.14 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-TNPW060350R0DEEA"
 			(at 231.14 100.33 0)
 			(effects
 				(font
@@ -2669,7 +2705,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector:Banana_Jack_2Pin"
 			(at 201.93 100.33 0)
 			(effects
 				(font
@@ -2739,7 +2775,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector:Banana_Jack_2Pin"
 			(at 246.38 73.66 0)
 			(effects
 				(font
@@ -2809,7 +2845,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector:Banana_Jack_2Pin"
 			(at 201.93 73.66 0)
 			(effects
 				(font
@@ -2877,7 +2913,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 231.14 75.438 90)
 			(effects
 				(font
@@ -2886,7 +2922,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
 			(at 231.14 73.66 0)
 			(effects
 				(font
@@ -2896,6 +2932,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 231.14 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-TNPW060350R0DEEA"
 			(at 231.14 73.66 0)
 			(effects
 				(font
@@ -2921,7 +2966,7 @@
 	)
 	(sheet
 		(at 97.79 77.47)
-		(size 41.91 19.05)
+		(size 22.86 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2934,7 +2979,7 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "cf44cff7-953d-44e5-a075-e68fa0d90013")
+		(uuid "25bdba42-617b-4aa1-85da-258c1454f7e3")
 		(property "Sheetname" "Housekeeping Power Supplies"
 			(at 97.79 76.7584 0)
 			(effects
@@ -2945,12 +2990,22 @@
 			)
 		)
 		(property "Sheetfile" "../../housekeeping.kicad_sch"
-			(at 97.79 97.1046 0)
+			(at 97.79 93.2946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "+24_{MiniPC}" input
+			(at 97.79 85.09 180)
+			(uuid "1244b834-2fa0-40a4-81e9-d5bcfdd63783")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

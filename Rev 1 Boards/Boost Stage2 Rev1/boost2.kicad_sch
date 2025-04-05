@@ -2879,30 +2879,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 236.22 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 236.22 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 236.22 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "ff35dfd3-da7b-4516-9390-8e803aa197d2")
 		)
@@ -2910,6 +2886,12 @@
 			(uuid "1b122979-4cb9-4178-8ec7-500442f5008c")
 		)
 		(instances
+			(project "SupercapManager"
+				(path "/1b9401e8-fd27-4be8-b5df-9c0f9024bbc8/9a443f61-5193-497a-8ee4-36a902f0cb78"
+					(reference "Rfb1")
+					(unit 1)
+				)
+			)
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/47dffa6f-2678-4be2-969a-7f2e7310ccad"
 					(reference "Rfb1")
@@ -2976,30 +2958,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 201.93 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 201.93 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 201.93 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "bfabbee5-478c-4ebd-a118-831df8f03c39")
 		)
@@ -3007,6 +2965,12 @@
 			(uuid "eeebb09c-5625-4608-84e3-274d055cfcd5")
 		)
 		(instances
+			(project "SupercapManager"
+				(path "/1b9401e8-fd27-4be8-b5df-9c0f9024bbc8/9a443f61-5193-497a-8ee4-36a902f0cb78"
+					(reference "Csep1")
+					(unit 1)
+				)
+			)
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/47dffa6f-2678-4be2-969a-7f2e7310ccad"
 					(reference "Csep1")
@@ -3075,30 +3039,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 179.07 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 179.07 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 179.07 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "827aa5f7-e046-47cd-a174-b9d1b342e35c")
 		)
@@ -3106,6 +3046,12 @@
 			(uuid "b85c495d-7445-44c6-9220-0d15a69c59ea")
 		)
 		(instances
+			(project "SupercapManager"
+				(path "/1b9401e8-fd27-4be8-b5df-9c0f9024bbc8/9a443f61-5193-497a-8ee4-36a902f0cb78"
+					(reference "Cfilt1")
+					(unit 1)
+				)
+			)
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/47dffa6f-2678-4be2-969a-7f2e7310ccad"
 					(reference "Cfilt1")
@@ -3174,30 +3120,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 92.71 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 92.71 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 92.71 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "9254c25e-52e4-4b9e-8430-d23bc3a967d2")
 		)
@@ -3205,6 +3127,12 @@
 			(uuid "4952e3ee-0c62-45b2-bc33-1a03cecb1167")
 		)
 		(instances
+			(project "SupercapManager"
+				(path "/1b9401e8-fd27-4be8-b5df-9c0f9024bbc8/9a443f61-5193-497a-8ee4-36a902f0cb78"
+					(reference "Cbp1")
+					(unit 1)
+				)
+			)
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/47dffa6f-2678-4be2-969a-7f2e7310ccad"
 					(reference "Cbp1")
@@ -3273,30 +3201,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 86.36 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 86.36 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 86.36 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "ce357057-6abc-446f-bb7f-5fd687652d3f")
 		)
@@ -3304,6 +3208,12 @@
 			(uuid "af634a0e-8975-4146-96aa-21502dfbae8a")
 		)
 		(instances
+			(project "SupercapManager"
+				(path "/1b9401e8-fd27-4be8-b5df-9c0f9024bbc8/9a443f61-5193-497a-8ee4-36a902f0cb78"
+					(reference "Cin1")
+					(unit 1)
+				)
+			)
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/47dffa6f-2678-4be2-969a-7f2e7310ccad"
 					(reference "Cin1")
@@ -3373,30 +3283,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 102.87 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 102.87 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 102.87 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "173ca1b1-e0c4-4413-b2b6-792f1dbce891")
 		)
@@ -3404,6 +3290,12 @@
 			(uuid "a4655a7e-1441-4380-8be9-840775ce1351")
 		)
 		(instances
+			(project "SupercapManager"
+				(path "/1b9401e8-fd27-4be8-b5df-9c0f9024bbc8/9a443f61-5193-497a-8ee4-36a902f0cb78"
+					(reference "Ruvlo1")
+					(unit 1)
+				)
+			)
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/47dffa6f-2678-4be2-969a-7f2e7310ccad"
 					(reference "Ruvlo1")
@@ -3471,30 +3363,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 185.42 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 185.42 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 185.42 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "65b0d5ea-3050-4927-ad42-46fab833b3f2")
 		)
@@ -3502,6 +3370,12 @@
 			(uuid "9eef9017-f697-41c3-8dde-d8367df2f4bc")
 		)
 		(instances
+			(project "SupercapManager"
+				(path "/1b9401e8-fd27-4be8-b5df-9c0f9024bbc8/9a443f61-5193-497a-8ee4-36a902f0cb78"
+					(reference "Rfilt1")
+					(unit 1)
+				)
+			)
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/47dffa6f-2678-4be2-969a-7f2e7310ccad"
 					(reference "Rfilt1")
@@ -3621,30 +3495,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 232.41 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 232.41 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 232.41 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "7cc595f7-e28e-487f-bb9d-d646c2022892")
 		)
@@ -3652,6 +3502,12 @@
 			(uuid "47471965-7409-4cfc-8b27-8929c988b7a9")
 		)
 		(instances
+			(project "SupercapManager"
+				(path "/1b9401e8-fd27-4be8-b5df-9c0f9024bbc8/9a443f61-5193-497a-8ee4-36a902f0cb78"
+					(reference "D5")
+					(unit 1)
+				)
+			)
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/47dffa6f-2678-4be2-969a-7f2e7310ccad"
 					(reference "D5")
@@ -3725,6 +3581,12 @@
 		)
 		(instances
 			(project "SupercapManager"
+				(path "/1b9401e8-fd27-4be8-b5df-9c0f9024bbc8/9a443f61-5193-497a-8ee4-36a902f0cb78"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/47dffa6f-2678-4be2-969a-7f2e7310ccad"
 					(reference "#PWR052")
 					(unit 1)
@@ -3796,6 +3658,12 @@
 			(uuid "1c66089f-bf92-4a4a-99cc-e40eae9a8623")
 		)
 		(instances
+			(project "SupercapManager"
+				(path "/1b9401e8-fd27-4be8-b5df-9c0f9024bbc8/9a443f61-5193-497a-8ee4-36a902f0cb78"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/47dffa6f-2678-4be2-969a-7f2e7310ccad"
 					(reference "#PWR051")
@@ -3869,6 +3737,12 @@
 		)
 		(instances
 			(project "SupercapManager"
+				(path "/1b9401e8-fd27-4be8-b5df-9c0f9024bbc8/9a443f61-5193-497a-8ee4-36a902f0cb78"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/47dffa6f-2678-4be2-969a-7f2e7310ccad"
 					(reference "#PWR050")
 					(unit 1)
@@ -3936,30 +3810,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 170.18 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 170.18 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 170.18 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "8f2e2e12-b247-4ff2-a1d5-7ecdcaf60cfd")
 		)
@@ -3967,6 +3817,12 @@
 			(uuid "4de9eb23-d4a3-4a9c-acf4-57e2be42b231")
 		)
 		(instances
+			(project "SupercapManager"
+				(path "/1b9401e8-fd27-4be8-b5df-9c0f9024bbc8/9a443f61-5193-497a-8ee4-36a902f0cb78"
+					(reference "Ccc1")
+					(unit 1)
+				)
+			)
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/47dffa6f-2678-4be2-969a-7f2e7310ccad"
 					(reference "Ccc1")
@@ -4088,30 +3944,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 185.42 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 185.42 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 185.42 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "ada39192-5e8b-455b-bae4-3918d94a65b0")
 		)
@@ -4140,6 +3972,12 @@
 			(uuid "9154a77c-103d-4db8-8368-caae121a4d37")
 		)
 		(instances
+			(project "SupercapManager"
+				(path "/1b9401e8-fd27-4be8-b5df-9c0f9024bbc8/9a443f61-5193-497a-8ee4-36a902f0cb78"
+					(reference "IC1")
+					(unit 1)
+				)
+			)
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/47dffa6f-2678-4be2-969a-7f2e7310ccad"
 					(reference "IC1")
@@ -4261,30 +4099,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 130.81 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 130.81 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 130.81 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "5"
 			(uuid "c628c55a-2e3c-4047-9ae2-23072d5edeed")
 		)
@@ -4316,6 +4130,12 @@
 			(uuid "ea023efd-ff86-48e8-8569-977c1383f45e")
 		)
 		(instances
+			(project "SupercapManager"
+				(path "/1b9401e8-fd27-4be8-b5df-9c0f9024bbc8/9a443f61-5193-497a-8ee4-36a902f0cb78"
+					(reference "IC2")
+					(unit 1)
+				)
+			)
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/47dffa6f-2678-4be2-969a-7f2e7310ccad"
 					(reference "IC2")
@@ -4385,30 +4205,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 198.12 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 198.12 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 198.12 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "d9d7c3a5-958a-4cd0-896d-58c1fd65dc73")
 		)
@@ -4416,6 +4212,12 @@
 			(uuid "a26c75e1-b6c4-4db3-9a1b-554e42970ac7")
 		)
 		(instances
+			(project "SupercapManager"
+				(path "/1b9401e8-fd27-4be8-b5df-9c0f9024bbc8/9a443f61-5193-497a-8ee4-36a902f0cb78"
+					(reference "Rsense1")
+					(unit 1)
+				)
+			)
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/47dffa6f-2678-4be2-969a-7f2e7310ccad"
 					(reference "Rsense1")
@@ -4485,30 +4287,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 102.87 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 102.87 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 102.87 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "e8d33dd3-498d-494a-8655-882be5c363e8")
 		)
@@ -4516,6 +4294,12 @@
 			(uuid "2838f43e-1b2b-439f-9dc6-f4f4cfbb190e")
 		)
 		(instances
+			(project "SupercapManager"
+				(path "/1b9401e8-fd27-4be8-b5df-9c0f9024bbc8/9a443f61-5193-497a-8ee4-36a902f0cb78"
+					(reference "Ruvlo2")
+					(unit 1)
+				)
+			)
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/47dffa6f-2678-4be2-969a-7f2e7310ccad"
 					(reference "Ruvlo2")
@@ -4585,30 +4369,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 92.71 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 92.71 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 92.71 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "c34225c1-075a-4b7a-90e8-5e8584f1691e")
 		)
@@ -4616,6 +4376,12 @@
 			(uuid "ccc1bf96-5a56-47e4-abb6-b1a56147e108")
 		)
 		(instances
+			(project "SupercapManager"
+				(path "/1b9401e8-fd27-4be8-b5df-9c0f9024bbc8/9a443f61-5193-497a-8ee4-36a902f0cb78"
+					(reference "Rbp1")
+					(unit 1)
+				)
+			)
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/47dffa6f-2678-4be2-969a-7f2e7310ccad"
 					(reference "Rbp1")
@@ -4737,30 +4503,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 187.96 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 187.96 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 187.96 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "4"
 			(uuid "837c3a59-3541-4acf-a4ec-c3c056c66e82")
 		)
@@ -4774,6 +4516,12 @@
 			(uuid "5deed709-a8b7-40ef-b981-b8f2e3c35caf")
 		)
 		(instances
+			(project "SupercapManager"
+				(path "/1b9401e8-fd27-4be8-b5df-9c0f9024bbc8/9a443f61-5193-497a-8ee4-36a902f0cb78"
+					(reference "L3")
+					(unit 1)
+				)
+			)
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/47dffa6f-2678-4be2-969a-7f2e7310ccad"
 					(reference "L3")
@@ -4847,6 +4595,12 @@
 		)
 		(instances
 			(project "SupercapManager"
+				(path "/1b9401e8-fd27-4be8-b5df-9c0f9024bbc8/9a443f61-5193-497a-8ee4-36a902f0cb78"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/47dffa6f-2678-4be2-969a-7f2e7310ccad"
 					(reference "#PWR049")
 					(unit 1)
@@ -4915,30 +4669,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 127 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 127 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 127 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "246e680e-558a-4046-bb37-780d5c182996")
 		)
@@ -4946,6 +4676,12 @@
 			(uuid "e81612ba-78c2-45e7-bc77-b13bb30141ce")
 		)
 		(instances
+			(project "SupercapManager"
+				(path "/1b9401e8-fd27-4be8-b5df-9c0f9024bbc8/9a443f61-5193-497a-8ee4-36a902f0cb78"
+					(reference "Rcomp1")
+					(unit 1)
+				)
+			)
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/47dffa6f-2678-4be2-969a-7f2e7310ccad"
 					(reference "Rcomp1")
@@ -5014,30 +4750,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 127 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 127 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 127 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "70cb22a6-abee-432a-978e-bdffa33822ad")
 		)
@@ -5045,6 +4757,12 @@
 			(uuid "2e6fb36a-6bc1-40e4-9cfd-d834860bdb1d")
 		)
 		(instances
+			(project "SupercapManager"
+				(path "/1b9401e8-fd27-4be8-b5df-9c0f9024bbc8/9a443f61-5193-497a-8ee4-36a902f0cb78"
+					(reference "Ccomp2")
+					(unit 1)
+				)
+			)
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/47dffa6f-2678-4be2-969a-7f2e7310ccad"
 					(reference "Ccomp2")
@@ -5114,30 +4832,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 154.94 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 154.94 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 154.94 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "0b3d8554-dd7c-40a6-803d-2094f8801363")
 		)
@@ -5145,6 +4839,12 @@
 			(uuid "0a99570e-a7fe-4db7-855c-6269e05f8d2a")
 		)
 		(instances
+			(project "SupercapManager"
+				(path "/1b9401e8-fd27-4be8-b5df-9c0f9024bbc8/9a443f61-5193-497a-8ee4-36a902f0cb78"
+					(reference "Rfadj1")
+					(unit 1)
+				)
+			)
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/47dffa6f-2678-4be2-969a-7f2e7310ccad"
 					(reference "Rfadj1")
@@ -5214,30 +4914,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 236.22 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 236.22 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 236.22 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "5092c03b-a189-4434-9b7c-97dec2fdf5e2")
 		)
@@ -5245,6 +4921,12 @@
 			(uuid "f2fd0c72-deb3-4f48-8774-52704ff198aa")
 		)
 		(instances
+			(project "SupercapManager"
+				(path "/1b9401e8-fd27-4be8-b5df-9c0f9024bbc8/9a443f61-5193-497a-8ee4-36a902f0cb78"
+					(reference "Rfb2")
+					(unit 1)
+				)
+			)
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/47dffa6f-2678-4be2-969a-7f2e7310ccad"
 					(reference "Rfb2")
@@ -5313,30 +4995,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 114.3 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 114.3 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 114.3 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "dc524eb1-4a99-4f98-87b1-8a978b2a9442")
 		)
@@ -5344,6 +5002,12 @@
 			(uuid "7087ff35-888d-4a6a-926d-b8cfbedd040a")
 		)
 		(instances
+			(project "SupercapManager"
+				(path "/1b9401e8-fd27-4be8-b5df-9c0f9024bbc8/9a443f61-5193-497a-8ee4-36a902f0cb78"
+					(reference "Ccomp1")
+					(unit 1)
+				)
+			)
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/47dffa6f-2678-4be2-969a-7f2e7310ccad"
 					(reference "Ccomp1")
@@ -5413,30 +5077,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 255.27 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 255.27 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 255.27 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "ffeb06ac-9246-477c-869d-c63c042c9efb")
 		)
@@ -5444,6 +5084,12 @@
 			(uuid "76e1dc23-5527-4779-b6c5-39349b0ab375")
 		)
 		(instances
+			(project "SupercapManager"
+				(path "/1b9401e8-fd27-4be8-b5df-9c0f9024bbc8/9a443f61-5193-497a-8ee4-36a902f0cb78"
+					(reference "Cout1")
+					(unit 1)
+				)
+			)
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/47dffa6f-2678-4be2-969a-7f2e7310ccad"
 					(reference "Cout1")
@@ -5458,10 +5104,4 @@
 			)
 		)
 	)
-	(sheet_instances
-		(path "/"
-			(page "1")
-		)
-	)
-	(embedded_fonts no)
 )

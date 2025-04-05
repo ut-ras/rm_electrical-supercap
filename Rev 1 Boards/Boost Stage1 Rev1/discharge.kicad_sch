@@ -950,6 +950,12 @@
 					(unit 1)
 				)
 			)
+			(project "SupercapManager"
+				(path "/d73aae91-18b0-45ee-96d8-4882b1452ec2/4770ea8f-c135-4c57-a889-aa9fc6fff0a5"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1013,6 +1019,12 @@
 		(instances
 			(project ""
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/ed9bb12b-3108-48de-97f5-99577caac45c"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/d73aae91-18b0-45ee-96d8-4882b1452ec2/4770ea8f-c135-4c57-a889-aa9fc6fff0a5"
 					(reference "#PWR040")
 					(unit 1)
 				)
@@ -1085,30 +1097,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 139.7 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 139.7 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 139.7 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "a14c6336-4831-4108-aac3-2d8afa609fdb")
 		)
@@ -1127,6 +1115,12 @@
 		(instances
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/ed9bb12b-3108-48de-97f5-99577caac45c"
+					(reference "K1")
+					(unit 1)
+				)
+			)
+			(project "SupercapManager"
+				(path "/d73aae91-18b0-45ee-96d8-4882b1452ec2/4770ea8f-c135-4c57-a889-aa9fc6fff0a5"
 					(reference "K1")
 					(unit 1)
 				)
@@ -1196,30 +1190,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 134.62 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 134.62 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 134.62 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "950a541e-21a0-49c8-ba92-034cef5ff371")
 		)
@@ -1229,6 +1199,12 @@
 		(instances
 			(project ""
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/ed9bb12b-3108-48de-97f5-99577caac45c"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/d73aae91-18b0-45ee-96d8-4882b1452ec2/4770ea8f-c135-4c57-a889-aa9fc6fff0a5"
 					(reference "R22")
 					(unit 1)
 				)
@@ -1296,6 +1272,12 @@
 		(instances
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/ed9bb12b-3108-48de-97f5-99577caac45c"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+			(project "SupercapManager"
+				(path "/d73aae91-18b0-45ee-96d8-4882b1452ec2/4770ea8f-c135-4c57-a889-aa9fc6fff0a5"
 					(reference "#PWR041")
 					(unit 1)
 				)
