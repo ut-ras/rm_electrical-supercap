@@ -4915,6 +4915,166 @@
 		)
 		(uuid "fe8dba60-445d-4ab4-84b8-9f1922e06df5")
 	)
+	(label "3V3_COMP"
+		(at 72.39 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "09925cfd-d06a-4253-ad78-8e70503a6b65")
+	)
+	(label "3V3_CT"
+		(at 93.98 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1be0f14e-a483-4e65-8c49-e1487803f000")
+	)
+	(label "3V3A_COMP"
+		(at 196.85 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2735a006-ba35-4d97-813d-0dec51ab1d2d")
+	)
+	(label "-3V3_VC"
+		(at 185.42 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4ee3d1b2-10ba-4cc9-a1c4-aacccde0a4d5")
+	)
+	(label "5V_VC"
+		(at 60.96 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6a269549-3301-4c7f-bb7f-65f5b3ef208f")
+	)
+	(label "3V3A_VC"
+		(at 185.42 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "746cdb23-4336-4b6a-a028-01ad1b88b21b")
+	)
+	(label "-3V3_CT"
+		(at 218.44 167.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7b46dad4-2014-4746-a285-1aa29ccc44da")
+	)
+	(label "3V3_SW"
+		(at 93.98 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "84865c17-8999-44d1-818e-09e2d0e1321b")
+	)
+	(label "5V_SW"
+		(at 93.98 163.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8f5cb919-0432-46c1-9691-8cfbe3995569")
+	)
+	(label "-3V3_SW"
+		(at 218.44 163.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b641e3f8-cd79-4811-aee3-fc8e4ae61e66")
+	)
+	(label "5V_CT"
+		(at 93.98 167.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c749a924-1c36-4985-9365-46b824889078")
+	)
+	(label "3V3A_CT"
+		(at 218.44 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ca518295-feff-4092-bad1-bdd1d3dea371")
+	)
+	(label "3V3A_SW"
+		(at 218.44 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cb472c5b-e8ff-42d6-8a1f-86562650df2e")
+	)
+	(label "5V_COMP"
+		(at 72.39 184.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d6414652-8278-4042-aac8-4616bd0657a6")
+	)
+	(label "3V3_VC"
+		(at 62.23 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e7e74402-f34f-4594-a4ac-183920ae95a4")
+	)
+	(label "-3V3_COMP"
+		(at 196.85 184.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ebd1df8c-683a-4d65-a84b-2c1bb6b391ee")
+	)
 	(hierarchical_label "+24_{MiniPC}"
 		(shape input)
 		(at 52.07 167.64 180)
@@ -5020,6 +5180,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5995,6 +6156,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9226,6 +9388,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12097,6 +12260,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
