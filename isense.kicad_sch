@@ -4511,92 +4511,6 @@
 		)
 	)
 	(symbol
-		(lib_id "! Robomaster ICs:TS3902")
-		(at 251.46 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "20900de2-2264-4ef8-836a-41151c404175")
-		(property "Reference" "U1"
-			(at 251.46 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TS3702"
-			(at 251.46 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 251.46 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/389/ts3702-1852552.pdf"
-			(at 251.46 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Micropower dual CMOS voltage comparator"
-			(at 251.46 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "02449c3c-085b-4529-bf3a-6f5d59c3cc74")
-		)
-		(pin "6"
-			(uuid "9994681a-7079-4ee4-bb74-7fdb5b689684")
-		)
-		(pin "8"
-			(uuid "bbad6b6a-e125-4978-b7d6-77da67b38f7f")
-		)
-		(pin "5"
-			(uuid "2b2ea214-3144-447c-99b9-fdf51462fc6d")
-		)
-		(pin "1"
-			(uuid "0b887238-58ad-48c1-90bf-033a5eba7b75")
-		)
-		(pin "4"
-			(uuid "478bed56-919e-4ecf-925e-5636a3e37bfb")
-		)
-		(pin "7"
-			(uuid "51baec39-ec57-4bb4-99df-72fccd01d68b")
-		)
-		(pin "2"
-			(uuid "9cebc9b1-2f15-4e39-b318-7d4555f1bedb")
-		)
-		(instances
-			(project "Current Sense Rev1"
-				(path "/d149d1fa-5de7-4dc0-b1ef-e9c4223d2865/d74a941e-a2f2-4038-9bd8-2d6a304e330c"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDPWR")
 		(at 204.47 138.43 0)
 		(unit 1)
@@ -4804,6 +4718,92 @@
 			(project "Current Sense Rev1"
 				(path "/d149d1fa-5de7-4dc0-b1ef-e9c4223d2865/d74a941e-a2f2-4038-9bd8-2d6a304e330c"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "! Robomaster ICs:TS3902")
+		(at 251.46 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38e874b3-185e-41b6-8ff1-5e6402d9ce2c")
+		(property "Reference" "U1"
+			(at 251.46 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TS3702"
+			(at 251.46 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 251.46 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/389/ts3702-1852552.pdf"
+			(at 251.46 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Micropower dual CMOS voltage comparator"
+			(at 251.46 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "8d97af8f-fd7d-4433-be53-5e2a4ec4907e")
+		)
+		(pin "6"
+			(uuid "9994681a-7079-4ee4-bb74-7fdb5b689684")
+		)
+		(pin "8"
+			(uuid "bbad6b6a-e125-4978-b7d6-77da67b38f7f")
+		)
+		(pin "5"
+			(uuid "2b2ea214-3144-447c-99b9-fdf51462fc6d")
+		)
+		(pin "1"
+			(uuid "5819fc75-de8c-47df-9425-d55a1e2000e8")
+		)
+		(pin "4"
+			(uuid "478bed56-919e-4ecf-925e-5636a3e37bfb")
+		)
+		(pin "7"
+			(uuid "51baec39-ec57-4bb4-99df-72fccd01d68b")
+		)
+		(pin "2"
+			(uuid "d8f444da-322b-424e-a614-bd198d8b3419")
+		)
+		(instances
+			(project "Current Sense Rev1"
+				(path "/d149d1fa-5de7-4dc0-b1ef-e9c4223d2865/d74a941e-a2f2-4038-9bd8-2d6a304e330c"
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -6138,6 +6138,92 @@
 		)
 	)
 	(symbol
+		(lib_id "! Robomaster ICs:TS3902")
+		(at 251.46 102.87 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da14fffe-496b-4a62-8cd4-ddc2429ced6c")
+		(property "Reference" "U1"
+			(at 251.46 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TS3702"
+			(at 251.46 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 251.46 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/389/ts3702-1852552.pdf"
+			(at 251.46 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Micropower dual CMOS voltage comparator"
+			(at 251.46 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "feeaf02c-a97e-4c4b-b4a0-fb9288542b03")
+		)
+		(pin "6"
+			(uuid "87a816ec-8d6f-4309-bb27-1dfe70075228")
+		)
+		(pin "8"
+			(uuid "bbad6b6a-e125-4978-b7d6-77da67b38f81")
+		)
+		(pin "5"
+			(uuid "26e56956-9d2e-43a3-87eb-747a212ef392")
+		)
+		(pin "1"
+			(uuid "feeb6544-88c8-4fd7-9e6a-7c9d050abc39")
+		)
+		(pin "4"
+			(uuid "478bed56-919e-4ecf-925e-5636a3e37bfd")
+		)
+		(pin "7"
+			(uuid "82e8f92b-29e0-4fbc-af05-06ce42347561")
+		)
+		(pin "2"
+			(uuid "8edaf938-aa7c-4c79-8a78-d3d12c905525")
+		)
+		(instances
+			(project "Current Sense Rev1"
+				(path "/d149d1fa-5de7-4dc0-b1ef-e9c4223d2865/d74a941e-a2f2-4038-9bd8-2d6a304e330c"
+					(reference "U1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3VA")
 		(at 240.03 88.9 0)
 		(unit 1)
@@ -6284,92 +6370,6 @@
 				(path "/d149d1fa-5de7-4dc0-b1ef-e9c4223d2865/d74a941e-a2f2-4038-9bd8-2d6a304e330c"
 					(reference "U4")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "! Robomaster ICs:TS3902")
-		(at 251.46 45.72 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e6b8c892-c6c9-4d44-9b13-bc8d5dd784d4")
-		(property "Reference" "U1"
-			(at 251.46 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TS3702"
-			(at 251.46 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 251.46 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/389/ts3702-1852552.pdf"
-			(at 251.46 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Micropower dual CMOS voltage comparator"
-			(at 251.46 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "feeaf02c-a97e-4c4b-b4a0-fb9288542b03")
-		)
-		(pin "6"
-			(uuid "9994681a-7079-4ee4-bb74-7fdb5b689686")
-		)
-		(pin "8"
-			(uuid "bbad6b6a-e125-4978-b7d6-77da67b38f81")
-		)
-		(pin "5"
-			(uuid "2b2ea214-3144-447c-99b9-fdf51462fc6f")
-		)
-		(pin "1"
-			(uuid "feeb6544-88c8-4fd7-9e6a-7c9d050abc39")
-		)
-		(pin "4"
-			(uuid "478bed56-919e-4ecf-925e-5636a3e37bfd")
-		)
-		(pin "7"
-			(uuid "51baec39-ec57-4bb4-99df-72fccd01d68d")
-		)
-		(pin "2"
-			(uuid "8edaf938-aa7c-4c79-8a78-d3d12c905525")
-		)
-		(instances
-			(project "Current Sense Rev1"
-				(path "/d149d1fa-5de7-4dc0-b1ef-e9c4223d2865/d74a941e-a2f2-4038-9bd8-2d6a304e330c"
-					(reference "U1")
-					(unit 2)
 				)
 			)
 		)
