@@ -298,6 +298,16 @@
 		)
 		(uuid "e53940b2-a402-4a8a-a08f-7fa0b3cdd56e")
 	)
+	(wire
+		(pts
+			(xy 121.92 97.79) (xy 149.86 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e75f5d00-b747-4ec2-96d6-18b6a11d2e88")
+	)
 	(global_label "V_EXTRA"
 		(shape passive)
 		(at 104.14 68.58 270)
@@ -474,6 +484,28 @@
 			)
 		)
 	)
+	(global_label "GNDPWR"
+		(shape passive)
+		(at 149.86 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d0b691fc-9f26-40ff-9917-1ca37c75f14e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 140.1242 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 104.14 68.58 0)
@@ -484,7 +516,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04c2984d-eace-41ab-86ad-a9e660303963")
-		(property "Reference" "V_EXTRA_TP1"
+		(property "Reference" "SCHMITT_V_IN1"
 			(at 106.68 64.0079 0)
 			(effects
 				(font
@@ -535,7 +567,7 @@
 		(instances
 			(project "Current Sense Rev1"
 				(path "/d149d1fa-5de7-4dc0-b1ef-e9c4223d2865"
-					(reference "V_EXTRA_TP1")
+					(reference "SCHMITT_V_IN1")
 					(unit 1)
 				)
 			)
@@ -685,7 +717,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b13a079-1b41-493f-8347-a43cca311e50")
-		(property "Reference" "CURR_TP1"
+		(property "Reference" "ADC_CURR1"
 			(at 127 92.7099 90)
 			(effects
 				(font
@@ -736,7 +768,7 @@
 		(instances
 			(project "Current Sense Rev1"
 				(path "/d149d1fa-5de7-4dc0-b1ef-e9c4223d2865"
-					(reference "CURR_TP1")
+					(reference "ADC_CURR1")
 					(unit 1)
 				)
 			)
@@ -752,7 +784,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87d31233-86f8-457c-b92f-f811c05103d2")
-		(property "Reference" "CHARGING_TP1"
+		(property "Reference" "CHARGING_OUT1"
 			(at 127 87.6299 90)
 			(effects
 				(font
@@ -803,7 +835,77 @@
 		(instances
 			(project "Current Sense Rev1"
 				(path "/d149d1fa-5de7-4dc0-b1ef-e9c4223d2865"
-					(reference "CHARGING_TP1")
+					(reference "CHARGING_OUT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 154.94 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0a34d01-402b-4bb4-b49c-00e1c8c85e9b")
+		(property "Reference" "J3"
+			(at 156.21 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02_Socket"
+			(at 156.21 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector:Banana_Jack_2Pin"
+			(at 154.94 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 154.94 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "37cb7858-9575-427d-91fe-5bda1cd2898d")
+		)
+		(pin "1"
+			(uuid "7a7f4a89-14a1-45a0-888a-c85766eb2951")
+		)
+		(instances
+			(project "Current Sense Rev1"
+				(path "/d149d1fa-5de7-4dc0-b1ef-e9c4223d2865"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -886,7 +988,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6f0b715-6e64-4692-9040-f48204da01f4")
-		(property "Reference" "CURR_RAW_TP1"
+		(property "Reference" "CURR_RAW1"
 			(at 90.17 64.0079 0)
 			(effects
 				(font
@@ -937,7 +1039,7 @@
 		(instances
 			(project "Current Sense Rev1"
 				(path "/d149d1fa-5de7-4dc0-b1ef-e9c4223d2865"
-					(reference "CURR_RAW_TP1")
+					(reference "CURR_RAW1")
 					(unit 1)
 				)
 			)
@@ -1021,7 +1123,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d021cac3-c7a2-4507-9799-8f3d5e070bfa")
-		(property "Reference" "DIRECT_TP1"
+		(property "Reference" "DIRECT_OUT1"
 			(at 127 100.3299 90)
 			(effects
 				(font
@@ -1072,7 +1174,7 @@
 		(instances
 			(project "Current Sense Rev1"
 				(path "/d149d1fa-5de7-4dc0-b1ef-e9c4223d2865"
-					(reference "DIRECT_TP1")
+					(reference "DIRECT_OUT1")
 					(unit 1)
 				)
 			)
@@ -1156,7 +1258,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "edc13951-a058-455a-91e2-e884cb352b1a")
-		(property "Reference" "GNDPWR_TP1"
+		(property "Reference" "GNDPWR1"
 			(at 76.2 64.0079 0)
 			(effects
 				(font
@@ -1207,74 +1309,7 @@
 		(instances
 			(project "Current Sense Rev1"
 				(path "/d149d1fa-5de7-4dc0-b1ef-e9c4223d2865"
-					(reference "GNDPWR_TP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 121.92 97.79 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fb2e8554-8368-4700-883b-6ea6d617799a")
-		(property "Reference" "PWR_{OUT}_TP1"
-			(at 127 96.5199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 127 99.0599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose"
-			(at 121.92 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 121.92 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 121.92 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7f272f81-dfcf-4582-8876-1765d6fcdf2c")
-		)
-		(instances
-			(project "Current Sense Rev1"
-				(path "/d149d1fa-5de7-4dc0-b1ef-e9c4223d2865"
-					(reference "PWR_{OUT}_TP1")
+					(reference "GNDPWR1")
 					(unit 1)
 				)
 			)
