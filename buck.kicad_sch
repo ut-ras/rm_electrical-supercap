@@ -4670,16 +4670,6 @@
 		)
 		(uuid "de5c1806-3c40-4d42-82c3-7e7229661a42")
 	)
-	(label "out"
-		(at 236.855 69.85 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ea01309a-0a61-4c85-89f2-d00f5f87744d")
-	)
 	(label "~{PG}_D"
 		(at 36.83 121.92 0)
 		(effects
@@ -5683,7 +5673,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 151.13 69.85 0)
 			(effects
 				(font
@@ -5732,6 +5722,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Mouser #" ""
+			(at 151.13 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" ""
+			(at 151.13 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB #" ""
+			(at 151.13 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
