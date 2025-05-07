@@ -1,0 +1,970 @@
+*$
+* TPS43061
+*****************************************************************************
+* (C) Copyright 2012 Texas Instruments Incorporated. All rights reserved.                                            
+*****************************************************************************
+** This model is designed as an aid for customers of Texas Instruments.
+** TI and its licensors and suppliers make no warranties, either expressed
+** or implied, with respect to this model, including the warranties of 
+** merchantability or fitness for a particular purpose.  The model is
+** provided solely on an "as is" basis.  The entire risk as to its quality
+** and performance is with the customer
+*****************************************************************************
+*
+* This model is subject to change without notice. Texas Instruments
+* Incorporated is not responsible for updating this model.
+*
+*****************************************************************************
+*
+** Released by: WEBENCH Design Center, Texas Instruments Inc.
+* Part: TPS43061
+* Date: 16NOV2012
+* Model Type: TRANSIENT
+* Simulator: PSPICE
+* Simulator Version: 16.2.0.p001
+* EVM Order Number: TPS43061EVM-198
+* EVM Users Guide: SLVU799–November 2012
+* Datasheet: 
+*
+* Model Version: Final 1.00
+*
+*****************************************************************************
+*
+* Updates:
+*
+* Final 1.00
+* Release to Web.
+*
+*****************************************************************************
+.SUBCKT TPS43061_TRANS AGND BOOT COMP EN FB HDRV ISNSN ISNSP LDRV PGND PGOOD
++  PWPD RT_CLK SS SW VCC VIN  
+E_ABM16         OVP 0 VALUE { IF(V(FB)>1.322,1,0)    }
+R_R11         N221992 N222430 R_R11 10k TC=0,0 
+.model        R_R11 RES R=1 DEV=15%
+X_U35         N86008 PWMOK N87095 OVP N233062 NOR4_BASIC1V
+C_COSC         0 RMP  9.043p  TC=0,0 
+V_V13         N662486 0 1
+X_U12         N74211 EN d_d1 PARAMS:
+X_U9         CLK_SYNC N16800609 AND_OUT AND2_BASIC_GEN PARAMS: VDD=1 VSS=0
++  VTHRESH=500E-3
+X_U13         N74211 N70705 d_d1 PARAMS:
+E_ABM1         VREFI 0 VALUE { IF(V(SS)<1.22,V(SS),1.23)    }
+G_GEA1         VIN 0 ENI 0 500u
+X_U30         N169627 LSOFF INV_BASIC1V
+I_I1         0 SS DC 6u  
+C_CSYNC1         0 N221992  1p  TC=0,0 
+C_CSYNC         0 SYNC  4p  TC=0,0 
+E_DIFF4         N40278 0 VALUE {V(ISNSP,ISNSN)}
+G_GSNSP         ISNSP 0 ENI 0 45u
+E_U7         PWMOK 0 VALUE {LIMIT(V(N34828,N35569)*1E6,0,1)} _U7 N34828 N35569
++  1G
+
+X_U47         LDRV VCC d_d1 PARAMS:
+E_ABM14         N140118 0 VALUE { IF(V(ENI)>0.5,2.125,3.3)    }
+V_V9         N38710 0 3.75m
+R_R12         N241555 RT_CLK R_R12 75k TC=0,0 
+.model        R_R12 RES R=1 DEV=15%
+X_S10    SYNCI 0 N343790 SLP TPS43061_TOPLEVEL_S10 
+X_U6         N29782 CLK BUF_DELAY_BASIC1V PARAMS: DELAY=10N
+X_U39         N283683 N247956 N320210 AND2_BASIC1V
+E_U5         N22414 0 VALUE {LIMIT(V(N24138,RMP)*1E6,0,1)} _U5 N24138 RMP 1G
+
+R_R15         N324370 MXDC_SYNC R_R15 1000k TC=0,0 
+.model        R_R15 RES R=1 DEV=15%
+R_R14         N309663 MXDC_SYNC R_R14 2.5k TC=0,0 
+.model        R_R14 RES R=1 DEV=15%
+C_COEA         0 COMP  20p  TC=0,0 
+X_U58         SYNCI SYNCI_INV INV_BASIC1V
+R_R7         PGND 0 R_R7 1m TC=0,0 
+.model        R_R7 RES R=1 DEV=15%
+E_ABM4         N376805 0 VALUE { IF(V(FB)<1.22*0.9 | V(FB)>1.1*1.22,0,1)    }
+V_V10         N64753 0 3.3
+X_U54         N16800528 N16800534 d_d PARAMS:
+C_CFILT3         0 N241555  1p  TC=0,0 
+X_U28         N154194 N169627 INV_BASIC1V
+X_U37         MAXDC MXDC_SYNC SYNCI N87095 MUX2_BASIC1V
+C_CFILT5         0 N324370  4p  TC=0,0 
+E_ABM5         N29782 0 VALUE { IF(V(RMP)<0.03,1,0)    }
+E_U8         ZX 0 VALUE {LIMIT(V(N38710,N40278)*1E6,0,1)} _U8 N38710 N40278 1G
+
+C_CFILT6         0 RMP_SYNC  105p  TC=0,0 
+X_U15         N106678 BOOT d_d1 PARAMS:
+X_U24         Q N118443 ZX V1V N90308 V1V DFFSBRB_RHPBASIC1V
+R_ROEA         0 COMP R_ROEA 10MEG TC=0,0 
+.model        R_ROEA RES R=1 DEV=15%
+G_G4         0 RMP_SYNC N324370 0 0.369m
+E_E1         N34733 0 SPV 0 0.075
+G_GEA         0 N01137 VREFI FBI 1.1m
+X_S11    SYNCI 0 N343790 N347980 TPS43061_TOPLEVEL_S11 
+E_ABM8         N51957 0 VALUE { IF(V(ENI)>0.5,0,1)    }
+X_S2    N380010 0 PGOOD 0 TPS43061_TOPLEVEL_S2 
+X_U23         MXDC_SYNC N283683 INV_BASIC1V
+X_S5    HSO 0 BOOT HDRV TPS43061_TOPLEVEL_S5 
+X_U33         LSON N90308 INV_BASIC1V
+E_DIFF3         N35569 0 VALUE {V(ISNSN,N35279)}
+X_U25         RT_CLK N315819 INV_BASIC1V
+R_Rvcc         VCC N106678 R_Rvcc 1 TC=0,0 
+.model        R_Rvcc RES R=1 DEV=15%
+E_ABM17         SYNCI_OLD 0 VALUE { IF(V(SYNC)>0.6,1,0)    }
+E_E4         N16800528 0 AND_OUT 0 1
+X_U10         N66939 EN d_d1 PARAMS:
+X_S12    LSOFF 0 N452477 0 TPS43061_TOPLEVEL_S12 
+G_GSNSM         ISNSN 0 ENI 0 70u
+E_ABM62         ENI 0 VALUE { if(V(EN_OK)>0.5 & V(VIN_UVLO)>0.5, 1, 0)     }
+E_E3         N347980 0 RMP_SYNC 0 1
+R_R17         VIN_UVLO 0 R_R17 10k TC=0,0 
+.model        R_R17 RES R=1 DEV=15%
+E_ABM18         N376275 0 VALUE { IF(V(FB)>1.22*0.92 & V(FB)<1.08*1.22,0,1)   
++  }
+X_S3    N51957 0 COMP 0 TPS43061_TOPLEVEL_S3 
+R_R10         N89609 LSON R_R10 100k TC=0,0 
+.model        R_R10 RES R=1 DEV=15%
+R_R6         AGND 0 R_R6 1m TC=0,0 
+.model        R_R6 RES R=1 DEV=15%
+X_U29         N163042 N170009 INV_BASIC1V
+X_S6    HSO 0 HDRV SW TPS43061_TOPLEVEL_S6 
+G_G2         0 COMP N01594 0 1
+X_U14         LSON LSOFF N257483 V1V N233062 V1V DFFSBRB_RHPBASIC1V
+R_Rreset         N343790 N452477 R_Rreset 10 TC=0,0 
+.model        R_Rreset RES R=1 DEV=15%
+X_U31         N170009 HSOFF INV_BASIC1V
+X_U57         RMPRESET SYNCI N17772 OR2_BASIC1V
+X_S7    LSO 0 VCC LDRV TPS43061_TOPLEVEL_S7 
+C_CFILT2         0 N89609  1p  TC=0,0 
+G_GSNSP1         ISNSP 0 SPV 0 25u
+R_R5         SYNC RT_CLK R_R5 1000k TC=0,0 
+.model        R_R5 RES R=1 DEV=15%
+R_R16         PWPD 0 R_R16 1m TC=0,0 
+.model        R_R16 RES R=1 DEV=15%
+X_U42         MXDC_SYNC N369594 N366597 OR2_BASIC1V
+R_R9         N163042 N164374 R_R9 35k TC=0,0 
+.model        R_R9 RES R=1 DEV=15%
+X_U50         SS N64753 d_d PARAMS:
+X_U36         CLK CLK_SYNC SYNCI N257483 MUX2_BASIC1V
+R_R8         N154194 N110360 R_R8 50k TC=0,0 
+.model        R_R8 RES R=1 DEV=15%
+E_ABM9         N52919 0 VALUE { IF(V(ENI)>0.5,0,1)    }
+X_U22         XDX N380010 0 0 N376805 N376275 DFFSBRB_RHPBASIC1V
+R_R1         0 N01137 R_R1 1 TC=0,0 
+.model        R_R1 RES R=1 DEV=15%
+X_U53         RMP N168114250 d_d PARAMS:
+C_CFILT1         0 N163042  1p  TC=0,0 
+X_U21         N222430 RMPQB RMPRESET 0 SYNCI_INV N22414 DFFSBRB_RHPBASIC1V
+X_S1    N17772 0 RMP 0 TPS43061_TOPLEVEL_S1 
+E_ABM12         N110360 0 VALUE { IF(V(LDRV)>0.25,0,1)    }
+C_CFILT         0 N154194  1p  TC=0,0 
+X_S8    LSO 0 LDRV PGND TPS43061_TOPLEVEL_S8 
+E_ABM15         N134304 0 VALUE { IF(V(ENI)>0.5,0.7,0)    }
+E_DIFF1         N33298 0 VALUE {V(COMP,N452477)}
+E_ABM7         SLP 0 VALUE { IF(V(RMP)<0.96, (0.335*V(RMP)), 0)    }
+R_R18         N16800534 N16800528 R_R18 4.91 TC=0,0 
+.model        R_R18 RES R=1 DEV=15%
+E_E2         HDRVL 0 HDRV SW 1
+X_S4    N52919 0 SS 0 TPS43061_TOPLEVEL_S4 
+V_V7         N24138 0 1
+X_U16         N320210 CLK_SYNC BUF_DELAY_BASIC1V PARAMS: DELAY=10N
+X_U40         N309663 N247956 d_d PARAMS:
+R_R13         N247956 MXDC_SYNC R_R13 75k TC=0,0 
+.model        R_R13 RES R=1 DEV=15%
+E_DIFF2         N34828 0 VALUE {V(ISNSP,N34733)}
+X_U11         N66939 N70705 d_d1 PARAMS:
+E_ABM10         EN_OK 0 VALUE { IF(V(EN)>1.2,1,0)    }
+X_U48         N134304 COMP d_d PARAMS:
+E_ABM2         FBI 0 VALUE { IF(V(FB)<0.1,(1.15*V(FB)-15m),V(FB))    }
+X_U19         ENI LSOFF N90308 N114161 AND3_BASIC1V
+E_LIMIT3         SPV 0 VALUE {LIMIT(V(N33298),0,2)}
+V_V11         N70705 0 4
+R_R4         N03382 RT_CLK R_R4 100 TC=0,0 
+.model        R_R4 RES R=1 DEV=15%
+C_CFILT7         0 N16800534  1u  TC=0,0 
+X_U34         N221992 RMPQB RMPRESET NOR2_BASIC1V
+X_U43         SYNCI N369594 INV_BASIC1V
+X_U49         COMP N140118 d_d PARAMS:
+C_CFILT4         0 N247956  0.75p  TC=0,0 
+X_U32         ZX N186565 INV_BASIC1V
+G_G3         0 N74211 ENI 0 3.2u
+X_F1    N03473 N03382 0 RMP TPS43061_TOPLEVEL_F1 
+X_S13    VIN 0 N662486 VIN_UVLO TPS43061_TOPLEVEL_S13 
+E_ABM3         N03473 0 VALUE { IF(V(ENI)>0.5,0.52,0)    }
+X_U45         SW HDRV d_d1 PARAMS:
+X_U26         N16800593 N16800609 BUF_DELAY_BASIC1V PARAMS: DELAY=10n
+X_U18         LSON N89609 LSO AND2_BASIC1V
+V_V8         N35279 0 75m
+E_ABM11         N106678 0 VALUE { IF(V(ENI)>0.5,5.5,0)    }
+X_U55         0 N16800534 SYNCI OR2_BASIC1V
+X_U46         HDRV BOOT d_d1 PARAMS:
+X_U20         N186565 N118443 N114161 HSO AND3_BASIC1V
+V_V12         V1V 0 1
+I_I2         0 N66939 DC 1.8u  
+E_ABM13         N164374 0 VALUE { IF(V(HDRVL)>0.25,0,1)    }
+X_U44         PGND LDRV d_d1 PARAMS:
+X_U41         N315819 N241555 MXDC_SYNC AND2_BASIC1V
+V_V14         N168114250 0 1.2
+X_S9    N366597 0 RMP_SYNC 0 TPS43061_TOPLEVEL_S9 
+X_U52         CLK_SYNC N16800593 INV_BASIC1V
+E_LIMIT1         N01594 0 VALUE {LIMIT(V(N01137),-150u,150u)}
+X_U17         ENI N86008 INV_BASIC1V
+E_ABM6         MAXDC 0 VALUE { IF(V(RMP)>0.95,1,0)    }
+.ENDS TPS43061_TRANS
+*$
+.subckt TPS43061_TOPLEVEL_S10 1 2 3 4  
+S_S10         3 4 1 2 _S10
+RS_S10         1 2 1G
+.MODEL         _S10 VSWITCH Roff=1 Ron=100e6 Voff=0.4 Von=0.6
+.ends TPS43061_TOPLEVEL_S10
+*$
+.subckt TPS43061_TOPLEVEL_S11 1 2 3 4  
+S_S11         3 4 1 2 _S11
+RS_S11         1 2 1G
+.MODEL         _S11 VSWITCH Roff=100e6 Ron=1 Voff=0.4 Von=0.6
+.ends TPS43061_TOPLEVEL_S11
+*$
+.subckt TPS43061_TOPLEVEL_S2 1 2 3 4  
+S_S2         3 4 1 2 _S2
+RS_S2         1 2 1G
+.MODEL         _S2 VSWITCH Roff=100e6 Ron=100 Voff=0.4 Von=0.6
+.ends TPS43061_TOPLEVEL_S2
+*$
+.subckt TPS43061_TOPLEVEL_S5 1 2 3 4  
+S_S5         3 4 1 2 _S5
+RS_S5         1 2 1G
+.MODEL         _S5 VSWITCH Roff=100e6 Ron=5 Voff=0.49 Von=0.51
+.ends TPS43061_TOPLEVEL_S5
+*$
+.subckt TPS43061_TOPLEVEL_S12 1 2 3 4  
+S_S12         3 4 1 2 _S12
+RS_S12         1 2 1G
+.MODEL         _S12 VSWITCH Roff=100e6 Ron=1m Voff=0.4 Von=0.6
+.ends TPS43061_TOPLEVEL_S12
+*$
+.subckt TPS43061_TOPLEVEL_S3 1 2 3 4  
+S_S3         3 4 1 2 _S3
+RS_S3         1 2 1G
+.MODEL         _S3 VSWITCH Roff=100e6 Ron=3k Voff=0.4 Von=0.6
+.ends TPS43061_TOPLEVEL_S3
+*$
+.subckt TPS43061_TOPLEVEL_S6 1 2 3 4  
+S_S6         3 4 1 2 _S6
+RS_S6         1 2 1G
+.MODEL         _S6 VSWITCH Roff=3 Ron=100e6 Voff=0.49 Von=0.51
+.ends TPS43061_TOPLEVEL_S6
+*$
+.subckt TPS43061_TOPLEVEL_S7 1 2 3 4  
+S_S7         3 4 1 2 _S7
+RS_S7         1 2 1G
+.MODEL         _S7 VSWITCH Roff=100e6 Ron=5 Voff=0.49 Von=0.51
+.ends TPS43061_TOPLEVEL_S7
+*$
+.subckt TPS43061_TOPLEVEL_S1 1 2 3 4  
+S_S1         3 4 1 2 _S1
+RS_S1         1 2 1G
+.MODEL         _S1 VSWITCH Roff=100e6 Ron=1 Voff=0.1 Von=0.95
+.ends TPS43061_TOPLEVEL_S1
+*$
+.subckt TPS43061_TOPLEVEL_S8 1 2 3 4  
+S_S8         3 4 1 2 _S8
+RS_S8         1 2 1G
+.MODEL         _S8 VSWITCH Roff=3 Ron=100e6 Voff=0.49 Von=0.51
+.ends TPS43061_TOPLEVEL_S8
+*$
+.subckt TPS43061_TOPLEVEL_S4 1 2 3 4  
+S_S4         3 4 1 2 _S4
+RS_S4         1 2 1G
+.MODEL         _S4 VSWITCH Roff=100e6 Ron=250 Voff=0.4 Von=0.6
+.ends TPS43061_TOPLEVEL_S4
+*$
+.subckt TPS43061_TOPLEVEL_F1 1 2 3 4  
+F_F1         3 4 VF_F1 1
+VF_F1         1 2 0V
+.ends TPS43061_TOPLEVEL_F1
+*$
+.subckt TPS43061_TOPLEVEL_S13 1 2 3 4  
+S_S13         3 4 1 2 _S13
+RS_S13         1 2 1G
+.MODEL         _S13 VSWITCH Roff=1e6 Ron=1.0 VH=0.1V VT=4.0V TD=0
+.ends TPS43061_TOPLEVEL_S13
+*$
+.subckt TPS43061_TOPLEVEL_S9 1 2 3 4  
+S_S9         3 4 1 2 _S9
+RS_S9         1 2 1G
+.MODEL         _S9 VSWITCH Roff=100e6 Ron=1 Voff=0.4 Von=0.6
+.ends TPS43061_TOPLEVEL_S9
+*$
+
+** Wrapper definitions for AA legacy support **
+
+.subckt d_d1 1 2
+
+d1 1 2 dd1
+
+.model dd1 d
++ is=1e-015
++ tt=1e-011
++ rs=0.05
++ n=0.1
+
+.ends d_d1
+
+.subckt d_d 1 2
+
+d1 1 2 dd
+
+.model dd d
++ is=1e-015
++ n=0.01
++ tt=1e-011
+
+.ends d_d
+
+*$
+.SUBCKT csd86330q3d  1 2 3 4 5 6 7 8 9
+*
+XnfetHS  18  17  19  n36307
+XnfetLS  19  16  15  n36306
+RGls      5  10      10e-3
+RGhs      3  11      14e-3
+RDhs      1  12      1.1e-3
+RDhs2     2  12      1.1e-3
+RGlr      4  13      10e-3
+Rpsn      8  14      0.95e-3
+Rpsn2     7  14      0.95e-3
+Rpsn3     6  14      0.95e-3
+RSls      9  15      0.001e-3
+LGls     10  16      0.61e-9
+LGhs     11  17      0.99e-9
+LDhs     12  18      0.45e-9
+RLDhs    12  18      1
+LGlr     13  19      0.61e-9
+Lpsn     14  19      0.35e-9
+.ENDS csd86330q3d
+**********************************************************************
+**********************************************************************
+*                                                                    *
+*   n36306   -  PSpice Model                                         *
+*                                                                    *
+*   n36306 is the LS silicon die model for use with 86330q3d         *
+*                                                                    *
+**********************************************************************
+**********************************************************************
+* SUBCKT Definition:  1=D  2=G  3=S
+**********************************************************************
+.SUBCKT n36306  1 2 3
+* PARAMETER (local) DEFINITIONS SECTION
+.PARAM  pWidth  1.64239
+.PARAM  pLen    0.56u
+.PARAM  perim   {2.1*pWidth}
+.PARAM  ptrc1   2.6e-3		; temp co of ext Rd / Rs
+.PARAM  ptrc2   1.7e-6
+****** MODEL SUBCIRCUIT BEGINS HERE     ******************************
+M1   10 11 12 12  NMOS	W={pWidth} L={pLen} PS={perim} PD={perim}
+DBD   3  1	 DBD
+CBD0  3  1   148e-12
+RBD0  3  1   9e9
+CGD0  2 13	 2E-12
+RGD  13  1   2e6
+CGS0  2  3	 4e-12
+M2   12 11 12 20  PMOSd W={pWidth} L=0.118u PS={perim} PD={perim}
+RDx  20 12   1e14
+CDx  20 12   2p
+DDx  20 10   DD
+RGG   2 11	 1.23
+RSB  12  9	 RTEMP 0.40e-3
+RSS   9  3 	 RTEMP 1.49e-3
+RDD   1 10 	 RTEMP 0.75e-3
+******************************************************************* 
+.MODEL  NMOS   NMOS (    LEVEL  = 7             Version = 3.2  
++ TNOM   = 27            LINT   = 0.095e-6      CAPMOD = 2
++ TOX    = 1.75e-8       NCH    = 2.085e17      NSUB   = 1.5e16
++ AGS    = 0.0           PVAG   = 0.0           U0     = 620
++ A0     = 1.00          A1     = 0.0           A2     = 1.0
++ UA     = 3.4e-9        UB     = 1.1e-18       VBM    = -10
++ UA1    = 1.0e-9        UB1    = -1.5e-18      UTE    = -1.50
++ KT1    = -0.61         KT2    = 0.022         KT1L   = 1.0e-15
++ DVT0   = 2.2           DVT1   = 0.53	      DVT2   = -0.033
++ ETA0   = 0.020         ETAB   = -0.07         XJ     = 4e-7
++ PDIBLC1= 0.05          PDIBLC2= 0.005         NLX    = 1.75e-7
++ PSCBE1 = 7.0e8         PSCBE2 = 2e-7          PCLM   = 1.6
++ VOFF   = -0.150        NFACTOR= 1.40          JS     = 0
++ DROUT  = 0.9           DSUB   = 1.3           DELTA  = 0.045
++ CJ     = 1e-18         CJSW   = 1e-18         CF     = 0
++ CGSO   = 271e-12       CGDO   = 0.1e-12       CGBO   = 1e-18  )
+******************************************************************* 
+.MODEL  PMOSd   PMOS (   LEVEL  = 1
++ TNOM   = 27            VTO    = -0.90         IS     = 1e-14
++ TOX    = 1.75e-8       NSUB   = 6.0e18	  
++ CJ     = 1e-18         CJSW   = 1e-18
++ CGSO   = 1e-18         CGDO   = 1e-18         CGBO   = 1e-18  )
+******************************************************************* 
+.MODEL DBD D (CJO=1.39e-9 VJ=0.70 M=0.35 TNOM=27 FC=0.5 TT=1e-09 
++ XTI=2.4 BV=26 IS=2.7e-12 N=1.01 RS=2.1e-3 TRS1=3.5e-3
++ ISR=1e-11 NR=2.0)
+.MODEL DD  D (CJO=7.6e-10 VJ=0.40 M=0.90 IS=1e-13 TNOM=27)
+*******************************************************************
+.MODEL RTEMP RES (TC1={ptrc1} TC2={ptrc2})
+*******************************************************************
+.ENDS n36306
+*$
+**********************************************************************
+**********************************************************************
+*                                                                    *
+*   n36307   -  PSpice Model                                         *
+*                                                                    *
+*   n36307 is the HS die silicon model for use with 86330q3d         *
+*                                                                    *
+**********************************************************************
+**********************************************************************
+* SUBCKT Definition:  1=D  2=G  3=S
+**********************************************************************
+.SUBCKT n36307  1 2 3
+* PARAMETER (local) DEFINITIONS SECTION
+.PARAM  pWidth  0.84674
+.PARAM  pLen    0.56u
+.PARAM  perim   {2.1*pWidth}
+.PARAM  ptrc1   2.3e-3		; temp co of ext Rd / Rs
+.PARAM  ptrc2   1.0e-6
+****** MODEL SUBCIRCUIT BEGINS HERE     ******************************
+M1   10 11 12 12  NMOS	W={pWidth} L={pLen}  PS={perim} PD={perim}
+DBD   3  1	 DBD
+CBD0  3  1   94e-12
+RBD0  3  1   9e9
+CGD0  2 13	 5E-12
+RGD  13  1   2e6
+CGS0  2  3	 6e-12
+M2   12 11 12 20  PMOSd W={pWidth} L=0.136u PS={perim} PD={perim}
+CDx  20 12   2p
+DDx  20 10   DD
+* Note:  gate oxide capacitance included in NMOS below
+RGG   2 11	 1.46
+RSB  12  9	 RTEMP 1.00e-3
+RSS   9  3 	 RTEMP 2.15e-3
+RDD   1 10 	 RTEMP 1.97e-3
+******************************************************************* 
+.MODEL  NMOS   NMOS (    LEVEL  = 7             Version = 3.2  
++ TNOM   = 27            LINT   = 0.075e-6      CAPMOD = 2
++ TOX    = 1.75e-8       NCH    = 2.525e17      NSUB   = 2.5e16
++ AGS    = 0.0           PVAG   = 0.00          U0     = 620
++ A0     = 1.15          A1     = 0.0           A2     = 1.2
++ UA     = 1.00e-9       UB     = 1.3e-18       VBM    = -10
++ UA1    = 1.20e-9       UB1    = -2.0e-18      UTE    = -1.50
++ KT1    = -0.62         KT2    = 0.022         KT1L   = 1.0e-13
++ DVT0   = 2.2           DVT1   = 0.53	      DVT2   = -0.033
++ ETA0   = 0.020         ETAB   = -0.07         XJ     = 4e-7
++ PDIBLC1= 0.05          PDIBLC2= 0.006         NLX    = 1.75e-7
++ PSCBE1 = 6.5e8         PSCBE2 = 1e-7          PCLM   = 1.6
++ VOFF   = -0.200        NFACTOR= 1.75          JS     = 0
++ DROUT  = 0.9           DSUB   = 1.3           DELTA  = 0.045
++ CJ     = 1e-18         CJSW   = 1e-18         CF     = 0
++ CGSO   = 204e-12       CGDO   = 0.1e-12       CGBO   = 1e-18  )
+******************************************************************* 
+.MODEL  PMOSd   PMOS (   LEVEL  = 1
++ TNOM   = 27            VTO    = -0.7          IS     = 5e-15
++ TOX    = 1.75e-8       NSUB   = 2.9e18
++ CJ     = 1e-18         CJSW   = 1e-18 
++ CGSO   = 1e-18         CGDO   = 1e-18         CGBO   = 1e-18  )
+******************************************************************* 
+.MODEL DBD D (CJO=6.8e-10 VJ=0.65 M=0.35 TNOM=27 FC=0.5 TT=1e-09 
++ XTI=3.4 BV=26 IS=7.5e-13 N=1.02 RS=2.8e-3 TRS1=2.5e-3
++ ISR=1e-11 NR=2.0)
+.MODEL DD  D (CJO=3.1e-10 VJ=0.43 M=0.90 IS=1e-13 TNOM=27)
+*******************************************************************
+.MODEL RTEMP RES (TC1={ptrc1} TC2={ptrc2})
+*******************************************************************
+.ENDS n36307
+
+*$
+
+* PSpice Model Editor - Version 16.0.0
+*$
+.SUBCKT AND2_BASIC1V A B Y 
+E_ABMGATE    YINT 0 VALUE {{IF(V(A) > 0.5  &  
++ V(B) > 0.5,1,0)}}
+RINT YINT Y 1
+CINT Y 0 1n
+.ENDS AND2_BASIC1V
+*$
+.SUBCKT AND3_BASIC1V A B C Y 
+E_ABMGATE    YINT 0 VALUE {{IF(V(A) > 0.5  &  
++ V(B) > 0.5 &
++ V(C) > 0.5,1,0)}}
+RINT YINT Y 1
+CINT Y 0 1n
+.ENDS AND3_BASIC1V
+*$
+.SUBCKT AND4_BASIC1V A B C D Y 
+E_ABMGATE    YINT 0 VALUE {{IF(V(A) > 0.5  &  
++ V(B) > 0.5 &
++ V(C) > 0.5 &
++ V(D) > 0.5,1,0)}}
+RINT YINT Y 1
+CINT Y 0 1n
+.ENDS AND4_BASIC1V
+*$
+.SUBCKT NAND2_BASIC1V A B Y 
+E_ABMGATE    YINT 0 VALUE {{IF(V(A) > 0.5  &  
++ V(B) > 0.5,0,1)}}
+RINT YINT Y 1
+CINT Y 0 1n
+.ENDS NAND2_BASIC1V
+*$
+.SUBCKT NAND3_BASIC1V A B C Y 
+E_ABMGATE    YINT 0 VALUE {{IF(V(A) > 0.5  &  
++ V(B) > 0.5 &
++ V(C) > 0.5,0,1)}}
+RINT YINT Y 1
+CINT Y 0 1n
+.ENDS NAND3_BASIC1V
+*$
+.SUBCKT NAND4_BASIC1V A B C D Y 
+E_ABMGATE    YINT 0 VALUE {{IF(V(A) > 0.5  &  
++ V(B) > 0.5 &
++ V(C) > 0.5 &
++ V(D) > 0.5,0,1)}}
+RINT YINT Y 1
+CINT Y 0 1n
+.ENDS NAND4_BASIC1V
+*$
+.SUBCKT OR2_BASIC1V A B Y 
+E_ABMGATE    YINT 0 VALUE {{IF(V(A) > 0.5  |  
++ V(B) > 0.5,1,0)}}
+RINT YINT Y 1
+CINT Y 0 1n
+.ENDS OR2_BASIC1V
+*$
+.SUBCKT OR3_BASIC1V A B C Y 
+E_ABMGATE    YINT 0 VALUE {{IF(V(A) > 0.5  |  
++ V(B) > 0.5 |
++ V(C) > 0.5,1,0)}}
+RINT YINT Y 1
+CINT Y 0 1n
+.ENDS OR3_BASIC1V
+*$
+.SUBCKT OR4_BASIC1V A B C D Y 
+E_ABMGATE    YINT 0 VALUE {{IF(V(A) > 0.5  |  
++ V(B) > 0.5 |
++ V(C) > 0.5 |
++ V(D) > 0.5,1,0)}}
+RINT YINT Y 1
+CINT Y 0 1n
+.ENDS OR4_BASIC1V
+*$
+.SUBCKT NOR2_BASIC1V A B Y 
+E_ABMGATE    YINT 0 VALUE {{IF(V(A) > 0.5  |  
++ V(B) > 0.5,0,1)}}
+RINT YINT Y 1
+CINT Y 0 1n
+.ENDS NOR2_BASIC1V
+*$
+.SUBCKT NOR3_BASIC1V A B C Y 
+E_ABMGATE    YINT 0 VALUE {{IF(V(A) > 0.5  |  
++ V(B) > 0.5 |
++ V(C) > 0.5,0,1)}}
+RINT YINT Y 1
+CINT Y 0 1n
+.ENDS NOR3_BASIC1V
+*$
+.SUBCKT NOR4_BASIC1V A B C D Y 
+E_ABMGATE    YINT 0 VALUE {{IF(V(A) > 0.5  |  
++ V(B) > 0.5 |
++ V(C) > 0.5 |
++ V(D) > 0.5,0,1)}}
+RINT YINT Y 1
+CINT Y 0 1n
+.ENDS NOR4_BASIC1V
+*$
+.SUBCKT NOR5_BASIC1V A B C D E Y 
+E_ABMGATE YINT 0 VALUE {{IF(V(A) > 0.5  |  
++ V(B) > 0.5 |
++ V(C) > 0.5 |
++ V(D) > 0.5 |
++ V(E) > 0.5,0,1)}}
+RINT YINT Y 1
+CINT Y 0 1n
+.ENDS NOR5_BASIC1V
+*$
+.SUBCKT NOR6_BASIC1V A B C D E F Y 
+E_ABMGATE YINT 0 VALUE {{IF(V(A) > 0.5  |  
++ V(B) > 0.5 |
++ V(C) > 0.5 |
++ V(D) > 0.5 |
++ V(E) > 0.5 |
++ V(F) > 0.5,0,1)}}
+RINT YINT Y 1
+CINT Y 0 1n
+.ENDS NOR6_BASIC1V
+*$
+.SUBCKT INV_BASIC1V A  Y 
+E_ABMGATE    YINT 0 VALUE {{IF(V(A) > 0.5 , 
++ 0,1)}}
+RINT YINT Y 1
+CINT Y 0 1n
+.ENDS INV_BASIC1V
+*$
+.SUBCKT XOR2_BASIC1V A B Y
+E_ABMGATE  YINT 0 VALUE {{IF(V(A) > 0.5  ^  
++ V(B) > 0.5,1,0)}}
+RINT YINT Y 1
+CINT Y 0 1n
+.ENDS XOR2_BASIC1V
+*$
+.SUBCKT XNOR2_BASIC1V A B Y
+E_ABMGATE  YINT 0 VALUE {{IF(V(A) > 0.5  ^  
++ V(B) > 0.5,0,1)}}
+RINT YINT Y 1
+CINT Y 0 1n
+.ENDS XNOR2_BASIC1V
+*$
+.SUBCKT MUX2_BASIC1V A B S Y
+E_ABMGATE  YINT 0 VALUE {{IF(V(S) > 0.5,  
++ V(B),V(A))}}
+RINT YINT Y 1
+CINT Y 0 1n
+.ENDS MUX2_BASIC1V
+*$
+.SUBCKT INV_DELAY_BASIC1V A  Y PARAMS: DELAY = 10n 
+E_ABMGATE1    YINT1 0 VALUE {{IF(V(A) > 0.5 , 
++ 1,0)}}
+RINT YINT1 YINT2 1
+CINT YINT2 0 {DELAY*1.3}
+E_ABMGATE2    YINT3 0 VALUE {{IF(V(YINT2) > 0.5 , 
++ 0,1)}}
+RINT2 YINT3 Y 1
+CINT2 Y 0 1n
+.ENDS INV_DELAY_BASIC1V
+*$
+.SUBCKT BUF_DELAY_BASIC1V A  Y PARAMS: DELAY = 10n 
+E_ABMGATE1    YINT1 0 VALUE {{IF(V(A) > 0.5 , 
++ 1,0)}}
+RINT YINT1 YINT2 1
+CINT YINT2 0 {DELAY*1.3}
+E_ABMGATE2    YINT3 0 VALUE {{IF(V(YINT2) > 0.5 , 
++ 1,0)}}
+RINT2 YINT3 Y 1
+CINT2 Y 0 1n
+.ENDS BUF_DELAY_BASIC1V
+*$
+.SUBCKT BUF_BASIC1V A  Y 
+E_ABMGATE    YINT 0 VALUE {{IF(V(A) > 0.5 , 
++ 1,0)}}
+RINT YINT Y 1
+CINT Y 0 1n
+.ENDS BUF_BASIC1V
+*$
+**Set has higher priority in this latch
+.SUBCKT SRLATCHSHP_BASIC1V S R Q QB
+GQ 0 Qint VALUE = {IF(V(S) > 0.5,5,IF(V(R)>0.5,-5, 0))}
+CQint Qint 0 1n
+RQint Qint 0 1000MEG
+D_D10 Qint MY5 D_D1
+V1 MY5 0 5
+D_D11 0 Qint D_D1 
+EQ Qqq 0 Qint 0 1
+X3 Qqq Qqqd1 BUF_BASIC1V
+RQq Qqqd1 Q 1
+EQb Qbr 0 VALUE = {IF( V(Q) > 0.5, 0,1)}
+RQb Qbr QB 1 
+Cdummy1 Q 0 1n IC={1}
+Cdummy2 QB 0 1n IC={0}
+.MODEL D_D1 D( IS=1e-15 TT=10p Rs=0.05 N=.1 )
+.ENDS SRLATCHSHP_BASIC1V
+*$
+**Reset has higher priority in this latch
+.SUBCKT SRLATCHRHP_BASIC1V S R Q QB
+GQ 0 Qint VALUE = {IF(V(R) > 0.5,-5,IF(V(S)>0.5,5, 0))}
+CQint Qint 0 1n
+RQint Qint 0 1000MEG
+D_D10 Qint MY5 D_D1
+V1 MY5 0 5
+D_D11 0 Qint D_D1 
+EQ Qqq 0 Qint 0 1
+X3 Qqq Qqqd1 BUF_BASIC1V
+RQq Qqqd1 Q 1
+EQb Qbr 0 VALUE = {IF( V(Q) > 0.5, 0,1)}
+RQb Qbr QB 1 
+Cdummy1 Q 0 1n 
+Cdummy2 QB 0 1n
+.IC V(Qint) 0
+.MODEL D_D1 D( IS=1e-15 TT=10p Rs=0.05 N=.1 )
+.ENDS SRLATCHRHP_BASIC1V
+*$
+**Reset has higher priority in this latch and active low set and reset - basically NAND based SR latch
+.SUBCKT SBRBLATCHRHP_BASIC1V SB RB Q QB
+GQ 0 Qint VALUE = {IF(V(RB) < 0.5,-5,IF(V(SB) < 0.5,5, 0))}
+CQint Qint 0 1n
+RQint Qint 0 1000MEG
+D_D10 Qint MY5 D_D1
+V1 MY5 0 5
+D_D11 0 Qint D_D1 
+EQ Qqq 0 Qint 0 1
+X3 Qqq Qqqd1 BUF_BASIC1V
+RQq Qqqd1 Q 1
+EQb Qbr 0 VALUE = {IF( V(Q) > 0.5, 0,1)}
+RQb Qbr QB 1 
+.IC V(Qint) = 0
+.MODEL D_D1 D( IS=1e-15 TT=10p Rs=0.05 N=.1 )
+.ENDS SBRBLATCHRHP_BASIC1V
+*$
+**Reset has higher priority in this latch and active low set and reset - basically NAND based SR latch
+.SUBCKT SBRBLATCHSHP_BASIC1V SB RB Q QB
+GQ 0 Qint VALUE = {IF(V(SB) < 0.5,5,IF(V(RB) < 0.5,-5, 0))}
+CQint Qint 0 1n
+RQint Qint 0 1000MEG
+D_D10 Qint MY5 D_D1
+V1 MY5 0 5
+D_D11 0 Qint D_D1 
+EQ Qqq 0 Qint 0 1
+X3 Qqq Qqqd1 BUF_BASIC1V
+RQq Qqqd1 Q 1
+EQb Qbr 0 VALUE = {IF( V(Q) > 0.5, 0,1)}
+RQb Qbr QB 1 
+.IC V(Qint) = 0
+.MODEL D_D1 D( IS=1e-15 TT=10p Rs=0.05 N=.1 )
+.ENDS SBRBLATCHSHP_BASIC1V
+*$
+.SUBCKT DFFSBRB_SHPBASIC1V Q QB CLK D RB SB
+***Set has higher priority in this
+** Changed the delay from 7n/10n to 15n/20n to help larger time step simulations
+**Faster flip-flops require a a smaller time step to simulate
+X1 CLK CLKdel INV_DELAY_BASIC1V PARAMS: DELAY = 15n
+X2 CLK CLKdel CLKint AND2_BASIC1V 
+GQ 0 Qint VALUE = {IF(V(SB) < 0.5,5,IF(V(RB)<0.5,-5, IF(V(CLKint)>0.5, 
++ IF(V(D)>0.5,5,-5),0)))}
+CQint Qint 0 1n
+RQint Qint 0 1000MEG
+D_D10 Qint MY5 D_D1
+V1 MY5 0 5
+D_D11 0 Qint D_D1 
+EQ Qqq 0 Qint 0 1
+X3 Qqq Qqqd1 BUF_DELAY_BASIC1V PARAMS: DELAY = 20n
+RQq Qqqd1 Q 1
+EQb Qbr 0 VALUE = {IF( V(Q) > 0.5, 0,1)}
+RQb Qbr Qb 1 
+Cdummy1 Q 0 1nF 
+Cdummy2 QB 0 1nF 
+.IC V(Qint) = 0
+.MODEL D_D1 D( IS=1e-15 TT=10p Rs=0.05 N=.1 )
+.ENDS DFFSBRB_SHPBASIC1V
+*$
+.SUBCKT DFFSR_SHPBASIC1V Q QB CLK D R S
+***Set has higher priority in this
+** Changed the delay from 7n/10n to 15n/20n to help larger time step simulations
+**Faster flip-flops require a a smaller time step to simulate
+X1 CLK CLKdel INV_DELAY_BASIC1V PARAMS: DELAY = 15n
+X2 CLK CLKdel CLKint AND2_BASIC1V 
+GQ 0 Qint VALUE = {IF(V(S) > 0.5,5,IF(V(R) > 0.5,-5, IF(V(CLKint)>0.5, 
++ IF(V(D)>0.5,5,-5),0)))}
+CQint Qint 0 1n
+RQint Qint 0 1000MEG
+D_D10 Qint MY5 D_D1
+V1 MY5 0 5
+D_D11 0 Qint D_D1 
+EQ Qqq 0 Qint 0 1
+X3 Qqq Qqqd1 BUF_DELAY_BASIC1V PARAMS: DELAY = 20n
+RQq Qqqd1 Q 1
+EQb Qbr 0 VALUE = {IF( V(Q) > 0.5, 0,1)}
+RQb Qbr Qb 1 
+Cdummy1 Q 0 1nF 
+Cdummy2 QB 0 1nF 
+.IC V(Qint) = 0
+.MODEL D_D1 D( IS=1e-15 TT=10p Rs=0.05 N=.1 )
+.ENDS DFFSR_SHPBASIC1V
+*$
+.SUBCKT DFFSBRB_RHPBASIC1V Q QB CLK D RB SB
+***Set has higher priority in this
+** Changed the delay from 7n/10n to 15n/20n to help larger time step simulations
+**Faster flip-flops require a a smaller time step to simulate
+X1 CLK CLKdel INV_DELAY_BASIC1V PARAMS: DELAY = 15n
+X2 CLK CLKdel CLKint AND2_BASIC1V 
+GQ 0 Qint VALUE = {IF(V(RB) < 0.5,-5,IF(V(SB)<0.5,5, IF(V(CLKint)>0.5, 
++ IF(V(D)>0.5,5,-5),0)))}
+CQint Qint 0 1n
+RQint Qint 0 1000MEG
+D_D10 Qint MY5 D_D1
+V1 MY5 0 5
+D_D11 0 Qint D_D1 
+EQ Qqq 0 Qint 0 1
+X3 Qqq Qqqd1 BUF_DELAY_BASIC1V PARAMS: DELAY = 20n
+RQq Qqqd1 Q 1
+EQb Qbr 0 VALUE = {IF( V(Q) > 0.5, 0,1)}
+RQb Qbr Qb 1 
+Cdummy1 Q 0 1nF 
+Cdummy2 QB 0 1nF 
+.IC V(Qint) = 0
+.MODEL D_D1 D( IS=1e-15 TT=10p Rs=0.05 N=.1 )
+.ENDS DFFSBRB_RHPBASIC1V
+*$
+.SUBCKT DFFSR_RHPBASIC1V Q QB CLK D R S
+***Set has higher priority in this
+** Changed the delay from 7n/10n to 15n/20n to help larger time step simulations
+**Faster flip-flops require a a smaller time step to simulate
+X1 CLK CLKdel INV_DELAY_BASIC1V PARAMS: DELAY = 15n
+X2 CLK CLKdel CLKint AND2_BASIC1V 
+GQ 0 Qint VALUE = {IF(V(R) > 0.5,-5,IF(V(S) > 0.5,5, IF(V(CLKint)>0.5, 
++ IF(V(D)>0.5,5,-5),0)))}
+CQint Qint 0 1n
+RQint Qint 0 1000MEG
+D_D10 Qint MY5 D_D1
+V1 MY5 0 5
+D_D11 0 Qint D_D1 
+EQ Qqq 0 Qint 0 1
+X3 Qqq Qqqd1 BUF_DELAY_BASIC1V PARAMS: DELAY = 20n
+RQq Qqqd1 Q 1
+EQb Qbr 0 VALUE = {IF( V(Q) > 0.5, 0,1)}
+RQb Qbr Qb 1 
+Cdummy1 Q 0 1nF 
+Cdummy2 QB 0 1nF 
+.IC V(Qint) = 0
+.MODEL D_D1 D( IS=1e-15 TT=10p Rs=0.05 N=.1 )
+.ENDS DFFSR_RHPBASIC1V
+*$
+.SUBCKT DFFSBRB_RHPBASIC1VVxxx2 Q QB CLK D RB SB
+X1 Dtemp1 CLKtemp1inv Q0int QNint SBint RBint DLATCHSR_PS1 
++ PARAMS: vhi=1 vlo=0 vthresh=0.5 tplh=4e-9 tphl=4e-9 tr=1e-9 tf=1e-9 
+X2 Q0int CLKtemp1 Q QB SBint RBint DLATCHSR_PS2 
++ PARAMS: vhi=1 vlo=0 vthresh=0.5 tplh=1e-9 tphl=1e-9 tr=1e-9 tf=1e-9 
+X3 D Dtemp1 BUF_BASIC1V 
+X4 CLK CLKtemp1 BUF_BASIC1V
+X6 RB RBint BUF_BASIC1V 
+X7 SB SBint BUF_BASIC1V 
+X5  CLKtemp1 CLKtemp1inv   INV_BASIC1V 
+.ENDS DFFSBRB_RHPBASIC1VVxxx2
+*$
+.SUBCKT DLATCHSR_PS1 D CLK Q0 QN SB RB
++  PARAMS: vhi=1 vlo=0 vthresh=0.5 tplh=1e-9 tphl=1e-9 tr=1e-9 tf=1e-9 
+X1 Sint3 Rint3 Q0 QN NORLATCHDFF_PS
++ PARAMS: vhi=1 vlo=0 vthresh=0.5 tplh={tplh} tphl={tphl} tr=1e-9 tf=1e-9   
+X5  D  CLK Sint1 AND2_BASIC1V 
+X6  Dinv CLK Rint1 AND2_BASIC1V 
+X7 SB Setlogic  INV_BASIC1V 
+X8 RB Resetlogic INV_BASIC1V 
+X9 Setlogic Sint1  Sint2 OR2_BASIC1V 
+X10 RB Sint2 Sint3 AND2_BASIC1V
+X11 SB Rint1 Rint2 AND2_BASIC1V
+X12 Rint2 Resetlogic Rint3 OR2_BASIC1V
+X13 D Dinv INV_BASIC1V
+***X9 Sint1 Setlogic Sint OR2_BASIC1V 
+****X10  Rint1 Resetlogic Rint OR2_BASIC1V 
+.ENDS DLATCHSR_PS1
+*$
+.SUBCKT DLATCHSR_PS2 D CLK Q0 QN SB RB
++ PARAMS: vhi=1 vlo=0 vthresh=0.5 tplh=1e-9 tphl=1e-9 tr=1e-9 tf=1e-9 
+X1 Sint3 Rint3 Q0 QN NORLATCHDFF_PS 
++ PARAMS: vhi=1 vlo=0 vthresh=0.5 tplh={tplh} tphl={tphl} tr=1e-9 tf=1e-9   
+X5  D  CLK Sint1 AND2_BASIC1V 
+X6  Dinv CLK Rint1 AND2_BASIC1V 
+X7 SB Setlogic  INV_BASIC1V 
+X8 RB Resetlogic INV_BASIC1V 
+X9 Setlogic Sint1  Sint2 OR2_BASIC1V 
+X10 RB Sint2 Sint3 AND2_BASIC1V
+X11 SB Rint1 Rint2 AND2_BASIC1V
+X12 Rint2 Resetlogic Rint3 OR2_BASIC1V
+X13 D Dinv INV_BASIC1V
+***X9 Sint1 Setlogic Sint OR2_BASIC1V 
+****X10  Rint1 Resetlogic Rint OR2_BASIC1V 
+.ENDS DLATCHSR_PS2
+*$
+.SUBCKT NORLATCHDFF_PS SET RESET Q0 QN PARAMS: vhi=1 vlo=0 vthresh=0.5 tplh=1e-9 tphl=1e-9 tr=1e-9 tf=1e-9 
+C1 Q0int 0 0.01p IC={0}
+C2 QNint 0 0.01p IC={1}
+XN1 QNint SET Q0int NOR2_PS PARAMS: vhi=1 vlo=0 vthresh=0.5 tplh={tplh} tphl={tphl} tr=1e-9 tf=1e-9 
+XN2 Q0int RESET QNint NOR2_PS PARAMS: vhi=1 vlo=0 vthresh=0.5 tplh={tplh+1e-9} tphl={tphl+1e-9} tr=1e-9 tf=1e-9 
+XN3 Q0int Q0 BUF_BASIC1V 
+XN4 QNint QN BUF_BASIC1V
+.ENDS NORLATCHDFF_PS
+*$
+.SUBCKT NOR2_PS Y A B PARAMS: vhi=1 vlo=0 vthresh=500e-3 tplh=1e-9 tphl=1e-9 tr=1e-9 tf=1e-9
+RA A 0 1e11
+CA A 0 0.01pF
+RB B 0 1e11
+CB B 0 0.01pF
+VS VSUP 0 DC 1
+ENOR2 Ypp 0 VALUE={IF(V(A) > {vthresh} | V(B) > {vthresh}, 0, 1)}
+ROUTpp Ypp 0 1e11
+XNSW1 OUTp Ypp 0 NSW_PS PARAMS: RONval={(tplh+1e-15)/(1e-12*0.693)} VTHval=0.5
+XPSW1 OUTp Ypp VSUP PSW_PS PARAMS: RONval={(tphl+1e-15)/(1e-12*0.693)} VTHval=0.5
+CDEL1 OUTp 0 1pF
+ETHRESH Yp 0 VALUE={IF(V(OUTp) > 0.5, 1, 0)}
+ROUTp Yp 0 1e11
+XNSW2 OUTr Yp 0 NSW_PS PARAMS: RONval={(tf+1e-15)/(1e-12*2.3)} VTHval=0.5
+XPSW2 OUTr Yp VSUP PSW_PS PARAMS: RONval={(tr+1e-15)/(1e-12*2.3)} VTHval=0.5
+CDEL2 OUTr 0 1pF
+EOUT OUTf 0 VALUE={V(OUTr)*({vhi} - {vlo})+{vlo}}
+RDR OUTf Y  1000
+RO Y 0 1e11
+.ENDS NOR2_PS
+*$
+.SUBCKT PSW_PS D G S PARAMS: RONval=10k VTHval=0.7 VCHARval=0.01 CGval=0.01pF CDval=0.01pF 
+RDDUM D 0 1e11
+RSDUM S 0 1e11
+RGDUM G 0 1e11
+CG G D {CGval}
+CD D S {CDval}
+Etest test 0 VALUE={IF(V(S) > V(D), V(S,G), V(D,G))}
+GOUT S D VALUE={V(S,D)/(RONval*(1+EXP(-LIMIT(((V(test)-VTHval)/VCHARval),-80,80))))}
+.ENDS PSW_PS
+*$
+.SUBCKT NSW_PS D G S PARAMS: RONval=10k VTHval=0.7 VCHARval=0.01 CGval=0.01pF CDval=0.01pF CSval=0.01pf
+RDDUM D 0 1e11
+RSDUM S 0 1e11
+RGDUM G 0 1e11
+CG G D {CGval}
+CD D S {CDval}
+CS G S {CSval}
+***EEXP F1 0 VALUE={LIMIT(((V(G,S)-VTHval)/VCHARval),-80,80)} 
+Etest test 0 VALUE={IF(V(D) > V(S), V(G,S), V(G,D))}
+GOUT D S VALUE={V(D,S)/(RONval*(1+EXP(-LIMIT(((V(test)-VTHval)/VCHARval),-80,80))))}
+.ENDS NSW_PS
+*$
+
+
+
+*$
+.SUBCKT COMP_BASIC1V INP INM Y
+E_ABM Yint 0 VALUE {IF (V(INP) > 
++ V(INM), 1,0)}
+R1 Yint Y 1
+C1 Y 0 1n
+.ENDS COMP_BASIC1V
+*$
+.SUBCKT COMPHYS_BASIC1V INP INM HYS OUT
+EIN INP1 INM1 INP INM 1 
+EHYS INP1 INP2 VALUE { IF( V(1)>0.5,-V(HYS),0) }
+EOUT OUT 0 VALUE { IF( V(INP2)>V(INM1), 1 ,0) }
+R1 OUT 1 1
+C1 1 0 5n
+RINP1 INP1 0 1K
+.ENDS COMPHYS_BASIC1V
+*$
+
+*$
+.SUBCKT LDCR 1 2 PARAMS: L=1u DCR=20m
+L1 1 INT1 {L}
+R1 INT1 2 {DCR}
+.ENDS LDCR
+*$
+.SUBCKT CESR 1 2 PARAMS: C=10u ESR=2m ESL=1n
+C1 1 INT1 {C}
+R1 INT1 INT2 {ESR}
+L1 INT2 2 {ESL}
+.ENDS CESR
+*$
+*$
+.SUBCKT AND2_BASIC_GEN A B Y PARAMS: VDD=1 VSS=0 VTHRESH=0.5 
+E_ABMGATE    YINT 0 VALUE {{IF(V(A) > {VTHRESH}  &  
++ V(B) > {VTHRESH},{VDD},{VSS})}}
+RINT YINT Y 1
+CINT Y 0 1n
+.ENDS AND2_BASIC_GEN
+*$
+
+
+
+
+.MODEL DD1 D( IS=1e-15 TT=10p Rs=0.05 N=.1  )
+
+
+.model dd d
+( is=1e-015
++ n=0.01
++ tt=1e-011
+ )
+*.MODEL D_D1 D( IS=1e-15 TT=10p Rs=0.05 N=.1 )
