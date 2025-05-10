@@ -18651,6 +18651,14 @@
 	)
 	(segment
 		(start 130.225 47.6)
+		(end 130.225 51.675)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 16)
+		(uuid "25d59d91-7395-4226-a16e-a8ec04689248")
+	)
+	(segment
+		(start 130.225 47.6)
 		(end 129.66 47.035)
 		(width 0.2)
 		(layer "F.Cu")
@@ -18704,14 +18712,6 @@
 		(layer "F.Cu")
 		(net 16)
 		(uuid "cb9ff033-ca17-4d77-9c5f-ab322795352f")
-	)
-	(segment
-		(start 130.225 51.675)
-		(end 130.225 47.6)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 16)
-		(uuid "cdc37f06-d02a-44cf-83cb-30793701400e")
 	)
 	(segment
 		(start 129.66 47.035)
