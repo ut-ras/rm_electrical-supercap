@@ -1,0 +1,26 @@
+Version 4
+SymbolType BLOCK
+RECTANGLE Normal 80 80 -80 -80
+WINDOW 0 32 -80 Bottom 2
+WINDOW 3 64 80 Top 2
+SYMATTR Prefix X
+SYMATTR Value OPA551
+SYMATTR ModelFile C:\Users\Tachi\Documents\Nerd Shit\rm_electrical-supercap\SPICE_sims\libraries\OPA551.LIB
+PIN -80 16 LEFT 8
+PINATTR PinName +IN
+PINATTR SpiceOrder 1
+PIN -80 -16 LEFT 8
+PINATTR PinName -IN
+PINATTR SpiceOrder 2
+PIN -32 -80 VRIGHT 8
+PINATTR PinName +V
+PINATTR SpiceOrder 3
+PIN -32 80 VLEFT 8
+PINATTR PinName -V
+PINATTR SpiceOrder 4
+PIN 80 0 RIGHT 8
+PINATTR PinName OUT
+PINATTR SpiceOrder 5
+PIN 0 80 VLEFT 8
+PINATTR PinName FLG
+PINATTR SpiceOrder 6
