@@ -372,6 +372,28 @@
 			)
 		)
 	)
+	(global_label "+3.3VA"
+		(shape input)
+		(at 82.55 78.74 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7eb090c1-8f92-4a57-9672-b67589115a85")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.55 88.4986 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
 		(at 130.81 106.68 0)
@@ -437,6 +459,70 @@
 			(project "Ideal Diode Rev1"
 				(path "/1958bbb1-b715-4a10-a229-bee0eabb28b0"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 82.55 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "551abc12-9cb3-45f5-b423-0ff6d5192938")
+		(property "Reference" "+3.3VA1"
+			(at 84.074 68.834 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 81.534 68.834 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose"
+			(at 87.63 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 82.55 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "257feef2-b86e-4ad0-b616-73e65663c845")
+		)
+		(instances
+			(project "Ideal Diode Rev1"
+				(path "/1958bbb1-b715-4a10-a229-bee0eabb28b0"
+					(reference "+3.3VA1")
 					(unit 1)
 				)
 			)
