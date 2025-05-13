@@ -5632,6 +5632,14 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "595-BQ24640RVAR"
+			(at 67.31 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "10"
 			(uuid "83e6d2d3-affc-41dd-aaf8-c48743253668")
 		)
@@ -6306,6 +6314,14 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "603-RT0603FRE133K6L"
+			(at 31.75 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6ba022a3-78ae-457a-9f9e-df5de2985c98")
 		)
@@ -6436,6 +6452,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Mouser Part Number" "80-C0603C105K9PLR"
+			(at 95.25 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7332,6 +7357,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Mouser Part Number" "80-C0603C105K9PLR"
+			(at 46.99 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -8963,6 +8997,14 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "603-RT0603FRE133K6L"
+			(at 31.75 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d8cb6591-6acb-4b70-bfeb-4f85a1c115af")
 		)
@@ -9784,6 +9826,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Mouser Part Number" "80-C0603C105K9PLR"
+			(at 67.31 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"

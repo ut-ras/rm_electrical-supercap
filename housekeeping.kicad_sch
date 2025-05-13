@@ -4065,7 +4065,7 @@
 				)
 			)
 		)
-		(property "Value" "MC34063A"
+		(property "Value" "DAC53401"
 			(at 83.82 74.93 0)
 			(effects
 				(font
@@ -4073,7 +4073,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Package_SON:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm"
 			(at 83.82 77.47 0)
 			(effects
 				(font
@@ -4127,7 +4127,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "595-MC34063ADR"
+		(property "Mouser Part Number" "595-DAC53401DSGR"
 			(at 83.82 77.47 0)
 			(effects
 				(font
@@ -4487,7 +4487,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "667-ERJ-3RQFR33V"
+		(property "Mouser Part Number" ""
 			(at 59.69 83.82 0)
 			(effects
 				(font
@@ -6637,7 +6637,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "603-RT0603FRE133K6L"
+		(property "Mouser Part Number" ""
 			(at 231.14 104.14 0)
 			(effects
 				(font
@@ -7673,7 +7673,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "755-ESR03EZPJ222"
+		(property "Mouser Part Number" ""
 			(at 80.01 109.22 0)
 			(effects
 				(font
@@ -9027,7 +9027,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "755-ESR03EZPJ222"
+		(property "Mouser Part Number" ""
 			(at 210.82 109.22 0)
 			(effects
 				(font
@@ -9234,7 +9234,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "755-ESR03EZPJ222"
+		(property "Mouser Part Number" ""
 			(at 71.12 109.22 0)
 			(effects
 				(font

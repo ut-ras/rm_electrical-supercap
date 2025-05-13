@@ -7029,6 +7029,15 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "595-INA138NA/3K"
+			(at 44.45 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "1c8116bc-55d3-4d43-8ea3-de1a134ce195")
 		)

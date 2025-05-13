@@ -4071,6 +4071,14 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "584-LTC7804EMSE#PBF"
+			(at 120.65 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "10"
 			(uuid "c48bec2f-4900-417b-9c72-838f0679761e")
 		)
@@ -4239,6 +4247,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Mouser Part Number" "80-C0603C105K9PLR"
+			(at 154.94 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -4942,6 +4959,14 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 146.05 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "603-RT0603FRE133K6L"
 			(at 146.05 87.63 0)
 			(effects
 				(font
