@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "a21eb1d9-0dbb-493b-a6b4-bdf1ecb7cda4")
-	(paper "A3")
+	(paper "A4")
 	(title_block
 		(title "Current Sensing")
 		(date "2025-02-12")
@@ -2005,7 +2005,7 @@
 	)
 	(rectangle
 		(start 85.09 82.55)
-		(end 186.69 140.97)
+		(end 186.69 142.24)
 		(stroke
 			(width 0)
 			(type dash)
@@ -2016,8 +2016,8 @@
 		(uuid 6427e31a-f4f5-432a-8920-f95a49a1c49d)
 	)
 	(rectangle
-		(start 248.92 16.51)
-		(end 341.63 142.24)
+		(start 189.23 16.51)
+		(end 281.94 142.24)
 		(stroke
 			(width 0)
 			(type dash)
@@ -2041,7 +2041,7 @@
 	)
 	(text "Inputs:\n- +24V (Chassis) & GND (Chassis)\n- Other necessary power rails\n- Max power allotted (scaled)\n  - Check with firmware for exact scaling\n- Current power draw from PMM (scaled)\n  - May be unnecessary"
 		(exclude_from_sim no)
-		(at 20.701 264.16 0)
+		(at 19.812 180.086 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2063,12 +2063,12 @@
 	)
 	(text "Power filtering\nfor opamps"
 		(exclude_from_sim no)
-		(at 350.012 61.722 0)
+		(at 187.198 37.592 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "314567fb-bf83-4718-bda2-951092c7c2b7")
 	)
@@ -2085,7 +2085,7 @@
 	)
 	(text "80dB Negative Feedback Amps"
 		(exclude_from_sim no)
-		(at 250.698 19.05 0)
+		(at 191.008 19.05 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2110,7 +2110,7 @@
 	)
 	(text "Typical difference amp + LPF compensation cap\nSimulations: load_sharing.asc and load_sharing_ac.asc"
 		(exclude_from_sim no)
-		(at 248.92 144.272 0)
+		(at 189.23 143.764 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2122,7 +2122,7 @@
 	)
 	(text "Diff amps + Zener to set charging enable (current-based)\nSimulations: zener.asc"
 		(exclude_from_sim no)
-		(at 85.09 142.494 0)
+		(at 85.09 143.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2134,7 +2134,7 @@
 	)
 	(text "Outputs:\n- +24V (Chassis) & GND (Chassis)\n- Active high (& active low) if I_{in} > I_{critical}\n  - or equivalent for Schmitt trigger\n  - may need multiple different I_{critical}s depending on final simulated design"
 		(exclude_from_sim no)
-		(at 69.723 264.668 0)
+		(at 68.834 180.594 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2156,7 +2156,7 @@
 	)
 	(text "TODO:\n- Use an op amp to measure the amount of current coming in\n- Use a comparator to determine whether the current being drawn is over the limit set by the Dev Board\n  - Configure as Schmitt trigger to avoid chatter"
 		(exclude_from_sim no)
-		(at 20.574 254 0)
+		(at 19.685 169.926 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2243,25 +2243,25 @@
 		(uuid "dbfc078e-9a80-47f5-9db4-e46d3bff74d9")
 	)
 	(junction
-		(at 283.21 87.63)
+		(at 223.52 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0854e098-27bc-483e-9f6b-45447bfa06a3")
 	)
 	(junction
-		(at 355.6 73.66)
+		(at 181.61 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "09044db3-5465-44d4-ba5c-ac100cd82d65")
 	)
 	(junction
-		(at 283.21 49.53)
+		(at 223.52 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0a3a41f1-62ce-4f37-bb80-90b22831f0d9")
 	)
 	(junction
-		(at 300.99 116.84)
+		(at 241.3 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0cb76e38-69aa-4a02-9849-05321030de76")
@@ -2279,7 +2279,7 @@
 		(uuid "10baf60e-676f-4c34-98cd-7af019211b16")
 	)
 	(junction
-		(at 283.21 105.41)
+		(at 223.52 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "16881bd3-5bed-487a-8b6c-3983d5c19800")
@@ -2291,13 +2291,13 @@
 		(uuid "3afbb3f4-65cb-423c-b34a-86d3973ef9fc")
 	)
 	(junction
-		(at 251.46 69.85)
+		(at 191.77 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "66b1773c-ae90-42b1-b14e-6ac7ca538267")
 	)
 	(junction
-		(at 283.21 31.75)
+		(at 223.52 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6f0f19ec-674f-4b14-89fa-230c056cca22")
@@ -2315,7 +2315,7 @@
 		(uuid "7386e279-3598-4077-86c1-eb3da36452ff")
 	)
 	(junction
-		(at 317.5 46.99)
+		(at 257.81 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "75743b70-c9de-4a34-a246-45a41d7e0f30")
@@ -2327,31 +2327,31 @@
 		(uuid "77b2ea48-6942-4a75-8e8a-8fe9627afb2a")
 	)
 	(junction
-		(at 283.21 116.84)
+		(at 223.52 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "87c1097c-0e16-4d90-8580-32b111471e22")
 	)
 	(junction
-		(at 303.53 133.35)
+		(at 243.84 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "93673223-9c03-4018-88e4-cc2e3d0c6b9f")
 	)
 	(junction
-		(at 317.5 102.87)
+		(at 257.81 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "98ef59ff-4a1d-40a3-af45-b0c0acc92eae")
 	)
 	(junction
-		(at 355.6 83.82)
+		(at 181.61 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9cb0e0d2-7e4d-453a-b31d-9e804955d008")
 	)
 	(junction
-		(at 283.21 60.96)
+		(at 223.52 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9d1bdeae-1a2e-4e8a-91ea-dea0a8c3ffa7")
@@ -2363,7 +2363,7 @@
 		(uuid "abc9743c-c554-4d3f-a570-32eea230446a")
 	)
 	(junction
-		(at 303.53 77.47)
+		(at 243.84 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b36ea64d-600e-42f7-8247-747f1281b663")
@@ -2381,7 +2381,7 @@
 		(uuid "bf57d52b-7df7-41d0-9a8d-256c125aad42")
 	)
 	(junction
-		(at 300.99 60.96)
+		(at 241.3 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e018570b-cbf8-4b57-9f35-66e2d338891f")
@@ -2410,7 +2410,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 69.85) (xy 251.46 69.85)
+			(xy 107.95 69.85) (xy 191.77 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2430,7 +2430,7 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 87.63) (xy 294.64 87.63)
+			(xy 223.52 87.63) (xy 234.95 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2460,7 +2460,7 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 31.75) (xy 294.64 44.45)
+			(xy 234.95 31.75) (xy 234.95 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2480,7 +2480,7 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 93.98) (xy 303.53 95.25)
+			(xy 243.84 93.98) (xy 243.84 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2500,7 +2500,7 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 73.66) (xy 355.6 74.93)
+			(xy 181.61 49.53) (xy 181.61 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2510,7 +2510,7 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 116.84) (xy 317.5 102.87)
+			(xy 257.81 116.84) (xy 257.81 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2520,7 +2520,7 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 46.99) (xy 313.69 46.99)
+			(xy 257.81 46.99) (xy 254 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2530,7 +2530,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 105.41) (xy 283.21 105.41)
+			(xy 219.71 105.41) (xy 223.52 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2580,7 +2580,7 @@
 	)
 	(wire
 		(pts
-			(xy 300.99 116.84) (xy 317.5 116.84)
+			(xy 241.3 116.84) (xy 257.81 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2590,7 +2590,7 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 72.39) (xy 283.21 60.96)
+			(xy 223.52 72.39) (xy 223.52 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2600,7 +2600,7 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 46.99) (xy 322.58 46.99)
+			(xy 257.81 46.99) (xy 262.89 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2610,7 +2610,7 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 73.66) (xy 368.3 73.66)
+			(xy 181.61 49.53) (xy 168.91 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2620,7 +2620,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 54.61) (xy 306.07 68.58)
+			(xy 246.38 54.61) (xy 246.38 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2630,7 +2630,7 @@
 	)
 	(wire
 		(pts
-			(xy 288.29 128.27) (xy 283.21 128.27)
+			(xy 228.6 128.27) (xy 223.52 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2670,7 +2670,7 @@
 	)
 	(wire
 		(pts
-			(xy 300.99 72.39) (xy 300.99 60.96)
+			(xy 241.3 72.39) (xy 241.3 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2680,7 +2680,7 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 87.63) (xy 294.64 100.33)
+			(xy 234.95 87.63) (xy 234.95 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2690,7 +2690,7 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 44.45) (xy 298.45 44.45)
+			(xy 234.95 44.45) (xy 238.76 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2710,7 +2710,7 @@
 	)
 	(wire
 		(pts
-			(xy 300.99 128.27) (xy 300.99 116.84)
+			(xy 241.3 128.27) (xy 241.3 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2730,7 +2730,7 @@
 	)
 	(wire
 		(pts
-			(xy 368.3 73.66) (xy 368.3 74.93)
+			(xy 168.91 49.53) (xy 168.91 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2750,7 +2750,7 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 105.41) (xy 298.45 105.41)
+			(xy 223.52 105.41) (xy 238.76 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2760,7 +2760,7 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 116.84) (xy 283.21 105.41)
+			(xy 223.52 116.84) (xy 223.52 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2790,7 +2790,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 133.35) (xy 303.53 133.35)
+			(xy 246.38 133.35) (xy 243.84 133.35)
 		)
 		(stroke
 			(width 0)
@@ -2800,7 +2800,7 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 41.91) (xy 283.21 43.18)
+			(xy 223.52 41.91) (xy 223.52 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2810,7 +2810,7 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 83.82) (xy 355.6 86.36)
+			(xy 181.61 59.69) (xy 181.61 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2820,7 +2820,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 132.08) (xy 306.07 133.35)
+			(xy 246.38 132.08) (xy 246.38 133.35)
 		)
 		(stroke
 			(width 0)
@@ -2830,7 +2830,7 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 38.1) (xy 303.53 39.37)
+			(xy 243.84 38.1) (xy 243.84 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2840,7 +2840,7 @@
 	)
 	(wire
 		(pts
-			(xy 300.99 60.96) (xy 317.5 60.96)
+			(xy 241.3 60.96) (xy 257.81 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2860,7 +2860,7 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 82.55) (xy 355.6 83.82)
+			(xy 181.61 58.42) (xy 181.61 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2900,7 +2900,7 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 31.75) (xy 283.21 34.29)
+			(xy 223.52 31.75) (xy 223.52 34.29)
 		)
 		(stroke
 			(width 0)
@@ -2910,7 +2910,7 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 133.35) (xy 303.53 134.62)
+			(xy 243.84 133.35) (xy 243.84 134.62)
 		)
 		(stroke
 			(width 0)
@@ -2950,7 +2950,7 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 116.84) (xy 288.29 116.84)
+			(xy 223.52 116.84) (xy 228.6 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2960,7 +2960,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 110.49) (xy 306.07 124.46)
+			(xy 246.38 110.49) (xy 246.38 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2970,7 +2970,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 31.75) (xy 271.78 31.75)
+			(xy 208.28 31.75) (xy 212.09 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2980,7 +2980,7 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 100.33) (xy 298.45 100.33)
+			(xy 234.95 100.33) (xy 238.76 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3010,7 +3010,7 @@
 	)
 	(wire
 		(pts
-			(xy 300.99 60.96) (xy 295.91 60.96)
+			(xy 241.3 60.96) (xy 236.22 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3040,7 +3040,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 87.63) (xy 271.78 87.63)
+			(xy 191.77 87.63) (xy 212.09 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3050,7 +3050,7 @@
 	)
 	(wire
 		(pts
-			(xy 368.3 83.82) (xy 355.6 83.82)
+			(xy 168.91 59.69) (xy 181.61 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3070,7 +3070,7 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 128.27) (xy 300.99 128.27)
+			(xy 236.22 128.27) (xy 241.3 128.27)
 		)
 		(stroke
 			(width 0)
@@ -3090,7 +3090,7 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 77.47) (xy 303.53 54.61)
+			(xy 243.84 77.47) (xy 243.84 54.61)
 		)
 		(stroke
 			(width 0)
@@ -3110,7 +3110,7 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 31.75) (xy 294.64 31.75)
+			(xy 223.52 31.75) (xy 234.95 31.75)
 		)
 		(stroke
 			(width 0)
@@ -3120,7 +3120,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 31.75) (xy 283.21 31.75)
+			(xy 219.71 31.75) (xy 223.52 31.75)
 		)
 		(stroke
 			(width 0)
@@ -3160,7 +3160,7 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 128.27) (xy 283.21 116.84)
+			(xy 223.52 128.27) (xy 223.52 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3170,7 +3170,7 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 102.87) (xy 313.69 102.87)
+			(xy 257.81 102.87) (xy 254 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3210,7 +3210,7 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 60.96) (xy 317.5 46.99)
+			(xy 257.81 60.96) (xy 257.81 46.99)
 		)
 		(stroke
 			(width 0)
@@ -3240,7 +3240,7 @@
 	)
 	(wire
 		(pts
-			(xy 288.29 72.39) (xy 283.21 72.39)
+			(xy 228.6 72.39) (xy 223.52 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3280,7 +3280,7 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 97.79) (xy 283.21 99.06)
+			(xy 223.52 97.79) (xy 223.52 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3300,7 +3300,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 49.53) (xy 283.21 49.53)
+			(xy 219.71 49.53) (xy 223.52 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3310,7 +3310,7 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 87.63) (xy 283.21 90.17)
+			(xy 223.52 87.63) (xy 223.52 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3330,7 +3330,7 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 133.35) (xy 303.53 110.49)
+			(xy 243.84 133.35) (xy 243.84 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3340,7 +3340,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 69.85) (xy 251.46 87.63)
+			(xy 191.77 69.85) (xy 191.77 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3350,7 +3350,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 87.63) (xy 283.21 87.63)
+			(xy 219.71 87.63) (xy 223.52 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3360,7 +3360,7 @@
 	)
 	(wire
 		(pts
-			(xy 300.99 116.84) (xy 295.91 116.84)
+			(xy 241.3 116.84) (xy 236.22 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3390,7 +3390,7 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 49.53) (xy 298.45 49.53)
+			(xy 223.52 49.53) (xy 238.76 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3400,7 +3400,7 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 77.47) (xy 303.53 78.74)
+			(xy 243.84 77.47) (xy 243.84 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3410,7 +3410,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 49.53) (xy 251.46 49.53)
+			(xy 212.09 49.53) (xy 191.77 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3430,7 +3430,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 77.47) (xy 303.53 77.47)
+			(xy 246.38 77.47) (xy 243.84 77.47)
 		)
 		(stroke
 			(width 0)
@@ -3440,7 +3440,7 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 72.39) (xy 300.99 72.39)
+			(xy 236.22 72.39) (xy 241.3 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3450,7 +3450,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 76.2) (xy 306.07 77.47)
+			(xy 246.38 76.2) (xy 246.38 77.47)
 		)
 		(stroke
 			(width 0)
@@ -3460,7 +3460,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 49.53) (xy 251.46 69.85)
+			(xy 191.77 49.53) (xy 191.77 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3470,7 +3470,7 @@
 	)
 	(wire
 		(pts
-			(xy 368.3 82.55) (xy 368.3 83.82)
+			(xy 168.91 58.42) (xy 168.91 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3480,7 +3480,7 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 102.87) (xy 322.58 102.87)
+			(xy 257.81 102.87) (xy 262.89 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3490,7 +3490,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 105.41) (xy 271.78 105.41)
+			(xy 207.01 105.41) (xy 212.09 105.41)
 		)
 		(stroke
 			(width 0)
@@ -3520,7 +3520,7 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 71.12) (xy 355.6 73.66)
+			(xy 181.61 46.99) (xy 181.61 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3550,7 +3550,7 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 60.96) (xy 288.29 60.96)
+			(xy 223.52 60.96) (xy 228.6 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3560,7 +3560,7 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 60.96) (xy 283.21 49.53)
+			(xy 223.52 60.96) (xy 223.52 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3609,7 +3609,7 @@
 		(uuid "fcbacd00-bfa3-49d8-a0f2-e2f8844f3fd2")
 	)
 	(label "FLAG_{1}"
-		(at 306.07 67.31 0)
+		(at 246.38 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3629,7 +3629,7 @@
 		(uuid "7ab262d2-7559-48ee-a574-40970002077a")
 	)
 	(label "2-"
-		(at 288.29 105.41 0)
+		(at 228.6 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3669,7 +3669,7 @@
 		(uuid "d2ffcff0-c101-4286-b780-7f24772f726d")
 	)
 	(label "1+"
-		(at 288.29 31.75 0)
+		(at 228.6 31.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3679,7 +3679,7 @@
 		(uuid "dd844914-aad7-43a8-86a1-148909041b27")
 	)
 	(label "1-"
-		(at 288.29 49.53 0)
+		(at 228.6 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3689,7 +3689,7 @@
 		(uuid "ec854d14-0800-4f71-a583-e50832584229")
 	)
 	(label "FLAG_{2}"
-		(at 306.07 123.19 0)
+		(at 246.38 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3699,7 +3699,7 @@
 		(uuid "ef6c5d6a-a371-4948-b299-05126edc2bd9")
 	)
 	(label "2+"
-		(at 288.29 87.63 0)
+		(at 228.6 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3732,7 +3732,7 @@
 	)
 	(hierarchical_label "POW_LIMIT"
 		(shape input)
-		(at 266.7 105.41 180)
+		(at 207.01 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3744,7 +3744,7 @@
 	)
 	(hierarchical_label "POW_LIMIT"
 		(shape input)
-		(at 267.97 31.75 180)
+		(at 208.28 31.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3778,7 +3778,7 @@
 	)
 	(hierarchical_label "BAT_GATE_CTRL"
 		(shape output)
-		(at 322.58 46.99 0)
+		(at 262.89 46.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3823,7 +3823,7 @@
 	)
 	(hierarchical_label "CAP_GATE_CTRL"
 		(shape output)
-		(at 322.58 102.87 0)
+		(at 262.89 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3966,6 +3966,38 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 44.45 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 44.45 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 44.45 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 44.45 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c1076475-0078-4a42-b37b-f67cef572215")
 		)
@@ -3989,7 +4021,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 283.21 38.1 180)
+		(at 223.52 38.1 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3998,7 +4030,7 @@
 		(fields_autoplaced yes)
 		(uuid "04f6f492-3de1-45b8-af2c-2cb9b26f0b43")
 		(property "Reference" "R55"
-			(at 285.75 36.8299 0)
+			(at 226.06 36.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4007,7 +4039,7 @@
 			)
 		)
 		(property "Value" "10Meg"
-			(at 285.75 39.3699 0)
+			(at 226.06 39.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4016,7 +4048,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 284.988 38.1 90)
+			(at 225.298 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4025,7 +4057,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_11-1984063.pdf"
-			(at 283.21 38.1 0)
+			(at 223.52 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4034,7 +4066,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 283.21 38.1 0)
+			(at 223.52 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4043,12 +4075,44 @@
 			)
 		)
 		(property "Mouser Part Number" "603-RC0603FR-1010ML"
-			(at 283.21 38.1 0)
+			(at 223.52 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 223.52 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 223.52 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 223.52 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 223.52 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -4121,6 +4185,38 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 158.75 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 158.75 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 158.75 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 158.75 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bb9b4284-7d60-4966-83e7-d0d73fa83778")
 		)
@@ -4189,6 +4285,38 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 118.11 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 118.11 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 118.11 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 118.11 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -4325,6 +4453,38 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 111.76 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 111.76 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 111.76 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 111.76 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "964357f3-2a72-49e4-a763-fea89b783a15")
 		)
@@ -4342,7 +4502,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 275.59 49.53 90)
+		(at 215.9 49.53 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4351,7 +4511,7 @@
 		(fields_autoplaced yes)
 		(uuid "2e9dd026-66a5-4c29-8a62-02402278e478")
 		(property "Reference" "R54"
-			(at 275.59 43.18 90)
+			(at 215.9 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4359,7 +4519,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 275.59 45.72 90)
+			(at 215.9 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4367,7 +4527,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 275.59 51.308 90)
+			(at 215.9 51.308 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4376,7 +4536,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 275.59 49.53 0)
+			(at 215.9 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4385,12 +4545,44 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 275.59 49.53 0)
+			(at 215.9 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 215.9 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 215.9 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 215.9 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 215.9 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -4542,7 +4734,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 283.21 99.06 0)
+		(at 223.52 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4551,7 +4743,7 @@
 		(fields_autoplaced yes)
 		(uuid "3d7c7817-78d8-4f1e-965c-45262f411787")
 		(property "Reference" "#PWR025"
-			(at 283.21 104.14 0)
+			(at 223.52 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4560,7 +4752,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 283.083 102.87 0)
+			(at 223.393 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4568,7 +4760,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 283.21 100.33 0)
+			(at 223.52 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4577,7 +4769,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 283.21 100.33 0)
+			(at 223.52 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4586,7 +4778,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 283.21 99.06 0)
+			(at 223.52 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4608,7 +4800,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 355.6 86.36 0)
+		(at 181.61 62.23 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4617,7 +4810,7 @@
 		(fields_autoplaced yes)
 		(uuid "41fa4012-61b4-4959-9aa1-a9f9ac81ed5d")
 		(property "Reference" "#PWR0104"
-			(at 355.6 92.71 0)
+			(at 181.61 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4626,7 +4819,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 355.6 91.44 0)
+			(at 181.61 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4634,7 +4827,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 355.6 86.36 0)
+			(at 181.61 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4643,7 +4836,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 355.6 86.36 0)
+			(at 181.61 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4652,7 +4845,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 355.6 86.36 0)
+			(at 181.61 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4674,7 +4867,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 283.21 43.18 0)
+		(at 223.52 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4683,7 +4876,7 @@
 		(fields_autoplaced yes)
 		(uuid "44357bdf-6e71-49ba-b185-4e1cf484f1d8")
 		(property "Reference" "#PWR024"
-			(at 283.21 48.26 0)
+			(at 223.52 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4692,7 +4885,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 283.083 46.99 0)
+			(at 223.393 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4700,7 +4893,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 283.21 44.45 0)
+			(at 223.52 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4709,7 +4902,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 283.21 44.45 0)
+			(at 223.52 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4718,7 +4911,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 283.21 43.18 0)
+			(at 223.52 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4740,7 +4933,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 306.07 128.27 0)
+		(at 246.38 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4749,7 +4942,7 @@
 		(fields_autoplaced yes)
 		(uuid "49bdb0db-117c-4244-b33e-b987e4a54b02")
 		(property "Reference" "R61"
-			(at 308.61 126.9999 0)
+			(at 248.92 126.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4758,7 +4951,7 @@
 			)
 		)
 		(property "Value" "47k"
-			(at 308.61 129.5399 0)
+			(at 248.92 129.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4767,7 +4960,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 304.292 128.27 90)
+			(at 244.602 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4776,7 +4969,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 306.07 128.27 0)
+			(at 246.38 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4785,12 +4978,44 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 306.07 128.27 0)
+			(at 246.38 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 246.38 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 246.38 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 246.38 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 246.38 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -4810,7 +5035,8 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 368.3 78.74 0)
+		(at 168.91 54.61 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4819,7 +5045,7 @@
 		(fields_autoplaced yes)
 		(uuid "4e0db8ac-412f-4609-bca6-58ff3a579fea")
 		(property "Reference" "C61"
-			(at 372.11 77.4699 0)
+			(at 165.1 53.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4828,7 +5054,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 372.11 80.0099 0)
+			(at 165.1 55.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4837,7 +5063,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 369.2652 82.55 0)
+			(at 167.9448 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4846,7 +5072,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 368.3 78.74 0)
+			(at 168.91 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4855,12 +5081,44 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 368.3 78.74 0)
+			(at 168.91 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 168.91 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 168.91 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 168.91 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 168.91 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -4880,7 +5138,8 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 355.6 71.12 0)
+		(at 181.61 46.99 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4889,7 +5148,7 @@
 		(fields_autoplaced yes)
 		(uuid "4ed709ff-a73a-4e35-ba2a-8b9eecf693ca")
 		(property "Reference" "#PWR051"
-			(at 355.6 74.93 0)
+			(at 181.61 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4898,7 +5157,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 355.6 66.04 0)
+			(at 181.61 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4906,7 +5165,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 355.6 71.12 0)
+			(at 181.61 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4915,7 +5174,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 355.6 71.12 0)
+			(at 181.61 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4924,7 +5183,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 355.6 71.12 0)
+			(at 181.61 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5012,7 +5271,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:OPA551U")
-		(at 306.07 46.99 0)
+		(at 246.38 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5021,7 +5280,7 @@
 		(fields_autoplaced yes)
 		(uuid "5ef705ee-4454-4b46-80a9-6f7e0be09e00")
 		(property "Reference" "U2"
-			(at 317.5 40.5698 0)
+			(at 257.81 40.5698 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5029,7 +5288,7 @@
 			)
 		)
 		(property "Value" "OPA551U"
-			(at 317.5 43.1098 0)
+			(at 257.81 43.1098 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5037,7 +5296,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 311.15 52.07 0)
+			(at 251.46 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5047,7 +5306,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa551.pdf"
-			(at 336.55 49.53 0)
+			(at 276.86 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5056,12 +5315,44 @@
 			)
 		)
 		(property "Description" "High-Voltage High-Current Operational Amplifier, bandwidth 3MHz, slew-rate 15V/us, SOIC-8"
-			(at 306.07 46.99 0)
+			(at 246.38 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 246.38 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 246.38 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 246.38 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 246.38 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -5099,7 +5390,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 275.59 105.41 90)
+		(at 215.9 105.41 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5108,7 +5399,7 @@
 		(fields_autoplaced yes)
 		(uuid "614283a4-ab7d-42a9-92ac-6efc654465f6")
 		(property "Reference" "R58"
-			(at 275.59 99.06 90)
+			(at 215.9 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5116,7 +5407,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 275.59 101.6 90)
+			(at 215.9 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5124,7 +5415,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 275.59 107.188 90)
+			(at 215.9 107.188 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5133,7 +5424,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 275.59 105.41 0)
+			(at 215.9 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5142,12 +5433,44 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 275.59 105.41 0)
+			(at 215.9 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 215.9 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 215.9 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 215.9 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 215.9 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -5167,7 +5490,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 306.07 72.39 0)
+		(at 246.38 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5176,7 +5499,7 @@
 		(fields_autoplaced yes)
 		(uuid "6d609c09-c483-4a76-b329-384afdf70103")
 		(property "Reference" "R52"
-			(at 308.61 71.1199 0)
+			(at 248.92 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5185,7 +5508,7 @@
 			)
 		)
 		(property "Value" "47k"
-			(at 308.61 73.6599 0)
+			(at 248.92 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5194,7 +5517,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 304.292 72.39 90)
+			(at 244.602 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5203,7 +5526,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 306.07 72.39 0)
+			(at 246.38 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5212,12 +5535,44 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 306.07 72.39 0)
+			(at 246.38 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 246.38 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 246.38 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 246.38 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 246.38 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -5237,7 +5592,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:OPA551U")
-		(at 306.07 102.87 0)
+		(at 246.38 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5246,7 +5601,7 @@
 		(fields_autoplaced yes)
 		(uuid "73756cd0-48a2-460f-b579-37f5e1980d3e")
 		(property "Reference" "U3"
-			(at 317.5 96.4498 0)
+			(at 257.81 96.4498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5254,7 +5609,7 @@
 			)
 		)
 		(property "Value" "OPA551U"
-			(at 317.5 98.9898 0)
+			(at 257.81 98.9898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5262,7 +5617,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 311.15 107.95 0)
+			(at 251.46 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5272,7 +5627,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa551.pdf"
-			(at 336.55 105.41 0)
+			(at 276.86 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5281,12 +5636,44 @@
 			)
 		)
 		(property "Description" "High-Voltage High-Current Operational Amplifier, bandwidth 3MHz, slew-rate 15V/us, SOIC-8"
-			(at 306.07 102.87 0)
+			(at 246.38 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 246.38 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 246.38 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 246.38 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 246.38 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -5324,7 +5711,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 292.1 60.96 90)
+		(at 232.41 60.96 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5333,7 +5720,7 @@
 		(fields_autoplaced yes)
 		(uuid "7582773f-8982-4abf-87b7-61b8ad4d3c52")
 		(property "Reference" "R53"
-			(at 292.1 54.61 90)
+			(at 232.41 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5341,7 +5728,7 @@
 			)
 		)
 		(property "Value" "10Meg"
-			(at 292.1 57.15 90)
+			(at 232.41 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5349,7 +5736,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 292.1 62.738 90)
+			(at 232.41 62.738 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5358,7 +5745,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_11-1984063.pdf"
-			(at 292.1 60.96 0)
+			(at 232.41 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5367,7 +5754,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 292.1 60.96 0)
+			(at 232.41 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5376,12 +5763,44 @@
 			)
 		)
 		(property "Mouser Part Number" "603-RC0603FR-1010ML"
-			(at 292.1 60.96 0)
+			(at 232.41 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 232.41 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 232.41 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 232.41 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 232.41 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -5526,6 +5945,38 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 133.35 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 133.35 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 133.35 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 133.35 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "fcc428d1-f669-4366-a1af-9c81b1c1570f")
 		)
@@ -5603,6 +6054,38 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 133.35 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 133.35 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 133.35 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 133.35 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7009b291-a099-4806-ad19-7beafdf3b379")
 		)
@@ -5671,6 +6154,38 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 44.45 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 44.45 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 44.45 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 44.45 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -5758,6 +6273,38 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 158.75 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 158.75 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 158.75 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 158.75 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "948fdc3b-cffc-4608-a40e-0bad83544ccd")
 		)
@@ -5775,7 +6322,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 292.1 128.27 90)
+		(at 232.41 128.27 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5784,7 +6331,7 @@
 		(fields_autoplaced yes)
 		(uuid "99e2317b-533c-4d49-b33b-006be5ea835e")
 		(property "Reference" "C56"
-			(at 292.1 120.65 90)
+			(at 232.41 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5792,7 +6339,7 @@
 			)
 		)
 		(property "Value" "39p"
-			(at 292.1 123.19 90)
+			(at 232.41 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5800,7 +6347,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 295.91 127.3048 0)
+			(at 236.22 127.3048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5809,7 +6356,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/datasheet/2/210/WTC_MLCC_General_Purpose-1534899.pdf"
-			(at 292.1 128.27 0)
+			(at 232.41 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5818,7 +6365,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 292.1 128.27 0)
+			(at 232.41 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5827,12 +6374,44 @@
 			)
 		)
 		(property "Mouser Part Number" "791-0603N390F500CT"
-			(at 292.1 128.27 90)
+			(at 232.41 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 232.41 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 232.41 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 232.41 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 232.41 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -5924,7 +6503,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 303.53 134.62 0)
+		(at 243.84 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5933,7 +6512,7 @@
 		(fields_autoplaced yes)
 		(uuid "a34ff6ce-d086-4393-ad88-16f7e10efed6")
 		(property "Reference" "#PWR027"
-			(at 303.53 140.97 0)
+			(at 243.84 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5942,7 +6521,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 303.53 139.7 0)
+			(at 243.84 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5950,7 +6529,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 303.53 134.62 0)
+			(at 243.84 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5959,7 +6538,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 303.53 134.62 0)
+			(at 243.84 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5968,7 +6547,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 303.53 134.62 0)
+			(at 243.84 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6043,6 +6622,38 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 93.98 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 93.98 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 93.98 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 93.98 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "84d3c6ab-8822-41dd-9fad-d9b6d0492272")
 		)
@@ -6060,7 +6671,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 275.59 87.63 90)
+		(at 215.9 87.63 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6069,7 +6680,7 @@
 		(fields_autoplaced yes)
 		(uuid "a634c86b-8828-4294-9fba-5f5bc06a36b8")
 		(property "Reference" "R57"
-			(at 275.59 81.28 90)
+			(at 215.9 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6077,7 +6688,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 275.59 83.82 90)
+			(at 215.9 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6085,7 +6696,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 275.59 89.408 90)
+			(at 215.9 89.408 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6094,7 +6705,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 275.59 87.63 0)
+			(at 215.9 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6103,12 +6714,44 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 275.59 87.63 0)
+			(at 215.9 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 215.9 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 215.9 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 215.9 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 215.9 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -6128,7 +6771,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 292.1 116.84 90)
+		(at 232.41 116.84 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6137,7 +6780,7 @@
 		(fields_autoplaced yes)
 		(uuid "b21a4f56-0b53-49b3-a695-c7701523c9f4")
 		(property "Reference" "R60"
-			(at 292.1 110.49 90)
+			(at 232.41 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6145,7 +6788,7 @@
 			)
 		)
 		(property "Value" "10Meg"
-			(at 292.1 113.03 90)
+			(at 232.41 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6153,7 +6796,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 292.1 118.618 90)
+			(at 232.41 118.618 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6162,7 +6805,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_11-1984063.pdf"
-			(at 292.1 116.84 0)
+			(at 232.41 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6171,7 +6814,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 292.1 116.84 0)
+			(at 232.41 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6180,12 +6823,44 @@
 			)
 		)
 		(property "Mouser Part Number" "603-RC0603FR-1010ML"
-			(at 292.1 116.84 0)
+			(at 232.41 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 232.41 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 232.41 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 232.41 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 232.41 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -6205,7 +6880,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 303.53 78.74 0)
+		(at 243.84 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6214,7 +6889,7 @@
 		(fields_autoplaced yes)
 		(uuid "b65e29aa-33f2-457b-89db-603324e33382")
 		(property "Reference" "#PWR028"
-			(at 303.53 85.09 0)
+			(at 243.84 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6223,7 +6898,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 303.53 83.82 0)
+			(at 243.84 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6231,7 +6906,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 303.53 78.74 0)
+			(at 243.84 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6240,7 +6915,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 303.53 78.74 0)
+			(at 243.84 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6249,7 +6924,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 303.53 78.74 0)
+			(at 243.84 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6322,6 +6997,38 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 44.45 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 44.45 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 44.45 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 44.45 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "1c8116bc-55d3-4d43-8ea3-de1a134ce195")
 		)
@@ -6354,7 +7061,8 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 355.6 78.74 0)
+		(at 181.61 54.61 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6363,7 +7071,7 @@
 		(fields_autoplaced yes)
 		(uuid "bb565bed-535d-46a7-879d-903af9bfb2ed")
 		(property "Reference" "C60"
-			(at 359.41 77.4699 0)
+			(at 177.8 53.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6372,7 +7080,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 359.41 80.0099 0)
+			(at 177.8 55.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6381,7 +7089,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 356.5652 82.55 0)
+			(at 180.6448 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6390,7 +7098,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 355.6 78.74 0)
+			(at 181.61 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6399,12 +7107,44 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 355.6 78.74 0)
+			(at 181.61 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 181.61 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 181.61 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 181.61 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 181.61 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -6424,7 +7164,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 303.53 38.1 0)
+		(at 243.84 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6433,7 +7173,7 @@
 		(fields_autoplaced yes)
 		(uuid "bc711080-d4fb-46ec-90e8-98c30a35592f")
 		(property "Reference" "#PWR022"
-			(at 303.53 41.91 0)
+			(at 243.84 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6442,7 +7182,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 303.53 33.02 0)
+			(at 243.84 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6450,7 +7190,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 303.53 38.1 0)
+			(at 243.84 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6459,7 +7199,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 303.53 38.1 0)
+			(at 243.84 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6468,7 +7208,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 303.53 38.1 0)
+			(at 243.84 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6556,7 +7296,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 303.53 93.98 0)
+		(at 243.84 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6565,7 +7305,7 @@
 		(fields_autoplaced yes)
 		(uuid "c2efb506-d383-46c7-a7af-f80b80b066ba")
 		(property "Reference" "#PWR026"
-			(at 303.53 97.79 0)
+			(at 243.84 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6574,7 +7314,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 303.53 88.9 0)
+			(at 243.84 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6582,7 +7322,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 303.53 93.98 0)
+			(at 243.84 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6591,7 +7331,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 303.53 93.98 0)
+			(at 243.84 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6600,7 +7340,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 303.53 93.98 0)
+			(at 243.84 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6622,7 +7362,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 275.59 31.75 90)
+		(at 215.9 31.75 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6631,7 +7371,7 @@
 		(fields_autoplaced yes)
 		(uuid "c403cc33-9150-4ea3-a626-96a522156021")
 		(property "Reference" "R56"
-			(at 275.59 25.4 90)
+			(at 215.9 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6639,7 +7379,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 275.59 27.94 90)
+			(at 215.9 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6647,7 +7387,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 275.59 33.528 90)
+			(at 215.9 33.528 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6656,7 +7396,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 275.59 31.75 0)
+			(at 215.9 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6665,12 +7405,44 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 275.59 31.75 0)
+			(at 215.9 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 215.9 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 215.9 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 215.9 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 215.9 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -6809,6 +7581,38 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 132.08 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 132.08 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 132.08 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 132.08 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f4741f69-b77d-4bf2-99e9-026b28598b2c")
 		)
@@ -6875,6 +7679,38 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 106.68 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 106.68 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 106.68 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 106.68 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -6966,7 +7802,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 283.21 93.98 180)
+		(at 223.52 93.98 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6975,7 +7811,7 @@
 		(fields_autoplaced yes)
 		(uuid "e0269c57-9216-46e2-8b70-39beca9f0d9b")
 		(property "Reference" "R59"
-			(at 285.75 92.7099 0)
+			(at 226.06 92.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6984,7 +7820,7 @@
 			)
 		)
 		(property "Value" "10Meg"
-			(at 285.75 95.2499 0)
+			(at 226.06 95.2499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6993,7 +7829,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 284.988 93.98 90)
+			(at 225.298 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7002,7 +7838,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_11-1984063.pdf"
-			(at 283.21 93.98 0)
+			(at 223.52 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7011,7 +7847,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 283.21 93.98 0)
+			(at 223.52 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7020,12 +7856,44 @@
 			)
 		)
 		(property "Mouser Part Number" "603-RC0603FR-1010ML"
-			(at 283.21 93.98 0)
+			(at 223.52 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 223.52 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 223.52 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 223.52 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 223.52 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -7102,6 +7970,38 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 99.06 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 99.06 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 99.06 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 99.06 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "4"
@@ -7208,7 +8108,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 292.1 72.39 90)
+		(at 232.41 72.39 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7217,7 +8117,7 @@
 		(fields_autoplaced yes)
 		(uuid "f02f1d2a-da6b-4b86-b776-c4f2427c9b81")
 		(property "Reference" "C55"
-			(at 292.1 64.77 90)
+			(at 232.41 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7225,7 +8125,7 @@
 			)
 		)
 		(property "Value" "39p"
-			(at 292.1 67.31 90)
+			(at 232.41 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7233,7 +8133,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 295.91 71.4248 0)
+			(at 236.22 71.4248 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7242,7 +8142,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/datasheet/2/210/WTC_MLCC_General_Purpose-1534899.pdf"
-			(at 292.1 72.39 0)
+			(at 232.41 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7251,7 +8151,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 292.1 72.39 0)
+			(at 232.41 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7260,12 +8160,44 @@
 			)
 		)
 		(property "Mouser Part Number" "791-0603N390F500CT"
-			(at 292.1 72.39 90)
+			(at 232.41 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 232.41 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 232.41 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 232.41 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 232.41 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
