@@ -1858,6 +1858,7 @@
 			(font
 				(size 1.27 1.27)
 			)
+			(hide yes)
 		)
 		(uuid "1909932f-d5c1-4e77-9cad-cdc3ce7f7301")
 	)
@@ -1872,6 +1873,7 @@
 				(italic yes)
 			)
 			(justify left top)
+			(hide yes)
 		)
 		(uuid "228a0cdc-0846-413a-a3f1-655275f4bce5")
 	)
@@ -1883,6 +1885,7 @@
 				(size 1.27 1.27)
 			)
 			(justify left top)
+			(hide yes)
 		)
 		(uuid "44673ebc-3683-4499-8139-68ac3e73f6fb")
 	)
@@ -1894,6 +1897,7 @@
 				(size 1.27 1.27)
 			)
 			(justify left top)
+			(hide yes)
 		)
 		(uuid "45749c9f-01ca-4b82-814c-e6c533ee7940")
 	)
@@ -1904,6 +1908,7 @@
 			(font
 				(size 1.27 1.27)
 			)
+			(hide yes)
 		)
 		(uuid "6b3ef357-f971-4770-99c8-25459d98d4c4")
 	)
@@ -1915,6 +1920,7 @@
 				(size 1.27 1.27)
 			)
 			(justify left top)
+			(hide yes)
 		)
 		(uuid "9166d57d-93df-4fb9-9a25-6a629beea192")
 	)
@@ -1929,6 +1935,7 @@
 				(italic yes)
 			)
 			(justify left top)
+			(hide yes)
 		)
 		(uuid "99706418-fcdc-4815-848a-748d866722f7")
 	)
@@ -1940,6 +1947,7 @@
 				(size 1.27 1.27)
 			)
 			(justify top)
+			(hide yes)
 		)
 		(uuid "b0f360b5-5f9f-4b67-bbea-54dd158fb561")
 	)
@@ -1954,6 +1962,7 @@
 				(italic yes)
 			)
 			(justify left top)
+			(hide yes)
 		)
 		(uuid "b8610070-3aca-493f-93e7-cfddaf0a647e")
 	)
@@ -1965,6 +1974,7 @@
 				(size 1.27 1.27)
 			)
 			(justify top)
+			(hide yes)
 		)
 		(uuid "cacb7e22-797c-4d38-a0c8-6794f24b4a43")
 	)
@@ -1979,6 +1989,7 @@
 				(italic yes)
 			)
 			(justify left top)
+			(hide yes)
 		)
 		(uuid "cdb58f8b-439f-497d-9b19-dce3b6468daa")
 	)
@@ -1989,6 +2000,7 @@
 			(font
 				(size 1.27 1.27)
 			)
+			(hide yes)
 		)
 		(uuid "d9ad986b-19b5-4170-a075-7331f9fe1557")
 	)
@@ -3449,6 +3461,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "6"
@@ -4378,6 +4391,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "4"
@@ -5005,6 +5019,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "6"
@@ -5807,6 +5822,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6696,6 +6712,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "4"

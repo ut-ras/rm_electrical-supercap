@@ -1845,6 +1845,7 @@
 				(size 1.27 1.27)
 			)
 			(justify top)
+			(hide yes)
 		)
 		(uuid "38dd6559-1d44-48b7-8c49-b57d8cc6417d")
 	)
@@ -1856,6 +1857,7 @@
 				(size 1.27 1.27)
 			)
 			(justify left top)
+			(hide yes)
 		)
 		(uuid "7a25c47f-5e72-40c0-bf6a-a43cafc317b7")
 	)
@@ -1867,6 +1869,7 @@
 				(size 1.27 1.27)
 			)
 			(justify left top)
+			(hide yes)
 		)
 		(uuid "7fa41313-407f-49cf-8cd3-d70fa13b00e9")
 	)
@@ -1878,6 +1881,7 @@
 				(size 1.27 1.27)
 			)
 			(justify left top)
+			(hide yes)
 		)
 		(uuid "e9cc134a-7f15-4a55-a60c-80107ee4ef9e")
 	)
@@ -1890,6 +1894,7 @@
 				(thickness 0.254)
 				(bold yes)
 			)
+			(hide yes)
 		)
 		(uuid "f8d53e77-caf7-4f6f-a928-cd34b6ba41e7")
 	)
@@ -4077,6 +4082,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "10"
@@ -4972,6 +4978,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
