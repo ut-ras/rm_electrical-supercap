@@ -1794,17 +1794,6 @@
 		)
 		(uuid "cb09da32-af41-49cd-b3dd-1532d87e4ae9")
 	)
-	(text "TODO: Make this prettier lol"
-		(exclude_from_sim no)
-		(at 164.846 89.154 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify bottom)
-		)
-		(uuid "cbab9528-4d09-4a59-acb5-7ca98b66c13e")
-	)
 	(text "Chassis (power) ground"
 		(exclude_from_sim no)
 		(at 245.11 48.895 0)
@@ -4487,7 +4476,7 @@
 		(instances
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60"
-					(page "8")
+					(page "7")
 				)
 			)
 		)
@@ -4539,7 +4528,7 @@
 		(instances
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60"
-					(page "9")
+					(page "8")
 				)
 			)
 		)

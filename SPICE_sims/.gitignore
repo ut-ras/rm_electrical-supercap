@@ -3,3 +3,4 @@
 *.plt
 *.raw
 *.op.raw
+*.fft
