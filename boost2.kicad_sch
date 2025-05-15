@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Output Boost (Stage 2)")
-		(date "2025-02-12")
-		(rev "1")
+		(date "2025-05-14")
+		(rev "2")
 		(company "UT Robomaster")
 		(comment 1 "Robomaster")
 	)
@@ -1648,7 +1648,7 @@
 		)
 		(uuid "7ade2713-7256-4e67-98fc-5ae052a84509")
 	)
-	(text "Input filtering\n(derates to 9.4µF)"
+	(text "Input filtering\n(derates to 5.6µF)"
 		(exclude_from_sim no)
 		(at 51.562 77.47 0)
 		(effects
@@ -1692,7 +1692,7 @@
 		)
 		(uuid "bcd0af95-db12-43d7-8a00-998328084b7d")
 	)
-	(text "(derates to 10.0µF)"
+	(text "(derates to 8.8µF)"
 		(exclude_from_sim no)
 		(at 122.428 114.808 0)
 		(effects
@@ -1749,22 +1749,10 @@
 		(uuid "14fbf3f9-65dd-432e-9f34-588d08e8c329")
 	)
 	(junction
-		(at 45.72 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "175a23c5-fa3f-444f-9ab1-97388a1748e2")
-	)
-	(junction
 		(at 232.41 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1abd8aef-203b-4e2a-b31d-45eca4154ff0")
-	)
-	(junction
-		(at 116.84 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2b91d398-151f-4dde-ba3d-af5df7b17320")
 	)
 	(junction
 		(at 111.76 101.6)
@@ -1881,13 +1869,7 @@
 		(uuid "827d9034-dd82-4637-8049-758b597a52e7")
 	)
 	(junction
-		(at 128.27 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8e798495-3b48-44a1-bb7f-2fdbbb4ad907")
-	)
-	(junction
-		(at 57.15 78.74)
+		(at 52.07 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b7c0a21-9172-4477-86e5-d18bb131be7d")
@@ -1917,12 +1899,6 @@
 		(uuid "d566662b-e377-4bd7-a4f5-735b6a75d4b7")
 	)
 	(junction
-		(at 57.15 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d8e7ff51-8b86-4d81-abd3-7f370a18793a")
-	)
-	(junction
 		(at 68.58 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1947,16 +1923,16 @@
 		(uuid "e6f9d232-d20c-45ba-ae96-a694665c65e0")
 	)
 	(junction
-		(at 116.84 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e88c0420-c595-4fe7-a56e-0ef31a457415")
-	)
-	(junction
 		(at 68.58 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eee72257-a1b4-4272-a1c8-a3f9145c5a47")
+	)
+	(junction
+		(at 121.92 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8be3c9a-8f0c-43bc-a157-bd728365f067")
 	)
 	(junction
 		(at 62.23 139.7)
@@ -2000,16 +1976,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 78.74) (xy 45.72 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0823ac0e-accf-458d-9cfe-779b5b88e31e")
-	)
-	(wire
-		(pts
 			(xy 144.78 111.76) (xy 147.32 111.76)
 		)
 		(stroke
@@ -2027,16 +1993,6 @@
 			(type default)
 		)
 		(uuid "0bdaff3d-6908-4821-b072-40a3f7a1d04c")
-	)
-	(wire
-		(pts
-			(xy 128.27 101.6) (xy 128.27 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bdd7ee8-c216-46f2-a908-34273da4914c")
 	)
 	(wire
 		(pts
@@ -2130,13 +2086,23 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 111.76) (xy 116.84 111.76)
+			(xy 121.92 111.76) (xy 142.24 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "20343853-0b0e-4e4c-90b8-7898c7f8667f")
+		(uuid "2158d4d2-ac0d-4451-b639-81a6aa883492")
+	)
+	(wire
+		(pts
+			(xy 147.32 78.74) (xy 167.64 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23d13d36-5200-4d65-86d5-247fcd5bef9c")
 	)
 	(wire
 		(pts
@@ -2270,16 +2236,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 78.74) (xy 167.64 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4306be19-a124-4ef2-9ba9-940c92d4d7a6")
-	)
-	(wire
-		(pts
 			(xy 99.06 139.7) (xy 187.96 139.7)
 		)
 		(stroke
@@ -2337,16 +2293,6 @@
 			(type default)
 		)
 		(uuid "50f913b0-781c-4ccb-a0fb-796125cf6495")
-	)
-	(wire
-		(pts
-			(xy 128.27 111.76) (xy 142.24 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "588728ef-1df0-4d0a-b07b-b5164e790793")
 	)
 	(wire
 		(pts
@@ -2450,16 +2396,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 101.6) (xy 128.27 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a4cafc9-baef-488f-9982-ff4436ba714a")
-	)
-	(wire
-		(pts
 			(xy 147.32 78.74) (xy 147.32 97.79)
 		)
 		(stroke
@@ -2480,17 +2416,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 88.9) (xy 45.72 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "808379a3-dd55-475c-8506-a4e86305f34e")
-	)
-	(wire
-		(pts
-			(xy 57.15 88.9) (xy 57.15 91.44)
+			(xy 52.07 88.9) (xy 52.07 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2550,7 +2476,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 111.76) (xy 109.22 111.76)
+			(xy 109.22 111.76) (xy 121.92 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2630,7 +2556,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 101.6) (xy 116.84 102.87)
+			(xy 121.92 101.6) (xy 121.92 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2660,7 +2586,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 78.74) (xy 57.15 78.74)
+			(xy 41.91 78.74) (xy 52.07 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2690,7 +2616,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 78.74) (xy 68.58 78.74)
+			(xy 52.07 78.74) (xy 68.58 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2720,7 +2646,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 78.74) (xy 57.15 81.28)
+			(xy 52.07 78.74) (xy 52.07 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2747,16 +2673,6 @@
 			(type default)
 		)
 		(uuid "b51e3ff8-a397-4839-934e-677b572ed063")
-	)
-	(wire
-		(pts
-			(xy 41.91 78.74) (xy 45.72 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b70092d7-ffac-456f-80b3-bb428eabd0a7")
 	)
 	(wire
 		(pts
@@ -2807,16 +2723,6 @@
 			(type default)
 		)
 		(uuid "bef3b6d3-b617-428f-b903-ed4010c15143")
-	)
-	(wire
-		(pts
-			(xy 57.15 91.44) (xy 57.15 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf7d3684-ac48-44d1-9ff4-aebcaf2ccf60")
 	)
 	(wire
 		(pts
@@ -2890,7 +2796,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 110.49) (xy 116.84 111.76)
+			(xy 121.92 110.49) (xy 121.92 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2910,7 +2816,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 101.6) (xy 111.76 101.6)
+			(xy 121.92 101.6) (xy 111.76 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3030,16 +2936,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 110.49) (xy 128.27 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8bd8a36-37d6-4650-95f6-336c30f8be2b")
-	)
-	(wire
-		(pts
 			(xy 193.04 137.16) (xy 193.04 139.7)
 		)
 		(stroke
@@ -3077,16 +2973,6 @@
 			(type default)
 		)
 		(uuid "ef315fb9-2ef2-4fae-b957-38f29e9d76ae")
-	)
-	(wire
-		(pts
-			(xy 45.72 91.44) (xy 57.15 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef7edf51-5ba9-4e3e-bc62-31d8a9338342")
 	)
 	(wire
 		(pts
@@ -3199,7 +3085,7 @@
 		(uuid "7ca77d9b-f8fc-4898-b071-c4fb2c6e0b74")
 	)
 	(label "VCC"
-		(at 120.65 101.6 0)
+		(at 121.92 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3259,7 +3145,7 @@
 		(uuid "df985a81-9126-40d2-8f9d-1e3a2180da3d")
 	)
 	(label "SW"
-		(at 110.49 78.74 180)
+		(at 157.48 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3512,7 +3398,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 57.15 93.98 0)
+		(at 52.07 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3521,7 +3407,7 @@
 		(fields_autoplaced yes)
 		(uuid "283c9dba-397b-406e-9e47-e263dc507776")
 		(property "Reference" "#PWR015"
-			(at 57.15 99.06 0)
+			(at 52.07 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3530,7 +3416,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 57.023 97.79 0)
+			(at 51.943 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3538,7 +3424,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 95.25 0)
+			(at 52.07 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3547,7 +3433,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 95.25 0)
+			(at 52.07 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3556,7 +3442,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 57.15 93.98 0)
+			(at 52.07 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4671,7 +4557,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 116.84 106.68 0)
+		(at 121.92 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4680,7 +4566,7 @@
 		(fields_autoplaced yes)
 		(uuid "91a8c07d-a634-439c-a2db-13af06f83f59")
 		(property "Reference" "C4"
-			(at 120.65 105.4099 0)
+			(at 125.73 105.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4689,7 +4575,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 120.65 107.9499 0)
+			(at 125.73 107.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4698,7 +4584,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 117.8052 110.49 0)
+			(at 122.8852 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4707,7 +4593,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/datasheet/2/585/MLCC-1837944.pdf"
-			(at 116.84 106.68 0)
+			(at 121.92 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4716,7 +4602,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 116.84 106.68 0)
+			(at 121.92 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4725,7 +4611,7 @@
 			)
 		)
 		(property "Mouser Part Number" "187-CL21A106KAYNNNE"
-			(at 116.84 106.68 0)
+			(at 121.92 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4734,7 +4620,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 116.84 106.68 0)
+			(at 121.92 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4742,7 +4628,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 116.84 106.68 0)
+			(at 121.92 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4750,7 +4636,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 116.84 106.68 0)
+			(at 121.92 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4758,7 +4644,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 116.84 106.68 0)
+			(at 121.92 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4775,117 +4661,6 @@
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/47dffa6f-2678-4be2-969a-7f2e7310ccad"
 					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 57.15 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "979f7fcf-a775-49fb-9cfb-c07e8f48e274")
-		(property "Reference" "C2"
-			(at 60.96 83.8199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 60.96 86.3599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 58.1152 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/585/MLCC-1837944.pdf"
-			(at 57.15 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 57.15 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "187-CL21A106KAYNNNE"
-			(at 57.15 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 57.15 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 57.15 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 57.15 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 57.15 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "213a2657-58c6-4e38-88f0-3ecd8f226590")
-		)
-		(pin "2"
-			(uuid "3e517547-630b-4417-b7eb-47dd1ffca171")
-		)
-		(instances
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/47dffa6f-2678-4be2-969a-7f2e7310ccad"
-					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -5309,6 +5084,15 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "595-TPS43061RTER"
+			(at 97.79 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "11"
 			(uuid "dd31ea84-7331-473b-9f11-fe3d4584bb92")
 		)
@@ -5648,117 +5432,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 45.72 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cfb35aae-1bed-454c-aa26-0b7960c23433")
-		(property "Reference" "C1"
-			(at 49.53 83.8199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 49.53 86.3599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 46.6852 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/585/MLCC-1837944.pdf"
-			(at 45.72 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 45.72 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "187-CL21A106KAYNNNE"
-			(at 45.72 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 45.72 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 45.72 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 45.72 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 45.72 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9b0df8f5-86bd-4ae7-b06e-c0534ae13624")
-		)
-		(pin "2"
-			(uuid "5f8a0676-8052-4828-a218-df3f148a2452")
-		)
-		(instances
-			(project ""
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/47dffa6f-2678-4be2-969a-7f2e7310ccad"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 74.93 78.74 90)
 		(unit 1)
@@ -5776,7 +5449,7 @@
 				)
 			)
 		)
-		(property "Value" "10m"
+		(property "Value" "0.01"
 			(at 74.93 74.93 90)
 			(effects
 				(font
@@ -6527,6 +6200,117 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 52.07 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f600f20d-a770-46d8-8123-cb47916bfbb3")
+		(property "Reference" "C30"
+			(at 55.88 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 55.88 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 53.0352 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/585/MLCC-1837944.pdf"
+			(at 52.07 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 52.07 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "187-CL21A106KAYNNNE"
+			(at 52.07 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 52.07 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 52.07 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 52.07 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 52.07 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "44f851c6-7003-4214-9970-36f76605f900")
+		)
+		(pin "2"
+			(uuid "144aaa40-0a63-4208-b757-89c234af2e85")
+		)
+		(instances
+			(project "SupercapManager"
+				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/47dffa6f-2678-4be2-969a-7f2e7310ccad"
+					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 193.04 120.65 0)
 		(unit 1)
@@ -6623,117 +6407,6 @@
 			(project ""
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/47dffa6f-2678-4be2-969a-7f2e7310ccad"
 					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 128.27 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fb4cd1ff-48b3-4c38-959f-7766228deafd")
-		(property "Reference" "C46"
-			(at 132.08 105.4099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 132.08 107.9499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 129.2352 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/585/MLCC-1837944.pdf"
-			(at 128.27 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 128.27 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "187-CL21A106KAYNNNE"
-			(at 128.27 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 128.27 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 128.27 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 128.27 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 128.27 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "399f1555-5c89-4091-bb52-9c0f638a1566")
-		)
-		(pin "2"
-			(uuid "b1551b01-cc03-42b0-8b5c-3d868880e004")
-		)
-		(instances
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/47dffa6f-2678-4be2-969a-7f2e7310ccad"
-					(reference "C46")
 					(unit 1)
 				)
 			)
