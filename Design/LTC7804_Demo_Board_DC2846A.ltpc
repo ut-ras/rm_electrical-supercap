@@ -8,11 +8,11 @@
       <PartName>LTC7804</PartName>
       <IcTa>25</IcTa>
       <LastSavedFilesCultureInfo>en-US</LastSavedFilesCultureInfo>
-      <SolutionAreamm2>390.5</SolutionAreamm2>
-      <SolutionComponentCount>16</SolutionComponentCount>
-      <SolutionMaxHeightmm>5</SolutionMaxHeightmm>
-      <TotalSolutionAreamm2>390.5</TotalSolutionAreamm2>
-      <TotalSolutionPrice>9.48585</TotalSolutionPrice>
+      <SolutionAreamm2>386.2</SolutionAreamm2>
+      <SolutionComponentCount>15</SolutionComponentCount>
+      <SolutionMaxHeightmm>9</SolutionMaxHeightmm>
+      <TotalSolutionAreamm2>386.2</TotalSolutionAreamm2>
+      <TotalSolutionPrice>8.24672</TotalSolutionPrice>
     </ConverterSpec>
   </ConverterSpecs>
   <ProgramUserInfos>
@@ -33,9 +33,9 @@
       <PartLength>3</PartLength>
       <PartWidth>3</PartWidth>
       <PartHeight>0.8</PartHeight>
-      <VinToCalc>5</VinToCalc>
-      <MaxVin>5</MaxVin>
-      <NomVin>5</NomVin>
+      <VinToCalc>4.5</VinToCalc>
+      <MaxVin>4.5</MaxVin>
+      <NomVin>4.5</NomVin>
       <MinVin>4.5</MinVin>
       <SwitchingFreq>370000</SwitchingFreq>
       <OutputVol>6.03</OutputVol>
@@ -43,7 +43,7 @@
       <VoutNum>1</VoutNum>
       <NPh>1</NPh>
       <NIc>1</NIc>
-      <VinD>5</VinD>
+      <VinD>4.5</VinD>
       <Ta>25</Ta>
       <InductorThetaWA>21.7</InductorThetaWA>
       <InductorRipplePercentDesired>30</InductorRipplePercentDesired>
@@ -59,23 +59,23 @@
       <InductorTheat>40</InductorTheat>
       <InductorCoreLoss>0.11</InductorCoreLoss>
       <TransformerLength>6.65</TransformerLength>
-      <Cin>9.0636286E-05</Cin>
-      <CinESR>0.007</CinESR>
-      <CinESL>1.92E-09</CinESL>
+      <Cin>0.0001</Cin>
+      <CinESR>0.01</CinESR>
+      <CinESL>2E-09</CinESL>
       <NCin>1</NCin>
-      <CinManufacturer>TDK</CinManufacturer>
-      <CinPartNumber>CKG57NX5R1C107M500JH</CinPartNumber>
-      <CinPackage>2220</CinPackage>
-      <CinLength>5.7</CinLength>
-      <CinWidth>5</CinWidth>
-      <CinHeight>5</CinHeight>
-      <CinAtHalfRated>7.9832E-05</CinAtHalfRated>
-      <CinAtFullRated>4.3086E-05</CinAtFullRated>
+      <CinManufacturer>PANASONIC</CinManufacturer>
+      <CinPartNumber>16SEPC100MW</CinPartNumber>
+      <CinPackage>C9</CinPackage>
+      <CinLength>6.3</CinLength>
+      <CinWidth>6.3</CinWidth>
+      <CinHeight>9</CinHeight>
+      <CinAtHalfRated>0.0001</CinAtHalfRated>
+      <CinAtFullRated>0.0001</CinAtFullRated>
       <CinAtNoVoltage>0.0001</CinAtNoVoltage>
-      <CinDerated>9.06362857142857E-05</CinDerated>
+      <CinDerated>0.0001</CinDerated>
       <CinVoltageRating>16</CinVoltageRating>
-      <CinIrmsMax>3.5</CinIrmsMax>
-      <CinCeramic>3.041111E-06</CinCeramic>
+      <CinIrmsMax>4.68</CinIrmsMax>
+      <CinCeramic>3.43E-06</CinCeramic>
       <CinCeramicESR>0.006</CinCeramicESR>
       <CinCeramicESL>8E-10</CinCeramicESL>
       <NCinCeramic>4</NCinCeramic>
@@ -88,14 +88,13 @@
       <CinCeramicAtHalfRated>4.48E-06</CinCeramicAtHalfRated>
       <CinCeramicAtFullRated>2.03E-06</CinCeramicAtFullRated>
       <CinCeramicAtNoVoltage>1E-05</CinCeramicAtNoVoltage>
-      <CinCeramicDerated>3.04111111111111E-06</CinCeramicDerated>
+      <CinCeramicDerated>3.43E-06</CinCeramicDerated>
       <CinCeramicVoltageRating>6.3</CinCeramicVoltageRating>
       <CinCeramicIrmsMax>9.07</CinCeramicIrmsMax>
       <VinRipplePkPkMaxTargetPercent>1</VinRipplePkPkMaxTargetPercent>
       <Cob>0.00015</Cob>
       <ESRb>0.006</ESRb>
       <ESLb>1.7E-09</ESLb>
-      <Numb>1</Numb>
       <BulkCapacitorManufacturer>KEMET</BulkCapacitorManufacturer>
       <BulkCapacitorPartNumber>T520V157M006ATE006</BulkCapacitorPartNumber>
       <BulkCapacitorPackage>V</BulkCapacitorPackage>
@@ -105,12 +104,12 @@
       <CobDerated>0.00015</CobDerated>
       <CobVoltageRating>6.3</CobVoltageRating>
       <VoRipplePkPkMaxTargetPercent>1</VoRipplePkPkMaxTargetPercent>
-      <VoStepMaxTargetPercent>2.91424673271594</VoStepMaxTargetPercent>
+      <VoStepMaxTargetPercent>2.90278998982396</VoStepMaxTargetPercent>
       <TotalVoRippleMaxTargetPercent>3</TotalVoRippleMaxTargetPercent>
       <Coc>3.67354E-05</Coc>
       <ESRc>0.00063</ESRc>
       <ESLc>5.7E-10</ESLc>
-      <Numc>5</Numc>
+      <Numc>6</Numc>
       <CeramicCapacitorManufacturer>KEMET</CeramicCapacitorManufacturer>
       <CeramicCapacitorPartNumber>C1210C107M8PACTU</CeramicCapacitorPartNumber>
       <CeramicCapacitorLength>3.2</CeramicCapacitorLength>
@@ -125,9 +124,9 @@
       <OutputLCFilterEnabled>False</OutputLCFilterEnabled>
       <OutputLCFilterSensingIsLocal>False</OutputLCFilterSensingIsLocal>
       <OutputLCFilterSensingIsRemote>False</OutputLCFilterSensingIsRemote>
-      <Cth>1.80000025648625E-08</Cth>
-      <Cthp>8.20000155791651E-11</Cthp>
-      <Rth>2000</Rth>
+      <Cth>2.40000034198167E-08</Cth>
+      <Cthp>7.50000142492364E-11</Cthp>
+      <Rth>1470</Rth>
       <RfbTopActual>232000</RfbTopActual>
       <RfbBotActual>57600</RfbBotActual>
       <CfbTopActual>1E-11</CfbTopActual>
@@ -149,9 +148,8 @@
       <RsenseHeight>0.65</RsenseHeight>
       <RsenseFilterC>1E-09</RsenseFilterC>
       <SenseC>4.7E-08</SenseC>
-      <SenseRp>7150</SenseRp>
-      <SenseRs>4020</SenseRs>
-      <CurrentSensingConfigurationType>1</CurrentSensingConfigurationType>
+      <SenseRp>12000</SenseRp>
+      <SenseRs>4700</SenseRs>
       <SwitchingFreqDesired>370000</SwitchingFreqDesired>
       <Rfreq>100000</Rfreq>
       <Rfreq2>1000000000</Rfreq2>
@@ -161,15 +159,15 @@
       <LoadStepSlewRate>2000000</LoadStepSlewRate>
       <TonMin>8E-08</TonMin>
       <ProjectName>DC2846A</ProjectName>
-      <VinStartUp>5</VinStartUp>
-      <VSD_Desired>5</VSD_Desired>
-      <VOV_Latch_Desired>5</VOV_Latch_Desired>
-      <VOV_NonLatch_Desired>5</VOV_NonLatch_Desired>
+      <VinStartUp>4.5</VinStartUp>
+      <VSD_Desired>4.5</VSD_Desired>
+      <VOV_Latch_Desired>4.5</VOV_Latch_Desired>
+      <VOV_NonLatch_Desired>4.5</VOV_NonLatch_Desired>
       <RailNumber>1</RailNumber>
       <BW>11.22</BW>
-      <PM>80.56</PM>
-      <DeltaVoLoadStep>58.2056192438154</DeltaVoLoadStep>
-      <TotalDeltaVoLoadStepPercent>0.965267317476209</TotalDeltaVoLoadStepPercent>
+      <PM>81.31</PM>
+      <DeltaVoLoadStep>83.3360488167303</DeltaVoLoadStep>
+      <TotalDeltaVoLoadStepPercent>1.38202402681145</TotalDeltaVoLoadStepPercent>
       <FootprintClearanceFactor>1.5</FootprintClearanceFactor>
       <Mode>Boost</Mode>
       <ModeChanged>False</ModeChanged>
@@ -232,8 +230,8 @@
       <PackageSyncStage1>PG-TDSON-8</PackageSyncStage1>
       <NumFetsControlStage2>1</NumFetsControlStage2>
       <NumFetsSyncStage2>1</NumFetsSyncStage2>
-      <Efficiency>0.966</Efficiency>
-      <VoutRipplePercent>0.0064137645</VoutRipplePercent>
+      <Efficiency>0.9666</Efficiency>
+      <VoutRipplePercent>0.0087835821</VoutRipplePercent>
       <LossCurveA2>0.0325401597</LossCurveA2>
       <LossCurveA1>0.245815586</LossCurveA1>
       <LossCurveA0>0.8175000168</LossCurveA0>
@@ -261,10 +259,10 @@
       <PartCost>2.37</PartCost>
       <InductorPrice>1.92</InductorPrice>
       <CeramicCapacitorPrice>0.56727</CeramicCapacitorPrice>
-      <CinPrice>2.3595</CinPrice>
+      <CinPrice>0.5531</CinPrice>
       <InductorCost>1.92</InductorCost>
-      <CeramicCapacitorCost>2.83635</CeramicCapacitorCost>
-      <CinCost>2.3595</CinCost>
+      <CeramicCapacitorCost>3.40362</CeramicCapacitorCost>
+      <CinCost>0.5531</CinCost>
       <PartFamily>Switching Regulator</PartFamily>
     </OutputRailData>
   </OutputRailDatas>
