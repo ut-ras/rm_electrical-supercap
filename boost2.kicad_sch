@@ -3076,7 +3076,7 @@
 		)
 		(uuid "fc081649-5c66-43b9-9421-0343c27cb6fb")
 	)
-	(hierarchical_label "+6V_{IN}"
+	(hierarchical_label "+5.5V_{IN}"
 		(shape input)
 		(at 41.91 78.74 180)
 		(effects
@@ -4214,7 +4214,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.01k"
+		(property "Value" "2.49k"
 			(at 49.53 121.9199 0)
 			(effects
 				(font
@@ -4382,7 +4382,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.068u"
+		(property "Value" "0.1u"
 			(at 48.26 134.6199 0)
 			(effects
 				(font
@@ -5993,7 +5993,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "560f"
+		(property "Value" "1000p"
 			(at 35.56 128.2699 0)
 			(effects
 				(font
@@ -6061,7 +6061,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "603-CC603BRNPO9BNR56"
+		(property "Mouser Part Number" ""
 			(at 39.37 127 0)
 			(effects
 				(font

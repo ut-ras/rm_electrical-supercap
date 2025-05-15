@@ -4823,9 +4823,9 @@
 				(justify right)
 			)
 		)
-		(pin "+6V_{IN}" input
+		(pin "+5.5V_{IN}" input
 			(at 171.45 119.38 180)
-			(uuid "436c5657-9a6e-40e2-aa59-03c4fb0291fc")
+			(uuid "34077c3c-159a-419f-9b9d-936e5a4329aa")
 			(effects
 				(font
 					(size 1.27 1.27)
