@@ -12,7 +12,7 @@
       <SolutionComponentCount>15</SolutionComponentCount>
       <SolutionMaxHeightmm>9</SolutionMaxHeightmm>
       <TotalSolutionAreamm2>386.2</TotalSolutionAreamm2>
-      <TotalSolutionPrice>8.24672</TotalSolutionPrice>
+      <TotalSolutionPrice>9.35752</TotalSolutionPrice>
     </ConverterSpec>
   </ConverterSpecs>
   <ProgramUserInfos>
@@ -104,7 +104,7 @@
       <CobDerated>0.00015</CobDerated>
       <CobVoltageRating>6.3</CobVoltageRating>
       <VoRipplePkPkMaxTargetPercent>1</VoRipplePkPkMaxTargetPercent>
-      <VoStepMaxTargetPercent>2.90278998982396</VoStepMaxTargetPercent>
+      <VoStepMaxTargetPercent>2.90240704990398</VoStepMaxTargetPercent>
       <TotalVoRippleMaxTargetPercent>3</TotalVoRippleMaxTargetPercent>
       <Coc>3.67354E-05</Coc>
       <ESRc>0.00063</ESRc>
@@ -124,12 +124,13 @@
       <OutputLCFilterEnabled>False</OutputLCFilterEnabled>
       <OutputLCFilterSensingIsLocal>False</OutputLCFilterSensingIsLocal>
       <OutputLCFilterSensingIsRemote>False</OutputLCFilterSensingIsRemote>
-      <Cth>2.40000034198167E-08</Cth>
-      <Cthp>7.50000142492364E-11</Cthp>
+      <Cth>2.20000031348319E-08</Cth>
+      <Cthp>6.80000129193077E-11</Cthp>
       <Rth>1470</Rth>
       <RfbTopActual>232000</RfbTopActual>
       <RfbBotActual>57600</RfbBotActual>
-      <CfbTopActual>1E-11</CfbTopActual>
+      <CfbTopActual>1.5E-11</CfbTopActual>
+      <CfbBotActual>1.5E-11</CfbBotActual>
       <FcDesired>10000</FcDesired>
       <PhaseBoostDesired>10</PhaseBoostDesired>
       <PhaseMarginDesired>80</PhaseMarginDesired>
@@ -165,9 +166,9 @@
       <VOV_NonLatch_Desired>4.5</VOV_NonLatch_Desired>
       <RailNumber>1</RailNumber>
       <BW>11.22</BW>
-      <PM>81.31</PM>
-      <DeltaVoLoadStep>83.3360488167303</DeltaVoLoadStep>
-      <TotalDeltaVoLoadStepPercent>1.38202402681145</TotalDeltaVoLoadStepPercent>
+      <PM>80.36</PM>
+      <DeltaVoLoadStep>83.7482393080506</DeltaVoLoadStep>
+      <TotalDeltaVoLoadStepPercent>1.38885969001742</TotalDeltaVoLoadStepPercent>
       <FootprintClearanceFactor>1.5</FootprintClearanceFactor>
       <Mode>Boost</Mode>
       <ModeChanged>False</ModeChanged>
@@ -206,31 +207,35 @@
       <WidthControlStage1>5.35</WidthControlStage1>
       <HeightControlStage1>1.1</HeightControlStage1>
       <PackageControlStage1>PG-TDSON-8</PackageControlStage1>
-      <PartNameSyncStage1>BSC032N04LS</PartNameSyncStage1>
+      <PartNameSyncStage1>BSC015NE2LS5I</PartNameSyncStage1>
       <NumFetsSyncStage1>1</NumFetsSyncStage1>
-      <RdsonSyncStage1>0.00313</RdsonSyncStage1>
-      <Rdson1SyncStage1>0.00321</Rdson1SyncStage1>
+      <RdsonSyncStage1>0.00166</RdsonSyncStage1>
+      <Rdson1SyncStage1>0.0017</Rdson1SyncStage1>
       <Vgs1SyncStage1>4.5</Vgs1SyncStage1>
       <Vgs2SyncStage1>10</Vgs2SyncStage1>
-      <QgSyncStage1>1.43E-08</QgSyncStage1>
-      <RgSyncStage1>0.8</RgSyncStage1>
-      <VdiodeSyncStage1>0.88</VdiodeSyncStage1>
+      <QgSyncStage1>1.15E-08</QgSyncStage1>
+      <RgSyncStage1>0.85</RgSyncStage1>
+      <VdiodeSyncStage1>0.5</VdiodeSyncStage1>
       <VendorSyncStage1>INFINEON</VendorSyncStage1>
-      <VdssSyncStage1>40</VdssSyncStage1>
-      <QgdSyncStage1>4.1E-09</QgdSyncStage1>
-      <CossSyncStage1>5E-10</CossSyncStage1>
-      <Rdson2SyncStage1>0.0025</Rdson2SyncStage1>
-      <Qg2SyncStage1>2.5E-08</Qg2SyncStage1>
-      <QgsSyncStage1>4.8E-09</QgsSyncStage1>
-      <VmillerSyncStage1>2.7</VmillerSyncStage1>
+      <VdssSyncStage1>25</VdssSyncStage1>
+      <QgdSyncStage1>2.3E-09</QgdSyncStage1>
+      <CossSyncStage1>7.5E-10</CossSyncStage1>
+      <Rdson2SyncStage1>0.0013</Rdson2SyncStage1>
+      <Qg1SyncStage1>1.05E-08</Qg1SyncStage1>
+      <Qg2SyncStage1>2E-08</Qg2SyncStage1>
+      <QgsSyncStage1>3.7E-09</QgsSyncStage1>
+      <VmillerSyncStage1>2.4</VmillerSyncStage1>
       <VthSyncStage1>1.6</VthSyncStage1>
       <LengthSyncStage1>6.35</LengthSyncStage1>
       <WidthSyncStage1>5.35</WidthSyncStage1>
       <HeightSyncStage1>1.1</HeightSyncStage1>
       <PackageSyncStage1>PG-TDSON-8</PackageSyncStage1>
+      <PriceSyncStage1>1.1108</PriceSyncStage1>
+      <CostSyncStage1>1.1108</CostSyncStage1>
+      <PartPriceSyncStage1>1.1108</PartPriceSyncStage1>
       <NumFetsControlStage2>1</NumFetsControlStage2>
       <NumFetsSyncStage2>1</NumFetsSyncStage2>
-      <Efficiency>0.9666</Efficiency>
+      <Efficiency>0.9726</Efficiency>
       <VoutRipplePercent>0.0087835821</VoutRipplePercent>
       <LossCurveA2>0.0325401597</LossCurveA2>
       <LossCurveA1>0.245815586</LossCurveA1>

@@ -5048,7 +5048,7 @@
 				)
 			)
 		)
-		(property "Value" "BSC059N04LS6"
+		(property "Value" "BSC015NE2LS5I"
 			(at 157.48 60.96 90)
 			(effects
 				(font
@@ -5065,7 +5065,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/196/Infineon_BSC059N04LS6_DataSheet_v02_01_EN-3360636.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/196/Infineon_BSC015NE2LS5I_DataSheet_v02_01_EN-3360635.pdf"
 			(at 146.05 59.69 0)
 			(effects
 				(font
@@ -5083,7 +5083,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "726-BSC059N04LS6ATMA"
+		(property "Mouser Part Number" "726-BSC015NE2LS5IATM"
 			(at 146.05 59.69 0)
 			(effects
 				(font
@@ -6695,7 +6695,7 @@
 				)
 			)
 		)
-		(property "Value" "BSC059N04LS6"
+		(property "Value" "BSC015NE2LS5I"
 			(at 157.48 77.47 90)
 			(effects
 				(font
@@ -6712,7 +6712,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/196/Infineon_BSC059N04LS6_DataSheet_v02_01_EN-3360636.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/196/Infineon_BSC015NE2LS5I_DataSheet_v02_01_EN-3360635.pdf"
 			(at 146.05 76.2 0)
 			(effects
 				(font
@@ -6730,7 +6730,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "726-BSC059N04LS6ATMA"
+		(property "Mouser Part Number" "726-BSC015NE2LS5IATM"
 			(at 146.05 76.2 0)
 			(effects
 				(font
