@@ -2051,12 +2051,6 @@
 		(uuid "6e021556-47d8-4c0e-a318-22bb2d6f66bc")
 	)
 	(junction
-		(at 68.58 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "79c6489c-096e-46cb-a65c-491c05b8309d")
-	)
-	(junction
 		(at 217.17 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2115,6 +2109,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9bfc7f73-590a-49da-9dab-7f9bcd0f97d9")
+	)
+	(junction
+		(at 68.58 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c16db57-d635-41e4-a0a5-67512e37f380")
 	)
 	(junction
 		(at 53.34 134.62)
@@ -4278,190 +4278,6 @@
 			(project "Housekeeping Rev1"
 				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/25bdba42-617b-4aa1-85da-258c1454f7e3"
 					(reference "C19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "! Robomaster ICs:MC34063A")
-		(at 77.47 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0128267c-1091-41bb-aa57-5c672c8b4fdf")
-		(property "Reference" "U13"
-			(at 77.47 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DAC53401"
-			(at 77.47 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SON:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm"
-			(at 77.47 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/mc34063a"
-			(at 77.47 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1.5-A boost, buck, inverting switching regulator, operation from 0°C to 70°C"
-			(at 77.47 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser #" ""
-			(at 77.47 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Link" ""
-			(at 77.47 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB #" ""
-			(at 77.47 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "595-DAC53401DSGR"
-			(at 77.47 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 77.47 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 77.47 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 77.47 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 77.47 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 77.47 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 77.47 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 77.47 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b16cce17-6dee-4449-aa1f-37ad73bb279c")
-		)
-		(pin "4"
-			(uuid "4953aacb-94b5-492c-a2b9-68eb6e83321b")
-		)
-		(pin "2"
-			(uuid "86b8072c-9042-448b-b928-f9fe5774c686")
-		)
-		(pin "6"
-			(uuid "3bd43a72-0abe-4c36-9c9e-6f5cf5785af2")
-		)
-		(pin "7"
-			(uuid "68892ff6-4515-4ecc-98e4-40196e90735a")
-		)
-		(pin "3"
-			(uuid "93dc5bc1-19ad-4e8a-9886-206918ad3015")
-		)
-		(pin "8"
-			(uuid "ec799eda-edeb-4530-8f94-ba062f5c9232")
-		)
-		(pin "5"
-			(uuid "ca82ce4f-d410-4c2c-8282-4679dce99b32")
-		)
-		(instances
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/2b4de7d2-e111-42d9-afee-f810f96a2f61"
-					(reference "U13")
-					(unit 1)
-				)
-			)
-			(project "Housekeeping Rev1"
-				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/25bdba42-617b-4aa1-85da-258c1454f7e3"
-					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -8422,6 +8238,184 @@
 			(project "Housekeeping Rev1"
 				(path "/d2a5f610-b666-4f42-b17a-f8b6e55a52c2/25bdba42-617b-4aa1-85da-258c1454f7e3"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "! Robomaster ICs:MC34063A")
+		(at 77.47 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1a9c0f6-fdd0-4c29-90e1-0597a1d8cc6f")
+		(property "Reference" "U19"
+			(at 77.47 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MC34063A"
+			(at 77.47 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 77.47 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/mc34063a"
+			(at 77.47 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.5-A boost, buck, inverting switching regulator, operation from 0°C to 70°C"
+			(at 77.47 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" ""
+			(at 77.47 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" ""
+			(at 77.47 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB #" ""
+			(at 77.47 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-MC34063ADR"
+			(at 77.47 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 77.47 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 77.47 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 77.47 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 77.47 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 77.47 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 77.47 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 77.47 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fcdd71ba-c402-421c-baae-2e1115a7a0ad")
+		)
+		(pin "4"
+			(uuid "b1316a83-489c-4028-ae71-9411eaa9b048")
+		)
+		(pin "2"
+			(uuid "66f9d4d5-5036-470c-be4b-5b4341479159")
+		)
+		(pin "6"
+			(uuid "bf9e6c25-ef76-4903-9cc1-1fed174cfd46")
+		)
+		(pin "7"
+			(uuid "22e73caf-c55f-4e3d-8635-ada5ae484898")
+		)
+		(pin "3"
+			(uuid "e777fac8-8395-41e2-9237-5aa8d70b216a")
+		)
+		(pin "8"
+			(uuid "b45a731e-e102-4acc-9cf7-3640e210ebfd")
+		)
+		(pin "5"
+			(uuid "e183df4a-6bd6-4b0b-8670-7d5d0c940ef0")
+		)
+		(instances
+			(project "SupercapManager"
+				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/2b4de7d2-e111-42d9-afee-f810f96a2f61"
+					(reference "U19")
 					(unit 1)
 				)
 			)

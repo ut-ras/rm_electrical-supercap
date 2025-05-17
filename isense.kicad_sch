@@ -5698,149 +5698,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:TLV9301xDBV")
-		(at 99.06 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6d7ee52f-bbd4-48af-ad75-432fbc92f285")
-		(property "Reference" "U18"
-			(at 111.76 50.7298 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TLV9351"
-			(at 111.76 53.2698 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
-			(at 96.52 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9352.pdf"
-			(at 99.06 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "40-V, 3.5-MHz, RRO Operational Amplifiers for Cost-Sensitive Systems, SOT-23-5"
-			(at 99.06 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 99.06 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 99.06 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 99.06 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 99.06 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 99.06 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 99.06 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 99.06 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" "595-TLV9351IDCKR"
-			(at 99.06 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "33dc5483-f07d-4062-b239-bfcbfba9c944")
-		)
-		(pin "2"
-			(uuid "79317b1c-596d-4b48-a439-4eea39978e68")
-		)
-		(pin "3"
-			(uuid "2820d826-4e10-44ee-954c-e8616932e94b")
-		)
-		(pin "4"
-			(uuid "4ccac5f3-9038-4d8f-a941-97fd6cfd0c02")
-		)
-		(pin "5"
-			(uuid "49ac1493-ca2b-4cd6-8cc4-32c89ea5b1fa")
-		)
-		(instances
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
-					(reference "U18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Amplifier_Operational:OPA551U")
 		(at 246.38 105.41 0)
 		(unit 1)
@@ -7670,6 +7527,149 @@
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
 					(reference "R59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TLV9301xDBV")
+		(at 99.06 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ead38c06-ef66-4c44-824b-85e07359dbba")
+		(property "Reference" "U18"
+			(at 111.76 50.7298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV9301xDBV"
+			(at 111.76 53.2698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
+			(at 96.52 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9301.pdf"
+			(at 99.06 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40-V, 1-MHz, RRO Operational Amplifiers for Cost-Sensitive Systems, SOT-23-5"
+			(at 99.06 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 99.06 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 99.06 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 99.06 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 99.06 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 99.06 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 99.06 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 99.06 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "595-TLV9301IDBVR"
+			(at 99.06 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1266b4aa-7c35-4571-9c78-e8f9cab82227")
+		)
+		(pin "2"
+			(uuid "ef43eeed-3bfd-49df-a202-2a70d1bfb327")
+		)
+		(pin "3"
+			(uuid "dbebccef-c6ac-4f5d-a906-9918b1531825")
+		)
+		(pin "4"
+			(uuid "1514c4b2-9ce6-4c70-a526-4a2eb642e26e")
+		)
+		(pin "5"
+			(uuid "ad157d8b-4868-4671-a716-4476fa47f448")
+		)
+		(instances
+			(project "SupercapManager"
+				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
+					(reference "U18")
 					(unit 1)
 				)
 			)

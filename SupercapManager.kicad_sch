@@ -2011,7 +2011,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 63.5) (xy 29.21 60.96)
+			(xy 29.21 66.04) (xy 29.21 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2061,7 +2061,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 55.88) (xy 48.26 55.88)
+			(xy 26.67 58.42) (xy 48.26 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2131,7 +2131,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 58.42) (xy 48.26 58.42)
+			(xy 26.67 60.96) (xy 48.26 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2151,7 +2151,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 53.34) (xy 48.26 53.34)
+			(xy 26.67 55.88) (xy 48.26 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2311,7 +2311,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 60.96) (xy 26.67 60.96)
+			(xy 29.21 63.5) (xy 26.67 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2590,7 +2590,7 @@
 		(uuid "62259866-1ac6-4746-9232-71dc7d71ab4a")
 	)
 	(label "SDA_{IN}"
-		(at 34.29 58.42 0)
+		(at 34.29 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2600,7 +2600,7 @@
 		(uuid "6809748b-2d46-47a3-85a2-50516a1ab31c")
 	)
 	(label "SCL_{IN}"
-		(at 34.29 55.88 0)
+		(at 34.29 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2691,7 +2691,7 @@
 		(uuid "de2feed5-78b7-46bb-a59b-bb11a92ef3f5")
 	)
 	(label "+3V3_{DEV}"
-		(at 33.02 53.34 0)
+		(at 33.02 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2986,7 +2986,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 29.21 63.5 0)
+		(at 29.21 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2995,7 +2995,7 @@
 		(fields_autoplaced yes)
 		(uuid "15bc102d-b902-497d-93e6-9d22e54f0c21")
 		(property "Reference" "#PWR03"
-			(at 29.21 69.85 0)
+			(at 29.21 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3004,7 +3004,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 29.21 67.31 0)
+			(at 29.21 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3012,7 +3012,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 63.5 0)
+			(at 29.21 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3021,7 +3021,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 63.5 0)
+			(at 29.21 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3030,7 +3030,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 29.21 63.5 0)
+			(at 29.21 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4159,7 +4159,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
-		(at 21.59 55.88 0)
+		(at 21.59 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4168,14 +4168,6 @@
 		(fields_autoplaced yes)
 		(uuid "da8f311c-e373-4ade-8d17-fd13e6151d11")
 		(property "Reference" "J1"
-			(at 22.225 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "JST4_M"
 			(at 22.225 50.8 0)
 			(effects
 				(font
@@ -4183,8 +4175,16 @@
 				)
 			)
 		)
+		(property "Value" "JST4_M"
+			(at 22.225 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" "Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical"
-			(at 21.59 55.88 0)
+			(at 21.59 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4193,7 +4193,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 21.59 55.88 0)
+			(at 21.59 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4202,7 +4202,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 21.59 55.88 0)
+			(at 21.59 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4211,7 +4211,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 21.59 55.88 0)
+			(at 21.59 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4219,7 +4219,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 21.59 55.88 0)
+			(at 21.59 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4227,7 +4227,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 21.59 55.88 0)
+			(at 21.59 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4235,7 +4235,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 21.59 55.88 0)
+			(at 21.59 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4243,7 +4243,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 21.59 55.88 0)
+			(at 21.59 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4251,7 +4251,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 21.59 55.88 0)
+			(at 21.59 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4259,7 +4259,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 21.59 55.88 0)
+			(at 21.59 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4578,7 +4578,7 @@
 			)
 		)
 		(pin "SCL_{IN}" input
-			(at 48.26 55.88 180)
+			(at 48.26 58.42 180)
 			(uuid "5c81c109-284a-49e7-b916-f03c81e7475b")
 			(effects
 				(font
@@ -4588,7 +4588,7 @@
 			)
 		)
 		(pin "+3V3_{DEV}" bidirectional
-			(at 48.26 53.34 180)
+			(at 48.26 55.88 180)
 			(uuid "819dac94-a871-46d6-8ecf-09c73ea63a1e")
 			(effects
 				(font
@@ -4598,7 +4598,7 @@
 			)
 		)
 		(pin "SDA_{IN}" bidirectional
-			(at 48.26 58.42 180)
+			(at 48.26 60.96 180)
 			(uuid "269338b0-1cc9-4835-9ed8-3988ec9a562c")
 			(effects
 				(font
