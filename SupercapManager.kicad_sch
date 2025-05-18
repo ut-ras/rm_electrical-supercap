@@ -420,6 +420,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Transistor_FET:Q_NMOS_SGD"
 			(pin_names
 				(offset 0)
@@ -1768,7 +1907,7 @@
 	)
 	(text "Connectors to &\nfrom supercap + SCMM"
 		(exclude_from_sim no)
-		(at 131.064 168.402 0)
+		(at 131.064 173.482 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1914,8 +2053,16 @@
 		(uuid "3287c1dd-3a3e-45fb-ad71-5ea7e9d4dee1")
 	)
 	(no_connect
+		(at 147.32 161.29)
+		(uuid "466d2cee-7de9-43f7-97b7-d0c26be977c0")
+	)
+	(no_connect
 		(at 241.3 86.36)
 		(uuid "4c6f796c-a909-4518-b074-e4d2d4c2e14f")
+	)
+	(no_connect
+		(at 147.32 168.91)
+		(uuid "74c84e73-4002-4bfb-8a25-695babb9c514")
 	)
 	(no_connect
 		(at 241.3 113.03)
@@ -2291,7 +2438,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 160.02) (xy 125.73 160.02)
+			(xy 128.27 165.1) (xy 125.73 165.1)
 		)
 		(stroke
 			(width 0)
@@ -2321,7 +2468,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 157.48) (xy 125.73 143.51)
+			(xy 125.73 162.56) (xy 125.73 143.51)
 		)
 		(stroke
 			(width 0)
@@ -2441,7 +2588,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 157.48) (xy 125.73 157.48)
+			(xy 128.27 162.56) (xy 125.73 162.56)
 		)
 		(stroke
 			(width 0)
@@ -2511,7 +2658,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 160.02) (xy 125.73 162.56)
+			(xy 125.73 165.1) (xy 125.73 167.64)
 		)
 		(stroke
 			(width 0)
@@ -2860,7 +3007,7 @@
 				)
 			)
 		)
-		(property "Value" "BSC015NE2LS5I"
+		(property "Value" "BSC059N04LS6"
 			(at 130.81 86.36 90)
 			(effects
 				(font
@@ -2895,7 +3042,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "726-BSC015NE2LS5IATM"
+		(property "Mouser Part Number" "726-BSC059N04LS6ATMA"
 			(at 130.81 96.52 0)
 			(effects
 				(font
@@ -3315,6 +3462,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 147.32 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65f7abd7-bf8b-4a50-bd26-9404e74525eb")
+		(property "Reference" "C1"
+			(at 151.13 163.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "25"
+			(at 151.13 166.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.2852 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/AVX_SCC-3084824.pdf"
+			(at 147.32 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Supercapacitor"
+			(at 147.32 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "581-SCCU25B256SRB"
+			(at 147.32 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01558c71-ff9d-4abc-856f-1e390a0307dc")
+		)
+		(pin "2"
+			(uuid "496c0b1f-7586-4153-85b3-874156a32fa1")
+		)
+		(instances
+			(project ""
+				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 241.3 95.25 0)
 		(unit 1)
@@ -3382,7 +3608,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 133.35 157.48 0)
+		(at 133.35 162.56 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3391,23 +3617,23 @@
 		(dnp no)
 		(uuid "6c2a2886-4dee-4cbd-8fec-514b2765c90f")
 		(property "Reference" "J5"
-			(at 132.715 152.4 0)
+			(at 132.715 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "XT30_M"
-			(at 132.715 154.94 0)
+		(property "Value" "XT30_F"
+			(at 132.715 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
-			(at 133.35 157.48 0)
+		(property "Footprint" "Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical"
+			(at 133.35 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3416,7 +3642,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 133.35 157.48 0)
+			(at 133.35 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3425,7 +3651,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 133.35 157.48 0)
+			(at 133.35 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3434,7 +3660,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 133.35 157.48 0)
+			(at 133.35 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3442,7 +3668,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 133.35 157.48 0)
+			(at 133.35 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3450,7 +3676,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 133.35 157.48 0)
+			(at 133.35 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3458,7 +3684,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 133.35 157.48 0)
+			(at 133.35 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3466,7 +3692,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 133.35 157.48 0)
+			(at 133.35 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3474,7 +3700,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 133.35 157.48 0)
+			(at 133.35 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3482,7 +3708,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 133.35 157.48 0)
+			(at 133.35 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3638,7 +3864,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 125.73 162.56 0)
+		(at 125.73 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3647,7 +3873,7 @@
 		(fields_autoplaced yes)
 		(uuid "95488b7b-5111-46d9-996a-08f3bd8bf18c")
 		(property "Reference" "#PWR014"
-			(at 125.73 167.64 0)
+			(at 125.73 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3656,7 +3882,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 125.603 166.37 0)
+			(at 125.603 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3664,7 +3890,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 163.83 0)
+			(at 125.73 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3673,7 +3899,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 163.83 0)
+			(at 125.73 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3682,7 +3908,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 125.73 162.56 0)
+			(at 125.73 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3720,7 +3946,7 @@
 				)
 			)
 		)
-		(property "Value" "XT30_M"
+		(property "Value" "XT30_F"
 			(at 116.205 57.15 0)
 			(effects
 				(font
@@ -3728,7 +3954,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
+		(property "Footprint" "Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical"
 			(at 115.57 59.69 0)
 			(effects
 				(font
@@ -3910,7 +4136,7 @@
 				)
 			)
 		)
-		(property "Value" "XT30_M"
+		(property "Value" "XT30_F"
 			(at 32.385 91.44 0)
 			(effects
 				(font
@@ -3918,7 +4144,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
+		(property "Footprint" "Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical"
 			(at 31.75 93.98 0)
 			(effects
 				(font
@@ -4033,7 +4259,7 @@
 				)
 			)
 		)
-		(property "Value" "BSC015NE2LS5I"
+		(property "Value" "BSC059N04LS6"
 			(at 205.74 104.14 90)
 			(effects
 				(font
@@ -4068,7 +4294,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "726-BSC015NE2LS5IATM"
+		(property "Mouser Part Number" "726-BSC059N04LS6ATMA"
 			(at 195.58 104.14 0)
 			(effects
 				(font
@@ -4175,7 +4401,7 @@
 				)
 			)
 		)
-		(property "Value" "JST4_M"
+		(property "Value" "JST4_F"
 			(at 22.225 53.34 0)
 			(effects
 				(font
@@ -4305,7 +4531,7 @@
 				)
 			)
 		)
-		(property "Value" "XT30_M"
+		(property "Value" "XT30_F"
 			(at 225.425 91.44 0)
 			(effects
 				(font
@@ -4313,7 +4539,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
+		(property "Footprint" "Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical"
 			(at 226.06 93.98 0)
 			(effects
 				(font

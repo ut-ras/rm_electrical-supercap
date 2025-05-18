@@ -3589,7 +3589,7 @@
 				)
 			)
 		)
-		(property "Value" "BSC015NE2LS5I"
+		(property "Value" "BSC059N04LS6"
 			(at 180.34 97.79 90)
 			(effects
 				(font
@@ -3624,7 +3624,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "726-BSC015NE2LS5IATM"
+		(property "Mouser Part Number" "726-BSC059N04LS6ATMA"
 			(at 168.91 96.52 0)
 			(effects
 				(font
@@ -6502,7 +6502,7 @@
 				)
 			)
 		)
-		(property "Value" "BSC015NE2LS5I"
+		(property "Value" "BSC059N04LS6"
 			(at 184.15 59.69 90)
 			(effects
 				(font
@@ -6537,7 +6537,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "726-BSC015NE2LS5IATM"
+		(property "Mouser Part Number" "726-BSC059N04LS6ATMA"
 			(at 184.15 69.85 0)
 			(effects
 				(font
