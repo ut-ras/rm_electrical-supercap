@@ -1984,12 +1984,6 @@
 		(uuid "5ab220f2-9f58-4ebe-8a0b-2af78a77abcd")
 	)
 	(junction
-		(at 165.1 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7a67c730-ae9b-4f3a-b4fc-789c72a3b9bf")
-	)
-	(junction
 		(at 123.19 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2627,7 +2621,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 105.41) (xy 171.45 105.41)
+			(xy 162.56 105.41) (xy 171.45 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2674,16 +2668,6 @@
 			(type default)
 		)
 		(uuid "dbf14bc2-769e-4431-949a-9d973808bb8c")
-	)
-	(wire
-		(pts
-			(xy 162.56 105.41) (xy 165.1 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dcfeb28f-e0d5-4ec7-8564-4ad0de02f3ba")
 	)
 	(wire
 		(pts
@@ -2745,16 +2729,6 @@
 		)
 		(uuid "fabf321d-c2fb-41ab-bc5e-5fb5918f0f0c")
 	)
-	(wire
-		(pts
-			(xy 165.1 104.14) (xy 165.1 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd7dcc9a-074d-4e5b-912a-9de879f43396")
-	)
 	(label "CAP_CTRL"
 		(at 76.2 88.9 0)
 		(effects
@@ -2784,6 +2758,16 @@
 			(justify left bottom)
 		)
 		(uuid "36a17b62-65f1-4c5b-a090-12bb4347521f")
+	)
+	(label "+4.4V_{SCAP}"
+		(at 160.02 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "41f476cf-9e60-4b71-8852-188399008c10")
 	)
 	(label "+24_{MiniPC}"
 		(at 123.19 45.72 0)
@@ -2895,7 +2879,7 @@
 		)
 		(uuid "bf1e829d-c59b-44bf-ba21-b29c712eca29")
 	)
-	(label "+4V_{SCAP}"
+	(label "+6V_{SCAP}"
 		(at 125.73 105.41 0)
 		(effects
 			(font
@@ -3372,72 +3356,6 @@
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+6V")
-		(at 165.1 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "31302dad-2a79-4de5-af7c-0c775d5f497e")
-		(property "Reference" "#PWR020"
-			(at 165.1 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+6V"
-			(at 165.1 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+6V\""
-			(at 165.1 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "97255ab4-74e6-46dc-a645-b51513fb08f6")
-		)
-		(instances
-			(project ""
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60"
-					(reference "#PWR020")
 					(unit 1)
 				)
 			)
