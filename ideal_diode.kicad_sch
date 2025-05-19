@@ -1679,7 +1679,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/196/Infineon_BSC059N04LS6_DataSheet_v02_01_EN-3360636.pdf"
 			(at 104.14 34.29 0)
 			(effects
 				(font

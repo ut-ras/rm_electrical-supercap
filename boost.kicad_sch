@@ -3606,7 +3606,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/196/Infineon_BSC015NE2LS5I_DataSheet_v02_01_EN-3360635.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/196/Infineon_BSC059N04LS6_DataSheet_v02_01_EN-3360636.pdf"
 			(at 168.91 96.52 0)
 			(effects
 				(font
@@ -6519,7 +6519,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/196/Infineon_BSC015NE2LS5I_DataSheet_v02_01_EN-3360635.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/196/Infineon_BSC059N04LS6_DataSheet_v02_01_EN-3360636.pdf"
 			(at 184.15 69.85 0)
 			(effects
 				(font

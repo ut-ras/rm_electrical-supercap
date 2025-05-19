@@ -2355,7 +2355,7 @@
 		)
 		(uuid "6867decb-7a52-480e-9ec1-b134c011083f")
 	)
-	(text "V_{OUT} set to 5.4V"
+	(text "V_{OUT} set to 6.0V"
 		(exclude_from_sim no)
 		(at 245.11 82.55 0)
 		(effects
@@ -4726,7 +4726,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "68k"
+		(property "Value" "27k"
 			(at 234.95 76.1999 0)
 			(effects
 				(font
@@ -5065,7 +5065,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/196/Infineon_BSC015NE2LS5I_DataSheet_v02_01_EN-3360635.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/196/Infineon_BSC059N04LS6_DataSheet_v02_01_EN-3360636.pdf"
 			(at 146.05 59.69 0)
 			(effects
 				(font
@@ -5772,117 +5772,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 215.9 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3fa71915-643f-4427-986f-d79ccee54811")
-		(property "Reference" "C11"
-			(at 219.71 73.6599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7u"
-			(at 219.71 76.1999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 216.8652 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/585/MLCC-1837944.pdf"
-			(at 215.9 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 215.9 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "187-CL21A106KAYNNNE"
-			(at 215.9 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 215.9 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 215.9 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 215.9 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 215.9 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "873aa226-6bb1-4ed4-8dc1-36943af8b3ae")
-		)
-		(pin "2"
-			(uuid "4272ab66-ffca-4e3a-8ca6-9afa05cded03")
-		)
-		(instances
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/388608c4-ca49-4b14-9684-8f150e280879"
-					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDPWR")
 		(at 226.06 143.51 0)
 		(unit 1)
@@ -6050,6 +5939,117 @@
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/388608c4-ca49-4b14-9684-8f150e280879"
 					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 215.9 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "553be590-74f6-4945-b3f2-df664d58b778")
+		(property "Reference" "C11"
+			(at 219.71 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 219.71 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 216.8652 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/585/MLCC-1837944.pdf"
+			(at 215.9 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 215.9 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "187-CL21A106KAYNNNE"
+			(at 215.9 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 215.9 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 215.9 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 215.9 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 215.9 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "01c507ff-1058-4b30-a72c-baf29b25db7e")
+		)
+		(pin "2"
+			(uuid "64718c64-eff3-409b-847a-f7a358409b1e")
+		)
+		(instances
+			(project "SupercapManager"
+				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/388608c4-ca49-4b14-9684-8f150e280879"
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -6619,7 +6619,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47k"
+		(property "Value" "15k"
 			(at 246.38 91.4399 0)
 			(effects
 				(font
@@ -6847,7 +6847,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/196/Infineon_BSC015NE2LS5I_DataSheet_v02_01_EN-3360635.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/196/Infineon_BSC059N04LS6_DataSheet_v02_01_EN-3360636.pdf"
 			(at 146.05 76.2 0)
 			(effects
 				(font
@@ -8758,7 +8758,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "390k"
+		(property "Value" "470k"
 			(at 234.95 91.4399 0)
 			(effects
 				(font
