@@ -2380,9 +2380,9 @@
 		)
 		(uuid "76188acb-396f-4106-b6dd-d6ad3cf43299")
 	)
-	(text "I_{ripple} = ^{24V * ^{1}/_{6} * (1 - ^{1}/_{6})}/_{600kHz * 4.7µH}\n= 1.182A (~29.6% max I_{in})\ndV_{o} = ^{1}/_{8*4.7µH*30µF*(600kHz)^{2}}(4V-4V^{2}/_{24V})\n= 0.00821V"
+	(text "I_{ripple} = 1.48A\ndV_{o} = 12.52mV"
 		(exclude_from_sim no)
-		(at 176.53 49.53 0)
+		(at 171.958 51.816 0)
 		(effects
 			(font
 				(size 1.27 1.27)

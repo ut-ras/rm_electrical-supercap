@@ -420,36 +420,34 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C"
+		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
-				(offset 0.254)
+				(offset 0)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
+			(property "Reference" "R"
+				(at 2.032 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
+			(property "Value" "R"
+				(at 0 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
+				(at -1.778 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -466,7 +464,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Unpolarized capacitor"
+			(property "Description" "Resistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -475,7 +473,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "cap capacitor"
+			(property "ki_keywords" "R res resistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -484,7 +482,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "C_*"
+			(property "ki_fp_filters" "R_*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -493,25 +491,12 @@
 					(hide yes)
 				)
 			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
 					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -519,10 +504,10 @@
 					)
 				)
 			)
-			(symbol "C_1_1"
+			(symbol "R_1_1"
 				(pin passive line
 					(at 0 3.81 270)
-					(length 2.794)
+					(length 1.27)
 					(name "~"
 						(effects
 							(font
@@ -540,7 +525,7 @@
 				)
 				(pin passive line
 					(at 0 -3.81 90)
-					(length 2.794)
+					(length 1.27)
 					(name "~"
 						(effects
 							(font
@@ -2053,16 +2038,8 @@
 		(uuid "3287c1dd-3a3e-45fb-ad71-5ea7e9d4dee1")
 	)
 	(no_connect
-		(at 147.32 161.29)
-		(uuid "466d2cee-7de9-43f7-97b7-d0c26be977c0")
-	)
-	(no_connect
 		(at 241.3 86.36)
 		(uuid "4c6f796c-a909-4518-b074-e4d2d4c2e14f")
-	)
-	(no_connect
-		(at 147.32 168.91)
-		(uuid "74c84e73-4002-4bfb-8a25-695babb9c514")
 	)
 	(no_connect
 		(at 241.3 113.03)
@@ -2298,6 +2275,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 102.87) (xy 114.3 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "547b410a-2a10-4f75-aa66-2ad4d35d5d9d")
+	)
+	(wire
+		(pts
 			(xy 26.67 55.88) (xy 48.26 55.88)
 		)
 		(stroke
@@ -2328,13 +2315,23 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 104.14) (xy 190.5 104.14)
+			(xy 165.1 104.14) (xy 168.91 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5e6aa016-f45e-43c5-99c1-0b7005997ccf")
+	)
+	(wire
+		(pts
+			(xy 176.53 104.14) (xy 190.5 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5eb0a182-6d68-4069-8689-d848f9ffb471")
 	)
 	(wire
 		(pts
@@ -2365,6 +2362,16 @@
 			(type default)
 		)
 		(uuid "6161518b-6251-433d-94d4-2e023a75f6a5")
+	)
+	(wire
+		(pts
+			(xy 127 102.87) (xy 130.81 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6377541f-8782-4866-ac90-f1da025b687a")
 	)
 	(wire
 		(pts
@@ -2668,16 +2675,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 102.87) (xy 129.54 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f562ed8a-90b9-48f1-9da5-d119e7da03f2")
-	)
-	(wire
-		(pts
 			(xy 198.12 99.06) (xy 198.12 93.98)
 		)
 		(stroke
@@ -2696,7 +2693,7 @@
 		)
 		(uuid "fd7dcc9a-074d-4e5b-912a-9de879f43396")
 	)
-	(label "CAP_GATE_CTRL"
+	(label "CAP_CTRL"
 		(at 76.2 102.87 0)
 		(effects
 			(font
@@ -2736,6 +2733,16 @@
 		)
 		(uuid "62259866-1ac6-4746-9232-71dc7d71ab4a")
 	)
+	(label "BAT_CTRL_R"
+		(at 130.81 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "63f7ed9d-580f-4619-82f0-7d196de6f684")
+	)
 	(label "SDA_{IN}"
 		(at 34.29 60.96 0)
 		(effects
@@ -2757,7 +2764,7 @@
 		(uuid "739028a8-760c-41e0-9adf-5285f6649174")
 	)
 	(label "CAP_GATE_CTRL"
-		(at 189.23 104.14 180)
+		(at 165.1 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2776,8 +2783,18 @@
 		)
 		(uuid "9823f4e2-d98f-471d-a84c-dacdca3464fa")
 	)
-	(label "BAT_GATE_CTRL"
-		(at 129.54 102.87 180)
+	(label "CAP_CTRL_R"
+		(at 189.23 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "aa9d5a5f-b2ba-40aa-88d4-5c86c2532079")
+	)
+	(label "BAT_CTRL"
+		(at 114.3 102.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2847,7 +2864,7 @@
 		)
 		(uuid "e7044e32-4629-46cc-a647-ff884e7b860f")
 	)
-	(label "BAT_GATE_CTRL"
+	(label "BAT_CTRL"
 		(at 76.2 100.33 0)
 		(effects
 			(font
@@ -2918,6 +2935,107 @@
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 172.72 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "060241e4-c4d6-451b-890b-04760d95e411")
+		(property "Reference" "R68"
+			(at 169.672 103.632 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "0"
+			(at 175.768 103.632 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 172.72 105.918 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 172.72 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 172.72 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 172.72 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 172.72 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 172.72 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3477851e-efa2-455b-b60f-03e46cb67573")
+		)
+		(pin "1"
+			(uuid "a167ab83-c606-4490-a5cd-56158f9986c5")
+		)
+		(instances
+			(project "SupercapManager"
+				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60"
+					(reference "R68")
 					(unit 1)
 				)
 			)
@@ -3330,6 +3448,107 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 123.19 102.87 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4fabfab8-e0cc-4d0f-a3ee-765d89490b73")
+		(property "Reference" "R67"
+			(at 120.142 102.362 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "0"
+			(at 126.238 102.362 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 123.19 104.648 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 123.19 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 123.19 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 123.19 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 123.19 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 123.19 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "dc70c4a0-d7a8-4040-97d3-50c216212296")
+		)
+		(pin "1"
+			(uuid "b8994a2e-55a8-4414-8b34-6bf759cf26f7")
+		)
+		(instances
+			(project "SupercapManager"
+				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60"
+					(reference "R67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+6V")
 		(at 241.3 113.03 0)
 		(unit 1)
@@ -3456,85 +3675,6 @@
 			(project ""
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 147.32 165.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "65f7abd7-bf8b-4a50-bd26-9404e74525eb")
-		(property "Reference" "C1"
-			(at 151.13 163.8299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "25"
-			(at 151.13 166.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 148.2852 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/AVX_SCC-3084824.pdf"
-			(at 147.32 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Supercapacitor"
-			(at 147.32 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "581-SCCU25B256SRB"
-			(at 147.32 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "01558c71-ff9d-4abc-856f-1e390a0307dc")
-		)
-		(pin "2"
-			(uuid "496c0b1f-7586-4153-85b3-874156a32fa1")
-		)
-		(instances
-			(project ""
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60"
-					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -5175,6 +5315,48 @@
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 171.45 135.89)
+		(size 22.86 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e69614f9-5cd8-4aa3-ae42-53f80cb78886")
+		(property "Sheetname" "Supercapacitors"
+			(at 171.45 135.1784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "supercaps.kicad_sch"
+			(at 171.45 150.4446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SupercapManager"
+				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60"
+					(page "9")
 				)
 			)
 		)
