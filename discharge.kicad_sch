@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Supercap Safety Discharge")
-		(date "2025-05-14")
-		(rev "2")
+		(date "2025-02-12")
+		(rev "1")
 		(company "UT Robomaster")
 		(comment 1 "Robomaster")
 	)

@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Current Sensing")
-		(date "2025-05-14")
-		(rev "2")
+		(date "2025-02-12")
+		(rev "1")
 		(company "UT Robomaster")
 		(comment 1 "Robomaster")
 	)
@@ -3659,7 +3659,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0088bd5c-a24e-4cd3-8a71-92a7403227e6")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0105"
 			(at 96.52 52.07 0)
 			(effects
 				(font
@@ -3709,7 +3709,7 @@
 		(instances
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
-					(reference "#PWR?")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -7685,7 +7685,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef191c82-570a-45fa-9876-ff8948de4581")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0106"
 			(at 96.52 71.12 0)
 			(effects
 				(font
@@ -7735,7 +7735,7 @@
 		(instances
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
-					(reference "#PWR?")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)

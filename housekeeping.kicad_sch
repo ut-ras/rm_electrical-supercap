@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Housekeeping Power Supplies")
-		(date "2025-05-14")
-		(rev "2")
+		(date "2025-02-12")
+		(rev "1")
 		(company "UT Robomaster")
 		(comment 1 "Robomaster")
 	)
@@ -7333,7 +7333,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88d90f2b-77f7-4eac-baf4-a79759bd0dfe")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0110"
 			(at 163.83 128.27 0)
 			(effects
 				(font
@@ -7383,7 +7383,7 @@
 		(instances
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/2b4de7d2-e111-42d9-afee-f810f96a2f61"
-					(reference "#PWR?")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -7537,7 +7537,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9db34c53-5435-4c57-9a87-d175c0ac4e4f")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR0109"
 			(at 104.14 69.85 0)
 			(effects
 				(font
@@ -7587,7 +7587,7 @@
 		(instances
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/2b4de7d2-e111-42d9-afee-f810f96a2f61"
-					(reference "#PWR083")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -9661,7 +9661,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e56de890-d28b-4f8f-a96d-ba6a78dd2afb")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0108"
 			(at 50.8 73.66 0)
 			(effects
 				(font
@@ -9711,7 +9711,7 @@
 		(instances
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/2b4de7d2-e111-42d9-afee-f810f96a2f61"
-					(reference "#PWR?")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
