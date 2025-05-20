@@ -1138,7 +1138,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+6V"
+		(symbol "power:+5V"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -1159,7 +1159,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+6V"
+			(property "Value" "+5V"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -1185,7 +1185,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+6V\""
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1203,7 +1203,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+6V_0_1"
+			(symbol "+5V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -1241,7 +1241,7 @@
 					)
 				)
 			)
-			(symbol "+6V_1_1"
+			(symbol "+5V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -1846,7 +1846,7 @@
 		)
 		(uuid "4033c054-edc0-4ad1-a96e-54899bafca73")
 	)
-	(text "+6V to GNDPWR"
+	(text "+6V to Mini PC GND"
 		(exclude_from_sim no)
 		(at 245.745 110.49 0)
 		(effects
@@ -1964,6 +1964,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "016d74ec-d827-49e3-a90f-b9e5c93ead89")
+	)
+	(junction
+		(at 168.91 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "152fb818-eff1-4ad1-a33e-4abdef3321ae")
 	)
 	(junction
 		(at 125.73 105.41)
@@ -2391,6 +2397,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 41.91) (xy 168.91 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b450b6d-49a2-49c3-91c8-90b11457366a")
+	)
+	(wire
+		(pts
 			(xy 128.27 173.99) (xy 125.73 173.99)
 		)
 		(stroke
@@ -2501,6 +2517,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 50.8) (xy 168.91 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dbaf2fb-d8c2-4796-b06a-88fa01ac53e6")
+	)
+	(wire
+		(pts
 			(xy 125.73 105.41) (xy 125.73 129.54)
 		)
 		(stroke
@@ -2538,6 +2564,16 @@
 			(type default)
 		)
 		(uuid "9a9c944c-b6dd-40ff-ab1b-72a32f5e37b3")
+	)
+	(wire
+		(pts
+			(xy 158.75 45.72) (xy 168.91 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1f2675d-e909-4c12-9722-a2a00422f205")
 	)
 	(wire
 		(pts
@@ -2591,6 +2627,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 48.26) (xy 171.45 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c097906d-c4ad-474c-913b-d77c699d8160")
+	)
+	(wire
+		(pts
 			(xy 123.19 50.8) (xy 123.19 48.26)
 		)
 		(stroke
@@ -2618,6 +2664,16 @@
 			(type default)
 		)
 		(uuid "cbf067a6-e072-4a04-8d70-20c2907d54d7")
+	)
+	(wire
+		(pts
+			(xy 168.91 45.72) (xy 171.45 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce0dc3a3-2f0f-402a-bf64-7f8ad1a265a1")
 	)
 	(wire
 		(pts
@@ -2921,6 +2977,131 @@
 		(uuid "edae7817-32ee-4416-a1c6-049dcd8cac20")
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 176.53 45.72 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0177bdff-abbf-4f9b-9949-9ee3ad8d0ff4")
+		(property "Reference" "J9"
+			(at 175.895 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XT30_F"
+			(at 175.895 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical"
+			(at 176.53 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 176.53 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 176.53 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 176.53 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 176.53 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 176.53 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 176.53 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 176.53 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 176.53 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e9998e7f-7647-40fb-9af4-18e48b8fe676")
+		)
+		(pin "2"
+			(uuid "f237a45f-8242-492c-95c9-52dcb6eb2e30")
+		)
+		(instances
+			(project "SupercapManager"
+				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDPWR")
 		(at 39.37 85.09 0)
 		(unit 1)
@@ -3154,6 +3335,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDPWR")
+		(at 168.91 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1202e9b7-034e-4948-b617-c12e1015aa0a")
+		(property "Reference" "#PWR094"
+			(at 168.91 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 168.783 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 168.91 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1304de12-c596-43a8-934b-7c444561331d")
+		)
+		(instances
+			(project "SupercapManager"
+				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60"
+					(reference "#PWR094")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:Q_NMOS_SGD")
 		(at 130.81 82.55 270)
 		(mirror x)
@@ -3362,6 +3609,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 168.91 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d3da688-d41e-4c20-ba60-bbf8a0464dab")
+		(property "Reference" "#PWR0106"
+			(at 168.91 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 168.91 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 168.91 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "681337c6-b5bd-4e0e-a103-ce8083df15f5")
+		)
+		(instances
+			(project ""
+				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60"
+					(reference "#PWR0106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 123.19 50.8 0)
 		(unit 1)
@@ -3523,72 +3836,6 @@
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+6V")
-		(at 241.3 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5b0ef6ad-b61f-496f-90b1-e57cdd7af21f")
-		(property "Reference" "#PWR012"
-			(at 241.3 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+6V"
-			(at 241.3 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 241.3 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+6V\""
-			(at 241.3 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bc002a58-083e-43d0-ae87-7c380c6fa95a")
-		)
-		(instances
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60"
-					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -4634,6 +4881,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 241.3 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de71da5a-d53e-46cb-ac8f-38a804cbad0b")
+		(property "Reference" "#PWR0107"
+			(at 241.3 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 241.3 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 241.3 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "421e06c7-cdb0-4f8d-8673-faaec143e7fa")
+		)
+		(instances
+			(project "SupercapManager"
+				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60"
+					(reference "#PWR0107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 226.06 80.01 0)
 		(mirror y)
@@ -5107,6 +5420,16 @@
 				(justify left)
 			)
 		)
+		(pin "+5V_{OUT}" output
+			(at 158.75 45.72 0)
+			(uuid "9d63ca2d-e88c-4ef0-9297-58a286ab5999")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60"
@@ -5231,9 +5554,9 @@
 				(justify right)
 			)
 		)
-		(pin "+5.5V_{IN}" input
+		(pin "IN" input
 			(at 171.45 105.41 180)
-			(uuid "34077c3c-159a-419f-9b9d-936e5a4329aa")
+			(uuid "61f03975-7933-4741-a587-a7d8765262cf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5489,24 +5812,24 @@
 				(justify left top)
 			)
 		)
-		(pin "V_{OUT}" output
-			(at 158.75 105.41 0)
-			(uuid "d0b8e2e4-6bef-425a-8520-90e7fc5deff0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "V_{IN}" input
+		(pin "IN" input
 			(at 135.89 105.41 180)
-			(uuid "acb47792-c132-494a-8fff-46f419934155")
+			(uuid "6d631e13-35c7-4ecc-90a4-15735d9f8639")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "OUT" output
+			(at 158.75 105.41 0)
+			(uuid "52029141-9484-4d1d-9e34-ed7ff6667f5d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

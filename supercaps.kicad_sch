@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "029e6295-12a9-4b30-a06d-3f9875843627")
+	(uuid "73c45810-0467-4b83-b418-0941c32f5c9c")
 	(paper "A5")
 	(title_block
 		(title "Supercapacitor + Balancing")
@@ -1185,7 +1185,7 @@
 		)
 		(uuid "c03c95ee-695b-4f51-aad3-6be10b902889")
 	)
-	(text "Typ. +6V from GND1"
+	(text "Typ. +5V from GND1"
 		(exclude_from_sim no)
 		(at 179.07 79.756 0)
 		(effects
@@ -2044,7 +2044,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.2"
+		(property "Value" "0.1"
 			(at 125.73 67.3099 0)
 			(effects
 				(font
@@ -3251,7 +3251,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.2"
+		(property "Value" "0.1"
 			(at 125.73 52.0699 0)
 			(effects
 				(font
