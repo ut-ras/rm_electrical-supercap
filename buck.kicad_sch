@@ -4858,7 +4858,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "120047b1-867d-4c34-957a-0cf7332cf294")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR037"
 			(at 193.04 86.36 0)
 			(effects
 				(font
@@ -4914,7 +4914,7 @@
 			)
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/388608c4-ca49-4b14-9684-8f150e280879"
-					(reference "#PWR035")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -5314,7 +5314,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30847443-b1c9-489b-ac31-2a03ee69d39a")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR042"
 			(at 95.25 102.87 0)
 			(effects
 				(font
@@ -5370,7 +5370,7 @@
 			)
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/388608c4-ca49-4b14-9684-8f150e280879"
-					(reference "#PWR040")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -5525,7 +5525,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3460cd24-9863-4eb2-982d-ee585b5c357e")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR045"
 			(at 123.19 151.13 0)
 			(effects
 				(font
@@ -5581,7 +5581,7 @@
 			)
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/388608c4-ca49-4b14-9684-8f150e280879"
-					(reference "#PWR043")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -5781,7 +5781,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c703e94-b8af-4837-aaaa-775955b0cc6c")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR044"
 			(at 226.06 148.59 0)
 			(effects
 				(font
@@ -5837,7 +5837,7 @@
 			)
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/388608c4-ca49-4b14-9684-8f150e280879"
-					(reference "#PWR042")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -6751,7 +6751,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b4c2fb9-4daf-46cb-9916-0b42fea218ef")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR043"
 			(at 67.31 135.89 0)
 			(effects
 				(font
@@ -6807,7 +6807,7 @@
 			)
 			(project ""
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/388608c4-ca49-4b14-9684-8f150e280879"
-					(reference "#PWR041")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -7454,7 +7454,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c7dc211-1309-4f6a-a733-3929c25f56c8")
-		(property "Reference" "J6"
+		(property "Reference" "J7"
 			(at 245.11 135.8899 0)
 			(effects
 				(font
@@ -7570,7 +7570,7 @@
 			)
 			(project ""
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/388608c4-ca49-4b14-9684-8f150e280879"
-					(reference "J6")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -8123,7 +8123,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1dd0407-08e9-4e00-935c-427c2dea3da4")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR040"
 			(at 46.99 100.33 0)
 			(effects
 				(font
@@ -8179,7 +8179,7 @@
 			)
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/388608c4-ca49-4b14-9684-8f150e280879"
-					(reference "#PWR038")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -8413,7 +8413,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aab5f1da-acf3-40bd-ba07-0990d8dcc105")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR041"
 			(at 232.41 101.6 0)
 			(effects
 				(font
@@ -8469,7 +8469,7 @@
 			)
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/388608c4-ca49-4b14-9684-8f150e280879"
-					(reference "#PWR039")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -9140,7 +9140,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4d74e67-86ee-40a6-b69d-df2c96d94727")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR035"
 			(at 127 52.07 0)
 			(effects
 				(font
@@ -9196,7 +9196,7 @@
 			)
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/388608c4-ca49-4b14-9684-8f150e280879"
-					(reference "#PWR033")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -9353,7 +9353,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7e3d238-dd24-49b2-b004-f4c80374aeda")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR036"
 			(at 41.91 55.88 0)
 			(effects
 				(font
@@ -9409,7 +9409,7 @@
 			)
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/388608c4-ca49-4b14-9684-8f150e280879"
-					(reference "#PWR034")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -9425,7 +9425,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de035933-c1ad-42c0-81ed-370bfd35e078")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR039"
 			(at 176.53 88.9 0)
 			(effects
 				(font
@@ -9481,7 +9481,7 @@
 			)
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/388608c4-ca49-4b14-9684-8f150e280879"
-					(reference "#PWR037")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -9497,7 +9497,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3f6e8d2-19c4-401e-b046-27e30faa5f24")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR038"
 			(at 148.59 88.9 0)
 			(effects
 				(font
@@ -9553,7 +9553,7 @@
 			)
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/388608c4-ca49-4b14-9684-8f150e280879"
-					(reference "#PWR036")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
