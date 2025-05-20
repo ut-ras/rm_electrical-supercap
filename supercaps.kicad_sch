@@ -3100,7 +3100,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_NPN_BCE"
+		(property "Value" "2SCR587D3"
 			(at 125.73 38.0999 0)
 			(effects
 				(font
@@ -3109,7 +3109,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
 			(at 125.73 34.29 0)
 			(effects
 				(font
@@ -3118,7 +3118,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/bipolar/2scr587d3fratl-e.pdf"
 			(at 120.65 36.83 0)
 			(effects
 				(font
@@ -3128,6 +3128,15 @@
 			)
 		)
 		(property "Description" "NPN transistor, base/collector/emitter"
+			(at 120.65 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "755-2SCR587D3FRATL"
 			(at 120.65 36.83 0)
 			(effects
 				(font
@@ -3657,7 +3666,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_PNP_BCE"
+		(property "Value" "2SAR587D3"
 			(at 125.73 81.2801 0)
 			(effects
 				(font
@@ -3666,7 +3675,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
 			(at 125.73 85.09 0)
 			(effects
 				(font
@@ -3675,7 +3684,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/bipolar/2sar587d3fratl-e.pdf"
 			(at 120.65 82.55 0)
 			(effects
 				(font
@@ -3685,6 +3694,15 @@
 			)
 		)
 		(property "Description" "PNP transistor, base/collector/emitter"
+			(at 120.65 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "755-2SAR587D3FRATL"
 			(at 120.65 82.55 0)
 			(effects
 				(font
