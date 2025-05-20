@@ -3615,6 +3615,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "603-RT0603BRD07280KL"
+			(at 52.07 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3344e36a-a9af-47c9-a1dc-a151d0517329")
 		)

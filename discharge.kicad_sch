@@ -468,131 +468,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+24V"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+24V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+24V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+24V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+24V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GNDPWR"
 			(power)
 			(pin_numbers
@@ -800,13 +675,109 @@
 		)
 		(uuid "efa068e0-2f37-44a4-acdd-be46174df9fb")
 	)
+	(junction
+		(at 134.62 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ee86fc5-df3d-43ed-ab33-5e3b17e7372f")
+	)
+	(junction
+		(at 154.94 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6d989d02-58fd-40aa-9507-0a99bef2642f")
+	)
+	(junction
+		(at 144.78 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e00958c-fe69-4aa4-8a94-4edcfa266b2b")
+	)
+	(junction
+		(at 144.78 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "906cc650-2eae-4ad3-afd6-97ed8c722aca")
+	)
+	(junction
+		(at 134.62 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aca8a96f-ecb8-4a61-baff-94d0373306b6")
+	)
+	(junction
+		(at 154.94 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5c8526c-e40b-4d3f-945b-088f70eede98")
+	)
 	(no_connect
 		(at 132.08 129.54)
 		(uuid "4e503ba9-7df4-4d36-80a6-c2bfe1609352")
 	)
 	(wire
 		(pts
-			(xy 134.62 157.48) (xy 134.62 160.02)
+			(xy 165.1 166.37) (xy 165.1 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cce24af-8fcb-4237-a3bb-2f41167b6dca")
+	)
+	(wire
+		(pts
+			(xy 134.62 156.21) (xy 144.78 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13abf62b-aa3e-4aae-a58d-81d460147734")
+	)
+	(wire
+		(pts
+			(xy 144.78 121.92) (xy 144.78 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d27c8e9-e994-46fa-8568-4202f5ffe5bb")
+	)
+	(wire
+		(pts
+			(xy 154.94 156.21) (xy 154.94 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "214b54cc-235f-4398-8aab-576297b4ef25")
+	)
+	(wire
+		(pts
+			(xy 154.94 168.91) (xy 165.1 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2199b8a8-8e85-4bd4-bde1-b326dafdc20a")
+	)
+	(wire
+		(pts
+			(xy 144.78 156.21) (xy 144.78 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "246ab65b-28a4-4536-8c5c-14b1c9da19a6")
+	)
+	(wire
+		(pts
+			(xy 134.62 166.37) (xy 134.62 168.91)
 		)
 		(stroke
 			(width 0)
@@ -816,7 +787,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 144.78) (xy 144.78 149.86)
+			(xy 144.78 144.78) (xy 144.78 146.05)
 		)
 		(stroke
 			(width 0)
@@ -836,13 +807,103 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 128.27) (xy 144.78 129.54)
+			(xy 144.78 166.37) (xy 144.78 168.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "afca369d-0e47-473d-9811-b5ed5f4f29f5")
+		(uuid "8a96c149-e3ef-4b31-95f2-827c2d2de034")
+	)
+	(wire
+		(pts
+			(xy 134.62 168.91) (xy 134.62 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91a71176-8aa1-4d9c-9cc2-c73c2a162bdb")
+	)
+	(wire
+		(pts
+			(xy 144.78 156.21) (xy 154.94 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3d87f15-10cc-4113-b609-2468e7c820f3")
+	)
+	(wire
+		(pts
+			(xy 154.94 156.21) (xy 165.1 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abb83d84-355a-49eb-b6b4-fa655de1ed8b")
+	)
+	(wire
+		(pts
+			(xy 134.62 156.21) (xy 134.62 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5ebe4dd-d79a-42a8-bc62-caeb6ce86196")
+	)
+	(wire
+		(pts
+			(xy 128.27 121.92) (xy 144.78 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf05a0b2-e192-4a31-a0b0-972c4d3ad3ec")
+	)
+	(wire
+		(pts
+			(xy 154.94 166.37) (xy 154.94 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8e7b115-0d1d-4bdb-b93a-806306fd0e03")
+	)
+	(wire
+		(pts
+			(xy 165.1 156.21) (xy 165.1 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca76b36f-0801-4c3a-adcb-7a2c08ba8ba6")
+	)
+	(wire
+		(pts
+			(xy 144.78 168.91) (xy 154.94 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4796f53-db60-4086-a592-2b2164ac8451")
+	)
+	(wire
+		(pts
+			(xy 134.62 168.91) (xy 144.78 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0d1ef79-3934-42fb-9291-46fbe183af3a")
 	)
 	(wire
 		(pts
@@ -856,7 +917,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 144.78) (xy 134.62 149.86)
+			(xy 134.62 144.78) (xy 134.62 156.21)
 		)
 		(stroke
 			(width 0)
@@ -885,9 +946,20 @@
 		)
 		(uuid "1cbb6a93-ab0d-42e3-bb39-378cb218436e")
 	)
+	(hierarchical_label "CTRL"
+		(shape input)
+		(at 128.27 121.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "45ca9d4e-bdcd-4442-ab97-215111c431b0")
+	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 134.62 160.02 0)
+		(at 134.62 171.45 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -897,7 +969,7 @@
 		(fields_autoplaced yes)
 		(uuid "516bbdde-fee8-4343-8b96-ba4284f80815")
 		(property "Reference" "#PWR046"
-			(at 134.62 165.1 0)
+			(at 134.62 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -906,7 +978,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 134.747 163.83 0)
+			(at 134.747 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -914,7 +986,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 161.29 0)
+			(at 134.62 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -923,7 +995,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 161.29 0)
+			(at 134.62 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -932,7 +1004,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 134.62 160.02 0)
+			(at 134.62 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -953,35 +1025,34 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+24V")
-		(at 144.78 128.27 0)
-		(mirror y)
+		(lib_id "Device:R")
+		(at 165.1 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "61c6c2c1-be4a-4cfd-b29f-48abd4b100ad")
-		(property "Reference" "#PWR044"
-			(at 144.78 132.08 0)
+		(uuid "5eee3310-5f5b-4cb8-9636-d005701538f8")
+		(property "Reference" "R71"
+			(at 162.56 161.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify right)
 			)
 		)
-		(property "Value" "+24V"
-			(at 144.78 123.19 0)
+		(property "Value" "2"
+			(at 162.56 163.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 128.27 0)
+			(at 163.322 162.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -989,8 +1060,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 144.78 128.27 0)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/385/SEI_kal-3077677.pdf"
+			(at 165.1 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -998,22 +1069,90 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 144.78 128.27 0)
+		(property "Description" "Resistor"
+			(at 165.1 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(property "Mouser Part Number" "708-KAL25FB2R00"
+			(at 165.1 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 165.1 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 165.1 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 165.1 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 165.1 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 165.1 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 165.1 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 165.1 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "05bc804b-51f0-402e-949c-25ebd4af7b0c")
 		)
 		(pin "1"
-			(uuid "2feecfa1-418e-4d6b-9602-e4ec4ac66d7f")
+			(uuid "e7965e3e-963d-423b-82d2-5f73fd685a10")
 		)
 		(instances
-			(project ""
+			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/ed9bb12b-3108-48de-97f5-99577caac45c"
-					(reference "#PWR044")
+					(reference "R71")
 					(unit 1)
 				)
 			)
@@ -1167,7 +1306,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 134.62 153.67 0)
+		(at 134.62 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1175,7 +1314,7 @@
 		(dnp no)
 		(uuid "bdcd689a-dbe0-42ca-97db-4759f6265da8")
 		(property "Reference" "R32"
-			(at 132.08 152.3999 0)
+			(at 132.08 161.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1183,8 +1322,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "33"
-			(at 132.08 154.9399 0)
+		(property "Value" "2"
+			(at 132.08 163.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1192,8 +1331,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
-			(at 132.842 153.67 90)
+		(property "Footprint" ""
+			(at 132.842 162.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1201,8 +1340,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_AC_51_RoHS_L_11-3418659.pdf"
-			(at 134.62 153.67 0)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/385/SEI_kal-3077677.pdf"
+			(at 134.62 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1211,7 +1350,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 134.62 153.67 0)
+			(at 134.62 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1219,8 +1358,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "603-AC1210JR-0733RL"
-			(at 134.62 153.67 0)
+		(property "Mouser Part Number" "708-KAL25FB2R00"
+			(at 134.62 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1229,7 +1368,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 134.62 153.67 0)
+			(at 134.62 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1237,7 +1376,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 134.62 153.67 0)
+			(at 134.62 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1245,7 +1384,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 134.62 153.67 0)
+			(at 134.62 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1253,7 +1392,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 134.62 153.67 0)
+			(at 134.62 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1261,7 +1400,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 134.62 153.67 0)
+			(at 134.62 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1269,7 +1408,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 134.62 153.67 0)
+			(at 134.62 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1277,7 +1416,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 134.62 153.67 0)
+			(at 134.62 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1300,8 +1439,276 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 154.94 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c05741e4-09f4-422e-bc78-a022cab653a8")
+		(property "Reference" "R70"
+			(at 152.4 161.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2"
+			(at 152.4 163.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.162 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/385/SEI_kal-3077677.pdf"
+			(at 154.94 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 154.94 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "708-KAL25FB2R00"
+			(at 154.94 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 154.94 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 154.94 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 154.94 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 154.94 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 154.94 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 154.94 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 154.94 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9fef3dfe-7fe6-4d68-ae60-2f234bbab8a3")
+		)
+		(pin "1"
+			(uuid "3d7aa2d5-c7fa-4b72-a117-c729cb1f8701")
+		)
+		(instances
+			(project "SupercapManager"
+				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/ed9bb12b-3108-48de-97f5-99577caac45c"
+					(reference "R70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 144.78 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c855de12-c4cb-4774-a113-15670fcb09dd")
+		(property "Reference" "R69"
+			(at 142.24 161.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2"
+			(at 142.24 163.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.002 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/385/SEI_kal-3077677.pdf"
+			(at 144.78 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 144.78 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "708-KAL25FB2R00"
+			(at 144.78 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 144.78 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 144.78 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 144.78 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 144.78 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 144.78 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 144.78 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 144.78 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "912808dc-a691-4320-97c2-6f319fd20c45")
+		)
+		(pin "1"
+			(uuid "199a233a-03de-4f4f-b771-40efc718e3b0")
+		)
+		(instances
+			(project "SupercapManager"
+				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/ed9bb12b-3108-48de-97f5-99577caac45c"
+					(reference "R69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDPWR")
-		(at 144.78 149.86 0)
+		(at 144.78 146.05 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1311,7 +1718,7 @@
 		(fields_autoplaced yes)
 		(uuid "f125c016-0829-4a43-ae2c-718ab9cba898")
 		(property "Reference" "#PWR045"
-			(at 144.78 154.94 0)
+			(at 144.78 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1320,7 +1727,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 144.907 153.67 0)
+			(at 144.907 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1328,7 +1735,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 151.13 0)
+			(at 144.78 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1337,7 +1744,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 151.13 0)
+			(at 144.78 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1346,7 +1753,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 144.78 149.86 0)
+			(at 144.78 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)

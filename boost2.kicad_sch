@@ -3457,7 +3457,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/KEM_C1006_X5R_SMD-3316465.pdf"
 			(at 227.33 85.09 0)
 			(effects
 				(font
@@ -3505,6 +3505,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Mouser Part Number" "80-C0603C105K9PLR"
+			(at 227.33 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -4903,7 +4912,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/KEM_C1006_X5R_SMD-3316465.pdf"
 			(at 240.03 85.09 0)
 			(effects
 				(font
@@ -4951,6 +4960,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Mouser Part Number" "80-C0603C105K9PLR"
+			(at 240.03 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"

@@ -2148,6 +2148,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "595-TLV9301IDBVR"
+			(at 82.55 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "b4c4f301-b254-41cc-8fbe-4ad6232fd454")
 		)
@@ -2780,7 +2789,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_11-1984063.pdf"
 			(at 46.99 48.26 0)
 			(effects
 				(font
@@ -2790,6 +2799,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 46.99 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0603FR-1010ML"
 			(at 46.99 48.26 0)
 			(effects
 				(font
@@ -3348,7 +3366,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_11-1984063.pdf"
 			(at 46.99 63.5 0)
 			(effects
 				(font
@@ -3358,6 +3376,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 46.99 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0603FR-1010ML"
 			(at 46.99 63.5 0)
 			(effects
 				(font

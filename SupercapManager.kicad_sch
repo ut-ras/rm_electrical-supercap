@@ -2023,10 +2023,10 @@
 		(uuid "8983f389-360b-4e19-a363-439ee2e90926")
 	)
 	(junction
-		(at 125.73 153.67)
+		(at 125.73 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8a17dfc9-f27d-4ce9-bb39-f4c63180fe5f")
+		(uuid "9fd67e4e-3188-4d14-9ac6-a3ed9dc4c3b0")
 	)
 	(junction
 		(at 198.12 97.79)
@@ -2275,6 +2275,16 @@
 			(type default)
 		)
 		(uuid "44f4c620-156f-4f85-9bd3-7f109d17b9e9")
+	)
+	(wire
+		(pts
+			(xy 125.73 156.21) (xy 125.73 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "475649a1-c39d-40a5-8de6-fd0475979f38")
 	)
 	(wire
 		(pts
@@ -2608,6 +2618,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 151.13) (xy 135.89 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae331086-aa67-4e58-ad4d-8ccba8e1936e")
+	)
+	(wire
+		(pts
 			(xy 95.25 80.01) (xy 109.22 80.01)
 		)
 		(stroke
@@ -2668,7 +2688,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 129.54) (xy 125.73 153.67)
+			(xy 125.73 129.54) (xy 125.73 156.21)
 		)
 		(stroke
 			(width 0)
@@ -2738,16 +2758,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 153.67) (xy 125.73 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbf14bc2-769e-4431-949a-9d973808bb8c")
-	)
-	(wire
-		(pts
 			(xy 95.25 105.41) (xy 100.33 105.41)
 		)
 		(stroke
@@ -2788,7 +2798,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 153.67) (xy 135.89 153.67)
+			(xy 125.73 156.21) (xy 135.89 156.21)
 		)
 		(stroke
 			(width 0)
@@ -2845,6 +2855,16 @@
 			(justify left bottom)
 		)
 		(uuid "41f476cf-9e60-4b71-8852-188399008c10")
+	)
+	(label "+24_{MiniPC}"
+		(at 133.35 151.13 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "56c28510-2577-4053-99c3-3ed84924dc9b")
 	)
 	(label "+24_{MiniPC}"
 		(at 123.19 45.72 0)
@@ -5782,8 +5802,18 @@
 			)
 		)
 		(pin "+V_{supercap}" input
-			(at 135.89 153.67 180)
+			(at 135.89 156.21 180)
 			(uuid "ba4b34a4-ef93-456b-9aa2-608e84d8e82e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CTRL" input
+			(at 135.89 151.13 180)
+			(uuid "15f0c4ee-0417-4c49-aeb1-d3e26f2b3af6")
 			(effects
 				(font
 					(size 1.27 1.27)

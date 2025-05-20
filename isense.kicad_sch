@@ -4034,6 +4034,15 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "603-RC0603FR-071M05L"
+			(at 158.75 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bb9b4284-7d60-4966-83e7-d0d73fa83778")
 		)
@@ -4086,7 +4095,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_11-1984063.pdf"
 			(at 118.11 102.87 0)
 			(effects
 				(font
@@ -4134,6 +4143,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0603FR-1010ML"
+			(at 118.11 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4352,7 +4370,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.rohm.com/datasheet?p=ESR03EZPJ&dist=Mouser&media=referral&source=mouser.com&campaign=Mouser"
 			(at 215.9 52.07 0)
 			(effects
 				(font
@@ -4400,6 +4418,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Mouser Part Number" "755-ESR03EZPJ222"
+			(at 215.9 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5387,7 +5414,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.rohm.com/datasheet?p=ESR03EZPJ&dist=Mouser&media=referral&source=mouser.com&campaign=Mouser"
 			(at 215.9 107.95 0)
 			(effects
 				(font
@@ -5435,6 +5462,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Mouser Part Number" "755-ESR03EZPJ222"
+			(at 215.9 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6025,7 +6061,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_11-1984063.pdf"
 			(at 133.35 137.16 0)
 			(effects
 				(font
@@ -6073,6 +6109,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0603FR-1010ML"
+			(at 133.35 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6513,7 +6558,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.rohm.com/datasheet?p=ESR03EZPJ&dist=Mouser&media=referral&source=mouser.com&campaign=Mouser"
 			(at 215.9 90.17 0)
 			(effects
 				(font
@@ -6561,6 +6606,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Mouser Part Number" "755-ESR03EZPJ222"
+			(at 215.9 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7089,7 +7143,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.rohm.com/datasheet?p=ESR03EZPJ&dist=Mouser&media=referral&source=mouser.com&campaign=Mouser"
 			(at 215.9 34.29 0)
 			(effects
 				(font
@@ -7137,6 +7191,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Mouser Part Number" "755-ESR03EZPJ222"
+			(at 215.9 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
