@@ -1857,6 +1857,16 @@
 		)
 		(uuid "44218e01-3c59-449d-9502-1c42bf53266f")
 	)
+	(text "Supercapacitor\nhost board"
+		(exclude_from_sim no)
+		(at 182.88 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4465acb0-7d21-4074-8079-2fd45cbefd8e")
+	)
 	(text "Connectors OUT"
 		(exclude_from_sim no)
 		(at 223.774 71.882 0)
@@ -1867,6 +1877,17 @@
 			(justify top)
 		)
 		(uuid "4bd92fec-73e1-4b69-8d87-1efb2ca6e661")
+	)
+	(text "Connector to supercap\ncharge balancer"
+		(exclude_from_sim no)
+		(at 180.34 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4ebf1393-f87f-44b1-8fdb-0b9e215e8018")
 	)
 	(text "GND reference:"
 		(exclude_from_sim no)
@@ -1892,12 +1913,12 @@
 	)
 	(text "Connectors to &\nfrom supercap + SCMM"
 		(exclude_from_sim no)
-		(at 131.064 182.372 0)
+		(at 137.414 172.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify top)
+			(justify left)
 		)
 		(uuid "94118ac7-92e3-49c2-9d05-872ee10ba5c9")
 	)
