@@ -2,10 +2,10 @@ Version 4
 SymbolType BLOCK
 RECTANGLE Normal 64 64 -64 -64
 WINDOW 0 64 -64 Bottom 2
-WINDOW 3 88 64 Top 2
-SYMATTR Value TLVx197-Q1
+WINDOW 3 112 64 Top 2
 SYMATTR Prefix X
-SYMATTR ModelFile C:\Users\Tachi\Documents\Nerd Shit\rm_electrical-supercap\SPICE_sims\libraries\TLVx197-Q1.LIB
+SYMATTR Value TL07XH_TL08XH
+SYMATTR ModelFile C:\Users\Tachi\Documents\Nerd Shit\rm_electrical-supercap\SPICE_sims\libraries\tl07xh_tl08xh.lib
 PIN -64 16 LEFT 8
 PINATTR PinName IN+
 PINATTR SpiceOrder 1

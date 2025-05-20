@@ -534,10 +534,10 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": false
+          "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
           "show": true
@@ -638,7 +638,7 @@
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Value"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -668,6 +668,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
@@ -706,16 +714,20 @@
       "Output Boost (Stage 2)"
     ],
     [
-      "f28a7bbd-a217-4ab0-a73c-be6ca56ea928",
-      "Ideal Diode"
-    ],
-    [
       "115b1a74-e36e-4ee6-8764-bf26e4e24147",
       "Dev Board Interface"
     ],
     [
       "2b4de7d2-e111-42d9-afee-f810f96a2f61",
       "Housekeeping Power Supplies"
+    ],
+    [
+      "e69614f9-5cd8-4aa3-ae42-53f80cb78886",
+      "Supercapacitors"
+    ],
+    [
+      "130ec867-c4fa-4318-bea9-b8fc517d0b0a",
+      "Ideal Diode"
     ]
   ],
   "text_variables": {}
