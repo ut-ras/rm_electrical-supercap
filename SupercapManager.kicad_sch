@@ -1846,7 +1846,7 @@
 		)
 		(uuid "4033c054-edc0-4ad1-a96e-54899bafca73")
 	)
-	(text "+6V to Mini PC GND"
+	(text "+5V to Mini PC GND"
 		(exclude_from_sim no)
 		(at 245.745 110.49 0)
 		(effects

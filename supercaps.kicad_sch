@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "73c45810-0467-4b83-b418-0941c32f5c9c")
+	(uuid "e8d15fd1-2361-4d9b-8396-90bf14dc43c2")
 	(paper "A5")
 	(title_block
 		(title "Supercapacitor + Balancing")
