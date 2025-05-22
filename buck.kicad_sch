@@ -2278,6 +2278,30 @@
 		)
 		(uuid 2295e0c1-ebdc-44c8-a795-c334c38aab0f)
 	)
+	(arc
+		(start 228.6 49.53)
+		(mid 215.9187 45.8554)
+		(end 209.55 34.29)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 319f17c3-93a1-4e2e-af58-2b86f13ec2ba)
+	)
+	(text "Charging curve:"
+		(exclude_from_sim no)
+		(at 189.23 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0860766d-e5cf-49a6-aeeb-ae2e0d5c9e7b")
+	)
 	(text "Current sensing"
 		(exclude_from_sim no)
 		(at 178.816 61.214 0)
@@ -2289,6 +2313,17 @@
 		)
 		(uuid "090a8345-8d3d-439c-8180-6ae714cefbe6")
 	)
+	(text "Once V_{CAP} = 6V"
+		(exclude_from_sim no)
+		(at 209.55 52.832 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify top)
+		)
+		(uuid "0fe28a10-12ff-41d0-af12-5b61cb7112e7")
+	)
 	(text "Totem pole"
 		(exclude_from_sim no)
 		(at 131.572 67.31 90)
@@ -2299,6 +2334,17 @@
 			(justify bottom)
 		)
 		(uuid "12a41990-bd36-4bef-af33-6619e61d764d")
+	)
+	(text "3"
+		(exclude_from_sim no)
+		(at 188.214 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "23213cd9-e1a7-4697-8637-908534c05fa8")
 	)
 	(text "to 103AT-2 thermistor"
 		(exclude_from_sim no)
@@ -2321,6 +2367,17 @@
 			(justify left top)
 		)
 		(uuid "4750d404-55b4-45a0-ae93-4881d3f75452")
+	)
+	(text "6"
+		(exclude_from_sim no)
+		(at 188.468 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4f5db9cb-d806-4220-a93c-2297187bfb89")
 	)
 	(text "Status LEDs for charging & current draw"
 		(exclude_from_sim no)
@@ -2423,6 +2480,28 @@
 		)
 		(uuid "94a8024a-2b18-4586-82ce-01913e5cfea0")
 	)
+	(text "Once V_{CAP} = 2.1V"
+		(exclude_from_sim no)
+		(at 199.39 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify top)
+		)
+		(uuid "a31da978-5938-4b03-b245-50de06d6200b")
+	)
+	(text "t"
+		(exclude_from_sim no)
+		(at 229.108 49.784 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "a3b340a8-fcef-4d15-ac53-187836f44d9a")
+	)
 	(text "Input:\n- +24V (Chassis) and GND (Chassis)\n- Other necessary voltage lines\n- Enable (active high)\n- OPTIONAL: fast charging enable (active high \n    when I_{in} is below a threshold)"
 		(exclude_from_sim no)
 		(at 53.34 176.53 0)
@@ -2466,6 +2545,17 @@
 			(justify left top)
 		)
 		(uuid "c66c9c4f-9f45-4397-8961-c7f51323bfa2")
+	)
+	(text "0"
+		(exclude_from_sim no)
+		(at 188.214 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c7273b35-f780-4c90-a1b9-b4b8b9c59181")
 	)
 	(text "Power path"
 		(exclude_from_sim no)
@@ -2519,6 +2609,17 @@
 			(justify left top)
 		)
 		(uuid "f1a2d7e6-639f-478b-85dd-d0cc8673183e")
+	)
+	(text "I (A)"
+		(exclude_from_sim no)
+		(at 189.23 30.988 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f31eb8fd-44a6-485e-a356-4699cf743af3")
 	)
 	(text "Output current regulation"
 		(exclude_from_sim no)
@@ -3006,6 +3107,16 @@
 		)
 		(uuid "2064c0ed-b296-4e20-8952-d0652f92493b")
 	)
+	(polyline
+		(pts
+			(xy 189.23 31.75) (xy 189.23 49.53)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "215e3546-729a-44ca-b710-c556ccf09f5c")
+	)
 	(wire
 		(pts
 			(xy 41.91 39.37) (xy 46.99 39.37)
@@ -3175,6 +3286,16 @@
 			(type default)
 		)
 		(uuid "498f0753-877d-47e1-a608-b8f8aa97a70d")
+	)
+	(polyline
+		(pts
+			(xy 189.23 41.91) (xy 199.39 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c87fb3b-46d5-43ca-8fea-9fa7fb1553ed")
 	)
 	(wire
 		(pts
@@ -3356,6 +3477,16 @@
 		)
 		(uuid "683abe60-e348-4df9-a6f7-7949cd70cc09")
 	)
+	(polyline
+		(pts
+			(xy 199.39 41.91) (xy 199.39 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b369a20-ea1b-4665-9fa1-c874a803cac1")
+	)
 	(wire
 		(pts
 			(xy 78.74 106.68) (xy 78.74 107.95)
@@ -3375,6 +3506,16 @@
 			(type default)
 		)
 		(uuid "6dc1b0ba-ebd4-4317-8c36-220caea1556a")
+	)
+	(polyline
+		(pts
+			(xy 199.39 43.18) (xy 200.66 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ebb868d-6ab8-48c7-8c25-fef80fb5fbf5")
 	)
 	(wire
 		(pts
@@ -3445,6 +3586,16 @@
 			(type default)
 		)
 		(uuid "7404526c-00ab-420f-b1ad-4b9e6dfb7371")
+	)
+	(polyline
+		(pts
+			(xy 189.23 49.53) (xy 228.6 49.53)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "76f6fe70-10a1-4572-b3c4-c0337c3b0237")
 	)
 	(wire
 		(pts
@@ -3696,6 +3847,16 @@
 		)
 		(uuid "9ca0b06a-c3f6-48a2-bfae-7cd721a9a24d")
 	)
+	(polyline
+		(pts
+			(xy 209.55 39.37) (xy 210.82 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f16fff3-4b5b-4b93-894b-4cab8171898b")
+	)
 	(wire
 		(pts
 			(xy 176.53 73.66) (xy 172.72 73.66)
@@ -3755,6 +3916,26 @@
 			(type default)
 		)
 		(uuid "a6024939-e3eb-4ef5-a6ec-9aa51b714f3c")
+	)
+	(polyline
+		(pts
+			(xy 209.55 39.37) (xy 209.55 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaeca896-a718-4896-8ec8-978f39af601b")
+	)
+	(polyline
+		(pts
+			(xy 208.28 40.64) (xy 209.55 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad0fef72-6538-4381-a438-0d5ed916df26")
 	)
 	(wire
 		(pts
@@ -3845,6 +4026,16 @@
 			(type default)
 		)
 		(uuid "b554a2e3-fd56-49ae-b829-e6be3916f42d")
+	)
+	(polyline
+		(pts
+			(xy 199.39 34.29) (xy 209.55 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b67692f3-0060-456a-84cd-be1b844e76ab")
 	)
 	(wire
 		(pts
@@ -4146,6 +4337,16 @@
 		)
 		(uuid "e78d1a5e-3ed9-4f64-8fb2-893e64f1467e")
 	)
+	(polyline
+		(pts
+			(xy 198.12 44.45) (xy 199.39 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed24a322-3a3d-4ef8-9d15-dd39fd572acb")
+	)
 	(wire
 		(pts
 			(xy 236.22 142.24) (xy 226.06 142.24)
@@ -4215,6 +4416,16 @@
 			(type default)
 		)
 		(uuid "fccbd805-23d1-4862-bdb9-8de739b5ead8")
+	)
+	(polyline
+		(pts
+			(xy 199.39 43.18) (xy 199.39 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fda21ac8-00fd-45a0-8dc8-2b27610e7128")
 	)
 	(label "HIDRV"
 		(at 91.44 105.41 0)
@@ -4928,7 +5139,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1c9dc009-0b07-4d1f-a2a7-fce2480150e5")
 		(property "Reference" "C12"
 			(at 208.28 73.6599 0)
@@ -4948,7 +5158,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 205.4352 78.74 0)
 			(effects
 				(font
@@ -4975,7 +5185,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "187-CL21A106KAYNNNE"
+		(property "Mouser Part Number" "187-CL31A106KBHNNNE"
 			(at 204.47 74.93 0)
 			(effects
 				(font
@@ -5014,6 +5224,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 208.28 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -5952,7 +6171,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "553be590-74f6-4945-b3f2-df664d58b778")
 		(property "Reference" "C13"
 			(at 219.71 73.6599 0)
@@ -5972,7 +6190,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 216.8652 78.74 0)
 			(effects
 				(font
@@ -5999,7 +6217,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "187-CL21A106KAYNNNE"
+		(property "Mouser Part Number" "187-CL31A106KBHNNNE"
 			(at 215.9 74.93 0)
 			(effects
 				(font
@@ -6038,6 +6256,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 219.71 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -6332,7 +6559,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "610d77df-63c8-492d-9eaf-06458c490dbe")
 		(property "Reference" "C18"
 			(at 97.79 92.7162 0)
@@ -6435,13 +6661,22 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "80-C0603C105K9PLR"
+		(property "Mouser Part Number" "963-UMK107BJ105KA-T"
 			(at 95.25 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 97.79 97.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "2"
@@ -7073,6 +7308,15 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Rating" "50V"
+			(at 45.466 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(pin "2"
 			(uuid "f7c9d8ce-da77-4252-baf1-40587281e706")
 		)
@@ -7240,7 +7484,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "80accdbe-df81-4627-9eba-7a264dd76fe2")
 		(property "Reference" "C11"
 			(at 196.85 73.6599 0)
@@ -7260,7 +7503,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 194.0052 78.74 0)
 			(effects
 				(font
@@ -7287,7 +7530,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "187-CL21A106KAYNNNE"
+		(property "Mouser Part Number" "187-CL31A106KBHNNNE"
 			(at 193.04 74.93 0)
 			(effects
 				(font
@@ -7326,6 +7569,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 196.85 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -7579,15 +7831,15 @@
 	(symbol
 		(lib_id "Device:C_Small")
 		(at 46.99 91.44 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8f6bc43e-70ca-44b9-9b9f-b71021790b18")
 		(property "Reference" "C17"
-			(at 49.53 90.1762 0)
+			(at 44.45 90.1762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7596,7 +7848,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 49.53 92.7162 0)
+			(at 44.45 92.7162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7687,13 +7939,22 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "80-C0603C105K9PLR"
+		(property "Mouser Part Number" "963-UMK107BJ105KA-T"
 			(at 46.99 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 44.45 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "2"
@@ -8888,7 +9149,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d0d03e80-3b9c-4746-b181-8408d654d1d5")
 		(property "Reference" "C8"
 			(at 142.24 39.3699 0)
@@ -8908,7 +9168,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 139.3952 44.45 0)
 			(effects
 				(font
@@ -8935,7 +9195,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "187-CL21A106KAYNNNE"
+		(property "Mouser Part Number" "187-CL31A106KBHNNNE"
 			(at 138.43 40.64 0)
 			(effects
 				(font
@@ -8974,6 +9234,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 142.24 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -9210,7 +9479,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d76adb86-f38b-4408-97c9-cf46529dfaf9")
 		(property "Reference" "C14"
 			(at 247.65 73.6599 0)
@@ -9320,6 +9588,15 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 247.65 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -9698,7 +9975,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f0530ad2-f6a2-4c90-9fa4-7df4d7c9a767")
 		(property "Reference" "C10"
 			(at 80.01 43.1799 0)
@@ -9801,13 +10077,22 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "80-C0603C105K9PLR"
+		(property "Mouser Part Number" "963-UMK107BJ105KA-T"
 			(at 76.2 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 80.01 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "2"
@@ -9839,7 +10124,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fea74484-5154-46ee-a3f7-da9e75380bdd")
 		(property "Reference" "C7"
 			(at 130.81 39.3699 0)
@@ -9859,7 +10143,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 127.9652 44.45 0)
 			(effects
 				(font
@@ -9886,7 +10170,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "187-CL21A106KAYNNNE"
+		(property "Mouser Part Number" "187-CL31A106KBHNNNE"
 			(at 127 40.64 0)
 			(effects
 				(font
@@ -9925,6 +10209,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 130.81 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "1"

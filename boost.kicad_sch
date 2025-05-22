@@ -3647,7 +3647,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2423e234-dfa2-4556-ae40-1d15a01451cb")
 		(property "Reference" "C23"
 			(at 138.43 53.7209 0)
@@ -3701,6 +3700,15 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "10V"
+			(at 138.43 58.674 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "2"
@@ -3862,7 +3870,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "341fcc53-1ea7-400c-b542-dd68f5560319")
 		(property "Reference" "C21"
 			(at 113.03 53.7209 0)
@@ -3916,6 +3923,15 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "10V"
+			(at 113.03 58.674 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "2"
@@ -4418,7 +4434,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6ddf1889-e95b-43d5-bba1-a09f97aedd90")
 		(property "Reference" "C25"
 			(at 163.83 53.7209 0)
@@ -4472,6 +4487,15 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "10V"
+			(at 163.83 58.674 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "2"
@@ -4934,7 +4958,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b02f0d64-dfbd-4233-8adb-3e2989a8014d")
 		(property "Reference" "C22"
 			(at 125.73 53.7209 0)
@@ -4988,6 +5011,15 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "10V"
+			(at 125.73 58.674 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "2"
@@ -5876,7 +5908,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f919afe3-f53d-4a31-a740-66ed460b8f62")
 		(property "Reference" "C24"
 			(at 151.13 53.7209 0)
@@ -5930,6 +5961,15 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "10V"
+			(at 151.13 58.674 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "2"

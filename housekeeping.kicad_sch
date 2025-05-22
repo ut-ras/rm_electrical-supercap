@@ -2090,29 +2090,29 @@
 		)
 		(uuid "0f3d13ff-1b53-40c6-828d-a9c71058a26e")
 	)
-	(text "+5V"
+	(text "+5V, 3A"
 		(exclude_from_sim no)
-		(at 26.924 135.382 90)
+		(at 26.67 139.954 90)
 		(effects
 			(font
 				(size 3.81 3.81)
 				(thickness 0.762)
 				(bold yes)
 			)
-			(justify right top)
+			(justify top)
 		)
 		(uuid "15b26f9e-b754-4e5d-b521-b74f48174883")
 	)
-	(text "+3V3"
+	(text "+3V3, 150mA"
 		(exclude_from_sim no)
-		(at 26.924 55.372 90)
+		(at 26.67 64.77 90)
 		(effects
 			(font
 				(size 3.81 3.81)
 				(thickness 0.762)
 				(bold yes)
 			)
-			(justify right top)
+			(justify top)
 		)
 		(uuid "3d0d1832-5492-480f-8811-74cfbdb280c9")
 	)
@@ -2254,9 +2254,9 @@
 		)
 		(uuid "ebde5de0-f76a-48ca-94f6-19f70b66c365")
 	)
-	(text "+30V"
+	(text "+30V, 150mA"
 		(exclude_from_sim no)
-		(at 264.16 56.388 90)
+		(at 263.906 65.786 90)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -4722,7 +4722,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "161922f3-8634-4980-9885-094edd8dbcc4")
 		(property "Reference" "C60"
 			(at 243.84 77.4699 0)
@@ -4742,7 +4741,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 240.9952 82.55 0)
 			(effects
 				(font
@@ -4769,13 +4768,22 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "187-CL10A106MP8NNNC"
+		(property "Mouser Part Number" "187-CL31A106KBHNNNE"
 			(at 240.03 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 243.84 82.804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "2"
@@ -5150,7 +5158,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2600efa6-3998-4379-a9c4-1a91da4e0445")
 		(property "Reference" "C61"
 			(at 255.27 77.4699 0)
@@ -5170,7 +5177,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 252.4252 82.55 0)
 			(effects
 				(font
@@ -5197,13 +5204,22 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "187-CL10A106MP8NNNC"
+		(property "Mouser Part Number" "187-CL31A106KBHNNNE"
 			(at 251.46 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 255.27 82.804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "2"
@@ -5453,7 +5469,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 136.8552 149.86 0)
 			(effects
 				(font
@@ -5480,13 +5496,22 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "187-CL10A106MP8NNNC"
+		(property "Mouser Part Number" "187-CL31A106KBHNNNE"
 			(at 135.89 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 137.414 144.272 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "2"
@@ -5623,6 +5648,15 @@
 				)
 			)
 		)
+		(property "Voltage Rating" "50V"
+			(at 166.37 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(pin "1"
 			(uuid "9c66e252-e0c9-4c4d-bf6e-ff07fdcf42d4")
 		)
@@ -5737,7 +5771,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 131.7752 149.86 0)
 			(effects
 				(font
@@ -5764,13 +5798,22 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "187-CL10A106MP8NNNC"
+		(property "Mouser Part Number" "187-CL31A106KBHNNNE"
 			(at 130.81 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 132.334 144.272 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "2"
@@ -6912,7 +6955,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 116.5352 149.86 0)
 			(effects
 				(font
@@ -6939,13 +6982,22 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "187-CL10A106MP8NNNC"
+		(property "Mouser Part Number" "187-CL31A106KBHNNNE"
 			(at 115.57 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 117.094 144.272 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "2"
@@ -7454,7 +7506,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a17f9e94-354c-4995-b676-4811e0344939")
 		(property "Reference" "C58"
 			(at 220.98 77.4699 0)
@@ -7474,7 +7525,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 218.1352 82.55 0)
 			(effects
 				(font
@@ -7501,13 +7552,22 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "187-CL10A106MP8NNNC"
+		(property "Mouser Part Number" "187-CL31A106KBHNNNE"
 			(at 217.17 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 220.98 82.804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "2"
@@ -7533,7 +7593,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a42d9295-1698-451e-b85e-d4f004b29961")
 		(property "Reference" "C59"
 			(at 232.41 77.4699 0)
@@ -7553,7 +7612,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 229.5652 82.55 0)
 			(effects
 				(font
@@ -7580,13 +7639,22 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "187-CL10A106MP8NNNC"
+		(property "Mouser Part Number" "187-CL31A106KBHNNNE"
 			(at 228.6 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 232.41 82.804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "2"
@@ -8216,7 +8284,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 49.8348 143.51 0)
 			(effects
 				(font
@@ -8243,13 +8311,22 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "187-CL10A106MP8NNNC"
+		(property "Mouser Part Number" "187-CL31A106KBHNNNE"
 			(at 50.8 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 46.99 143.764 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "2"
@@ -8275,7 +8352,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bbc4e077-053e-45f9-a137-005fa9a79448")
 		(property "Reference" "C57"
 			(at 120.65 76.1999 0)
@@ -8295,7 +8371,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 117.8052 81.28 0)
 			(effects
 				(font
@@ -8322,13 +8398,22 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "187-CL10A106MP8NNNC"
+		(property "Mouser Part Number" "187-CL31A106KBHNNNE"
 			(at 116.84 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 120.65 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "2"
@@ -8423,7 +8508,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c4026d57-43c2-4a4e-8235-8c18998afd9b")
 		(property "Reference" "C54"
 			(at 173.99 60.9599 0)
@@ -8470,7 +8554,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "80-C0603C105K9PLR"
+		(property "Mouser Part Number" "963-UMK107BJ105KA-T"
 			(at 170.18 62.23 0)
 			(effects
 				(font
@@ -8509,6 +8593,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 173.99 66.294 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -8654,7 +8747,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 126.6952 149.86 0)
 			(effects
 				(font
@@ -8681,13 +8774,22 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "187-CL10A106MP8NNNC"
+		(property "Mouser Part Number" "187-CL31A106KBHNNNE"
 			(at 125.73 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 127.254 144.272 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "2"
@@ -9310,7 +9412,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 121.6152 149.86 0)
 			(effects
 				(font
@@ -9337,13 +9439,22 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "187-CL10A106MP8NNNC"
+		(property "Mouser Part Number" "187-CL31A106KBHNNNE"
 			(at 120.65 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 122.174 144.272 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "2"
@@ -9634,7 +9745,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f7967bd7-aded-4cd1-9d95-44473cc2e720")
 		(property "Reference" "C53"
 			(at 54.61 59.6899 0)
@@ -9681,7 +9791,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "80-C0603C105K9PLR"
+		(property "Mouser Part Number" "963-UMK107BJ105KA-T"
 			(at 50.8 60.96 0)
 			(effects
 				(font
@@ -9720,6 +9830,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 54.61 65.024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "1"

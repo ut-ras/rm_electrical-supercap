@@ -1851,7 +1851,7 @@
 		)
 		(uuid ea5568a9-2110-4ffc-a605-635b0e48f0e5)
 	)
-	(text "Input scaling:\n180k over 120k = ^{2}/_{5}"
+	(text "Input scaling:\n180k over 220k = 0.55"
 		(exclude_from_sim no)
 		(at 56.896 129.286 0)
 		(effects
@@ -6269,7 +6269,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "120k"
+		(property "Value" "220k"
 			(at 53.34 115.5699 0)
 			(effects
 				(font

@@ -2257,7 +2257,6 @@
 		(in_bom yes)
 		(on_board no)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "20fb1f1d-f91a-4d67-90e9-6df429c6a6a8")
 		(property "Reference" "C73"
 			(at 165.1 55.8799 0)
@@ -2311,6 +2310,15 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "3V"
+			(at 165.1 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -2839,7 +2847,6 @@
 		(in_bom yes)
 		(on_board no)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "64b57ede-0330-41f9-8293-8e29fad9890b")
 		(property "Reference" "C71"
 			(at 171.45 43.1799 0)
@@ -2893,6 +2900,15 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "3V"
+			(at 171.45 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -3189,7 +3205,6 @@
 		(in_bom yes)
 		(on_board no)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "765c13c9-9c38-4b40-a073-a35c902724c2")
 		(property "Reference" "C72"
 			(at 184.15 43.1799 0)
@@ -3243,6 +3258,15 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "3V"
+			(at 184.15 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -3764,7 +3788,6 @@
 		(in_bom yes)
 		(on_board no)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f6a12143-1d94-4c41-87b0-ebee19ba906a")
 		(property "Reference" "C74"
 			(at 177.8 55.8799 0)
@@ -3818,6 +3841,15 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "3V"
+			(at 177.8 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "1"

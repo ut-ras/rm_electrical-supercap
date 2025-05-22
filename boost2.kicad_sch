@@ -3349,7 +3349,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "01d4e9f7-72b4-445f-85ad-d8aef1ace707")
 		(property "Reference" "C32"
 			(at 33.02 82.9309 0)
@@ -3405,6 +3404,15 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Rating" "10V"
+			(at 33.02 88.138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(pin "2"
 			(uuid "c3ee1b0c-3796-40b5-8275-c3f34fe7021e")
 		)
@@ -3428,7 +3436,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "04f132a1-f886-46a2-9ec5-df2301fe441f")
 		(property "Reference" "C37"
 			(at 231.14 83.8199 0)
@@ -3507,13 +3514,22 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "80-C0603C105K9PLR"
+		(property "Mouser Part Number" "963-UMK107BJ105KA-T"
 			(at 227.33 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 231.14 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "2"
@@ -3539,7 +3555,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "09090174-6a3a-4a0f-8a5a-11d467a2abd7")
 		(property "Reference" "C36"
 			(at 218.44 82.9309 0)
@@ -3593,6 +3608,15 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "10V"
+			(at 218.44 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "2"
@@ -4883,7 +4907,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7657fb84-5fa1-4241-bbcf-5197be1fd7bd")
 		(property "Reference" "C38"
 			(at 243.84 83.8199 0)
@@ -4962,13 +4985,22 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "80-C0603C105K9PLR"
+		(property "Mouser Part Number" "963-UMK107BJ105KA-T"
 			(at 240.03 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 243.84 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "2"
@@ -5299,7 +5331,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "91a8c07d-a634-439c-a2db-13af06f83f59")
 		(property "Reference" "C39"
 			(at 125.73 105.4099 0)
@@ -5319,7 +5350,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 122.8852 110.49 0)
 			(effects
 				(font
@@ -5346,7 +5377,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "187-CL21A106KAYNNNE"
+		(property "Mouser Part Number" "187-CL31A106KBHNNNE"
 			(at 121.92 106.68 0)
 			(effects
 				(font
@@ -5385,6 +5416,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 125.73 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -5759,6 +5799,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 183.896 124.714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -6162,7 +6211,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "dc03f167-d074-4c68-963a-9195fc415113")
 		(property "Reference" "C35"
 			(at 205.74 82.9309 0)
@@ -6216,6 +6264,15 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "10V"
+			(at 205.74 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "2"

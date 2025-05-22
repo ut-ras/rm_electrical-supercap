@@ -6254,7 +6254,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "99e2317b-533c-4d49-b33b-006be5ea835e")
 		(property "Reference" "C6"
 			(at 232.41 123.19 90)
@@ -6334,6 +6333,14 @@
 		)
 		(property "Mouser Price/Stock" ""
 			(at 232.41 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 232.41 134.874 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7818,7 +7825,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f02f1d2a-da6b-4b86-b776-c4f2427c9b81")
 		(property "Reference" "C4"
 			(at 232.41 67.31 90)
@@ -7898,6 +7904,14 @@
 		)
 		(property "Mouser Price/Stock" ""
 			(at 232.41 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 232.41 78.994 90)
 			(effects
 				(font
 					(size 1.27 1.27)
