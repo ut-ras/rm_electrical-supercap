@@ -2053,7 +2053,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 121.412 66.04 90)
 			(effects
 				(font
@@ -2062,7 +2062,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-mfha-automotive-smd-current-sense-resistor-metal-film-data-sheet-elx1178.pdf"
 			(at 123.19 66.04 0)
 			(effects
 				(font
@@ -2072,6 +2072,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 123.19 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "504-MFHA1206R1000FC"
 			(at 123.19 66.04 0)
 			(effects
 				(font
@@ -3311,7 +3320,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 121.412 50.8 90)
 			(effects
 				(font
@@ -3320,7 +3329,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-mfha-automotive-smd-current-sense-resistor-metal-film-data-sheet-elx1178.pdf"
 			(at 123.19 50.8 0)
 			(effects
 				(font
@@ -3330,6 +3339,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 123.19 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "504-MFHA1206R1000FC"
 			(at 123.19 50.8 0)
 			(effects
 				(font

@@ -1839,6 +1839,15 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "595-LM74700QDBVRQ1"
+			(at 104.14 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "2b4f20d1-15d9-4881-b2ef-192cb773d31e")
 		)
