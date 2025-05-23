@@ -3111,7 +3111,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0177bdff-abbf-4f9b-9949-9ee3ad8d0ff4")
 		(property "Reference" "J3"
@@ -3378,6 +3378,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Mouser Part Number" "660-RK73Z1JTTDD"
+			(at 172.72 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -3953,6 +3962,15 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "660-RK73Z1JTTDD"
+			(at 123.19 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "dc70c4a0-d7a8-4040-97d3-50c216212296")
 		)
@@ -4108,7 +4126,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "6c2a2886-4dee-4cbd-8fec-514b2765c90f")
 		(property "Reference" "J6"
 			(at 132.715 166.37 0)
@@ -4429,7 +4447,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "9945d128-047a-4697-9af9-87ed9400da6d")
 		(property "Reference" "J2"
@@ -4619,7 +4637,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c7c1563b-3f18-41ac-9ac4-4abdc26ab993")
 		(property "Reference" "J4"
@@ -4884,7 +4902,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "da8f311c-e373-4ade-8d17-fd13e6151d11")
 		(property "Reference" "J1"
@@ -5081,7 +5099,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "e71ef612-7cde-43e8-8188-f03583c524be")
 		(property "Reference" "J5"
 			(at 225.425 74.93 0)

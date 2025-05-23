@@ -1558,7 +1558,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "a67eebda-c48e-4caa-8b39-e5c06234b141")
 		(property "Reference" "J10"
 			(at 139.065 72.39 0)

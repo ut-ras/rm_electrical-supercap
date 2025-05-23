@@ -3722,7 +3722,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0bbdfac7-3e28-41d2-9cf0-554ef3bfb17b")
 		(property "Reference" "C46"
 			(at 213.36 53.34 90)
@@ -3749,7 +3748,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/KGM_X7R-3223212.pdf"
 			(at 213.36 60.96 0)
 			(effects
 				(font
@@ -3817,6 +3816,23 @@
 		)
 		(property "Mouser Price/Stock" ""
 			(at 213.36 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "581-KGM15BR71H104JT"
+			(at 213.36 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 213.36 65.278 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4098,6 +4114,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0603FR-7W1K5L"
+			(at 152.4 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4535,6 +4560,24 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "810-C2012X5R1A685K0C"
+			(at 187.96 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "10V"
+			(at 183.896 132.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(pin "1"
 			(uuid "03eb4d09-0462-4340-8279-58d9e13b6c37")
 		)
@@ -4593,7 +4636,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/KGM_X7R-3223212.pdf"
 			(at 78.74 83.82 0)
 			(effects
 				(font
@@ -4665,6 +4708,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Mouser Part Number" "581-KGM15BR71H104JT"
+			(at 78.74 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 74.93 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(pin "1"
@@ -4697,10 +4758,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3d700948-0aa3-46cd-a650-ec19ee42fba3")
 		(property "Reference" "C44"
-			(at 180.34 49.53 90)
+			(at 180.34 47.498 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4708,7 +4768,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 180.34 52.07 90)
+			(at 180.34 50.038 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4724,7 +4784,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/KGM_X7R-3223212.pdf"
 			(at 180.34 57.15 0)
 			(effects
 				(font
@@ -4792,6 +4852,23 @@
 		)
 		(property "Mouser Price/Stock" ""
 			(at 180.34 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "581-KGM15BR71H104JT"
+			(at 180.34 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 180.34 52.578 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5235,6 +5312,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0603FR-7W1K5L"
+			(at 154.94 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5852,10 +5938,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7d75dfef-d406-4564-a372-288473274c0b")
 		(property "Reference" "C48"
-			(at 123.19 97.79 90)
+			(at 123.19 96.774 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5863,7 +5948,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 123.19 100.33 90)
+			(at 123.19 99.314 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5879,7 +5964,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/KGM_X7R-3223212.pdf"
 			(at 123.19 105.41 0)
 			(effects
 				(font
@@ -5947,6 +6032,23 @@
 		)
 		(property "Mouser Price/Stock" ""
 			(at 123.19 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "581-KGM15BR71H104JT"
+			(at 123.19 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 123.19 101.854 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6158,6 +6260,15 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "603-RC0603FR-7W1K5L"
+			(at 228.6 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "db3f0848-607c-4019-ba7c-709af7cb210d")
 		)
@@ -6361,6 +6472,15 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "660-RK73H1JTTD2203F"
+			(at 55.88 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9054263b-f080-4b84-8a7a-0a63ef25bb1d")
 		)
@@ -6490,6 +6610,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Mouser Part Number" "603-RT0603DRE07180KL"
+			(at 55.88 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7039,7 +7168,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c4645316-e726-487b-965f-88f3cfcc6cb1")
 		(property "Reference" "C49"
 			(at 231.14 124.4599 0)
@@ -7068,7 +7196,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/KGM_X7R-3223212.pdf"
 			(at 227.33 125.73 0)
 			(effects
 				(font
@@ -7140,6 +7268,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Mouser Part Number" "581-KGM15BR71H104JT"
+			(at 227.33 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 231.14 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(pin "1"
@@ -7172,10 +7318,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d6f9cee2-5aaa-463a-89b7-3ae6e659d200")
 		(property "Reference" "C45"
-			(at 123.19 53.34 90)
+			(at 123.19 51.308 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7183,7 +7328,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 123.19 55.88 90)
+			(at 123.19 53.848 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7199,7 +7344,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/KGM_X7R-3223212.pdf"
 			(at 123.19 60.96 0)
 			(effects
 				(font
@@ -7267,6 +7412,23 @@
 		)
 		(property "Mouser Price/Stock" ""
 			(at 123.19 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "581-KGM15BR71H104JT"
+			(at 123.19 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 123.19 56.642 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7404,6 +7566,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0603FR-7W1K5L"
+			(at 238.76 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"

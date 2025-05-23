@@ -2178,16 +2178,16 @@
 		(uuid "98ef59ff-4a1d-40a3-af45-b0c0acc92eae")
 	)
 	(junction
-		(at 181.61 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9cb0e0d2-7e4d-453a-b31d-9e804955d008")
-	)
-	(junction
 		(at 223.52 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9d1bdeae-1a2e-4e8a-91ea-dea0a8c3ffa7")
+	)
+	(junction
+		(at 181.61 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d989803-8a7f-4005-a0c2-e73fe8a3ce2c")
 	)
 	(junction
 		(at 49.53 29.21)
@@ -2699,7 +2699,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 62.23) (xy 181.61 64.77)
+			(xy 181.61 60.96) (xy 181.61 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2746,16 +2746,6 @@
 			(type default)
 		)
 		(uuid "5af72de1-0c7f-4777-84d4-3513e9a2e47b")
-	)
-	(wire
-		(pts
-			(xy 181.61 60.96) (xy 181.61 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5bfebc69-a000-4bfc-b378-730562a9ef4f")
 	)
 	(wire
 		(pts
@@ -2929,7 +2919,17 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 62.23) (xy 181.61 62.23)
+			(xy 181.61 63.5) (xy 181.61 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f5fe551-9ab8-4c9c-9b0a-1025dab08cde")
+	)
+	(wire
+		(pts
+			(xy 168.91 63.5) (xy 181.61 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3309,7 +3309,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 60.96) (xy 168.91 62.23)
+			(xy 168.91 60.96) (xy 168.91 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3891,7 +3891,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "603-RC0603FR-1010ML"
+		(property "Mouser Part Number" "603-RC0603FR-071MP"
 			(at 223.52 40.64 0)
 			(effects
 				(font
@@ -4034,7 +4034,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "603-RC0603FR-071M05L"
+		(property "Mouser Part Number" "603-RT0603FRE1315KL"
 			(at 158.75 129.54 0)
 			(effects
 				(font
@@ -4145,7 +4145,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "603-RC0603FR-1010ML"
+		(property "Mouser Part Number" "603-RC0603FR-071MP"
 			(at 118.11 102.87 0)
 			(effects
 				(font
@@ -4320,6 +4320,15 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "660-RN73H1JTD1003D25"
+			(at 111.76 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "964357f3-2a72-49e4-a763-fea89b783a15")
 		)
@@ -4420,7 +4429,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "755-ESR03EZPJ222"
+		(property "Mouser Part Number" "660-RN73R1JTD1001F50"
 			(at 215.9 52.07 0)
 			(effects
 				(font
@@ -4928,6 +4937,15 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "603-RC0603FR-1047KL"
+			(at 246.38 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "232c751a-b237-4eba-bd94-14b9ba428f7d")
 		)
@@ -4997,6 +5015,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "700-MAX4073TAUT+T"
+			(at 44.45 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "100abb2a-077a-4485-b709-88054789d126")
 		)
@@ -5033,7 +5060,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4e0db8ac-412f-4609-bca6-58ff3a579fea")
 		(property "Reference" "C2"
 			(at 165.1 55.8799 0)
@@ -5062,7 +5088,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/KGM_X7R-3223212.pdf"
 			(at 168.91 57.15 0)
 			(effects
 				(font
@@ -5110,6 +5136,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Mouser Part Number" "581-KGM15BR71H104JT"
+			(at 168.91 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 165.1 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "2"
@@ -5346,6 +5390,15 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "595-OPA551UA"
+			(at 246.38 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7bae6441-7af5-44ff-8c3f-71f50f8785b4")
 		)
@@ -5464,7 +5517,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "755-ESR03EZPJ222"
+		(property "Mouser Part Number" "660-RN73R1JTD1001F50"
 			(at 215.9 107.95 0)
 			(effects
 				(font
@@ -5718,6 +5771,15 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "603-RC0603FR-1047KL"
+			(at 246.38 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a4ab2979-db40-4c6c-80f9-aa3ae4807a70")
 		)
@@ -5819,6 +5881,15 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "595-OPA551UA"
+			(at 246.38 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "83bb1755-83f7-4934-b8ec-a78dc6672f81")
 		)
@@ -5904,7 +5975,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "603-RC0603FR-1010ML"
+		(property "Mouser Part Number" "603-RC0603FR-071MP"
 			(at 232.41 63.5 0)
 			(effects
 				(font
@@ -6111,7 +6182,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "603-RC0603FR-1010ML"
+		(property "Mouser Part Number" "603-RC0603FR-071MP"
 			(at 133.35 137.16 0)
 			(effects
 				(font
@@ -6298,7 +6369,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "791-0603N390F500CT"
+		(property "Mouser Part Number" "80-C0603C102J3G"
 			(at 232.41 130.81 90)
 			(effects
 				(font
@@ -6339,7 +6410,7 @@
 				)
 			)
 		)
-		(property "Voltage Rating" "50V"
+		(property "Voltage Rating" "25V"
 			(at 232.41 134.874 90)
 			(effects
 				(font
@@ -6436,7 +6507,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a420ff69-aec8-4e0e-a419-de3d33550fb4")
 		(property "Reference" "C5"
 			(at 97.79 129.5399 0)
@@ -6465,7 +6535,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/KGM_X7R-3223212.pdf"
 			(at 93.98 130.81 0)
 			(effects
 				(font
@@ -6513,6 +6583,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Mouser Part Number" "581-KGM15BR71H104JT"
+			(at 93.98 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 97.79 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "2"
@@ -6615,7 +6703,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "755-ESR03EZPJ222"
+		(property "Mouser Part Number" "660-RN73R1JTD1001F50"
 			(at 215.9 90.17 0)
 			(effects
 				(font
@@ -6692,7 +6780,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "603-RC0603FR-1010ML"
+		(property "Mouser Part Number" "603-RC0603FR-071MP"
 			(at 232.41 119.38 0)
 			(effects
 				(font
@@ -6823,7 +6911,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bb565bed-535d-46a7-879d-903af9bfb2ed")
 		(property "Reference" "C3"
 			(at 177.8 55.8799 0)
@@ -6852,7 +6939,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/KGM_X7R-3223212.pdf"
 			(at 181.61 57.15 0)
 			(effects
 				(font
@@ -6900,6 +6987,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Mouser Part Number" "581-KGM15BR71H104JT"
+			(at 181.61 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 177.8 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "2"
@@ -7200,7 +7305,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "755-ESR03EZPJ222"
+		(property "Mouser Part Number" "660-RN73R1JTD1001F50"
 			(at 215.9 34.29 0)
 			(effects
 				(font
@@ -7298,7 +7403,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d5bc4cca-84ce-4cdc-9c14-53a51a848c07")
 		(property "Reference" "C1"
 			(at 135.89 55.8799 0)
@@ -7327,7 +7431,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/KGM_X7R-3223212.pdf"
 			(at 132.08 57.15 0)
 			(effects
 				(font
@@ -7375,6 +7479,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Mouser Part Number" "581-KGM15BR71H104JT"
+			(at 132.08 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 135.89 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "2"
@@ -7477,6 +7599,15 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "660-RN73H1JTD1003D25"
+			(at 106.68 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e23c8941-6a1e-441a-ba3e-ff19ffe1507f")
 		)
@@ -7546,7 +7677,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "603-RC0603FR-1010ML"
+		(property "Mouser Part Number" "603-RC0603FR-071MP"
 			(at 223.52 96.52 0)
 			(effects
 				(font
@@ -7869,7 +8000,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "791-0603N390F500CT"
+		(property "Mouser Part Number" "80-C0603C102J3G"
 			(at 232.41 74.93 90)
 			(effects
 				(font
@@ -7910,7 +8041,7 @@
 				)
 			)
 		)
-		(property "Voltage Rating" "50V"
+		(property "Voltage Rating" "25V"
 			(at 232.41 78.994 90)
 			(effects
 				(font

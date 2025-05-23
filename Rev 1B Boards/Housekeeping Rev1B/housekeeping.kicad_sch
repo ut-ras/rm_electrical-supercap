@@ -2364,6 +2364,12 @@
 		(uuid "57743462-40a1-4a78-bef4-f3f237b5b1ad")
 	)
 	(junction
+		(at 88.9 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b94a623-a5bb-4729-9a15-f965cf16e935")
+	)
+	(junction
 		(at 115.57 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2822,6 +2828,16 @@
 			(type default)
 		)
 		(uuid "2ab2f23c-6c4f-4627-a1f2-6213eae9580c")
+	)
+	(wire
+		(pts
+			(xy 88.9 132.08) (xy 88.9 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c6b1155-65c1-414e-a413-77606ce87174")
 	)
 	(wire
 		(pts
@@ -4497,6 +4513,12 @@
 		)
 		(instances
 			(project "SupercapManager"
+				(path "/57bd7ee4-abd2-406d-8aa4-dca7b4434482/e9325448-1656-47e2-8a0b-cb40865ce579"
+					(reference "#PWR096")
+					(unit 1)
+				)
+			)
+			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/2b4de7d2-e111-42d9-afee-f810f96a2f61"
 					(reference "#PWR096")
 					(unit 1)
@@ -4563,6 +4585,12 @@
 		)
 		(instances
 			(project "SupercapManager"
+				(path "/57bd7ee4-abd2-406d-8aa4-dca7b4434482/e9325448-1656-47e2-8a0b-cb40865ce579"
+					(reference "#PWR085")
+					(unit 1)
+				)
+			)
+			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/2b4de7d2-e111-42d9-afee-f810f96a2f61"
 					(reference "#PWR085")
 					(unit 1)
@@ -4628,7 +4656,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "603-RT0603DRD071K2L"
+		(property "Mouser Part Number" "603-RT0603FRE133K6L"
 			(at 93.98 71.12 0)
 			(effects
 				(font
@@ -4700,6 +4728,12 @@
 			(uuid "20649929-8f2b-4785-a087-1d3362e7cb43")
 		)
 		(instances
+			(project "SupercapManager"
+				(path "/57bd7ee4-abd2-406d-8aa4-dca7b4434482/e9325448-1656-47e2-8a0b-cb40865ce579"
+					(reference "R66")
+					(unit 1)
+				)
+			)
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/2b4de7d2-e111-42d9-afee-f810f96a2f61"
 					(reference "R66")
@@ -4793,6 +4827,12 @@
 			(uuid "5f2666b6-da5c-4c3b-a8ea-9aa2a6652410")
 		)
 		(instances
+			(project "SupercapManager"
+				(path "/57bd7ee4-abd2-406d-8aa4-dca7b4434482/e9325448-1656-47e2-8a0b-cb40865ce579"
+					(reference "C60")
+					(unit 1)
+				)
+			)
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/2b4de7d2-e111-42d9-afee-f810f96a2f61"
 					(reference "C60")
@@ -4928,6 +4968,12 @@
 		)
 		(instances
 			(project "SupercapManager"
+				(path "/57bd7ee4-abd2-406d-8aa4-dca7b4434482/e9325448-1656-47e2-8a0b-cb40865ce579"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/2b4de7d2-e111-42d9-afee-f810f96a2f61"
 					(reference "D6")
 					(unit 1)
@@ -4993,6 +5039,12 @@
 			(uuid "29543644-14b9-4d60-bcec-8f0321bf7180")
 		)
 		(instances
+			(project "SupercapManager"
+				(path "/57bd7ee4-abd2-406d-8aa4-dca7b4434482/e9325448-1656-47e2-8a0b-cb40865ce579"
+					(reference "#PWR090")
+					(unit 1)
+				)
+			)
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/2b4de7d2-e111-42d9-afee-f810f96a2f61"
 					(reference "#PWR090")
@@ -5071,6 +5123,12 @@
 		)
 		(instances
 			(project ""
+				(path "/57bd7ee4-abd2-406d-8aa4-dca7b4434482/e9325448-1656-47e2-8a0b-cb40865ce579"
+					(reference "L6")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/2b4de7d2-e111-42d9-afee-f810f96a2f61"
 					(reference "L6")
 					(unit 1)
@@ -5136,6 +5194,12 @@
 			(uuid "475fb0c4-5d06-4dee-831b-329156476e1a")
 		)
 		(instances
+			(project "SupercapManager"
+				(path "/57bd7ee4-abd2-406d-8aa4-dca7b4434482/e9325448-1656-47e2-8a0b-cb40865ce579"
+					(reference "#PWR091")
+					(unit 1)
+				)
+			)
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/2b4de7d2-e111-42d9-afee-f810f96a2f61"
 					(reference "#PWR091")
@@ -5230,6 +5294,12 @@
 		)
 		(instances
 			(project "SupercapManager"
+				(path "/57bd7ee4-abd2-406d-8aa4-dca7b4434482/e9325448-1656-47e2-8a0b-cb40865ce579"
+					(reference "C61")
+					(unit 1)
+				)
+			)
+			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/2b4de7d2-e111-42d9-afee-f810f96a2f61"
 					(reference "C61")
 					(unit 1)
@@ -5292,15 +5362,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "603-AC0603FR-0713K7L"
-			(at 104.14 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "340f3bf5-ebf9-4fb3-9423-247ab08c82d3")
 		)
@@ -5308,6 +5369,12 @@
 			(uuid "2a0910f2-78c1-414d-a086-50d98e6a8f44")
 		)
 		(instances
+			(project "SupercapManager"
+				(path "/57bd7ee4-abd2-406d-8aa4-dca7b4434482/e9325448-1656-47e2-8a0b-cb40865ce579"
+					(reference "R73")
+					(unit 1)
+				)
+			)
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/2b4de7d2-e111-42d9-afee-f810f96a2f61"
 					(reference "R73")
@@ -5444,6 +5511,12 @@
 		)
 		(instances
 			(project "SupercapManager"
+				(path "/57bd7ee4-abd2-406d-8aa4-dca7b4434482/e9325448-1656-47e2-8a0b-cb40865ce579"
+					(reference "R64")
+					(unit 1)
+				)
+			)
+			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/2b4de7d2-e111-42d9-afee-f810f96a2f61"
 					(reference "R64")
 					(unit 1)
@@ -5530,6 +5603,12 @@
 			(uuid "4e1a5bf4-2aa6-4930-9120-f497c57be710")
 		)
 		(instances
+			(project "SupercapManager"
+				(path "/57bd7ee4-abd2-406d-8aa4-dca7b4434482/e9325448-1656-47e2-8a0b-cb40865ce579"
+					(reference "C70")
+					(unit 1)
+				)
+			)
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/2b4de7d2-e111-42d9-afee-f810f96a2f61"
 					(reference "C70")
@@ -5674,6 +5753,12 @@
 		)
 		(instances
 			(project "SupercapManager"
+				(path "/57bd7ee4-abd2-406d-8aa4-dca7b4434482/e9325448-1656-47e2-8a0b-cb40865ce579"
+					(reference "C62")
+					(unit 1)
+				)
+			)
+			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/2b4de7d2-e111-42d9-afee-f810f96a2f61"
 					(reference "C62")
 					(unit 1)
@@ -5745,6 +5830,12 @@
 			(uuid "8f1f697a-2292-4fcc-888e-35221f75e569")
 		)
 		(instances
+			(project "SupercapManager"
+				(path "/57bd7ee4-abd2-406d-8aa4-dca7b4434482/e9325448-1656-47e2-8a0b-cb40865ce579"
+					(reference "#PWR094")
+					(unit 1)
+				)
+			)
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/2b4de7d2-e111-42d9-afee-f810f96a2f61"
 					(reference "#PWR094")
@@ -5833,6 +5924,12 @@
 		)
 		(instances
 			(project "SupercapManager"
+				(path "/57bd7ee4-abd2-406d-8aa4-dca7b4434482/e9325448-1656-47e2-8a0b-cb40865ce579"
+					(reference "C69")
+					(unit 1)
+				)
+			)
+			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/2b4de7d2-e111-42d9-afee-f810f96a2f61"
 					(reference "C69")
 					(unit 1)
@@ -5851,7 +5948,7 @@
 		(dnp no)
 		(uuid "4419530b-50e6-431e-8dac-67e40f1c0c4d")
 		(property "Reference" "C56"
-			(at 207.01 79.502 90)
+			(at 207.0163 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5859,7 +5956,7 @@
 			)
 		)
 		(property "Value" "0.01u"
-			(at 207.01 82.042 90)
+			(at 207.0163 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5949,23 +6046,6 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "187-CL10B103KC8NNNC"
-			(at 207.01 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage Rating" "50V"
-			(at 207.0163 84.328 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "5f380b0d-04e8-4df7-bf2c-f28ec0500f9f")
 		)
@@ -5973,6 +6053,12 @@
 			(uuid "eb0732c8-822e-439d-a19e-f2f66e363dd4")
 		)
 		(instances
+			(project "SupercapManager"
+				(path "/57bd7ee4-abd2-406d-8aa4-dca7b4434482/e9325448-1656-47e2-8a0b-cb40865ce579"
+					(reference "C56")
+					(unit 1)
+				)
+			)
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/2b4de7d2-e111-42d9-afee-f810f96a2f61"
 					(reference "C56")
@@ -6040,6 +6126,12 @@
 		)
 		(instances
 			(project "SupercapManager"
+				(path "/57bd7ee4-abd2-406d-8aa4-dca7b4434482/e9325448-1656-47e2-8a0b-cb40865ce579"
+					(reference "#PWR084")
+					(unit 1)
+				)
+			)
+			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/2b4de7d2-e111-42d9-afee-f810f96a2f61"
 					(reference "#PWR084")
 					(unit 1)
@@ -6102,15 +6194,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "660-RN73H1JTD1003D25"
-			(at 104.14 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "2301a26b-4300-4604-805a-9ff54eb7f1b1")
 		)
@@ -6118,6 +6201,12 @@
 			(uuid "c7d7ac7a-cfec-47e5-9d0a-16d5318e719b")
 		)
 		(instances
+			(project ""
+				(path "/57bd7ee4-abd2-406d-8aa4-dca7b4434482/e9325448-1656-47e2-8a0b-cb40865ce579"
+					(reference "R72")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/2b4de7d2-e111-42d9-afee-f810f96a2f61"
 					(reference "R72")
@@ -6297,6 +6386,12 @@
 		)
 		(instances
 			(project "SupercapManager"
+				(path "/57bd7ee4-abd2-406d-8aa4-dca7b4434482/e9325448-1656-47e2-8a0b-cb40865ce579"
+					(reference "U15")
+					(unit 1)
+				)
+			)
+			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/2b4de7d2-e111-42d9-afee-f810f96a2f61"
 					(reference "U15")
 					(unit 1)
@@ -6311,7 +6406,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b0ffc62-3a22-46c5-9127-b5b1a89d235a")
 		(property "Reference" "TP1"
@@ -6420,6 +6515,12 @@
 		)
 		(instances
 			(project "SupercapManager"
+				(path "/57bd7ee4-abd2-406d-8aa4-dca7b4434482/e9325448-1656-47e2-8a0b-cb40865ce579"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/2b4de7d2-e111-42d9-afee-f810f96a2f61"
 					(reference "TP1")
 					(unit 1)
@@ -6467,7 +6568,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_15-3461507.pdf"
 			(at 207.01 72.39 0)
 			(effects
 				(font
@@ -6485,7 +6586,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW0603-22K-E3"
+		(property "Mouser Part Number" ""
 			(at 207.01 72.39 0)
 			(effects
 				(font
@@ -6557,6 +6658,12 @@
 			(uuid "edaabdf8-43d3-4ff3-bceb-a61f9e143ca7")
 		)
 		(instances
+			(project "SupercapManager"
+				(path "/57bd7ee4-abd2-406d-8aa4-dca7b4434482/e9325448-1656-47e2-8a0b-cb40865ce579"
+					(reference "R67")
+					(unit 1)
+				)
+			)
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/2b4de7d2-e111-42d9-afee-f810f96a2f61"
 					(reference "R67")
@@ -6692,6 +6799,12 @@
 		)
 		(instances
 			(project "SupercapManager"
+				(path "/57bd7ee4-abd2-406d-8aa4-dca7b4434482/e9325448-1656-47e2-8a0b-cb40865ce579"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/2b4de7d2-e111-42d9-afee-f810f96a2f61"
 					(reference "D7")
 					(unit 1)
@@ -6764,6 +6877,12 @@
 		)
 		(instances
 			(project "SupercapManager"
+				(path "/57bd7ee4-abd2-406d-8aa4-dca7b4434482/e9325448-1656-47e2-8a0b-cb40865ce579"
+					(reference "#PWR092")
+					(unit 1)
+				)
+			)
+			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/2b4de7d2-e111-42d9-afee-f810f96a2f61"
 					(reference "#PWR092")
 					(unit 1)
@@ -6830,6 +6949,12 @@
 		)
 		(instances
 			(project "SupercapManager"
+				(path "/57bd7ee4-abd2-406d-8aa4-dca7b4434482/e9325448-1656-47e2-8a0b-cb40865ce579"
+					(reference "#PWR095")
+					(unit 1)
+				)
+			)
+			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/2b4de7d2-e111-42d9-afee-f810f96a2f61"
 					(reference "#PWR095")
 					(unit 1)
@@ -6845,9 +6970,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "7cea04fb-83cf-4f06-86b5-711e748db8c2")
 		(property "Reference" "C51"
-			(at 95.25 55.88 0)
+			(at 95.25 57.1562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6856,7 +6982,7 @@
 			)
 		)
 		(property "Value" "82p"
-			(at 95.25 58.42 0)
+			(at 95.25 59.6962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6947,24 +7073,6 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "791-0603N820J100CT"
-			(at 92.71 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage Rating" "10V"
-			(at 95.25 61.2078 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "2"
 			(uuid "c320fdd8-0cc5-4a5f-9cfc-2df4f19669d4")
 		)
@@ -6972,6 +7080,12 @@
 			(uuid "cb598917-fafd-4107-885d-4d6676f8d9d6")
 		)
 		(instances
+			(project "SupercapManager"
+				(path "/57bd7ee4-abd2-406d-8aa4-dca7b4434482/e9325448-1656-47e2-8a0b-cb40865ce579"
+					(reference "C51")
+					(unit 1)
+				)
+			)
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/2b4de7d2-e111-42d9-afee-f810f96a2f61"
 					(reference "C51")
@@ -7060,6 +7174,12 @@
 		)
 		(instances
 			(project "SupercapManager"
+				(path "/57bd7ee4-abd2-406d-8aa4-dca7b4434482/e9325448-1656-47e2-8a0b-cb40865ce579"
+					(reference "C66")
+					(unit 1)
+				)
+			)
+			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/2b4de7d2-e111-42d9-afee-f810f96a2f61"
 					(reference "C66")
 					(unit 1)
@@ -7125,6 +7245,12 @@
 			(uuid "be4e4e9e-7fd2-4225-88cd-add3cd7ce9cb")
 		)
 		(instances
+			(project "SupercapManager"
+				(path "/57bd7ee4-abd2-406d-8aa4-dca7b4434482/e9325448-1656-47e2-8a0b-cb40865ce579"
+					(reference "#PWR088")
+					(unit 1)
+				)
+			)
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/2b4de7d2-e111-42d9-afee-f810f96a2f61"
 					(reference "#PWR088")
@@ -7192,6 +7318,12 @@
 		)
 		(instances
 			(project "SupercapManager"
+				(path "/57bd7ee4-abd2-406d-8aa4-dca7b4434482/e9325448-1656-47e2-8a0b-cb40865ce579"
+					(reference "#PWR093")
+					(unit 1)
+				)
+			)
+			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/2b4de7d2-e111-42d9-afee-f810f96a2f61"
 					(reference "#PWR093")
 					(unit 1)
@@ -7230,7 +7362,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 177.8 45.72 0)
 			(effects
 				(font
@@ -7257,7 +7389,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "667-ERJ-P06J181V"
+		(property "Mouser Part Number" ""
 			(at 177.8 45.72 0)
 			(effects
 				(font
@@ -7330,6 +7462,12 @@
 		)
 		(instances
 			(project "SupercapManager"
+				(path "/57bd7ee4-abd2-406d-8aa4-dca7b4434482/e9325448-1656-47e2-8a0b-cb40865ce579"
+					(reference "R63")
+					(unit 1)
+				)
+			)
+			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/2b4de7d2-e111-42d9-afee-f810f96a2f61"
 					(reference "R63")
 					(unit 1)
@@ -7395,6 +7533,12 @@
 			(uuid "f0a310b8-0361-468b-bd97-09ecbaaa2611")
 		)
 		(instances
+			(project "SupercapManager"
+				(path "/57bd7ee4-abd2-406d-8aa4-dca7b4434482/e9325448-1656-47e2-8a0b-cb40865ce579"
+					(reference "#PWR083")
+					(unit 1)
+				)
+			)
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/2b4de7d2-e111-42d9-afee-f810f96a2f61"
 					(reference "#PWR083")
@@ -7464,7 +7608,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "667-ERA-3AEB821V"
+		(property "Mouser Part Number" ""
 			(at 73.66 76.2 0)
 			(effects
 				(font
@@ -7536,6 +7680,12 @@
 			(uuid "e1bc68bc-f274-4602-8732-8142df72aba2")
 		)
 		(instances
+			(project "SupercapManager"
+				(path "/57bd7ee4-abd2-406d-8aa4-dca7b4434482/e9325448-1656-47e2-8a0b-cb40865ce579"
+					(reference "R69")
+					(unit 1)
+				)
+			)
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/2b4de7d2-e111-42d9-afee-f810f96a2f61"
 					(reference "R69")
@@ -7630,6 +7780,12 @@
 		)
 		(instances
 			(project "SupercapManager"
+				(path "/57bd7ee4-abd2-406d-8aa4-dca7b4434482/e9325448-1656-47e2-8a0b-cb40865ce579"
+					(reference "C58")
+					(unit 1)
+				)
+			)
+			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/2b4de7d2-e111-42d9-afee-f810f96a2f61"
 					(reference "C58")
 					(unit 1)
@@ -7716,6 +7872,12 @@
 			(uuid "e755cab9-87c8-4fa0-8fc0-ab1b2dfed380")
 		)
 		(instances
+			(project "SupercapManager"
+				(path "/57bd7ee4-abd2-406d-8aa4-dca7b4434482/e9325448-1656-47e2-8a0b-cb40865ce579"
+					(reference "C59")
+					(unit 1)
+				)
+			)
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/2b4de7d2-e111-42d9-afee-f810f96a2f61"
 					(reference "C59")
@@ -7850,6 +8012,12 @@
 		)
 		(instances
 			(project "SupercapManager"
+				(path "/57bd7ee4-abd2-406d-8aa4-dca7b4434482/e9325448-1656-47e2-8a0b-cb40865ce579"
+					(reference "L4")
+					(unit 1)
+				)
+			)
+			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/2b4de7d2-e111-42d9-afee-f810f96a2f61"
 					(reference "L4")
 					(unit 1)
@@ -7915,6 +8083,12 @@
 			(uuid "71f91e91-1212-43f6-b215-56d42a421bf6")
 		)
 		(instances
+			(project "SupercapManager"
+				(path "/57bd7ee4-abd2-406d-8aa4-dca7b4434482/e9325448-1656-47e2-8a0b-cb40865ce579"
+					(reference "#PWR089")
+					(unit 1)
+				)
+			)
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/2b4de7d2-e111-42d9-afee-f810f96a2f61"
 					(reference "#PWR089")
@@ -8100,6 +8274,12 @@
 		)
 		(instances
 			(project "SupercapManager"
+				(path "/57bd7ee4-abd2-406d-8aa4-dca7b4434482/e9325448-1656-47e2-8a0b-cb40865ce579"
+					(reference "U14")
+					(unit 1)
+				)
+			)
+			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/2b4de7d2-e111-42d9-afee-f810f96a2f61"
 					(reference "U14")
 					(unit 1)
@@ -8235,6 +8415,12 @@
 		)
 		(instances
 			(project "SupercapManager"
+				(path "/57bd7ee4-abd2-406d-8aa4-dca7b4434482/e9325448-1656-47e2-8a0b-cb40865ce579"
+					(reference "R65")
+					(unit 1)
+				)
+			)
+			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/2b4de7d2-e111-42d9-afee-f810f96a2f61"
 					(reference "R65")
 					(unit 1)
@@ -8301,8 +8487,137 @@
 		)
 		(instances
 			(project ""
+				(path "/57bd7ee4-abd2-406d-8aa4-dca7b4434482/e9325448-1656-47e2-8a0b-cb40865ce579"
+					(reference "#PWR087")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/2b4de7d2-e111-42d9-afee-f810f96a2f61"
 					(reference "#PWR087")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 88.9 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b914ef50-ba6c-4fdb-94a6-bc4e9feba5f7")
+		(property "Reference" "TP3"
+			(at 91.44 127.5079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "V_{SW}"
+			(at 91.44 130.0479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.0mm_Drill0.7mm"
+			(at 93.98 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 88.9 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 88.9 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 88.9 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 88.9 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 88.9 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 88.9 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 88.9 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 88.9 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5c48427c-6673-48a6-a6e6-1d08185cbfec")
+		)
+		(instances
+			(project "Housekeeping Rev1B"
+				(path "/57bd7ee4-abd2-406d-8aa4-dca7b4434482/e9325448-1656-47e2-8a0b-cb40865ce579"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -8378,7 +8693,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "2"
@@ -8388,6 +8703,12 @@
 			(uuid "a0126015-e98e-4a51-bed8-701b70ff3222")
 		)
 		(instances
+			(project "SupercapManager"
+				(path "/57bd7ee4-abd2-406d-8aa4-dca7b4434482/e9325448-1656-47e2-8a0b-cb40865ce579"
+					(reference "C64")
+					(unit 1)
+				)
+			)
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/2b4de7d2-e111-42d9-afee-f810f96a2f61"
 					(reference "C64")
@@ -8476,6 +8797,12 @@
 		)
 		(instances
 			(project ""
+				(path "/57bd7ee4-abd2-406d-8aa4-dca7b4434482/e9325448-1656-47e2-8a0b-cb40865ce579"
+					(reference "C57")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/2b4de7d2-e111-42d9-afee-f810f96a2f61"
 					(reference "C57")
 					(unit 1)
@@ -8537,24 +8864,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "791-0805N331J251CT"
-			(at 99.06 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage Rating" "250V"
-			(at 94.996 148.844 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "2"
 			(uuid "84426479-4e74-4368-a038-5a326d341c02")
 		)
@@ -8562,6 +8871,12 @@
 			(uuid "16ebd8f5-cabb-4805-878b-780e0190a940")
 		)
 		(instances
+			(project ""
+				(path "/57bd7ee4-abd2-406d-8aa4-dca7b4434482/e9325448-1656-47e2-8a0b-cb40865ce579"
+					(reference "C65")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/2b4de7d2-e111-42d9-afee-f810f96a2f61"
 					(reference "C65")
@@ -8682,6 +8997,12 @@
 		)
 		(instances
 			(project "SupercapManager"
+				(path "/57bd7ee4-abd2-406d-8aa4-dca7b4434482/e9325448-1656-47e2-8a0b-cb40865ce579"
+					(reference "C54")
+					(unit 1)
+				)
+			)
+			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/2b4de7d2-e111-42d9-afee-f810f96a2f61"
 					(reference "C54")
 					(unit 1)
@@ -8698,9 +9019,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "c4d4ec10-b894-465b-91c1-67bf2fe88b66")
 		(property "Reference" "C63"
-			(at 83.82 125.476 90)
+			(at 83.82 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8708,7 +9030,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 83.82 128.016 90)
+			(at 83.82 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8724,7 +9046,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/KGM_X7R-3223212.pdf"
+		(property "Datasheet" "~"
 			(at 83.82 134.62 0)
 			(effects
 				(font
@@ -8774,23 +9096,6 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "581-KGM15BR71H104JT"
-			(at 83.82 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage Rating" "50V"
-			(at 83.82 130.556 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "993f9730-5986-47cb-90d8-c2514309a104")
 		)
@@ -8798,6 +9103,12 @@
 			(uuid "441fe9aa-cfb7-46bd-a064-440d3a404c63")
 		)
 		(instances
+			(project "SupercapManager"
+				(path "/57bd7ee4-abd2-406d-8aa4-dca7b4434482/e9325448-1656-47e2-8a0b-cb40865ce579"
+					(reference "C63")
+					(unit 1)
+				)
+			)
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/2b4de7d2-e111-42d9-afee-f810f96a2f61"
 					(reference "C63")
@@ -8885,6 +9196,12 @@
 			(uuid "0438e4f4-4c04-445a-aeee-b19ce821847d")
 		)
 		(instances
+			(project "SupercapManager"
+				(path "/57bd7ee4-abd2-406d-8aa4-dca7b4434482/e9325448-1656-47e2-8a0b-cb40865ce579"
+					(reference "C68")
+					(unit 1)
+				)
+			)
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/2b4de7d2-e111-42d9-afee-f810f96a2f61"
 					(reference "C68")
@@ -9021,6 +9338,12 @@
 		)
 		(instances
 			(project "SupercapManager"
+				(path "/57bd7ee4-abd2-406d-8aa4-dca7b4434482/e9325448-1656-47e2-8a0b-cb40865ce579"
+					(reference "L5")
+					(unit 1)
+				)
+			)
+			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/2b4de7d2-e111-42d9-afee-f810f96a2f61"
 					(reference "L5")
 					(unit 1)
@@ -9116,6 +9439,12 @@
 		)
 		(instances
 			(project ""
+				(path "/57bd7ee4-abd2-406d-8aa4-dca7b4434482/e9325448-1656-47e2-8a0b-cb40865ce579"
+					(reference "U16")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/2b4de7d2-e111-42d9-afee-f810f96a2f61"
 					(reference "U16")
 					(unit 1)
@@ -9160,7 +9489,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.rohm.com/datasheet?p=ESR03EZPJ&dist=Mouser&media=referral&source=mouser.com&campaign=Mouser"
 			(at 193.04 77.47 0)
 			(effects
 				(font
@@ -9178,7 +9507,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW0603-22K-E3"
+		(property "Mouser Part Number" ""
 			(at 193.04 77.47 0)
 			(effects
 				(font
@@ -9251,6 +9580,12 @@
 		)
 		(instances
 			(project "SupercapManager"
+				(path "/57bd7ee4-abd2-406d-8aa4-dca7b4434482/e9325448-1656-47e2-8a0b-cb40865ce579"
+					(reference "R71")
+					(unit 1)
+				)
+			)
+			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/2b4de7d2-e111-42d9-afee-f810f96a2f61"
 					(reference "R71")
 					(unit 1)
@@ -9317,6 +9652,12 @@
 		)
 		(instances
 			(project "SupercapManager"
+				(path "/57bd7ee4-abd2-406d-8aa4-dca7b4434482/e9325448-1656-47e2-8a0b-cb40865ce579"
+					(reference "#PWR086")
+					(unit 1)
+				)
+			)
+			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/2b4de7d2-e111-42d9-afee-f810f96a2f61"
 					(reference "#PWR086")
 					(unit 1)
@@ -9367,7 +9708,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.rohm.com/datasheet?p=ESR03EZPJ&dist=Mouser&media=referral&source=mouser.com&campaign=Mouser"
 			(at 64.77 76.2 0)
 			(effects
 				(font
@@ -9385,7 +9726,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "603-RT0603DRE07180KL"
+		(property "Mouser Part Number" ""
 			(at 64.77 76.2 0)
 			(effects
 				(font
@@ -9457,6 +9798,12 @@
 			(uuid "a185c00a-b1e8-4292-b0cc-df2728a93f74")
 		)
 		(instances
+			(project "SupercapManager"
+				(path "/57bd7ee4-abd2-406d-8aa4-dca7b4434482/e9325448-1656-47e2-8a0b-cb40865ce579"
+					(reference "R68")
+					(unit 1)
+				)
+			)
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/2b4de7d2-e111-42d9-afee-f810f96a2f61"
 					(reference "R68")
@@ -9551,6 +9898,12 @@
 		)
 		(instances
 			(project "SupercapManager"
+				(path "/57bd7ee4-abd2-406d-8aa4-dca7b4434482/e9325448-1656-47e2-8a0b-cb40865ce579"
+					(reference "C67")
+					(unit 1)
+				)
+			)
+			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/2b4de7d2-e111-42d9-afee-f810f96a2f61"
 					(reference "C67")
 					(unit 1)
@@ -9613,7 +9966,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "660-RN73R1JTD1001F50"
+		(property "Mouser Part Number" "755-ESR03EZPJ222"
 			(at 184.15 77.47 0)
 			(effects
 				(font
@@ -9685,6 +10038,12 @@
 			(uuid "4686144f-0fbb-40d5-8da5-9cd575fd9d69")
 		)
 		(instances
+			(project "SupercapManager"
+				(path "/57bd7ee4-abd2-406d-8aa4-dca7b4434482/e9325448-1656-47e2-8a0b-cb40865ce579"
+					(reference "R70")
+					(unit 1)
+				)
+			)
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/2b4de7d2-e111-42d9-afee-f810f96a2f61"
 					(reference "R70")
@@ -9802,24 +10161,6 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "187-CL10B103KC8NNNC"
-			(at 93.98 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage Rating" "50V"
-			(at 93.98 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "2"
 			(uuid "ebd72f26-8998-477a-8029-3422decda4f3")
 		)
@@ -9827,6 +10168,12 @@
 			(uuid "c406c4c9-58ae-46b8-8a1f-ceea1d3ca755")
 		)
 		(instances
+			(project "SupercapManager"
+				(path "/57bd7ee4-abd2-406d-8aa4-dca7b4434482/e9325448-1656-47e2-8a0b-cb40865ce579"
+					(reference "C55")
+					(unit 1)
+				)
+			)
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/2b4de7d2-e111-42d9-afee-f810f96a2f61"
 					(reference "C55")
@@ -9953,6 +10300,12 @@
 		)
 		(instances
 			(project "SupercapManager"
+				(path "/57bd7ee4-abd2-406d-8aa4-dca7b4434482/e9325448-1656-47e2-8a0b-cb40865ce579"
+					(reference "C53")
+					(unit 1)
+				)
+			)
+			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/2b4de7d2-e111-42d9-afee-f810f96a2f61"
 					(reference "C53")
 					(unit 1)
@@ -9974,9 +10327,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "faec3389-cf7e-4dbd-9855-7788714c307e")
 		(property "Reference" "C52"
-			(at 214.63 57.15 0)
+			(at 214.63 58.4262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9985,7 +10339,7 @@
 			)
 		)
 		(property "Value" "100p"
-			(at 214.63 59.69 0)
+			(at 214.63 60.9662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10076,24 +10430,6 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "77-VJ0603A101KXACBC"
-			(at 212.09 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage Rating" "50V"
-			(at 214.63 62.2238 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "2"
 			(uuid "3d2b1f02-22a1-4bf7-a02d-0062d8b6858c")
 		)
@@ -10101,6 +10437,12 @@
 			(uuid "9584b437-2d5b-48de-b2d4-673e7d202038")
 		)
 		(instances
+			(project "SupercapManager"
+				(path "/57bd7ee4-abd2-406d-8aa4-dca7b4434482/e9325448-1656-47e2-8a0b-cb40865ce579"
+					(reference "C52")
+					(unit 1)
+				)
+			)
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/2b4de7d2-e111-42d9-afee-f810f96a2f61"
 					(reference "C52")
@@ -10116,7 +10458,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fcc6f6c1-e559-4913-8878-daac6b5a0d71")
 		(property "Reference" "TP2"
@@ -10224,6 +10566,12 @@
 			(uuid "0d2f175a-2e7c-42ab-ad31-090f082afccb")
 		)
 		(instances
+			(project "SupercapManager"
+				(path "/57bd7ee4-abd2-406d-8aa4-dca7b4434482/e9325448-1656-47e2-8a0b-cb40865ce579"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/2b4de7d2-e111-42d9-afee-f810f96a2f61"
 					(reference "TP2")
