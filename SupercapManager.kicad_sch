@@ -1842,17 +1842,6 @@
 		)
 		(uuid "139027b2-514a-49e2-ba87-acc5286f1db5")
 	)
-	(text "Power resistors to bleed\noff supercap power when\nrobot is not powered"
-		(exclude_from_sim no)
-		(at 160.528 154.178 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "15ba4e8c-2c8b-439a-a20d-6c85ac084877")
-	)
 	(text "Senses & limits current\nout of the battery\nEnables supercapacitor charging"
 		(exclude_from_sim no)
 		(at 61.722 101.854 0)
@@ -1945,7 +1934,7 @@
 	)
 	(text "Connectors to &\nfrom supercap + SCMM"
 		(exclude_from_sim no)
-		(at 137.414 172.72 0)
+		(at 137.414 149.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2107,12 +2096,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8983f389-360b-4e19-a363-439ee2e90926")
-	)
-	(junction
-		(at 125.73 156.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9fd67e4e-3188-4d14-9ac6-a3ed9dc4c3b0")
 	)
 	(junction
 		(at 198.12 96.52)
@@ -2364,7 +2347,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 156.21) (xy 125.73 171.45)
+			(xy 125.73 129.54) (xy 125.73 148.59)
 		)
 		(stroke
 			(width 0)
@@ -2524,7 +2507,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 173.99) (xy 125.73 173.99)
+			(xy 128.27 151.13) (xy 125.73 151.13)
 		)
 		(stroke
 			(width 0)
@@ -2704,16 +2687,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 151.13) (xy 135.89 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae331086-aa67-4e58-ad4d-8ccba8e1936e")
-	)
-	(wire
-		(pts
 			(xy 95.25 80.01) (xy 109.22 80.01)
 		)
 		(stroke
@@ -2774,17 +2747,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 129.54) (xy 125.73 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9430976-4bb0-44b0-9906-57f1621a4666")
-	)
-	(wire
-		(pts
-			(xy 125.73 173.99) (xy 125.73 176.53)
+			(xy 125.73 151.13) (xy 125.73 153.67)
 		)
 		(stroke
 			(width 0)
@@ -2814,7 +2777,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 171.45) (xy 125.73 171.45)
+			(xy 128.27 148.59) (xy 125.73 148.59)
 		)
 		(stroke
 			(width 0)
@@ -2884,16 +2847,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 156.21) (xy 135.89 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7c58a7a-013c-4086-94df-9eef12509104")
-	)
-	(wire
-		(pts
 			(xy 198.12 83.82) (xy 198.12 80.01)
 		)
 		(stroke
@@ -2941,16 +2894,6 @@
 			(justify left bottom)
 		)
 		(uuid "41f476cf-9e60-4b71-8852-188399008c10")
-	)
-	(label "+24_{MiniPC}"
-		(at 133.35 151.13 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "56c28510-2577-4053-99c3-3ed84924dc9b")
 	)
 	(label "+24_{MiniPC}"
 		(at 123.19 40.64 0)
@@ -4120,7 +4063,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 133.35 171.45 0)
+		(at 133.35 148.59 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4129,7 +4072,7 @@
 		(dnp yes)
 		(uuid "6c2a2886-4dee-4cbd-8fec-514b2765c90f")
 		(property "Reference" "J6"
-			(at 132.715 166.37 0)
+			(at 132.715 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4137,7 +4080,7 @@
 			)
 		)
 		(property "Value" "XT30_F"
-			(at 132.715 168.91 0)
+			(at 132.715 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4145,7 +4088,7 @@
 			)
 		)
 		(property "Footprint" "Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical"
-			(at 133.35 171.45 0)
+			(at 133.35 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4154,7 +4097,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 133.35 171.45 0)
+			(at 133.35 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4163,7 +4106,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 133.35 171.45 0)
+			(at 133.35 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4172,7 +4115,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 133.35 171.45 0)
+			(at 133.35 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4180,7 +4123,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 133.35 171.45 0)
+			(at 133.35 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4188,7 +4131,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 133.35 171.45 0)
+			(at 133.35 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4196,7 +4139,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 133.35 171.45 0)
+			(at 133.35 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4204,7 +4147,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 133.35 171.45 0)
+			(at 133.35 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4212,7 +4155,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 133.35 171.45 0)
+			(at 133.35 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4220,7 +4163,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 133.35 171.45 0)
+			(at 133.35 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4376,7 +4319,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 125.73 176.53 0)
+		(at 125.73 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4385,7 +4328,7 @@
 		(fields_autoplaced yes)
 		(uuid "95488b7b-5111-46d9-996a-08f3bd8bf18c")
 		(property "Reference" "#PWR015"
-			(at 125.73 181.61 0)
+			(at 125.73 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4394,7 +4337,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 125.603 180.34 0)
+			(at 125.603 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4402,7 +4345,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 177.8 0)
+			(at 125.73 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4411,7 +4354,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 177.8 0)
+			(at 125.73 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4420,7 +4363,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 125.73 176.53 0)
+			(at 125.73 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5867,68 +5810,6 @@
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60"
 					(page "9")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 135.89 146.05)
-		(size 22.86 15.24)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "ed9bb12b-3108-48de-97f5-99577caac45c")
-		(property "Sheetname" "Safety Discharge"
-			(at 135.89 145.3384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "discharge.kicad_sch"
-			(at 135.89 161.8746 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "+V_{supercap}" input
-			(at 135.89 156.21 180)
-			(uuid "ba4b34a4-ef93-456b-9aa2-608e84d8e82e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "CTRL" input
-			(at 135.89 151.13 180)
-			(uuid "15f0c4ee-0417-4c49-aeb1-d3e26f2b3af6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60"
-					(page "4")
 				)
 			)
 		)
