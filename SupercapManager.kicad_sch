@@ -1910,6 +1910,17 @@
 		)
 		(uuid "4ebf1393-f87f-44b1-8fdb-0b9e215e8018")
 	)
+	(text "NOTE: Do not reorder unless necessary"
+		(exclude_from_sim no)
+		(at 195.58 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "641debe7-a1d0-4ff7-a6c8-b8b6ab8c27d2")
+	)
 	(text "GND reference:"
 		(exclude_from_sim no)
 		(at 245.11 43.18 0)
@@ -5776,8 +5787,8 @@
 		(at 171.45 121.92)
 		(size 22.86 15.24)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
