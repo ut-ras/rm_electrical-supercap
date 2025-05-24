@@ -1,0 +1,8 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "! Robomaster Connectors")(type "KiCad")(uri "${KIPRJMOD}/../../KiCad_Library/Connectors.pretty")(options "")(descr ""))
+  (lib (name "! Robomaster ICs")(type "KiCad")(uri "${KIPRJMOD}/../../KiCad_Library/ICs.pretty")(options "")(descr ""))
+  (lib (name "! Robomaster Memes")(type "KiCad")(uri "${KIPRJMOD}/../../KiCad_Library/Memes.pretty")(options "")(descr ""))
+  (lib (name "! Robomaster Passives")(type "KiCad")(uri "${KIPRJMOD}/../../KiCad_Library/Passives.pretty")(options "")(descr ""))
+  (lib (name "! Robomaster Special")(type "KiCad")(uri "${KIPRJMOD}/../../KiCad_Library/Special.pretty")(options "")(descr ""))
+)
