@@ -2006,6 +2006,17 @@
 		)
 		(uuid "314567fb-bf83-4718-bda2-951092c7c2b7")
 	)
+	(text "1.593V"
+		(exclude_from_sim no)
+		(at 157.48 107.696 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify top)
+		)
+		(uuid "39cb1810-9f77-4621-8e78-9b1e83ca9fa8")
+	)
 	(text "Biased for 50µA\n@ V_{EN} = 0.8V"
 		(exclude_from_sim no)
 		(at 167.894 129.794 0)
@@ -2030,6 +2041,28 @@
 			(justify left top)
 		)
 		(uuid "4fbd6b72-6bcb-4963-af2e-826a96624501")
+	)
+	(text "0.8V"
+		(exclude_from_sim no)
+		(at 151.892 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "55c77115-63e8-48d7-a33c-6d3604918a00")
+	)
+	(text "1.74V"
+		(exclude_from_sim no)
+		(at 162.56 107.696 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify top)
+		)
+		(uuid "57d4a7d8-620f-4615-ac9e-15c790afc70f")
 	)
 	(text "20V/V amplification\n= ~2V of swing (0-120W)"
 		(exclude_from_sim no)
@@ -2077,6 +2110,28 @@
 		)
 		(uuid "7255a0fe-532a-4cbb-9096-33bd4664f2ca")
 	)
+	(text "V_{CHARGE_IEN}"
+		(exclude_from_sim no)
+		(at 152.4 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "783b2654-caf0-4722-b89e-cfe7fd9ba858")
+	)
+	(text "V_{CURR}"
+		(exclude_from_sim no)
+		(at 172.72 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "84349eca-c26e-40de-affe-6d23002036ce")
+	)
 	(text "R_{S} chosen such that the max\ncurrent of 5A (@120W) is 100mV"
 		(exclude_from_sim no)
 		(at 48.006 23.876 0)
@@ -2098,6 +2153,17 @@
 			(justify left top)
 		)
 		(uuid "a8d008a8-40bd-46be-ad9c-9f738c963948")
+	)
+	(text "2.1V"
+		(exclude_from_sim no)
+		(at 151.892 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "afee793b-e83d-4573-8fc7-32d72d1e0aaa")
 	)
 	(text "NOTE: +24V and PWR_{OUT}\nare shorted together!"
 		(exclude_from_sim no)
@@ -2187,6 +2253,17 @@
 			(justify left top)
 		)
 		(uuid "dbfc078e-9a80-47f5-9db4-e46d3bff74d9")
+	)
+	(text "@ V_{LIM} = 2V"
+		(exclude_from_sim no)
+		(at 163.322 96.266 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ddd4be4c-2342-4bb4-b3bc-ac40fcba59fd")
 	)
 	(junction
 		(at 223.52 90.17)
@@ -2452,6 +2529,16 @@
 	)
 	(polyline
 		(pts
+			(xy 166.37 105.41) (xy 152.4 91.44)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "1344fa47-90a2-4ae2-ab36-be6355879935")
+	)
+	(polyline
+		(pts
 			(xy 86.36 16.51) (xy 86.36 76.2)
 		)
 		(stroke
@@ -2529,6 +2616,16 @@
 			(type default)
 		)
 		(uuid "20637840-2611-49a3-8470-4d2f642c9983")
+	)
+	(polyline
+		(pts
+			(xy 157.48 96.52) (xy 157.48 106.68)
+		)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(uuid "2101245c-1412-4d98-bbf8-9eb337d06963")
 	)
 	(wire
 		(pts
@@ -2780,6 +2877,16 @@
 		)
 		(uuid "4a85c7f9-8f9c-4094-a283-4b3e773748e1")
 	)
+	(polyline
+		(pts
+			(xy 152.4 88.9) (xy 152.4 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cd4f748-250a-485a-b7ce-9d3ae8ba4fff")
+	)
 	(wire
 		(pts
 			(xy 223.52 119.38) (xy 223.52 107.95)
@@ -2859,6 +2966,16 @@
 			(type default)
 		)
 		(uuid "5a1f6a6c-e7d4-43f2-838e-6a86eea2716c")
+	)
+	(polyline
+		(pts
+			(xy 152.4 101.6) (xy 162.56 101.6)
+		)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(uuid "5ac1acb2-ab1c-4f9d-b77c-a94fd1ff87e9")
 	)
 	(wire
 		(pts
@@ -2979,6 +3096,16 @@
 			(type default)
 		)
 		(uuid "6e7b75b4-dc33-4feb-b3c7-cf19c11f64c9")
+	)
+	(polyline
+		(pts
+			(xy 152.4 106.68) (xy 172.72 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71c3a630-5cd2-484f-9c51-83a3f499ebfb")
 	)
 	(wire
 		(pts
@@ -3149,6 +3276,16 @@
 			(type default)
 		)
 		(uuid "8bc06c61-b1b6-490e-9c24-1ca6149180c2")
+	)
+	(polyline
+		(pts
+			(xy 162.56 101.6) (xy 162.56 106.68)
+		)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(uuid "8d593d10-2857-42a0-916d-c76ac469a666")
 	)
 	(wire
 		(pts
@@ -3480,6 +3617,16 @@
 		)
 		(uuid "d99571b0-b258-462a-81d5-a20c6a1af88a")
 	)
+	(polyline
+		(pts
+			(xy 171.45 105.41) (xy 166.37 105.41)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "dd1c5a06-c7c5-40e9-9907-959ee0516030")
+	)
 	(wire
 		(pts
 			(xy 181.61 49.53) (xy 181.61 52.07)
@@ -3529,6 +3676,16 @@
 			(type default)
 		)
 		(uuid "e5380d89-2113-486c-aefb-1a39b963dc35")
+	)
+	(polyline
+		(pts
+			(xy 152.4 96.52) (xy 157.48 96.52)
+		)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(uuid "e566a1bf-9490-436a-81a1-3ef48fb7f524")
 	)
 	(wire
 		(pts
