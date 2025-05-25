@@ -420,6 +420,156 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:D_Schottky"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Schottky"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Schottky diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Schottky_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -1823,7 +1973,7 @@
 	)
 	(text "Bypass for\nV_{CAP} > 4.4V"
 		(exclude_from_sim no)
-		(at 146.558 129.54 0)
+		(at 146.558 138.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1880,7 +2030,7 @@
 	)
 	(text "Supercapacitor\nhost board"
 		(exclude_from_sim no)
-		(at 182.88 129.54 0)
+		(at 182.88 138.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1945,7 +2095,7 @@
 	)
 	(text "Connectors to &\nfrom supercap + SCMM"
 		(exclude_from_sim no)
-		(at 137.414 149.86 0)
+		(at 137.414 158.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1970,7 +2120,7 @@
 	)
 	(text "4.4V to 6V => 24V"
 		(exclude_from_sim no)
-		(at 182.88 102.108 0)
+		(at 182.88 110.998 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1981,7 +2131,7 @@
 	)
 	(text "0.8V to 4.4V => 4.4V"
 		(exclude_from_sim no)
-		(at 147.32 102.108 0)
+		(at 147.32 110.998 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2035,7 +2185,7 @@
 	)
 	(text "24V charger\n(max 6A)"
 		(exclude_from_sim no)
-		(at 110.998 101.092 0)
+		(at 110.998 109.982 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2079,7 +2229,7 @@
 		(uuid "152fb818-eff1-4ad1-a33e-4abdef3321ae")
 	)
 	(junction
-		(at 125.73 105.41)
+		(at 125.73 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3222bc04-0803-4abc-b8d7-6bde244ffd64")
@@ -2103,6 +2253,12 @@
 		(uuid "7e77e12b-ea40-417d-b9ac-bfe10cc5d806")
 	)
 	(junction
+		(at 130.81 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "843fa0d5-e300-45c4-b31d-1d02e65ffb2b")
+	)
+	(junction
 		(at 198.12 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2115,13 +2271,19 @@
 		(uuid "a1689e47-6b8c-48e7-ad24-646150b2df13")
 	)
 	(junction
-		(at 125.73 129.54)
+		(at 180.34 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c19f5784-c616-49ee-99b8-321b177efcb4")
+	)
+	(junction
+		(at 125.73 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e1739df7-f10f-4aaf-a0c3-b9e17741cb29")
 	)
 	(junction
-		(at 162.56 105.41)
+		(at 162.56 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ebddb033-e00b-4772-9701-daa8131e3907")
@@ -2208,13 +2370,23 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 129.54) (xy 162.56 105.41)
+			(xy 162.56 138.43) (xy 162.56 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "18444a1b-9a19-41e2-b459-b983267b6598")
+	)
+	(wire
+		(pts
+			(xy 165.1 99.06) (xy 167.64 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f78a965-89d7-45fd-acb3-41d7d25aadec")
 	)
 	(wire
 		(pts
@@ -2268,6 +2440,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 88.9) (xy 130.81 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28bbc1bd-150f-4098-884c-e07583ccab8b")
+	)
+	(wire
+		(pts
 			(xy 123.19 77.47) (xy 123.19 80.01)
 		)
 		(stroke
@@ -2308,6 +2490,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 100.33) (xy 130.81 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "372ab598-a299-4b81-9e56-79680b941c84")
+	)
+	(wire
+		(pts
 			(xy 198.12 93.98) (xy 198.12 96.52)
 		)
 		(stroke
@@ -2318,7 +2510,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 105.41) (xy 135.89 105.41)
+			(xy 125.73 114.3) (xy 135.89 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2328,7 +2520,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 105.41) (xy 162.56 105.41)
+			(xy 158.75 114.3) (xy 162.56 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2358,7 +2550,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 129.54) (xy 125.73 148.59)
+			(xy 125.73 138.43) (xy 125.73 157.48)
 		)
 		(stroke
 			(width 0)
@@ -2388,7 +2580,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 105.41) (xy 198.12 105.41)
+			(xy 194.31 114.3) (xy 198.12 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2418,7 +2610,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 129.54) (xy 162.56 129.54)
+			(xy 158.75 138.43) (xy 162.56 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2448,7 +2640,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 88.9) (xy 168.91 88.9)
+			(xy 163.83 88.9) (xy 167.64 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2458,7 +2650,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 88.9) (xy 190.5 88.9)
+			(xy 175.26 88.9) (xy 180.34 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2518,7 +2710,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 151.13) (xy 125.73 151.13)
+			(xy 128.27 160.02) (xy 125.73 160.02)
 		)
 		(stroke
 			(width 0)
@@ -2538,7 +2730,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 96.52) (xy 198.12 105.41)
+			(xy 198.12 96.52) (xy 198.12 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2558,13 +2750,23 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 129.54) (xy 135.89 129.54)
+			(xy 125.73 138.43) (xy 135.89 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "76e5cc9d-1f42-4516-85c3-1447dd3128b2")
+	)
+	(wire
+		(pts
+			(xy 180.34 88.9) (xy 190.5 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ad09c5e-a402-446e-ac78-1abb44f6b6f3")
 	)
 	(wire
 		(pts
@@ -2578,7 +2780,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 105.41) (xy 95.25 80.01)
+			(xy 95.25 114.3) (xy 95.25 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2608,7 +2810,17 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 110.49) (xy 100.33 110.49)
+			(xy 180.34 99.06) (xy 180.34 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "821d59d2-bf61-410a-a4c7-4749982a965b")
+	)
+	(wire
+		(pts
+			(xy 87.63 119.38) (xy 100.33 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2638,7 +2850,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 105.41) (xy 125.73 129.54)
+			(xy 125.73 114.3) (xy 125.73 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2688,7 +2900,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 95.25) (xy 87.63 110.49)
+			(xy 87.63 95.25) (xy 87.63 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2728,6 +2940,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 99.06) (xy 118.11 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b81aa5e2-d93b-4115-950e-d89068bd9851")
+	)
+	(wire
+		(pts
 			(xy 86.36 74.93) (xy 74.93 74.93)
 		)
 		(stroke
@@ -2758,7 +2980,17 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 151.13) (xy 125.73 153.67)
+			(xy 118.11 100.33) (xy 120.65 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c48ac6df-7a11-4193-8e1e-4b7cb275cf67")
+	)
+	(wire
+		(pts
+			(xy 125.73 160.02) (xy 125.73 162.56)
 		)
 		(stroke
 			(width 0)
@@ -2778,7 +3010,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 105.41) (xy 171.45 105.41)
+			(xy 162.56 114.3) (xy 171.45 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2788,7 +3020,17 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 148.59) (xy 125.73 148.59)
+			(xy 165.1 97.79) (xy 165.1 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d388b0ee-5a9e-48b1-b88a-869328793b64")
+	)
+	(wire
+		(pts
+			(xy 128.27 157.48) (xy 125.73 157.48)
 		)
 		(stroke
 			(width 0)
@@ -2818,7 +3060,17 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 105.41) (xy 100.33 105.41)
+			(xy 175.26 99.06) (xy 180.34 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df290788-9958-4605-933f-88b94595e7a4")
+	)
+	(wire
+		(pts
+			(xy 95.25 114.3) (xy 100.33 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2828,7 +3080,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 105.41) (xy 125.73 105.41)
+			(xy 121.92 114.3) (xy 125.73 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2887,7 +3139,7 @@
 		(uuid "1a771188-953e-48d2-90ad-c1fbdd02571c")
 	)
 	(label "+24V_CAP"
-		(at 198.12 102.87 0)
+		(at 198.12 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2897,7 +3149,7 @@
 		(uuid "32230b77-d812-44f0-8c7e-850a32f22100")
 	)
 	(label "+4.4V_{SCAP}"
-		(at 160.02 105.41 0)
+		(at 160.02 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2917,7 +3169,7 @@
 		(uuid "62259866-1ac6-4746-9232-71dc7d71ab4a")
 	)
 	(label "BAT_CTRL_R"
-		(at 130.81 88.9 0)
+		(at 130.81 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2947,7 +3199,7 @@
 		(uuid "739028a8-760c-41e0-9adf-5285f6649174")
 	)
 	(label "CAP_GATE_CTRL"
-		(at 165.1 88.9 180)
+		(at 163.83 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3017,7 +3269,7 @@
 		(uuid "bf1e829d-c59b-44bf-ba21-b29c712eca29")
 	)
 	(label "+6V_{SCAP}"
-		(at 125.73 105.41 0)
+		(at 125.73 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3243,116 +3495,6 @@
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60"
 					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 172.72 88.9 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "060241e4-c4d6-451b-890b-04760d95e411")
-		(property "Reference" "R2"
-			(at 169.672 88.392 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Value" "0"
-			(at 175.768 88.392 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 172.72 90.678 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 172.72 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 172.72 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 172.72 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 172.72 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 172.72 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 172.72 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" "660-RK73Z1JTTDD"
-			(at 172.72 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3477851e-efa2-455b-b60f-03e46cb67573")
-		)
-		(pin "1"
-			(uuid "a167ab83-c606-4490-a5cd-56158f9986c5")
-		)
-		(instances
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60"
-					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -3941,6 +4083,259 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 171.45 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "52db69a5-e72b-4e01-90bc-480632684248")
+		(property "Reference" "R32"
+			(at 168.656 87.884 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 174.244 87.884 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 171.45 90.678 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.rohm.com/datasheet?p=ESR03EZPJ&dist=Mouser&media=referral&source=mouser.com&campaign=Mouser"
+			(at 171.45 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 171.45 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 171.45 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 171.45 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 171.45 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 171.45 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "660-RN73R1JTD1001F50"
+			(at 171.45 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb1cb69b-87c3-4ee3-bf2b-1f1e0342b83a")
+		)
+		(pin "2"
+			(uuid "76406bc6-e234-4f98-8335-ebd1ec4b41aa")
+		)
+		(instances
+			(project "SupercapManager"
+				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 171.45 99.06 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54c7ee1c-791e-41a0-b601-826869567e84")
+		(property "Reference" "D9"
+			(at 171.7675 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT54"
+			(at 171.7675 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
+			(at 171.45 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/1057/BAT54_SERIES-1868856.pdf"
+			(at 171.45 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 171.45 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "241-BAT54_R1_00001"
+			(at 171.45 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e76fdc81-d61f-422f-b6eb-dd86d9299653")
+		)
+		(pin "1"
+			(uuid "9b95f5cc-84ff-42a5-a1e1-d71dc2f472ff")
+		)
+		(instances
+			(project "SupercapManager"
+				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 165.1 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b2557a5-bbe8-4134-81b7-d89fc5190416")
+		(property "Reference" "#PWR0105"
+			(at 165.1 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 165.1 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 165.1 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85cf35f2-77f1-4421-8421-cd7659412047")
+		)
+		(instances
+			(project "SupercapManager"
+				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60"
+					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 241.3 86.36 0)
 		(unit 1)
@@ -4074,7 +4469,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 133.35 148.59 0)
+		(at 133.35 157.48 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4083,7 +4478,7 @@
 		(dnp yes)
 		(uuid "6c2a2886-4dee-4cbd-8fec-514b2765c90f")
 		(property "Reference" "J6"
-			(at 132.715 143.51 0)
+			(at 132.715 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4091,7 +4486,7 @@
 			)
 		)
 		(property "Value" "XT30_F"
-			(at 132.715 146.05 0)
+			(at 132.715 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4099,7 +4494,7 @@
 			)
 		)
 		(property "Footprint" "Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical"
-			(at 133.35 148.59 0)
+			(at 133.35 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4108,7 +4503,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 133.35 148.59 0)
+			(at 133.35 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4117,7 +4512,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 133.35 148.59 0)
+			(at 133.35 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4126,7 +4521,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 133.35 148.59 0)
+			(at 133.35 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4134,7 +4529,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 133.35 148.59 0)
+			(at 133.35 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4142,7 +4537,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 133.35 148.59 0)
+			(at 133.35 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4150,7 +4545,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 133.35 148.59 0)
+			(at 133.35 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4158,7 +4553,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 133.35 148.59 0)
+			(at 133.35 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4166,7 +4561,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 133.35 148.59 0)
+			(at 133.35 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4174,7 +4569,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 133.35 148.59 0)
+			(at 133.35 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4263,6 +4658,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 118.11 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7bc7b9ab-a05e-4af0-a724-423bef2130d9")
+		(property "Reference" "#PWR047"
+			(at 118.11 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 118.11 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 118.11 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "02f5a4d7-8aee-4694-abd0-5a13ea796766")
+		)
+		(instances
+			(project "SupercapManager"
+				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+24V")
 		(at 109.22 78.74 0)
 		(unit 1)
@@ -4330,7 +4791,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 125.73 153.67 0)
+		(at 125.73 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4339,7 +4800,7 @@
 		(fields_autoplaced yes)
 		(uuid "95488b7b-5111-46d9-996a-08f3bd8bf18c")
 		(property "Reference" "#PWR015"
-			(at 125.73 158.75 0)
+			(at 125.73 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4348,7 +4809,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 125.603 157.48 0)
+			(at 125.603 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4356,7 +4817,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 154.94 0)
+			(at 125.73 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4365,7 +4826,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 154.94 0)
+			(at 125.73 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4374,7 +4835,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 125.73 153.67 0)
+			(at 125.73 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4513,6 +4974,83 @@
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 124.46 100.33 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "a2373021-bd12-472f-aceb-80a0d056e433")
+		(property "Reference" "D8"
+			(at 124.7775 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT54"
+			(at 124.7775 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
+			(at 124.46 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/1057/BAT54_SERIES-1868856.pdf"
+			(at 124.46 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 124.46 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "241-BAT54_R1_00001"
+			(at 124.46 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "066a129a-1e32-4e72-b8c9-4a71e5087909")
+		)
+		(pin "1"
+			(uuid "a5b324b8-d169-4628-b5e4-b7cda085603a")
+		)
+		(instances
+			(project ""
+				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60"
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -5414,7 +5952,7 @@
 		)
 	)
 	(sheet
-		(at 135.89 121.92)
+		(at 135.89 130.81)
 		(size 22.86 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5430,7 +5968,7 @@
 		)
 		(uuid "130ec867-c4fa-4318-bea9-b8fc517d0b0a")
 		(property "Sheetname" "Ideal Diode"
-			(at 135.89 121.2084 0)
+			(at 135.89 130.0984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5439,7 +5977,7 @@
 			)
 		)
 		(property "Sheetfile" "ideal_diode.kicad_sch"
-			(at 135.89 137.7446 0)
+			(at 135.89 146.6346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5448,7 +5986,7 @@
 			)
 		)
 		(pin "OUT" output
-			(at 158.75 129.54 0)
+			(at 158.75 138.43 0)
 			(uuid "6746fdcd-6916-4cf2-bab5-53b9c33f3d67")
 			(effects
 				(font
@@ -5458,7 +5996,7 @@
 			)
 		)
 		(pin "IN" input
-			(at 135.89 129.54 180)
+			(at 135.89 138.43 180)
 			(uuid "e6cb8d9e-9567-4c9f-9dfd-ae81b6f7ef24")
 			(effects
 				(font
@@ -5538,7 +6076,7 @@
 		)
 	)
 	(sheet
-		(at 100.33 97.79)
+		(at 100.33 106.68)
 		(size 21.59 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5554,7 +6092,7 @@
 		)
 		(uuid "388608c4-ca49-4b14-9684-8f150e280879")
 		(property "Sheetname" "Input Buck & Charger"
-			(at 100.33 97.0784 0)
+			(at 100.33 105.9684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5563,7 +6101,7 @@
 			)
 		)
 		(property "Sheetfile" "buck.kicad_sch"
-			(at 100.33 113.6146 0)
+			(at 100.33 122.5046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5572,7 +6110,7 @@
 			)
 		)
 		(pin "IN" input
-			(at 100.33 105.41 180)
+			(at 100.33 114.3 180)
 			(uuid "1eeee62a-82b9-4618-9163-6790534ffd47")
 			(effects
 				(font
@@ -5582,7 +6120,7 @@
 			)
 		)
 		(pin "CHARGE_EN" input
-			(at 100.33 110.49 180)
+			(at 100.33 119.38 180)
 			(uuid "0b6fcc22-2a69-47bf-9e09-a5ba16fa6f6f")
 			(effects
 				(font
@@ -5592,7 +6130,7 @@
 			)
 		)
 		(pin "OUT" output
-			(at 121.92 105.41 0)
+			(at 121.92 114.3 0)
 			(uuid "058bcd0b-c7cf-43d2-b1d0-4903e9f7c331")
 			(effects
 				(font
@@ -5610,7 +6148,7 @@
 		)
 	)
 	(sheet
-		(at 171.45 97.79)
+		(at 171.45 106.68)
 		(size 22.86 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5626,7 +6164,7 @@
 		)
 		(uuid "47dffa6f-2678-4be2-969a-7f2e7310ccad")
 		(property "Sheetname" "Output Boost (Stage 2)"
-			(at 171.45 97.0784 0)
+			(at 171.45 105.9684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5635,7 +6173,7 @@
 			)
 		)
 		(property "Sheetfile" "boost2.kicad_sch"
-			(at 171.45 113.6146 0)
+			(at 171.45 122.5046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5644,7 +6182,7 @@
 			)
 		)
 		(pin "+24V_{OUT}" output
-			(at 194.31 105.41 0)
+			(at 194.31 114.3 0)
 			(uuid "06daa2db-baad-48a6-975d-81ee0f6c4c8a")
 			(effects
 				(font
@@ -5654,7 +6192,7 @@
 			)
 		)
 		(pin "IN" input
-			(at 171.45 105.41 180)
+			(at 171.45 114.3 180)
 			(uuid "61f03975-7933-4741-a587-a7d8765262cf")
 			(effects
 				(font
@@ -5784,7 +6322,7 @@
 		)
 	)
 	(sheet
-		(at 171.45 121.92)
+		(at 171.45 130.81)
 		(size 22.86 15.24)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -5800,7 +6338,7 @@
 		)
 		(uuid "e69614f9-5cd8-4aa3-ae42-53f80cb78886")
 		(property "Sheetname" "Supercapacitors"
-			(at 171.45 121.2084 0)
+			(at 171.45 130.0984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5809,7 +6347,7 @@
 			)
 		)
 		(property "Sheetfile" "supercaps.kicad_sch"
-			(at 171.45 137.7446 0)
+			(at 171.45 146.6346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5826,7 +6364,7 @@
 		)
 	)
 	(sheet
-		(at 135.89 97.79)
+		(at 135.89 106.68)
 		(size 22.86 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5842,7 +6380,7 @@
 		)
 		(uuid "fd749e99-bd1e-4aca-86d6-8b572dc00b7d")
 		(property "Sheetname" "Output Boost (Stage 1)"
-			(at 135.89 97.0784 0)
+			(at 135.89 105.9684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5851,7 +6389,7 @@
 			)
 		)
 		(property "Sheetfile" "boost.kicad_sch"
-			(at 135.89 113.6146 0)
+			(at 135.89 122.5046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5860,7 +6398,7 @@
 			)
 		)
 		(pin "IN" input
-			(at 135.89 105.41 180)
+			(at 135.89 114.3 180)
 			(uuid "6d631e13-35c7-4ecc-90a4-15735d9f8639")
 			(effects
 				(font
@@ -5870,7 +6408,7 @@
 			)
 		)
 		(pin "OUT" output
-			(at 158.75 105.41 0)
+			(at 158.75 114.3 0)
 			(uuid "52029141-9484-4d1d-9e34-ed7ff6667f5d")
 			(effects
 				(font
