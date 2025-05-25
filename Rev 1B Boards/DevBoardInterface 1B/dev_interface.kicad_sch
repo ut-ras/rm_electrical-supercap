@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Dev Board Interface")
-		(date "2025-02-12")
+		(date "2025-05-24")
 		(rev "1")
 		(company "UT Robomaster")
 		(comment 1 "Robomaster")
@@ -3648,50 +3648,38 @@
 			)
 		)
 		(pin "6"
-			(uuid "7683d486-ee12-4217-8424-d56681bc76f9")
+			(uuid "cfbce7e1-676a-4417-9fb9-2456888ccb3d")
 		)
 		(pin "10"
-			(uuid "66d721e8-036b-4a32-9ee6-735438c928e6")
+			(uuid "44a466fc-aec8-4254-a6d7-7ea3343b5c61")
 		)
 		(pin "3"
-			(uuid "45152d91-6dba-4857-bea9-22729c7dd038")
+			(uuid "1a4bfe84-0994-476e-81b9-d047a4eff5b8")
 		)
 		(pin "2"
-			(uuid "021cc82c-9378-4eb2-b381-2bb6ff06bb86")
+			(uuid "85cff474-9c1b-4f4a-9f70-58682b992e56")
 		)
 		(pin "8"
-			(uuid "1ef46d5b-df56-4906-8289-8b07c978734d")
+			(uuid "15fd0248-36fc-47e5-9ebb-1436dd01b362")
 		)
 		(pin "7"
-			(uuid "0fc69b93-21ae-4b68-90d0-aaf044a65923")
+			(uuid "bffca246-599d-4c56-9ec0-742dd2aff71c")
 		)
 		(pin "5"
-			(uuid "40c927a1-ef74-4295-a18f-0c5afb455c4d")
+			(uuid "9497bb1a-cf09-434d-bdf1-d3aae722e5dc")
 		)
 		(pin "9"
-			(uuid "8b1d0ae7-7686-4acf-afda-ecb6454fd7d6")
+			(uuid "942904c0-85c1-4588-9dd4-c115de39baf0")
 		)
 		(pin "1"
-			(uuid "4248f2b3-54bd-4a2a-b0f9-01cb9106bfa5")
+			(uuid "88329827-4a04-456e-b932-1633e0bbfc59")
 		)
 		(pin "4"
-			(uuid "8cfa3d2b-d07b-48d7-af2c-07f97599191f")
+			(uuid "59c212b7-04fd-4ec3-992a-3f0b059fee2a")
 		)
 		(instances
-			(project "Dev Board Interface Rev1"
-				(path "/2a5a6391-2d82-47e5-b958-29252a68a56f/c394f43b-a1ae-4b13-8590-15c7019d65c9"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/115b1a74-e36e-4ee6-8764-bf26e4e24147"
-					(reference "U13")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/8cc1431f-5755-464a-b50c-baf064ef393b"
+			(project "DevBoardInterface 1B"
+				(path "/99fb25ed-9aca-432a-ba59-ddfa2561a3f7/c349ddf1-3671-4355-a172-174d007a1d8b"
 					(reference "U10")
 					(unit 1)
 				)
@@ -3753,23 +3741,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "8419e2bd-c2c9-46be-8618-e920f89bc556")
+			(uuid "e196dabc-3530-4f1f-b472-f2fba6de06d1")
 		)
 		(instances
-			(project "Dev Board Interface Rev1"
-				(path "/2a5a6391-2d82-47e5-b958-29252a68a56f/c394f43b-a1ae-4b13-8590-15c7019d65c9"
-					(reference "#PWR0104")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/115b1a74-e36e-4ee6-8764-bf26e4e24147"
-					(reference "#PWR067")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/8cc1431f-5755-464a-b50c-baf064ef393b"
+			(project "DevBoardInterface 1B"
+				(path "/99fb25ed-9aca-432a-ba59-ddfa2561a3f7/c349ddf1-3671-4355-a172-174d007a1d8b"
 					(reference "#PWR064")
 					(unit 1)
 				)
@@ -3831,23 +3807,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "62e06c99-17c1-4aa6-a2f4-560408ff2ecc")
+			(uuid "bdafd89c-7910-4c25-81d6-fb66235d1179")
 		)
 		(instances
-			(project "Dev Board Interface Rev1"
-				(path "/2a5a6391-2d82-47e5-b958-29252a68a56f/c394f43b-a1ae-4b13-8590-15c7019d65c9"
-					(reference "#PWR0115")
-					(unit 1)
-				)
-			)
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/115b1a74-e36e-4ee6-8764-bf26e4e24147"
-					(reference "#PWR081")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/8cc1431f-5755-464a-b50c-baf064ef393b"
+			(project "DevBoardInterface 1B"
+				(path "/99fb25ed-9aca-432a-ba59-ddfa2561a3f7/c349ddf1-3671-4355-a172-174d007a1d8b"
 					(reference "#PWR078")
 					(unit 1)
 				)
@@ -3909,23 +3873,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "c5c094d8-3cd4-4ab4-bbc2-b8a7962ab1e0")
+			(uuid "be19cd0b-11d4-46f1-9347-96e1cc3b39af")
 		)
 		(instances
-			(project "Dev Board Interface Rev1"
-				(path "/2a5a6391-2d82-47e5-b958-29252a68a56f/c394f43b-a1ae-4b13-8590-15c7019d65c9"
-					(reference "#PWR0122")
-					(unit 1)
-				)
-			)
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/115b1a74-e36e-4ee6-8764-bf26e4e24147"
-					(reference "#PWR069")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/8cc1431f-5755-464a-b50c-baf064ef393b"
+			(project "DevBoardInterface 1B"
+				(path "/99fb25ed-9aca-432a-ba59-ddfa2561a3f7/c349ddf1-3671-4355-a172-174d007a1d8b"
 					(reference "#PWR066")
 					(unit 1)
 				)
@@ -4042,17 +3994,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "5d2a0917-6f6e-4853-a1d3-68125af4e24a")
+			(uuid "a87fc095-4d6a-4b5b-a1a1-808f71bca811")
 		)
 		(instances
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/115b1a74-e36e-4ee6-8764-bf26e4e24147"
-					(reference "TP?")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/8cc1431f-5755-464a-b50c-baf064ef393b"
+			(project "DevBoardInterface 1B"
+				(path "/99fb25ed-9aca-432a-ba59-ddfa2561a3f7/c349ddf1-3671-4355-a172-174d007a1d8b"
 					(reference "TP2")
 					(unit 1)
 				)
@@ -4186,26 +4132,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "720146d9-84e3-47d8-812d-4f80e8fa9c57")
+			(uuid "5fd24ee2-86af-4e75-9b68-75589f028d9e")
 		)
 		(pin "2"
-			(uuid "e7f88c4c-c3e2-4d58-975b-25699c459be9")
+			(uuid "9779964b-aa32-401f-9572-7a84ec89c939")
 		)
 		(instances
-			(project "Dev Board Interface Rev1"
-				(path "/2a5a6391-2d82-47e5-b958-29252a68a56f/c394f43b-a1ae-4b13-8590-15c7019d65c9"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/115b1a74-e36e-4ee6-8764-bf26e4e24147"
-					(reference "C46")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/8cc1431f-5755-464a-b50c-baf064ef393b"
+			(project "DevBoardInterface 1B"
+				(path "/99fb25ed-9aca-432a-ba59-ddfa2561a3f7/c349ddf1-3671-4355-a172-174d007a1d8b"
 					(reference "C9")
 					(unit 1)
 				)
@@ -4267,23 +4201,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "6ba314b2-ec58-46bb-8af5-5bac46b776f4")
+			(uuid "7b266ca5-dea8-4b31-b7b9-700b79e77657")
 		)
 		(instances
-			(project "Dev Board Interface Rev1"
-				(path "/2a5a6391-2d82-47e5-b958-29252a68a56f/c394f43b-a1ae-4b13-8590-15c7019d65c9"
-					(reference "#PWR0101")
-					(unit 1)
-				)
-			)
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/115b1a74-e36e-4ee6-8764-bf26e4e24147"
-					(reference "#PWR064")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/8cc1431f-5755-464a-b50c-baf064ef393b"
+			(project "DevBoardInterface 1B"
+				(path "/99fb25ed-9aca-432a-ba59-ddfa2561a3f7/c349ddf1-3671-4355-a172-174d007a1d8b"
 					(reference "#PWR061")
 					(unit 1)
 				)
@@ -4345,23 +4267,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "8861c998-bf2f-4cc4-ac27-4cff838fb1ae")
+			(uuid "7c80411d-d926-42eb-9dc1-b85ed13f676b")
 		)
 		(instances
-			(project "Dev Board Interface Rev1"
-				(path "/2a5a6391-2d82-47e5-b958-29252a68a56f/c394f43b-a1ae-4b13-8590-15c7019d65c9"
-					(reference "#PWR0116")
-					(unit 1)
-				)
-			)
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/115b1a74-e36e-4ee6-8764-bf26e4e24147"
-					(reference "#PWR060")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/8cc1431f-5755-464a-b50c-baf064ef393b"
+			(project "DevBoardInterface 1B"
+				(path "/99fb25ed-9aca-432a-ba59-ddfa2561a3f7/c349ddf1-3671-4355-a172-174d007a1d8b"
 					(reference "#PWR057")
 					(unit 1)
 				)
@@ -4490,26 +4400,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "aca83662-b6aa-477d-83ad-d73c8c63e332")
+			(uuid "aff677d5-9d43-453b-9efa-4927a6cfc72b")
 		)
 		(pin "2"
-			(uuid "1f68ea5e-65a0-4c23-a017-136f47016e8b")
+			(uuid "076faf07-ad8e-4c32-a50f-ebd2efcefec2")
 		)
 		(instances
-			(project "Dev Board Interface Rev1"
-				(path "/2a5a6391-2d82-47e5-b958-29252a68a56f/c394f43b-a1ae-4b13-8590-15c7019d65c9"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/115b1a74-e36e-4ee6-8764-bf26e4e24147"
-					(reference "R59")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/8cc1431f-5755-464a-b50c-baf064ef393b"
+			(project "DevBoardInterface 1B"
+				(path "/99fb25ed-9aca-432a-ba59-ddfa2561a3f7/c349ddf1-3671-4355-a172-174d007a1d8b"
 					(reference "R21")
 					(unit 1)
 				)
@@ -4571,23 +4469,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "1a9edbad-7549-4880-b685-896d70ee650a")
+			(uuid "59db4fe4-689a-492f-b334-672881d7c287")
 		)
 		(instances
-			(project "Dev Board Interface Rev1"
-				(path "/2a5a6391-2d82-47e5-b958-29252a68a56f/c394f43b-a1ae-4b13-8590-15c7019d65c9"
-					(reference "#PWR0111")
-					(unit 1)
-				)
-			)
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/115b1a74-e36e-4ee6-8764-bf26e4e24147"
-					(reference "#PWR063")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/8cc1431f-5755-464a-b50c-baf064ef393b"
+			(project "DevBoardInterface 1B"
+				(path "/99fb25ed-9aca-432a-ba59-ddfa2561a3f7/c349ddf1-3671-4355-a172-174d007a1d8b"
 					(reference "#PWR060")
 					(unit 1)
 				)
@@ -4648,23 +4534,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "807a966e-7a32-40b5-af09-2f7928d0e551")
+			(uuid "61f72525-ed6e-4739-9eb7-06d4a69f834c")
 		)
 		(instances
-			(project "Dev Board Interface Rev1"
-				(path "/2a5a6391-2d82-47e5-b958-29252a68a56f/c394f43b-a1ae-4b13-8590-15c7019d65c9"
-					(reference "#PWR0117")
-					(unit 1)
-				)
-			)
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/115b1a74-e36e-4ee6-8764-bf26e4e24147"
-					(reference "#PWR062")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/8cc1431f-5755-464a-b50c-baf064ef393b"
+			(project "DevBoardInterface 1B"
+				(path "/99fb25ed-9aca-432a-ba59-ddfa2561a3f7/c349ddf1-3671-4355-a172-174d007a1d8b"
 					(reference "#PWR059")
 					(unit 1)
 				)
@@ -4790,47 +4664,35 @@
 			)
 		)
 		(pin "4"
-			(uuid "2451fe6a-8a9c-42c3-bbd3-b47c28d8d01a")
+			(uuid "d7140649-6dc5-4f6a-9160-59b5bbf8e9c3")
 		)
 		(pin "7"
-			(uuid "4b28cc8a-b4a7-4ba4-8789-e29d08fdc792")
+			(uuid "4cfbf0d1-f8c7-4107-ad1e-466208dade24")
 		)
 		(pin "1"
-			(uuid "4429aa2f-f4e2-43ea-ad57-0a9ebd3301e2")
+			(uuid "f4b6a61e-61ac-4202-bfc2-a20d21e94424")
 		)
 		(pin "5"
-			(uuid "e76702ec-011b-4355-afbe-ee4507caddc3")
+			(uuid "0ee8950b-2cce-42ad-a590-ae8d809cbcf8")
 		)
 		(pin "8"
-			(uuid "f0745e9c-680d-415b-af91-6179cf998994")
+			(uuid "8cc4b7a7-5b96-4ec0-957a-bd5c05f4b120")
 		)
 		(pin "6"
-			(uuid "64524d3f-dbb7-4b39-9fa6-9826fae38fa4")
+			(uuid "d4db4f5f-f8fe-4b11-950d-a4891e9c07a6")
 		)
 		(pin "3"
-			(uuid "30d36067-4122-4fd1-b8d2-333316ae2b56")
+			(uuid "ea5331d5-7198-44be-97ca-1886856eae98")
 		)
 		(pin "2"
-			(uuid "5243fb0a-c091-406c-8010-3d714b6b9036")
+			(uuid "aec86db8-95ab-4346-bbc0-d25375154d75")
 		)
 		(pin "9"
-			(uuid "310c0287-5e7d-4f16-a42f-1801ed855143")
+			(uuid "491eb9ba-e172-4a05-b5fc-a101a114a2d1")
 		)
 		(instances
-			(project "Dev Board Interface Rev1"
-				(path "/2a5a6391-2d82-47e5-b958-29252a68a56f/c394f43b-a1ae-4b13-8590-15c7019d65c9"
-					(reference "U5")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/115b1a74-e36e-4ee6-8764-bf26e4e24147"
-					(reference "U12")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/8cc1431f-5755-464a-b50c-baf064ef393b"
+			(project "DevBoardInterface 1B"
+				(path "/99fb25ed-9aca-432a-ba59-ddfa2561a3f7/c349ddf1-3671-4355-a172-174d007a1d8b"
 					(reference "U9")
 					(unit 1)
 				)
@@ -4967,26 +4829,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "03eb4d09-0462-4340-8279-58d9e13b6c37")
+			(uuid "5a36cb2a-327c-433b-b43e-cd9a3d8149fc")
 		)
 		(pin "2"
-			(uuid "801e956d-a337-40bd-91b5-6ca0e3ce4a76")
+			(uuid "b4415b97-618a-41e1-baae-3cd1243486a7")
 		)
 		(instances
-			(project "Dev Board Interface Rev1"
-				(path "/2a5a6391-2d82-47e5-b958-29252a68a56f/c394f43b-a1ae-4b13-8590-15c7019d65c9"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/115b1a74-e36e-4ee6-8764-bf26e4e24147"
-					(reference "C50")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/8cc1431f-5755-464a-b50c-baf064ef393b"
+			(project "DevBoardInterface 1B"
+				(path "/99fb25ed-9aca-432a-ba59-ddfa2561a3f7/c349ddf1-3671-4355-a172-174d007a1d8b"
 					(reference "C13")
 					(unit 1)
 				)
@@ -5123,26 +4973,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "995396a4-66e1-4d8a-bc54-ff6d033d7cfb")
+			(uuid "1b23a19c-8e52-414e-841b-9ac959d06906")
 		)
 		(pin "2"
-			(uuid "eee6be0b-3915-46f4-891f-68e0d192c72d")
+			(uuid "4106201c-b41d-43f6-bd73-f4af318f4908")
 		)
 		(instances
-			(project "Dev Board Interface Rev1"
-				(path "/2a5a6391-2d82-47e5-b958-29252a68a56f/c394f43b-a1ae-4b13-8590-15c7019d65c9"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/115b1a74-e36e-4ee6-8764-bf26e4e24147"
-					(reference "C47")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/8cc1431f-5755-464a-b50c-baf064ef393b"
+			(project "DevBoardInterface 1B"
+				(path "/99fb25ed-9aca-432a-ba59-ddfa2561a3f7/c349ddf1-3671-4355-a172-174d007a1d8b"
 					(reference "C10")
 					(unit 1)
 				)
@@ -5276,26 +5114,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "2bdd3789-0e44-4e9e-b859-96b44e5d195f")
+			(uuid "dc20a7ac-ed4e-46af-a024-7e08e7f0f042")
 		)
 		(pin "2"
-			(uuid "ef9253b9-2b05-4c91-9e02-487f0118b09a")
+			(uuid "c2b889a9-d256-49bd-96bd-826422f55946")
 		)
 		(instances
-			(project "Dev Board Interface Rev1"
-				(path "/2a5a6391-2d82-47e5-b958-29252a68a56f/c394f43b-a1ae-4b13-8590-15c7019d65c9"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/115b1a74-e36e-4ee6-8764-bf26e4e24147"
-					(reference "C44")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/8cc1431f-5755-464a-b50c-baf064ef393b"
+			(project "DevBoardInterface 1B"
+				(path "/99fb25ed-9aca-432a-ba59-ddfa2561a3f7/c349ddf1-3671-4355-a172-174d007a1d8b"
 					(reference "C7")
 					(unit 1)
 				)
@@ -5357,23 +5183,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "1f639006-b696-4996-af48-1cb18c3c4655")
+			(uuid "38a55361-303d-4394-8550-cfae52dc8eec")
 		)
 		(instances
-			(project "Dev Board Interface Rev1"
-				(path "/2a5a6391-2d82-47e5-b958-29252a68a56f/c394f43b-a1ae-4b13-8590-15c7019d65c9"
-					(reference "#PWR0124")
-					(unit 1)
-				)
-			)
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/115b1a74-e36e-4ee6-8764-bf26e4e24147"
-					(reference "#PWR072")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/8cc1431f-5755-464a-b50c-baf064ef393b"
+			(project "DevBoardInterface 1B"
+				(path "/99fb25ed-9aca-432a-ba59-ddfa2561a3f7/c349ddf1-3671-4355-a172-174d007a1d8b"
 					(reference "#PWR069")
 					(unit 1)
 				)
@@ -5500,50 +5314,38 @@
 			)
 		)
 		(pin "6"
-			(uuid "9e90186b-8a7a-4356-a8e0-a272fbbdc270")
+			(uuid "24864d51-9dcf-4a68-aa2b-5f9d4f09e9aa")
 		)
 		(pin "10"
-			(uuid "797f929a-6c82-4dcb-8a91-c8be7a6b5fb8")
+			(uuid "ca35edfb-ecfe-4e09-8334-0fc9778eac90")
 		)
 		(pin "3"
-			(uuid "1ffcf49a-31d1-49be-b5c8-36c7f2ac34f8")
+			(uuid "973c069b-87a3-4297-9092-d1f9e0b7a945")
 		)
 		(pin "2"
-			(uuid "b4857e69-808c-4a05-8931-249e5a24e45f")
+			(uuid "1eeacfaa-cae5-4f3a-8eae-11099c9b7068")
 		)
 		(pin "8"
-			(uuid "33f72cb9-3acd-484a-abdb-05bc7c5a4053")
+			(uuid "2e187f27-bfd0-4411-8e89-83cbbe30fcd3")
 		)
 		(pin "7"
-			(uuid "3df0a02d-182c-478f-a49d-3c4be67ac978")
+			(uuid "ac7beac7-7c79-4d13-ba00-151877c8fa17")
 		)
 		(pin "5"
-			(uuid "5595ca50-5eed-4f40-8998-b440ff97f4c6")
+			(uuid "c5e6c759-d585-4e14-a14c-fec2020aeb86")
 		)
 		(pin "9"
-			(uuid "6adc4015-6948-4e2c-a285-0fdbe8d07743")
+			(uuid "c4f48826-4303-4b12-ae01-84057375d8cb")
 		)
 		(pin "1"
-			(uuid "c25678c1-33cf-4a4b-b4f2-d3f6951f98bb")
+			(uuid "ddd4a81b-a09f-49b1-b817-90f4195b90ad")
 		)
 		(pin "4"
-			(uuid "a3147828-6cdd-483a-81bf-24f9683d6274")
+			(uuid "1e1f061a-3298-489d-abdf-08e92f802c0c")
 		)
 		(instances
-			(project "Dev Board Interface Rev1"
-				(path "/2a5a6391-2d82-47e5-b958-29252a68a56f/c394f43b-a1ae-4b13-8590-15c7019d65c9"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/115b1a74-e36e-4ee6-8764-bf26e4e24147"
-					(reference "U10")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/8cc1431f-5755-464a-b50c-baf064ef393b"
+			(project "DevBoardInterface 1B"
+				(path "/99fb25ed-9aca-432a-ba59-ddfa2561a3f7/c349ddf1-3671-4355-a172-174d007a1d8b"
 					(reference "U7")
 					(unit 1)
 				)
@@ -5605,24 +5407,79 @@
 			)
 		)
 		(pin "1"
-			(uuid "29851ad7-ae11-401d-a297-70fb23098fec")
+			(uuid "2265a34a-29ae-40c8-b4d5-301796b2401d")
 		)
 		(instances
-			(project "Dev Board Interface Rev1"
-				(path "/2a5a6391-2d82-47e5-b958-29252a68a56f/c394f43b-a1ae-4b13-8590-15c7019d65c9"
-					(reference "#PWR0108")
-					(unit 1)
-				)
-			)
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/115b1a74-e36e-4ee6-8764-bf26e4e24147"
-					(reference "#PWR071")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/8cc1431f-5755-464a-b50c-baf064ef393b"
+			(project "DevBoardInterface 1B"
+				(path "/99fb25ed-9aca-432a-ba59-ddfa2561a3f7/c349ddf1-3671-4355-a172-174d007a1d8b"
 					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 55.88 120.65 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "515e6444-e0f8-4a26-a779-6296b6aef204")
+		(property "Reference" "#PWR080"
+			(at 55.88 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 56.007 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 55.88 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b910783-c79c-48c2-845a-a4a890968a63")
+		)
+		(instances
+			(project "DevBoardInterface 1B"
+				(path "/99fb25ed-9aca-432a-ba59-ddfa2561a3f7/c349ddf1-3671-4355-a172-174d007a1d8b"
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -5748,26 +5605,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "fdb0ca58-fae4-431d-95c9-26270e4e0bfa")
+			(uuid "35ed07fe-ea6b-43f0-9a72-e405a3defb36")
 		)
 		(pin "2"
-			(uuid "c638ad59-a76d-4adb-9d37-681a30743570")
+			(uuid "31a02af5-c2ef-4c27-8721-892d60f98350")
 		)
 		(instances
-			(project "Dev Board Interface Rev1"
-				(path "/2a5a6391-2d82-47e5-b958-29252a68a56f/c394f43b-a1ae-4b13-8590-15c7019d65c9"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/115b1a74-e36e-4ee6-8764-bf26e4e24147"
-					(reference "R60")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/8cc1431f-5755-464a-b50c-baf064ef393b"
+			(project "DevBoardInterface 1B"
+				(path "/99fb25ed-9aca-432a-ba59-ddfa2561a3f7/c349ddf1-3671-4355-a172-174d007a1d8b"
 					(reference "R22")
 					(unit 1)
 				)
@@ -5830,23 +5675,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "a9e7800d-0a17-4626-bd16-f22e587c111b")
+			(uuid "92259df2-ce13-4a52-99b6-559d504b192f")
 		)
 		(instances
-			(project "Dev Board Interface Rev1"
-				(path "/2a5a6391-2d82-47e5-b958-29252a68a56f/c394f43b-a1ae-4b13-8590-15c7019d65c9"
-					(reference "#PWR0107")
-					(unit 1)
-				)
-			)
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/115b1a74-e36e-4ee6-8764-bf26e4e24147"
-					(reference "#PWR070")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/8cc1431f-5755-464a-b50c-baf064ef393b"
+			(project "DevBoardInterface 1B"
+				(path "/99fb25ed-9aca-432a-ba59-ddfa2561a3f7/c349ddf1-3671-4355-a172-174d007a1d8b"
 					(reference "#PWR067")
 					(unit 1)
 				)
@@ -5908,23 +5741,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "1c3ea3c8-4be1-43ff-8923-9c60b1f2ace8")
+			(uuid "2aeffd4d-e2a8-4f1d-8345-4c4637b38cb5")
 		)
 		(instances
-			(project "Dev Board Interface Rev1"
-				(path "/2a5a6391-2d82-47e5-b958-29252a68a56f/c394f43b-a1ae-4b13-8590-15c7019d65c9"
-					(reference "#PWR0123")
-					(unit 1)
-				)
-			)
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/115b1a74-e36e-4ee6-8764-bf26e4e24147"
-					(reference "#PWR075")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/8cc1431f-5755-464a-b50c-baf064ef393b"
+			(project "DevBoardInterface 1B"
+				(path "/99fb25ed-9aca-432a-ba59-ddfa2561a3f7/c349ddf1-3671-4355-a172-174d007a1d8b"
 					(reference "#PWR072")
 					(unit 1)
 				)
@@ -5986,23 +5807,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "13ab4690-c06e-4372-8247-c6d07e58f4e5")
+			(uuid "d1549637-776e-4504-ae15-69252b2b3d95")
 		)
 		(instances
-			(project "Dev Board Interface Rev1"
-				(path "/2a5a6391-2d82-47e5-b958-29252a68a56f/c394f43b-a1ae-4b13-8590-15c7019d65c9"
-					(reference "#PWR0109")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/115b1a74-e36e-4ee6-8764-bf26e4e24147"
-					(reference "#PWR065")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/8cc1431f-5755-464a-b50c-baf064ef393b"
+			(project "DevBoardInterface 1B"
+				(path "/99fb25ed-9aca-432a-ba59-ddfa2561a3f7/c349ddf1-3671-4355-a172-174d007a1d8b"
 					(reference "#PWR062")
 					(unit 1)
 				)
@@ -6119,17 +5928,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "14bd5c92-7193-4493-b94d-6b8cbddb3230")
+			(uuid "ecd55b2d-fe0d-4e06-9ef4-015f593b2f88")
 		)
 		(instances
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/115b1a74-e36e-4ee6-8764-bf26e4e24147"
-					(reference "TP?")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/8cc1431f-5755-464a-b50c-baf064ef393b"
+			(project "DevBoardInterface 1B"
+				(path "/99fb25ed-9aca-432a-ba59-ddfa2561a3f7/c349ddf1-3671-4355-a172-174d007a1d8b"
 					(reference "TP3")
 					(unit 1)
 				)
@@ -6192,23 +5995,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "89bc53dc-abc4-41fd-baa7-9bc80c831b01")
+			(uuid "c045610a-7444-497d-8a49-5608d5b871a8")
 		)
 		(instances
-			(project "Dev Board Interface Rev1"
-				(path "/2a5a6391-2d82-47e5-b958-29252a68a56f/c394f43b-a1ae-4b13-8590-15c7019d65c9"
-					(reference "#PWR0121")
-					(unit 1)
-				)
-			)
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/115b1a74-e36e-4ee6-8764-bf26e4e24147"
-					(reference "#PWR077")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/8cc1431f-5755-464a-b50c-baf064ef393b"
+			(project "DevBoardInterface 1B"
+				(path "/99fb25ed-9aca-432a-ba59-ddfa2561a3f7/c349ddf1-3671-4355-a172-174d007a1d8b"
 					(reference "#PWR074")
 					(unit 1)
 				)
@@ -6271,23 +6062,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "ada93ed7-c9e0-4970-8aaa-2cd3fbbaa6ad")
+			(uuid "2a766252-4b71-446a-9270-08af5718e569")
 		)
 		(instances
-			(project "Dev Board Interface Rev1"
-				(path "/2a5a6391-2d82-47e5-b958-29252a68a56f/c394f43b-a1ae-4b13-8590-15c7019d65c9"
-					(reference "#PWR0118")
-					(unit 1)
-				)
-			)
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/115b1a74-e36e-4ee6-8764-bf26e4e24147"
-					(reference "#PWR074")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/8cc1431f-5755-464a-b50c-baf064ef393b"
+			(project "DevBoardInterface 1B"
+				(path "/99fb25ed-9aca-432a-ba59-ddfa2561a3f7/c349ddf1-3671-4355-a172-174d007a1d8b"
 					(reference "#PWR071")
 					(unit 1)
 				)
@@ -6350,23 +6129,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "e0b28517-eebd-4bb4-a661-dfa6a2dfd0e5")
+			(uuid "af704d52-fe99-41be-aa5d-c3b299986cdf")
 		)
 		(instances
-			(project "Dev Board Interface Rev1"
-				(path "/2a5a6391-2d82-47e5-b958-29252a68a56f/c394f43b-a1ae-4b13-8590-15c7019d65c9"
-					(reference "#PWR0119")
-					(unit 1)
-				)
-			)
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/115b1a74-e36e-4ee6-8764-bf26e4e24147"
-					(reference "#PWR082")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/8cc1431f-5755-464a-b50c-baf064ef393b"
+			(project "DevBoardInterface 1B"
+				(path "/99fb25ed-9aca-432a-ba59-ddfa2561a3f7/c349ddf1-3671-4355-a172-174d007a1d8b"
 					(reference "#PWR079")
 					(unit 1)
 				)
@@ -6493,35 +6260,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "acaa4d4b-9a95-4725-ae67-399f0252a720")
+			(uuid "29b1ec4a-529e-4807-bd45-b85fb1392bf7")
 		)
 		(pin "2"
-			(uuid "ab875f8c-0add-40ea-847e-431705035186")
+			(uuid "caf6ab23-a862-4fa1-81a9-aac47e8bcceb")
 		)
 		(pin "3"
-			(uuid "a80ba567-e96c-43e3-82f7-1cc623b5ef0f")
+			(uuid "a379ca92-6e47-494f-9a27-b1c146f64f6a")
 		)
 		(pin "4"
-			(uuid "b7328062-a6e5-49cf-844b-ddb57214085e")
+			(uuid "5ee2a09a-7c9a-4780-82f7-c7db0a964216")
 		)
 		(pin "5"
-			(uuid "463a19fd-58ea-44f7-a330-5ba1f4e9c718")
+			(uuid "6ad801ac-cecd-42d9-a60b-031b0336c1ec")
 		)
 		(instances
-			(project "Dev Board Interface Rev1"
-				(path "/2a5a6391-2d82-47e5-b958-29252a68a56f/c394f43b-a1ae-4b13-8590-15c7019d65c9"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/115b1a74-e36e-4ee6-8764-bf26e4e24147"
-					(reference "U11")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/8cc1431f-5755-464a-b50c-baf064ef393b"
+			(project "DevBoardInterface 1B"
+				(path "/99fb25ed-9aca-432a-ba59-ddfa2561a3f7/c349ddf1-3671-4355-a172-174d007a1d8b"
 					(reference "U8")
 					(unit 1)
 				)
@@ -6655,26 +6410,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "55cf261f-ecc8-47dc-959e-2397615a5fff")
+			(uuid "579fe4b4-c60f-4727-b030-22e4c05a57d5")
 		)
 		(pin "2"
-			(uuid "cd325966-7f4f-41f6-90d3-c10664d4c2a9")
+			(uuid "f3436dc6-6208-484a-a977-22a7f72b6ec9")
 		)
 		(instances
-			(project "Dev Board Interface Rev1"
-				(path "/2a5a6391-2d82-47e5-b958-29252a68a56f/c394f43b-a1ae-4b13-8590-15c7019d65c9"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/115b1a74-e36e-4ee6-8764-bf26e4e24147"
-					(reference "C48")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/8cc1431f-5755-464a-b50c-baf064ef393b"
+			(project "DevBoardInterface 1B"
+				(path "/99fb25ed-9aca-432a-ba59-ddfa2561a3f7/c349ddf1-3671-4355-a172-174d007a1d8b"
 					(reference "C11")
 					(unit 1)
 				)
@@ -6736,23 +6479,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "41e296d4-4e1b-4c14-b4d2-f418f92e3d49")
+			(uuid "c090b971-b874-4d3f-8c0b-d0ae050a4a66")
 		)
 		(instances
-			(project "Dev Board Interface Rev1"
-				(path "/2a5a6391-2d82-47e5-b958-29252a68a56f/c394f43b-a1ae-4b13-8590-15c7019d65c9"
-					(reference "#PWR0103")
-					(unit 1)
-				)
-			)
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/115b1a74-e36e-4ee6-8764-bf26e4e24147"
-					(reference "#PWR061")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/8cc1431f-5755-464a-b50c-baf064ef393b"
+			(project "DevBoardInterface 1B"
+				(path "/99fb25ed-9aca-432a-ba59-ddfa2561a3f7/c349ddf1-3671-4355-a172-174d007a1d8b"
 					(reference "#PWR058")
 					(unit 1)
 				)
@@ -6881,26 +6612,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "db3f0848-607c-4019-ba7c-709af7cb210d")
+			(uuid "9a7b5e32-5190-4238-adc8-aeff58e231bd")
 		)
 		(pin "2"
-			(uuid "c05aa98a-0638-4d52-a151-057f714ec9f8")
+			(uuid "f3468ae3-18dd-46b5-ab5a-a499aed6e0b1")
 		)
 		(instances
-			(project "Dev Board Interface Rev1"
-				(path "/2a5a6391-2d82-47e5-b958-29252a68a56f/c394f43b-a1ae-4b13-8590-15c7019d65c9"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/115b1a74-e36e-4ee6-8764-bf26e4e24147"
-					(reference "R57")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/8cc1431f-5755-464a-b50c-baf064ef393b"
+			(project "DevBoardInterface 1B"
+				(path "/99fb25ed-9aca-432a-ba59-ddfa2561a3f7/c349ddf1-3671-4355-a172-174d007a1d8b"
 					(reference "R19")
 					(unit 1)
 				)
@@ -7027,26 +6746,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "9054263b-f080-4b84-8a7a-0a63ef25bb1d")
+			(uuid "1511456d-8bcc-4b85-8fe7-35e92715882a")
 		)
 		(pin "2"
-			(uuid "40e741af-6c68-4ad7-93ae-eeb89f03242a")
+			(uuid "0ff0b429-f5b1-4bd9-a6bd-964aa3374a66")
 		)
 		(instances
-			(project "Dev Board Interface Rev1"
-				(path "/2a5a6391-2d82-47e5-b958-29252a68a56f/c394f43b-a1ae-4b13-8590-15c7019d65c9"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/115b1a74-e36e-4ee6-8764-bf26e4e24147"
-					(reference "R62")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/8cc1431f-5755-464a-b50c-baf064ef393b"
+			(project "DevBoardInterface 1B"
+				(path "/99fb25ed-9aca-432a-ba59-ddfa2561a3f7/c349ddf1-3671-4355-a172-174d007a1d8b"
 					(reference "R24")
 					(unit 1)
 				)
@@ -7173,26 +6880,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "1cf42026-31e5-4e57-b830-cb5e5e3bd9e7")
+			(uuid "ee4bdf2d-738c-4178-abef-3a428e3fac4c")
 		)
 		(pin "2"
-			(uuid "6f5a748e-5dd8-479f-a8aa-1bf9323cd75c")
+			(uuid "de07587f-f74f-447d-b76a-4070a623e372")
 		)
 		(instances
-			(project "Dev Board Interface Rev1"
-				(path "/2a5a6391-2d82-47e5-b958-29252a68a56f/c394f43b-a1ae-4b13-8590-15c7019d65c9"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/115b1a74-e36e-4ee6-8764-bf26e4e24147"
-					(reference "R61")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/8cc1431f-5755-464a-b50c-baf064ef393b"
+			(project "DevBoardInterface 1B"
+				(path "/99fb25ed-9aca-432a-ba59-ddfa2561a3f7/c349ddf1-3671-4355-a172-174d007a1d8b"
 					(reference "R23")
 					(unit 1)
 				)
@@ -7254,23 +6949,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "ce980d05-e756-4efe-97b2-751402319adf")
+			(uuid "686d545e-8618-4d06-bd99-86d49fc746a1")
 		)
 		(instances
-			(project "Dev Board Interface Rev1"
-				(path "/2a5a6391-2d82-47e5-b958-29252a68a56f/c394f43b-a1ae-4b13-8590-15c7019d65c9"
-					(reference "#PWR0105")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/115b1a74-e36e-4ee6-8764-bf26e4e24147"
-					(reference "#PWR059")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/8cc1431f-5755-464a-b50c-baf064ef393b"
+			(project "DevBoardInterface 1B"
+				(path "/99fb25ed-9aca-432a-ba59-ddfa2561a3f7/c349ddf1-3671-4355-a172-174d007a1d8b"
 					(reference "#PWR056")
 					(unit 1)
 				)
@@ -7396,44 +7079,32 @@
 			)
 		)
 		(pin "4"
-			(uuid "ca8666bd-c423-404d-9351-088a5a723730")
+			(uuid "7490c51b-b0fe-474f-92e7-a3e8881f5f92")
 		)
 		(pin "8"
-			(uuid "bf864f69-e40c-42fb-be96-7351dd352fc2")
+			(uuid "75438846-5656-4bba-871a-7575d66ca06e")
 		)
 		(pin "3"
-			(uuid "6f2bd2ca-b3a3-4b5f-82fb-cdc7f1d51848")
+			(uuid "6a06850e-2591-4bff-81ea-3191a13180ad")
 		)
 		(pin "6"
-			(uuid "aca8f89f-4784-4a1f-a777-42fae37260ef")
+			(uuid "861ac7c9-7e29-48cc-8301-55cfa0a88019")
 		)
 		(pin "1"
-			(uuid "e35bb439-8b0b-4022-998f-b45729e46419")
+			(uuid "c607de46-0bdd-4002-b68a-1bb05e017249")
 		)
 		(pin "5"
-			(uuid "82fe2f2e-3ab1-4cd9-bd1e-97c2af4cc9e9")
+			(uuid "e24f86a4-3ac9-4700-9cc8-5b56fd61f337")
 		)
 		(pin "2"
-			(uuid "5a666e64-ba98-48e7-b352-bd647c970698")
+			(uuid "83eb27a9-fa16-49ec-9c5e-5a2774d10df1")
 		)
 		(pin "7"
-			(uuid "9d44b44a-e748-4d96-945e-7c16e34dc61f")
+			(uuid "3b313fa0-b210-4136-830a-adfafee3119a")
 		)
 		(instances
-			(project "Dev Board Interface Rev1"
-				(path "/2a5a6391-2d82-47e5-b958-29252a68a56f/c394f43b-a1ae-4b13-8590-15c7019d65c9"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/115b1a74-e36e-4ee6-8764-bf26e4e24147"
-					(reference "U9")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/8cc1431f-5755-464a-b50c-baf064ef393b"
+			(project "DevBoardInterface 1B"
+				(path "/99fb25ed-9aca-432a-ba59-ddfa2561a3f7/c349ddf1-3671-4355-a172-174d007a1d8b"
 					(reference "U6")
 					(unit 1)
 				)
@@ -7495,91 +7166,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "68b68f17-8e1c-4302-90c0-05ca4b0b8a63")
+			(uuid "897013a1-27b5-4723-a071-6f32f0670e03")
 		)
 		(instances
-			(project "Dev Board Interface Rev1"
-				(path "/2a5a6391-2d82-47e5-b958-29252a68a56f/c394f43b-a1ae-4b13-8590-15c7019d65c9"
-					(reference "#PWR0113")
-					(unit 1)
-				)
-			)
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/115b1a74-e36e-4ee6-8764-bf26e4e24147"
-					(reference "#PWR073")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/8cc1431f-5755-464a-b50c-baf064ef393b"
+			(project "DevBoardInterface 1B"
+				(path "/99fb25ed-9aca-432a-ba59-ddfa2561a3f7/c349ddf1-3671-4355-a172-174d007a1d8b"
 					(reference "#PWR070")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 55.88 120.65 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ac5a90a1-b044-4598-918a-df07b8adaa18")
-		(property "Reference" "#PWR0124"
-			(at 55.88 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 56.007 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.88 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 55.88 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "534040eb-a0e9-47bf-a01b-9172a0044753")
-		)
-		(instances
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/8cc1431f-5755-464a-b50c-baf064ef393b"
-					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
@@ -7695,17 +7287,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "d092550d-911d-4c0e-ae55-f134fedf1c60")
+			(uuid "c725d2c9-41ef-4357-a269-1068beaab318")
 		)
 		(instances
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/115b1a74-e36e-4ee6-8764-bf26e4e24147"
-					(reference "TP?")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/8cc1431f-5755-464a-b50c-baf064ef393b"
+			(project "DevBoardInterface 1B"
+				(path "/99fb25ed-9aca-432a-ba59-ddfa2561a3f7/c349ddf1-3671-4355-a172-174d007a1d8b"
 					(reference "TP4")
 					(unit 1)
 				)
@@ -7768,23 +7354,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "6c6d5944-d306-4f5a-bee6-d7ed29a80624")
+			(uuid "7a770667-ae8d-449d-8b1b-7ebdd3213056")
 		)
 		(instances
-			(project "Dev Board Interface Rev1"
-				(path "/2a5a6391-2d82-47e5-b958-29252a68a56f/c394f43b-a1ae-4b13-8590-15c7019d65c9"
-					(reference "#PWR0120")
-					(unit 1)
-				)
-			)
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/115b1a74-e36e-4ee6-8764-bf26e4e24147"
-					(reference "#PWR080")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/8cc1431f-5755-464a-b50c-baf064ef393b"
+			(project "DevBoardInterface 1B"
+				(path "/99fb25ed-9aca-432a-ba59-ddfa2561a3f7/c349ddf1-3671-4355-a172-174d007a1d8b"
 					(reference "#PWR077")
 					(unit 1)
 				)
@@ -7846,23 +7420,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "4537a24b-ffec-4897-ba3b-996e409fe27b")
+			(uuid "22efc14e-ec56-497b-b604-f9aca37990d8")
 		)
 		(instances
-			(project "Dev Board Interface Rev1"
-				(path "/2a5a6391-2d82-47e5-b958-29252a68a56f/c394f43b-a1ae-4b13-8590-15c7019d65c9"
-					(reference "#PWR0102")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/115b1a74-e36e-4ee6-8764-bf26e4e24147"
-					(reference "#PWR068")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/8cc1431f-5755-464a-b50c-baf064ef393b"
+			(project "DevBoardInterface 1B"
+				(path "/99fb25ed-9aca-432a-ba59-ddfa2561a3f7/c349ddf1-3671-4355-a172-174d007a1d8b"
 					(reference "#PWR065")
 					(unit 1)
 				)
@@ -7924,23 +7486,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "73e1b0e2-f1df-4fe7-9f0a-84da93ce06b8")
+			(uuid "43728a43-4218-43a5-b965-1b971289df88")
 		)
 		(instances
-			(project "Dev Board Interface Rev1"
-				(path "/2a5a6391-2d82-47e5-b958-29252a68a56f/c394f43b-a1ae-4b13-8590-15c7019d65c9"
-					(reference "#PWR0112")
-					(unit 1)
-				)
-			)
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/115b1a74-e36e-4ee6-8764-bf26e4e24147"
-					(reference "#PWR066")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/8cc1431f-5755-464a-b50c-baf064ef393b"
+			(project "DevBoardInterface 1B"
+				(path "/99fb25ed-9aca-432a-ba59-ddfa2561a3f7/c349ddf1-3671-4355-a172-174d007a1d8b"
 					(reference "#PWR063")
 					(unit 1)
 				)
@@ -8076,26 +7626,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "eca82ab7-3dab-4102-abd3-01c1cf8ab491")
+			(uuid "d26ca376-012a-4dad-b2e9-0061aa64d015")
 		)
 		(pin "2"
-			(uuid "ba7af093-c4f0-4384-99a3-204674f5a3d4")
+			(uuid "0a1e007c-8068-49f1-be5d-d79464103383")
 		)
 		(instances
-			(project "Dev Board Interface Rev1"
-				(path "/2a5a6391-2d82-47e5-b958-29252a68a56f/c394f43b-a1ae-4b13-8590-15c7019d65c9"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/115b1a74-e36e-4ee6-8764-bf26e4e24147"
-					(reference "C49")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/8cc1431f-5755-464a-b50c-baf064ef393b"
+			(project "DevBoardInterface 1B"
+				(path "/99fb25ed-9aca-432a-ba59-ddfa2561a3f7/c349ddf1-3671-4355-a172-174d007a1d8b"
 					(reference "C12")
 					(unit 1)
 				)
@@ -8229,26 +7767,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "2be4ad29-66bf-42d8-ac49-53e4f6d570cd")
+			(uuid "3b1b6359-6a43-4872-bad3-4fdc75a8706f")
 		)
 		(pin "2"
-			(uuid "c9d96ef4-b8ab-4cf0-811d-467ecef84aea")
+			(uuid "4e01b0d9-5a65-4f82-9be6-24e1ccea7790")
 		)
 		(instances
-			(project "Dev Board Interface Rev1"
-				(path "/2a5a6391-2d82-47e5-b958-29252a68a56f/c394f43b-a1ae-4b13-8590-15c7019d65c9"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/115b1a74-e36e-4ee6-8764-bf26e4e24147"
-					(reference "C45")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/8cc1431f-5755-464a-b50c-baf064ef393b"
+			(project "DevBoardInterface 1B"
+				(path "/99fb25ed-9aca-432a-ba59-ddfa2561a3f7/c349ddf1-3671-4355-a172-174d007a1d8b"
 					(reference "C8")
 					(unit 1)
 				)
@@ -8377,26 +7903,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "780c94f8-3f8f-4ed0-8e79-5013af204353")
+			(uuid "56495212-1197-4672-aee6-2d79fb5dd67d")
 		)
 		(pin "2"
-			(uuid "9b8599d6-7c58-404c-898e-ab59925999bb")
+			(uuid "a15282b6-907e-4ac0-b9a9-b7a2058d9a1d")
 		)
 		(instances
-			(project "Dev Board Interface Rev1"
-				(path "/2a5a6391-2d82-47e5-b958-29252a68a56f/c394f43b-a1ae-4b13-8590-15c7019d65c9"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/115b1a74-e36e-4ee6-8764-bf26e4e24147"
-					(reference "R58")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/8cc1431f-5755-464a-b50c-baf064ef393b"
+			(project "DevBoardInterface 1B"
+				(path "/99fb25ed-9aca-432a-ba59-ddfa2561a3f7/c349ddf1-3671-4355-a172-174d007a1d8b"
 					(reference "R20")
 					(unit 1)
 				)
@@ -8459,23 +7973,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "e77c25dd-9e7a-4e3a-9345-de4c1006030a")
+			(uuid "231216bc-6866-48a9-ab00-f346f2e6cb68")
 		)
 		(instances
-			(project "Dev Board Interface Rev1"
-				(path "/2a5a6391-2d82-47e5-b958-29252a68a56f/c394f43b-a1ae-4b13-8590-15c7019d65c9"
-					(reference "#PWR0110")
-					(unit 1)
-				)
-			)
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/115b1a74-e36e-4ee6-8764-bf26e4e24147"
-					(reference "#PWR078")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/8cc1431f-5755-464a-b50c-baf064ef393b"
+			(project "DevBoardInterface 1B"
+				(path "/99fb25ed-9aca-432a-ba59-ddfa2561a3f7/c349ddf1-3671-4355-a172-174d007a1d8b"
 					(reference "#PWR075")
 					(unit 1)
 				)
@@ -8537,23 +8039,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "70f865f7-143d-4d4d-b4d6-233659a468e1")
+			(uuid "55bcab3f-4e72-40e1-b09f-fbb6111da8a3")
 		)
 		(instances
-			(project "Dev Board Interface Rev1"
-				(path "/2a5a6391-2d82-47e5-b958-29252a68a56f/c394f43b-a1ae-4b13-8590-15c7019d65c9"
-					(reference "#PWR0114")
-					(unit 1)
-				)
-			)
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/115b1a74-e36e-4ee6-8764-bf26e4e24147"
-					(reference "#PWR079")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/8cc1431f-5755-464a-b50c-baf064ef393b"
+			(project "DevBoardInterface 1B"
+				(path "/99fb25ed-9aca-432a-ba59-ddfa2561a3f7/c349ddf1-3671-4355-a172-174d007a1d8b"
 					(reference "#PWR076")
 					(unit 1)
 				)

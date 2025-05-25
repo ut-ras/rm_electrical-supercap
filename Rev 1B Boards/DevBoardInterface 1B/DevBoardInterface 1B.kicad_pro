@@ -449,7 +449,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Rev 1B.kicad_pro",
+    "filename": "DevBoardInterface 1B.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -558,96 +558,12 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "JLCPCB #",
-          "name": "JLCPCB #",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer_Name",
-          "name": "Manufacturer_Name",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer_Part_Number",
-          "name": "Manufacturer_Part_Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mouser #",
-          "name": "Mouser #",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mouser Link",
-          "name": "Mouser Link",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mouser Part Number",
-          "name": "Mouser Part Number",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Mouser Price/Stock",
-          "name": "Mouser Price/Stock",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Device",
-          "name": "Sim.Device",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Type",
-          "name": "Sim.Type",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Voltage Rating",
-          "name": "Voltage Rating",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Height",
-          "name": "Height",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "",
+      "name": "Default Editing",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -693,40 +609,12 @@
   },
   "sheets": [
     [
-      "e5f99deb-ef42-4c5f-b80a-388477910e20",
+      "99fb25ed-9aca-432a-ba59-ddfa2561a3f7",
       "Root"
     ],
     [
-      "271408e9-0010-4c59-8c9c-96a1532c4998",
-      "Current Sense"
-    ],
-    [
-      "8cc1431f-5755-464a-b50c-baf064ef393b",
+      "c349ddf1-3671-4355-a172-174d007a1d8b",
       "Dev Board Interface"
-    ],
-    [
-      "1e0b2151-e075-4f05-b22a-12d6722ef31a",
-      "Housekeeping Power Supplies"
-    ],
-    [
-      "7bf219df-2692-4f86-9971-baba03c19447",
-      "Ideal Diode"
-    ],
-    [
-      "74b869e2-2f46-4217-991e-e066eaeda764",
-      "Input Buck & Charger"
-    ],
-    [
-      "21a15606-e19d-4b4c-83fa-772ce59a6b99",
-      "Output Boost (Stage 1)"
-    ],
-    [
-      "d2569310-1133-4585-8eb3-8b8cc99091a2",
-      "Output Boost (Stage 2)"
-    ],
-    [
-      "1165d5b5-e274-4083-890a-7a12aee56ddf",
-      "Supercapacitors"
     ]
   ],
   "text_variables": {}
