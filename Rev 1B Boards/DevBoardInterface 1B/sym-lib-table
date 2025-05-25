@@ -1,4 +1,7 @@
 (sym_lib_table
   (version 7)
-  (lib (name "! Robomaster ICs")(type "KiCad")(uri "C:/Users/Tachi/Documents/Nerd Shit/rm_electrical-supercap/Robomaster_IC.kicad_sym")(options "")(descr ""))
+  (lib (name "! Robomaster_Conn")(type "KiCad")(uri "${KIPRJMOD}/../../KiCad_Library/Robomaster_Conn.kicad_sym")(options "")(descr ""))
+  (lib (name "! Robomaster_CV")(type "KiCad")(uri "${KIPRJMOD}/../../KiCad_Library/Robomaster_CV.kicad_sym")(options "")(descr ""))
+  (lib (name "! Robomaster_IC")(type "KiCad")(uri "${KIPRJMOD}/../../KiCad_Library/Robomaster_IC.kicad_sym")(options "")(descr ""))
+  (lib (name "! Robomaster_Ref")(type "KiCad")(uri "${KIPRJMOD}/../../KiCad_Library/Robomaster_Ref.kicad_sym")(options "")(descr ""))
 )

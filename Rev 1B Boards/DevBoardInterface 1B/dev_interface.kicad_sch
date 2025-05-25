@@ -2039,7 +2039,7 @@
 		)
 		(uuid "99706418-fcdc-4815-848a-748d866722f7")
 	)
-	(text "DAC_{1} ADDR:\n1001001R_{2}"
+	(text "DAC_{1} ADDR:\n1001011R_{2}"
 		(exclude_from_sim no)
 		(at 208.534 128.27 0)
 		(effects
@@ -2208,6 +2208,12 @@
 		(uuid "abac70d7-6b0e-4242-b101-b02a74734de1")
 	)
 	(junction
+		(at 187.96 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c443a17c-d4f8-479a-bd2e-9360f5be379c")
+	)
+	(junction
 		(at 187.96 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2363,16 +2369,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 114.3) (xy 187.96 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12238893-3833-4f03-aed7-f53ae704346d")
-	)
-	(wire
-		(pts
 			(xy 205.74 71.12) (xy 238.76 71.12)
 		)
 		(stroke
@@ -2460,6 +2456,16 @@
 			(type default)
 		)
 		(uuid "3049fc0d-a524-4493-923a-c546ef4a17b8")
+	)
+	(wire
+		(pts
+			(xy 187.96 118.11) (xy 189.23 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32f92ad5-d7cd-4b40-a788-bbd4f3ea4f89")
 	)
 	(wire
 		(pts
@@ -2733,7 +2739,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 118.11) (xy 189.23 118.11)
+			(xy 176.53 118.11) (xy 187.96 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2870,6 +2876,16 @@
 			(type default)
 		)
 		(uuid "9104eef2-f22a-4796-b577-7e5d5cd8ee2b")
+	)
+	(wire
+		(pts
+			(xy 187.96 115.57) (xy 187.96 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9305e709-2bb0-45d9-a579-27e0f2c8444a")
 	)
 	(wire
 		(pts
@@ -6001,73 +6017,6 @@
 			(project "DevBoardInterface 1B"
 				(path "/99fb25ed-9aca-432a-ba59-ddfa2561a3f7/c349ddf1-3671-4355-a172-174d007a1d8b"
 					(reference "#PWR074")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 187.96 114.3 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6b16f1af-7d81-4e3c-b2c5-ebe6ae6c647f")
-		(property "Reference" "#PWR071"
-			(at 187.96 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 187.96 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.96 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 187.96 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2a766252-4b71-446a-9270-08af5718e569")
-		)
-		(instances
-			(project "DevBoardInterface 1B"
-				(path "/99fb25ed-9aca-432a-ba59-ddfa2561a3f7/c349ddf1-3671-4355-a172-174d007a1d8b"
-					(reference "#PWR071")
 					(unit 1)
 				)
 			)
