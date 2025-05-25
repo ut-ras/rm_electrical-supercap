@@ -2062,7 +2062,7 @@
 	)
 	(text "NOTE: Do not reorder unless necessary"
 		(exclude_from_sim no)
-		(at 195.58 129.54 0)
+		(at 195.834 138.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6325,8 +6325,8 @@
 		(at 171.45 130.81)
 		(size 22.86 15.24)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
