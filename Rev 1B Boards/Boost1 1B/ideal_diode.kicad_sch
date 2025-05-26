@@ -1215,6 +1215,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 43.18) (xy 78.74 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "855cb526-c3d3-4303-b454-0f896eab8af3")
+	)
+	(wire
+		(pts
 			(xy 109.22 31.75) (xy 111.76 31.75)
 		)
 		(stroke
@@ -1222,16 +1232,6 @@
 			(type default)
 		)
 		(uuid "86e9f401-f0b1-477c-ab20-f4c7d8fb0fc2")
-	)
-	(wire
-		(pts
-			(xy 78.74 43.18) (xy 78.74 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93ea9225-15ee-43f0-bd05-84983d0ab3cb")
 	)
 	(wire
 		(pts
@@ -1368,10 +1368,11 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.1588)
 			)
 			(justify right bottom)
 		)
-		(uuid "3225bf3c-6633-472f-bbfc-34ce54338826")
+		(uuid "ab21f998-bc80-4285-a16d-a4c04cdbcd04")
 	)
 	(label "VCAP"
 		(at 88.9 54.61 180)
@@ -1426,7 +1427,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "05c3a421-b346-4cd7-82dc-e27ab934f813")
-		(property "Reference" "C2"
+		(property "Reference" "C35"
 			(at 121.92 36.8299 0)
 			(effects
 				(font
@@ -1514,32 +1515,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "41ca1755-5e60-4b13-a741-5b7580297330")
+			(uuid "4d1c0fee-2223-4565-b81e-29a825490337")
 		)
 		(pin "2"
-			(uuid "4273eeff-727d-4534-ac33-dafa0f7d3e25")
+			(uuid "a9a0bc18-f60a-42cb-8a91-7f6cac0d3356")
 		)
 		(instances
-			(project "Ideal Diode Rev1"
-				(path "/1958bbb1-b715-4a10-a229-bee0eabb28b0/4a024d55-f91f-4b32-882f-0df7d5ec96e3"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-			(project "Ideal Diode Rev1"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/130ec867-c4fa-4318-bea9-b8fc517d0b0a"
-					(reference "C78")
-					(unit 1)
-				)
-			)
 			(project "Buck1 1B"
 				(path "/80afba09-f71a-481c-a343-2cbd993e7569/435402b6-45a2-41c3-bc2a-be9f3f280d73"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/7bf219df-2692-4f86-9971-baba03c19447"
 					(reference "C35")
 					(unit 1)
 				)
@@ -1556,7 +1539,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3d0189c3-c554-4c2b-85f6-357eb526c6da")
-		(property "Reference" "C1"
+		(property "Reference" "C34"
 			(at 69.85 36.8299 0)
 			(effects
 				(font
@@ -1644,32 +1627,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "b23e61ae-045f-4fbc-84df-de0724054cdb")
+			(uuid "ca3a904a-a2ac-46d8-b072-b51675df341b")
 		)
 		(pin "2"
-			(uuid "82d3c4ac-61ed-4e03-b85f-cbd3825c99e1")
+			(uuid "65a80dbd-410e-4d09-aa3e-206ab3b53370")
 		)
 		(instances
-			(project "Ideal Diode Rev1"
-				(path "/1958bbb1-b715-4a10-a229-bee0eabb28b0/4a024d55-f91f-4b32-882f-0df7d5ec96e3"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-			(project "Ideal Diode Rev1"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/130ec867-c4fa-4318-bea9-b8fc517d0b0a"
-					(reference "C77")
-					(unit 1)
-				)
-			)
 			(project "Buck1 1B"
 				(path "/80afba09-f71a-481c-a343-2cbd993e7569/435402b6-45a2-41c3-bc2a-be9f3f280d73"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/7bf219df-2692-4f86-9971-baba03c19447"
 					(reference "C34")
 					(unit 1)
 				)
@@ -1686,7 +1651,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ae9b942-029c-4ec2-b113-05d359f296bb")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR095"
 			(at 73.66 72.39 0)
 			(effects
 				(font
@@ -1731,29 +1696,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "ba17866d-1fa9-435b-967c-f5d0eb37a4e8")
+			(uuid "a51c0e77-daae-4bbd-bddf-71b351fcf01a")
 		)
 		(instances
-			(project "Ideal Diode Rev1"
-				(path "/1958bbb1-b715-4a10-a229-bee0eabb28b0/4a024d55-f91f-4b32-882f-0df7d5ec96e3"
-					(reference "#PWR0107")
-					(unit 1)
-				)
-			)
-			(project "Ideal Diode Rev1"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/130ec867-c4fa-4318-bea9-b8fc517d0b0a"
-					(reference "#PWR0104")
-					(unit 1)
-				)
-			)
 			(project "Buck1 1B"
 				(path "/80afba09-f71a-481c-a343-2cbd993e7569/435402b6-45a2-41c3-bc2a-be9f3f280d73"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/7bf219df-2692-4f86-9971-baba03c19447"
 					(reference "#PWR095")
 					(unit 1)
 				)
@@ -1770,7 +1717,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "82390f5e-226d-4cf8-8516-c7d0698b10a4")
-		(property "Reference" "C3"
+		(property "Reference" "C36"
 			(at 85.09 45.7199 0)
 			(effects
 				(font
@@ -1858,32 +1805,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "62b769b5-06df-4e17-a83a-25f04e123775")
+			(uuid "135a0e7d-df7e-441e-9512-7240e63d4e51")
 		)
 		(pin "2"
-			(uuid "bdcaeaa7-4881-4a95-81b0-227bc3c370f2")
+			(uuid "d26cabb6-b902-4ada-892b-5ac4aca42d33")
 		)
 		(instances
-			(project "Ideal Diode Rev1"
-				(path "/1958bbb1-b715-4a10-a229-bee0eabb28b0/4a024d55-f91f-4b32-882f-0df7d5ec96e3"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-			(project "Ideal Diode Rev1"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/130ec867-c4fa-4318-bea9-b8fc517d0b0a"
-					(reference "C79")
-					(unit 1)
-				)
-			)
 			(project "Buck1 1B"
 				(path "/80afba09-f71a-481c-a343-2cbd993e7569/435402b6-45a2-41c3-bc2a-be9f3f280d73"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/7bf219df-2692-4f86-9971-baba03c19447"
 					(reference "C36")
 					(unit 1)
 				)
@@ -1900,7 +1829,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "83443bec-7744-4d9b-b60f-5edd192ea371")
-		(property "Reference" "Q1"
+		(property "Reference" "Q3"
 			(at 104.14 25.4 90)
 			(effects
 				(font
@@ -1977,41 +1906,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "1a6e5fd0-c44b-4ea2-92df-7ca00035d957")
+			(uuid "86b4b8dc-7964-4e57-9533-eca173ad9198")
 		)
 		(pin "2"
-			(uuid "4ae409a4-022a-4046-8ae6-9ab30c4d3e8e")
+			(uuid "50da0c1b-e051-4e84-8490-fa961cfcf8b7")
 		)
 		(pin "3"
-			(uuid "c667c24c-3b27-4642-8a84-c86fb903b1e8")
+			(uuid "386dc59c-91af-477d-a769-12a25dd75d7e")
 		)
 		(pin "4"
-			(uuid "d8c6cef4-c13d-4952-90c4-e667d0f11dff")
+			(uuid "047e509f-6371-4882-87ba-28c790d0d2b4")
 		)
 		(pin "5"
-			(uuid "6b67fac7-e0a9-45e9-9d45-823a750a1d02")
+			(uuid "d89f7fea-26bb-467d-afe8-8382d4b50c14")
 		)
 		(instances
-			(project "Ideal Diode Rev1"
-				(path "/1958bbb1-b715-4a10-a229-bee0eabb28b0/4a024d55-f91f-4b32-882f-0df7d5ec96e3"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-			(project "Ideal Diode Rev1"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/130ec867-c4fa-4318-bea9-b8fc517d0b0a"
-					(reference "Q11")
-					(unit 1)
-				)
-			)
 			(project "Buck1 1B"
 				(path "/80afba09-f71a-481c-a343-2cbd993e7569/435402b6-45a2-41c3-bc2a-be9f3f280d73"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/7bf219df-2692-4f86-9971-baba03c19447"
 					(reference "Q3")
 					(unit 1)
 				)
@@ -2028,7 +1939,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "838d2051-1c85-42be-b6e2-2649f694cfd8")
-		(property "Reference" "U1"
+		(property "Reference" "U14"
 			(at 115.57 52.0699 0)
 			(effects
 				(font
@@ -2107,44 +2018,26 @@
 			)
 		)
 		(pin "5"
-			(uuid "2b4f20d1-15d9-4881-b2ef-192cb773d31e")
+			(uuid "de7c8fd3-9efe-43f5-89c3-5fe5ca9a6ea4")
 		)
 		(pin "6"
-			(uuid "46ce8399-9aa9-4444-a83e-485ba7ea4fa3")
+			(uuid "64a1e899-2ee3-4e26-a594-c5aa7d4ab7d4")
 		)
 		(pin "4"
-			(uuid "350d901a-d2d8-4ffd-8316-39bab3506ad5")
+			(uuid "c3d74ff3-a063-4263-ae3e-fdb4d69b62d5")
 		)
 		(pin "2"
-			(uuid "bfdc6da8-5bf8-4e1b-8799-f476ff666ece")
+			(uuid "01d754ab-e0dc-4cb8-b343-c2cb3a91f2f0")
 		)
 		(pin "3"
-			(uuid "2ed514e2-ba6f-456d-a849-9954bb9e086c")
+			(uuid "7af601ed-7274-4efa-afe1-7aa0be2dbb9b")
 		)
 		(pin "1"
-			(uuid "33bef98b-d28a-4f21-8a3c-6f468adf57cc")
+			(uuid "ba6ca5fe-c006-43d2-ac40-882f7a92a6a7")
 		)
 		(instances
-			(project "Ideal Diode Rev1"
-				(path "/1958bbb1-b715-4a10-a229-bee0eabb28b0/4a024d55-f91f-4b32-882f-0df7d5ec96e3"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-			(project "Ideal Diode Rev1"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/130ec867-c4fa-4318-bea9-b8fc517d0b0a"
-					(reference "U18")
-					(unit 1)
-				)
-			)
 			(project "Buck1 1B"
 				(path "/80afba09-f71a-481c-a343-2cbd993e7569/435402b6-45a2-41c3-bc2a-be9f3f280d73"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/7bf219df-2692-4f86-9971-baba03c19447"
 					(reference "U14")
 					(unit 1)
 				)
@@ -2161,7 +2054,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af7650e9-ea39-434e-88f9-e17c170a533f")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR094"
 			(at 125.73 49.53 0)
 			(effects
 				(font
@@ -2206,29 +2099,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "e4414644-2d04-4454-b77b-b2c18edad2cf")
+			(uuid "0ff96990-c541-4e04-863f-8479a9ce4a47")
 		)
 		(instances
-			(project "Ideal Diode Rev1"
-				(path "/1958bbb1-b715-4a10-a229-bee0eabb28b0/4a024d55-f91f-4b32-882f-0df7d5ec96e3"
-					(reference "#PWR0104")
-					(unit 1)
-				)
-			)
-			(project "Ideal Diode Rev1"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/130ec867-c4fa-4318-bea9-b8fc517d0b0a"
-					(reference "#PWR0103")
-					(unit 1)
-				)
-			)
 			(project "Buck1 1B"
 				(path "/80afba09-f71a-481c-a343-2cbd993e7569/435402b6-45a2-41c3-bc2a-be9f3f280d73"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/7bf219df-2692-4f86-9971-baba03c19447"
 					(reference "#PWR094")
 					(unit 1)
 				)
@@ -2243,8 +2118,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "fa20a2bc-cd68-48f2-aab6-1c3c66860360")
-		(property "Reference" "R10"
+		(uuid "b175d18d-13dc-436e-b790-7cc62feb1f8b")
+		(property "Reference" "R58"
 			(at 78.232 50.038 90)
 			(effects
 				(font
@@ -2331,21 +2206,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "5eaf53e4-3dc7-433f-91bf-0f97181fd630")
+			(uuid "53e7bc5b-1cb2-4599-8fd3-d48cf0c6dc79")
 		)
 		(pin "1"
-			(uuid "b33e6d47-f959-4d0a-8dbb-78c63108672e")
+			(uuid "bb46fab3-654d-4ab0-ba38-89b7efed9fb6")
 		)
 		(instances
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/130ec867-c4fa-4318-bea9-b8fc517d0b0a"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-			(project "Boost1 1B"
+			(project "Buck1 1B"
 				(path "/80afba09-f71a-481c-a343-2cbd993e7569/435402b6-45a2-41c3-bc2a-be9f3f280d73"
-					(reference "R10")
+					(reference "R58")
 					(unit 1)
 				)
 			)

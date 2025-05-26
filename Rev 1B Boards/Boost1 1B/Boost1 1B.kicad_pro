@@ -101,7 +101,6 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
-        "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -405,7 +404,6 @@
       "bus_entry_needed": "error",
       "bus_to_bus_conflict": "error",
       "bus_to_net_conflict": "error",
-      "conflicting_netclasses": "error",
       "different_unit_footprint": "error",
       "different_unit_net": "error",
       "duplicate_reference": "error",
@@ -447,16 +445,11 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [
-      "! Robomaster ICs"
-    ],
-    "pinned_symbol_libs": [
-      "! Robomaster",
-      "! Robomaster ICs"
-    ]
+    "pinned_footprint_libs": [],
+    "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "SupercapManager.kicad_pro",
+    "filename": "Buck1 1B.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -503,7 +496,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "bom.csv",
+    "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -516,30 +509,12 @@
     },
     "bom_presets": [],
     "bom_settings": {
-      "exclude_dnp": true,
+      "exclude_dnp": false,
       "fields_ordered": [
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Reference",
           "name": "Reference",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "Value",
-          "name": "Value",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Datasheet",
-          "name": "Datasheet",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Footprint",
-          "name": "Footprint",
           "show": true
         },
         {
@@ -549,102 +524,48 @@
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
+          "label": "Value",
+          "name": "Value",
+          "show": true
+        },
+        {
+          "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
           "show": true
         },
         {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
+          "group_by": true,
+          "label": "Exclude from BOM",
+          "name": "${EXCLUDE_FROM_BOM}",
+          "show": true
         },
         {
-          "group_by": false,
-          "label": "Mouser Part Number",
-          "name": "Mouser Part Number",
+          "group_by": true,
+          "label": "Exclude from Board",
+          "name": "${EXCLUDE_FROM_BOARD}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Footprint",
+          "name": "Footprint",
           "show": true
         },
         {
           "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mouser Link",
-          "name": "Mouser Link",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "JLCPCB #",
-          "name": "JLCPCB #",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Device",
-          "name": "Sim.Device",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Type",
-          "name": "Sim.Type",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mouser #",
-          "name": "Mouser #",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mouser Price/Stock",
-          "name": "Mouser Price/Stock",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer_Name",
-          "name": "Manufacturer_Name",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Height",
-          "name": "Height",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer_Part_Number",
-          "name": "Manufacturer_Part_Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Voltage Rating",
-          "name": "Voltage Rating",
+          "label": "Datasheet",
+          "name": "Datasheet",
           "show": true
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "include_excluded_from_bom": false,
-      "name": "",
+      "include_excluded_from_bom": true,
+      "name": "Default Editing",
       "sort_asc": true,
-      "sort_field": "Value"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -674,14 +595,6 @@
       "version": 1
     },
     "net_format_name": "",
-    "ngspice": {
-      "fix_include_paths": true,
-      "meta": {
-        "version": 0
-      },
-      "model_mode": 4,
-      "workbook_filename": ""
-    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
@@ -696,40 +609,16 @@
   },
   "sheets": [
     [
-      "6197145b-e7d4-44cc-9d90-537b6501bf60",
+      "80afba09-f71a-481c-a343-2cbd993e7569",
       "Root"
     ],
     [
-      "9739d4cc-938e-4869-b5d8-561f0e1056cb",
-      "Current Sense"
-    ],
-    [
-      "388608c4-ca49-4b14-9684-8f150e280879",
-      "Input Buck & Charger"
-    ],
-    [
-      "fd749e99-bd1e-4aca-86d6-8b572dc00b7d",
-      "Output Boost (Stage 1)"
-    ],
-    [
-      "47dffa6f-2678-4be2-969a-7f2e7310ccad",
-      "Output Boost (Stage 2)"
-    ],
-    [
-      "115b1a74-e36e-4ee6-8764-bf26e4e24147",
-      "Dev Board Interface"
-    ],
-    [
-      "2b4de7d2-e111-42d9-afee-f810f96a2f61",
-      "Housekeeping Power Supplies"
-    ],
-    [
-      "e69614f9-5cd8-4aa3-ae42-53f80cb78886",
-      "Supercapacitors"
-    ],
-    [
-      "130ec867-c4fa-4318-bea9-b8fc517d0b0a",
+      "435402b6-45a2-41c3-bc2a-be9f3f280d73",
       "Ideal Diode"
+    ],
+    [
+      "5c03c7f6-9817-42de-8df6-05d89a530d4f",
+      "Output Boost (Stage 1)"
     ]
   ],
   "text_variables": {}
