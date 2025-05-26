@@ -1090,6 +1090,293 @@
 			)
 		)
 	)
+	(footprint "TestPoint:TestPoint_Bridge_Pitch2.0mm_Drill0.7mm"
+		(layer "F.Cu")
+		(uuid "33dcef07-b904-47e0-b9da-e30f16817b9e")
+		(at 106.2 150.6 90)
+		(descr "wire loop as test point, pitch 2.0mm, hole diameter 0.7mm, wire diameter 0.5mm")
+		(tags "test point wire loop")
+		(property "Reference" "TP6"
+			(at 1.1 1.7 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "18823cd3-0fb3-41f5-9c73-50de2e1cd862")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "V_{LODRV}"
+			(at 1 -1.7 90)
+			(layer "F.Fab")
+			(uuid "0d759ea7-a674-45c7-8e0e-9d98c069dbd1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e95f32f4-5c8a-446b-9956-4ffc7f474a4a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6f2e7baa-865a-48a5-b03a-b187c7748b1a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6aee20d9-d774-4eec-ac47-359af17f0047")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7d0c88a2-21e7-4c3f-bc94-ed3f9462480e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a7b4d967-5723-4b86-bc83-0bc884f2aff2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "713ad6c0-9beb-414a-a615-31ba64ac6c6d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "47462192-513c-4cd0-ac50-9d3ef5528d82")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c9940dc6-09b4-4a2f-9dfe-cc68c74bf015")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8f373286-6d76-4591-b4e7-f73ea90b0369")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/efdde80f-3888-4cdc-9c5a-35b59bae7654")
+		(sheetname "/")
+		(sheetfile "InputBuck 1B.kicad_sch")
+		(attr through_hole dnp)
+		(fp_line
+			(start 2.9 -0.9)
+			(end -0.9 -0.9)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8a245bc6-ebf7-4c8b-8490-36e390848f38")
+		)
+		(fp_line
+			(start -0.9 -0.9)
+			(end -0.9 0.9)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6eb8bd9d-fa42-4aa6-a267-5bdf29b6d345")
+		)
+		(fp_line
+			(start 2.9 0.9)
+			(end 2.9 -0.9)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a23880f0-8c88-467b-9a8c-5a41cf6811cd")
+		)
+		(fp_line
+			(start -0.9 0.9)
+			(end 2.9 0.9)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a4511d48-a880-4e88-b015-735747b50f0c")
+		)
+		(fp_line
+			(start 3.2 -1.2)
+			(end -1.2 -1.2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "582217e4-56f3-4a78-aaa3-959ff1ed077a")
+		)
+		(fp_line
+			(start 3.2 -1.2)
+			(end 3.2 1.2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "30c81382-68cf-41b5-b338-d207120c2566")
+		)
+		(fp_line
+			(start -1.2 1.2)
+			(end -1.2 -1.2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "74e0a2b5-f7d7-4c39-85dc-b505209e310b")
+		)
+		(fp_line
+			(start -1.2 1.2)
+			(end 3.2 1.2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f39b4b19-c251-42d0-b081-77971ef4ecdc")
+		)
+		(fp_line
+			(start 2 0)
+			(end 0 0)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b530e37b-27b0-434a-bfa2-ec2574e66d77")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 1.1 1.7 90)
+			(layer "F.Fab")
+			(uuid "28940ff5-5b98-4660-9a79-020039a76164")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0 90)
+			(size 1.4 1.4)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 1 "GNDPWR")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "ff3e1801-803f-42c1-932b-c2458df0fd91")
+		)
+		(pad "1" thru_hole circle
+			(at 2 0 90)
+			(size 1.4 1.4)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 1 "GNDPWR")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "a0c6326f-7c6d-4339-bb28-f802364a2a08")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Bridge_Pitch2.0mm_Drill0.7mm.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "340e4a30-fb73-4e98-8090-1db3862aa6e6")
@@ -11987,7 +12274,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C11"
-			(at 0 1.43 0)
+			(at 0 -1.5 0)
 			(layer "B.SilkS")
 			(uuid "2c3e54f4-e213-4481-9ee5-93b2c3b1970d")
 			(effects
@@ -12319,7 +12606,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R13"
-			(at 0 1.43 90)
+			(at 0.9 1.43 90)
 			(layer "B.SilkS")
 			(uuid "f187dfa1-5181-4571-bdbb-6ca3ab1d0cf5")
 			(effects
@@ -13478,7 +13765,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C12"
-			(at 0 1.43 180)
+			(at 0 -1.4 180)
 			(layer "B.SilkS")
 			(uuid "94b18870-8bb4-428e-a70d-82169c9b313c")
 			(effects
@@ -14040,6 +14327,18 @@
 				(size 2.2 2.2)
 				(thickness 0.275)
 			)
+		)
+	)
+	(gr_text "GNDPWR"
+		(at 107.6 149.6 90)
+		(layer "F.SilkS" knockout)
+		(uuid "b5626cbd-2d4f-4452-bd4d-9fc4958ffcaf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.125)
+			)
+			(justify top)
 		)
 	)
 	(gr_text "+ 24V -"
