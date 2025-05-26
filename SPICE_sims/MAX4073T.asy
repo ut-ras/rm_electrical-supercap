@@ -1,0 +1,26 @@
+Version 4
+SymbolType BLOCK
+RECTANGLE Normal 96 48 -80 -64
+WINDOW 0 8 -64 Bottom 2
+WINDOW 3 96 48 Top 2
+SYMATTR Prefix X
+SYMATTR Value MAX4073T
+SYMATTR ModelFile C:\Users\Tachi\Documents\Nerd Shit\rm_electrical-supercap\SPICE_sims\libraries\max4073t.lib
+PIN 96 0 RIGHT 8
+PINATTR PinName GNDA
+PINATTR SpiceOrder 1
+PIN 96 32 RIGHT 8
+PINATTR PinName GNDB
+PINATTR SpiceOrder 2
+PIN -80 16 LEFT 8
+PINATTR PinName VCC
+PINATTR SpiceOrder 3
+PIN -64 -64 VRIGHT 8
+PINATTR PinName RS+
+PINATTR SpiceOrder 4
+PIN 80 -64 VRIGHT 8
+PINATTR PinName RS-
+PINATTR SpiceOrder 5
+PIN 0 48 VLEFT 8
+PINATTR PinName OUT
+PINATTR SpiceOrder 6
