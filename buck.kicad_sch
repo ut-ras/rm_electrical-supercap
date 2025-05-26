@@ -2455,7 +2455,7 @@
 	)
 	(text "to 103AT-2 thermistor"
 		(exclude_from_sim no)
-		(at 238.76 140.97 0)
+		(at 238.76 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2833,6 +2833,12 @@
 		(uuid "5923311c-a5f2-49f9-ab21-d0f2e309f13a")
 	)
 	(junction
+		(at 236.22 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c76ed65-fe8e-4378-bf4c-ba4594c96688")
+	)
+	(junction
 		(at 204.47 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2987,6 +2993,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f865902f-e72c-432c-9dfb-c929ba101f83")
+	)
+	(junction
+		(at 236.22 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe11f280-c3ee-4922-a724-5f57d6720630")
 	)
 	(wire
 		(pts
@@ -3180,7 +3192,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 138.43) (xy 236.22 142.24)
+			(xy 236.22 137.16) (xy 236.22 142.24)
 		)
 		(stroke
 			(width 0)
@@ -3200,7 +3212,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 135.89) (xy 236.22 135.89)
+			(xy 238.76 134.62) (xy 236.22 134.62)
 		)
 		(stroke
 			(width 0)
@@ -3227,6 +3239,16 @@
 			(type default)
 		)
 		(uuid "1b3a0dc6-fe56-4c8e-9d9c-3e7f3db117c2")
+	)
+	(wire
+		(pts
+			(xy 266.7 142.24) (xy 236.22 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e0b43e3-5dc2-4a10-b750-4e88cd8b846a")
 	)
 	(wire
 		(pts
@@ -3310,6 +3332,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 130.81) (xy 266.7 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "324cc467-5f45-4f2a-8bd2-434ac41f0d79")
+	)
+	(wire
+		(pts
 			(xy 77.47 115.57) (xy 76.2 115.57)
 		)
 		(stroke
@@ -3347,6 +3379,16 @@
 			(type default)
 		)
 		(uuid "3b5d317c-30a1-4664-bf1f-a0655db5d025")
+	)
+	(wire
+		(pts
+			(xy 266.7 130.81) (xy 266.7 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b65eb8f-be5b-4e30-9b5d-a28341ddffcf")
 	)
 	(wire
 		(pts
@@ -3830,7 +3872,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 135.89) (xy 236.22 130.81)
+			(xy 236.22 134.62) (xy 236.22 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3847,6 +3889,16 @@
 			(type default)
 		)
 		(uuid "7e73a50d-e17d-4ec3-8fe6-ac9d9f75d827")
+	)
+	(wire
+		(pts
+			(xy 266.7 140.97) (xy 266.7 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fa937eb-1555-4331-843e-7f318a1d17f6")
 	)
 	(wire
 		(pts
@@ -4290,7 +4342,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 138.43) (xy 236.22 138.43)
+			(xy 238.76 137.16) (xy 236.22 137.16)
 		)
 		(stroke
 			(width 0)
@@ -8243,7 +8295,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 243.84 135.89 0)
+		(at 243.84 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8252,7 +8304,7 @@
 		(fields_autoplaced yes)
 		(uuid "8c7dc211-1309-4f6a-a733-3929c25f56c8")
 		(property "Reference" "J1"
-			(at 245.11 135.8899 0)
+			(at 245.11 134.6199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8261,7 +8313,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Socket"
-			(at 245.11 138.4299 0)
+			(at 245.11 137.1599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8270,7 +8322,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
-			(at 243.84 135.89 0)
+			(at 243.84 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8279,7 +8331,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 243.84 135.89 0)
+			(at 243.84 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8288,7 +8340,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 243.84 135.89 0)
+			(at 243.84 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8297,7 +8349,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 243.84 135.89 0)
+			(at 243.84 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8305,7 +8357,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 243.84 135.89 0)
+			(at 243.84 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8313,7 +8365,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 243.84 135.89 0)
+			(at 243.84 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8321,7 +8373,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 243.84 135.89 0)
+			(at 243.84 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8329,7 +8381,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 243.84 135.89 0)
+			(at 243.84 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8337,7 +8389,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 243.84 135.89 0)
+			(at 243.84 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8345,7 +8397,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 243.84 135.89 0)
+			(at 243.84 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10020,6 +10072,140 @@
 			(project "Rev 1B"
 				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/74b869e2-2f46-4217-991e-e066eaeda764"
 					(reference "R41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 266.7 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "ca694a2c-70d4-4481-98b7-9d4b8208b1c0")
+		(property "Reference" "R14"
+			(at 269.24 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "103AT-2"
+			(at 269.24 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "~"
+			(at 264.922 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 266.7 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 266.7 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 266.7 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 266.7 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 266.7 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 266.7 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 266.7 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 266.7 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 266.7 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "504-NRNE104H3435B2H"
+			(at 266.7 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c71a2ef-699d-4a68-9c66-0f443cb03bf0")
+		)
+		(pin "2"
+			(uuid "d901be8b-d53a-4582-8f27-973ec82b8698")
+		)
+		(instances
+			(project "InputBuck 1B"
+				(path "/cd2154d9-e30e-4705-b0ff-30d832f32d72/2024fecd-0485-4999-b5e2-a25b10c28177"
+					(reference "R14")
 					(unit 1)
 				)
 			)
