@@ -3939,7 +3939,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0088bd5c-a24e-4cd3-8a71-92a7403227e6")
-		(property "Reference" "#PWR0107"
+		(property "Reference" "#PWR040"
 			(at 96.52 52.07 0)
 			(effects
 				(font
@@ -3984,29 +3984,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "4a4feb6b-ed80-49da-8d1d-74c5be5e1475")
+			(uuid "5d4a2372-9101-4592-adcb-8e071e756b45")
 		)
 		(instances
 			(project "CurrSense 1B"
 				(path "/5f9f1c89-5fe4-42d1-b6aa-1aaaa043829f/58f769a1-70ee-4fb2-afcb-49ba5e66a1c3"
-					(reference "#PWR0107")
-					(unit 1)
-				)
-			)
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/d149d1fa-5de7-4dc0-b1ef-e9c4223d2865/d74a941e-a2f2-4038-9bd8-2d6a304e330c"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/271408e9-0010-4c59-8c9c-96a1532c4998"
 					(reference "#PWR040")
 					(unit 1)
 				)
@@ -4048,7 +4030,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-mfsa-automotive-smd-current-sense-resistor-metal-foil-data-sheet-elx1180.pdf"
+		(property "Datasheet" "~"
 			(at 44.45 29.21 0)
 			(effects
 				(font
@@ -4108,32 +4090,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "c1076475-0078-4a42-b37b-f67cef572215")
+			(uuid "334d5ad7-6544-4cb9-9eed-fdd82a8e3538")
 		)
 		(pin "1"
-			(uuid "d751714a-9a85-4202-be2d-1415421f4f23")
+			(uuid "88ffe454-d74a-43ad-be98-0a776bb18c37")
 		)
 		(instances
 			(project "CurrSense 1B"
 				(path "/5f9f1c89-5fe4-42d1-b6aa-1aaaa043829f/58f769a1-70ee-4fb2-afcb-49ba5e66a1c3"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-			(project "Current Sense Rev1"
-				(path "/d149d1fa-5de7-4dc0-b1ef-e9c4223d2865/d74a941e-a2f2-4038-9bd8-2d6a304e330c"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/271408e9-0010-4c59-8c9c-96a1532c4998"
 					(reference "R3")
 					(unit 1)
 				)
@@ -4237,26 +4201,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "243c9b8a-546e-44f2-a44b-c5d4c1e84476")
+			(uuid "9a75531d-702b-4306-bcf1-089fc80b052b")
 		)
 		(pin "2"
-			(uuid "b27e6854-b428-4cc1-8c6f-b2e711630208")
+			(uuid "ff4597b6-5dc6-451a-9c3a-f326614a2d33")
 		)
 		(instances
 			(project "CurrSense 1B"
 				(path "/5f9f1c89-5fe4-42d1-b6aa-1aaaa043829f/58f769a1-70ee-4fb2-afcb-49ba5e66a1c3"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/271408e9-0010-4c59-8c9c-96a1532c4998"
 					(reference "R5")
 					(unit 1)
 				)
@@ -4360,26 +4312,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "bb9b4284-7d60-4966-83e7-d0d73fa83778")
+			(uuid "854cbddd-2205-4242-a17f-d6471912e466")
 		)
 		(pin "2"
-			(uuid "2e296445-4ac0-425c-95fb-4eff39275229")
+			(uuid "ddf2db15-0ecd-4f14-9392-3b90d47cd4fe")
 		)
 		(instances
 			(project "CurrSense 1B"
 				(path "/5f9f1c89-5fe4-42d1-b6aa-1aaaa043829f/58f769a1-70ee-4fb2-afcb-49ba5e66a1c3"
-					(reference "R16")
-					(unit 1)
-				)
-			)
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
-					(reference "R16")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/271408e9-0010-4c59-8c9c-96a1532c4998"
 					(reference "R16")
 					(unit 1)
 				)
@@ -4483,26 +4423,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "b26c8590-0a25-4111-bf77-12e867dbb333")
+			(uuid "3c104eaa-bc9a-4335-8cb7-9974a09aee72")
 		)
 		(pin "2"
-			(uuid "06891f54-30d8-4da0-ae6e-0aa0ab44a3cf")
+			(uuid "2e253823-b2a8-43b1-9a36-70ddb12d2267")
 		)
 		(instances
 			(project "CurrSense 1B"
 				(path "/5f9f1c89-5fe4-42d1-b6aa-1aaaa043829f/58f769a1-70ee-4fb2-afcb-49ba5e66a1c3"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/271408e9-0010-4c59-8c9c-96a1532c4998"
 					(reference "R12")
 					(unit 1)
 				)
@@ -4519,7 +4447,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22cb8bd7-08dc-42f5-b273-1897a4f715bf")
-		(property "Reference" "#PWR0114"
+		(property "Reference" "#PWR054"
 			(at 158.75 140.97 0)
 			(effects
 				(font
@@ -4564,23 +4492,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "9bfb0277-6db6-4e0d-84f3-ac3c8deaf071")
+			(uuid "4d5a3be4-4a32-4ebf-8426-415c878a9f35")
 		)
 		(instances
 			(project "CurrSense 1B"
 				(path "/5f9f1c89-5fe4-42d1-b6aa-1aaaa043829f/58f769a1-70ee-4fb2-afcb-49ba5e66a1c3"
-					(reference "#PWR0114")
-					(unit 1)
-				)
-			)
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
-					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/271408e9-0010-4c59-8c9c-96a1532c4998"
 					(reference "#PWR054")
 					(unit 1)
 				)
@@ -4682,26 +4598,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "964357f3-2a72-49e4-a763-fea89b783a15")
+			(uuid "76d3483c-9c10-4838-a20d-b6523f25d4c2")
 		)
 		(pin "2"
-			(uuid "658e1520-84f6-458f-bf96-36f92458a35b")
+			(uuid "5e2ab25d-f77a-495a-9c65-a418ec6b3e3e")
 		)
 		(instances
 			(project "CurrSense 1B"
 				(path "/5f9f1c89-5fe4-42d1-b6aa-1aaaa043829f/58f769a1-70ee-4fb2-afcb-49ba5e66a1c3"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/271408e9-0010-4c59-8c9c-96a1532c4998"
 					(reference "R10")
 					(unit 1)
 				)
@@ -4803,26 +4707,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "640f2e33-539a-4737-8ce1-e04c47b9b111")
+			(uuid "8ec84317-f085-45e6-942f-219f8971a6ab")
 		)
 		(pin "2"
-			(uuid "b3347f12-a9a7-4543-84da-2342d1ee8009")
+			(uuid "0c16f792-f8b6-4d45-b22c-a5a24850a938")
 		)
 		(instances
 			(project "CurrSense 1B"
 				(path "/5f9f1c89-5fe4-42d1-b6aa-1aaaa043829f/58f769a1-70ee-4fb2-afcb-49ba5e66a1c3"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/271408e9-0010-4c59-8c9c-96a1532c4998"
 					(reference "R6")
 					(unit 1)
 				)
@@ -4940,23 +4832,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "2de028b2-289e-458e-9832-db175c98035a")
+			(uuid "d749c748-050b-46cc-8c58-221a6c7f03cd")
 		)
 		(instances
 			(project "CurrSense 1B"
 				(path "/5f9f1c89-5fe4-42d1-b6aa-1aaaa043829f/58f769a1-70ee-4fb2-afcb-49ba5e66a1c3"
-					(reference "TP1")
-					(unit 1)
-				)
-			)
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
-					(reference "TP?")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/271408e9-0010-4c59-8c9c-96a1532c4998"
 					(reference "TP1")
 					(unit 1)
 				)
@@ -4973,7 +4853,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30b9a428-f106-4c42-b185-bf9a9b5cb398")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR043"
 			(at 132.08 69.85 0)
 			(effects
 				(font
@@ -5018,23 +4898,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "b72d45a5-d860-41d5-a5fe-2ad8d5e7c245")
+			(uuid "f5cde71a-6215-4b65-8ab8-667c106f47ae")
 		)
 		(instances
 			(project "CurrSense 1B"
 				(path "/5f9f1c89-5fe4-42d1-b6aa-1aaaa043829f/58f769a1-70ee-4fb2-afcb-49ba5e66a1c3"
-					(reference "#PWR0105")
-					(unit 1)
-				)
-			)
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/271408e9-0010-4c59-8c9c-96a1532c4998"
 					(reference "#PWR043")
 					(unit 1)
 				)
@@ -5051,7 +4919,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31c46704-002b-414b-a042-bde4be9a8532")
-		(property "Reference" "#PWR0116"
+		(property "Reference" "#PWR050"
 			(at 118.11 113.03 0)
 			(effects
 				(font
@@ -5096,23 +4964,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "cd2ac856-2df7-41b2-a757-99b8e0314507")
+			(uuid "6b22cf3f-c4f6-42f1-bcd4-c0b3a110973d")
 		)
 		(instances
 			(project "CurrSense 1B"
 				(path "/5f9f1c89-5fe4-42d1-b6aa-1aaaa043829f/58f769a1-70ee-4fb2-afcb-49ba5e66a1c3"
-					(reference "#PWR0116")
-					(unit 1)
-				)
-			)
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
-					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/271408e9-0010-4c59-8c9c-96a1532c4998"
 					(reference "#PWR050")
 					(unit 1)
 				)
@@ -5129,7 +4985,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d7c7817-78d8-4f1e-965c-45262f411787")
-		(property "Reference" "#PWR0109"
+		(property "Reference" "#PWR048"
 			(at 223.52 106.68 0)
 			(effects
 				(font
@@ -5174,23 +5030,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "66e83d8d-fad6-4647-8b00-a57b4c6ba50a")
+			(uuid "c4372caf-b4eb-4258-a6d3-f224cbc6338b")
 		)
 		(instances
 			(project "CurrSense 1B"
 				(path "/5f9f1c89-5fe4-42d1-b6aa-1aaaa043829f/58f769a1-70ee-4fb2-afcb-49ba5e66a1c3"
-					(reference "#PWR0109")
-					(unit 1)
-				)
-			)
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
-					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/271408e9-0010-4c59-8c9c-96a1532c4998"
 					(reference "#PWR048")
 					(unit 1)
 				)
@@ -5207,7 +5051,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d900c6f-40d2-4d11-be3a-21fafbb83638")
-		(property "Reference" "#PWR0113"
+		(property "Reference" "#PWR039"
 			(at 54.61 52.07 0)
 			(effects
 				(font
@@ -5252,23 +5096,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "28f7d117-a7ca-450b-b481-6e2a7545df4a")
+			(uuid "4a40cec5-42f5-4b1a-a6d3-9e9b49560517")
 		)
 		(instances
 			(project "CurrSense 1B"
 				(path "/5f9f1c89-5fe4-42d1-b6aa-1aaaa043829f/58f769a1-70ee-4fb2-afcb-49ba5e66a1c3"
-					(reference "#PWR0113")
-					(unit 1)
-				)
-			)
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/271408e9-0010-4c59-8c9c-96a1532c4998"
 					(reference "#PWR039")
 					(unit 1)
 				)
@@ -5286,7 +5118,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41fa4012-61b4-4959-9aa1-a9f9ac81ed5d")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR044"
 			(at 181.61 71.12 0)
 			(effects
 				(font
@@ -5331,23 +5163,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "1f91ddcc-5dea-401a-920c-3f23e49417f4")
+			(uuid "f95fd52d-394c-44e8-bcda-399bed37ff1a")
 		)
 		(instances
 			(project "CurrSense 1B"
 				(path "/5f9f1c89-5fe4-42d1-b6aa-1aaaa043829f/58f769a1-70ee-4fb2-afcb-49ba5e66a1c3"
-					(reference "#PWR0104")
-					(unit 1)
-				)
-			)
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
-					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/271408e9-0010-4c59-8c9c-96a1532c4998"
 					(reference "#PWR044")
 					(unit 1)
 				)
@@ -5364,7 +5184,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44357bdf-6e71-49ba-b185-4e1cf484f1d8")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR038"
 			(at 223.52 50.8 0)
 			(effects
 				(font
@@ -5409,23 +5229,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "6bf9a0f2-5177-4229-a531-8a4b70223d1a")
+			(uuid "b8f58a36-699d-449f-8d78-4d9164efd3e8")
 		)
 		(instances
 			(project "CurrSense 1B"
 				(path "/5f9f1c89-5fe4-42d1-b6aa-1aaaa043829f/58f769a1-70ee-4fb2-afcb-49ba5e66a1c3"
-					(reference "#PWR0102")
-					(unit 1)
-				)
-			)
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/271408e9-0010-4c59-8c9c-96a1532c4998"
 					(reference "#PWR038")
 					(unit 1)
 				)
@@ -5529,26 +5337,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "232c751a-b237-4eba-bd94-14b9ba428f7d")
+			(uuid "8c7ab639-3910-45b4-b6e2-50311dd4e8b5")
 		)
 		(pin "2"
-			(uuid "06faceea-b7e3-4354-9461-668e568e24f1")
+			(uuid "e1708541-0317-481f-a422-79810323c89d")
 		)
 		(instances
 			(project "CurrSense 1B"
 				(path "/5f9f1c89-5fe4-42d1-b6aa-1aaaa043829f/58f769a1-70ee-4fb2-afcb-49ba5e66a1c3"
-					(reference "R17")
-					(unit 1)
-				)
-			)
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
-					(reference "R17")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/271408e9-0010-4c59-8c9c-96a1532c4998"
 					(reference "R17")
 					(unit 1)
 				)
@@ -5619,38 +5415,26 @@
 			)
 		)
 		(pin "6"
-			(uuid "100abb2a-077a-4485-b709-88054789d126")
+			(uuid "72a144dc-197e-456b-9249-c3078c128e9f")
 		)
 		(pin "2"
-			(uuid "229b3e0a-b650-427a-9c1a-a6fdd9fd07bd")
+			(uuid "4941fdde-ffa6-40c0-85f0-58970fa4450a")
 		)
 		(pin "4"
-			(uuid "249fb577-8586-4a84-b8cf-9aa3de20f893")
+			(uuid "54c41b37-b1c0-4bdd-ab7d-0335d0cc0f23")
 		)
 		(pin "5"
-			(uuid "d5f79149-782c-4124-a0c4-b0dfbe8dfde2")
+			(uuid "515ede21-cd1e-412b-8569-84605c04af51")
 		)
 		(pin "3"
-			(uuid "4c7982aa-be94-40f6-ac09-b697c4cfaadf")
+			(uuid "f92ee1f8-ea8d-42a0-8dd7-aaa05e29bf13")
 		)
 		(pin "1"
-			(uuid "9326f86e-9ecd-4e60-b6c0-eec0d72a8dba")
+			(uuid "6ef1c50a-49a7-46b2-b4cf-3f68c3cf7047")
 		)
 		(instances
 			(project "CurrSense 1B"
 				(path "/5f9f1c89-5fe4-42d1-b6aa-1aaaa043829f/58f769a1-70ee-4fb2-afcb-49ba5e66a1c3"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/271408e9-0010-4c59-8c9c-96a1532c4998"
 					(reference "U1")
 					(unit 1)
 				)
@@ -5763,26 +5547,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "4e1efca3-039d-481e-a164-06632aa6e35c")
+			(uuid "778a11cb-eae7-4daf-bd8e-bd5fd116aca0")
 		)
 		(pin "1"
-			(uuid "ae70caee-f1fa-4561-8efb-e9fcb32eacfe")
+			(uuid "6fd2bdb3-70fd-43fb-8133-01f87a788f3a")
 		)
 		(instances
 			(project "CurrSense 1B"
 				(path "/5f9f1c89-5fe4-42d1-b6aa-1aaaa043829f/58f769a1-70ee-4fb2-afcb-49ba5e66a1c3"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/271408e9-0010-4c59-8c9c-96a1532c4998"
 					(reference "C2")
 					(unit 1)
 				)
@@ -5800,7 +5572,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ed709ff-a73a-4e35-ba2a-8b9eecf693ca")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR042"
 			(at 181.61 53.34 0)
 			(effects
 				(font
@@ -5845,23 +5617,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "15667fd1-a2a8-40fb-a943-bfd827217707")
+			(uuid "15da0155-8d3a-4003-b241-c50c77d524ff")
 		)
 		(instances
 			(project "CurrSense 1B"
 				(path "/5f9f1c89-5fe4-42d1-b6aa-1aaaa043829f/58f769a1-70ee-4fb2-afcb-49ba5e66a1c3"
-					(reference "#PWR0101")
-					(unit 1)
-				)
-			)
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/271408e9-0010-4c59-8c9c-96a1532c4998"
 					(reference "#PWR042")
 					(unit 1)
 				)
@@ -5878,7 +5638,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5caf749e-3648-4ca3-9d37-198ee284d567")
-		(property "Reference" "#PWR0108"
+		(property "Reference" "#PWR041"
 			(at 132.08 53.34 0)
 			(effects
 				(font
@@ -5923,23 +5683,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "31659b37-c904-4fae-9537-eb478842a67c")
+			(uuid "4af3ecfb-e9c2-4b87-9bee-1027b9a5f912")
 		)
 		(instances
 			(project "CurrSense 1B"
 				(path "/5f9f1c89-5fe4-42d1-b6aa-1aaaa043829f/58f769a1-70ee-4fb2-afcb-49ba5e66a1c3"
-					(reference "#PWR0108")
-					(unit 1)
-				)
-			)
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/271408e9-0010-4c59-8c9c-96a1532c4998"
 					(reference "#PWR041")
 					(unit 1)
 				)
@@ -6042,44 +5790,32 @@
 			)
 		)
 		(pin "1"
-			(uuid "7bae6441-7af5-44ff-8c3f-71f50f8785b4")
+			(uuid "69290ccf-132a-4aa7-8150-acaf97d19363")
 		)
 		(pin "4"
-			(uuid "e4af7257-c42d-483c-908a-6058b111ac90")
+			(uuid "2e430630-1c0b-45c3-a6d0-6da1ae49307e")
 		)
 		(pin "6"
-			(uuid "eb076fe4-3702-4ec0-8964-ee672428e0a6")
+			(uuid "f5eac1b2-5e57-4227-b428-f98f93286842")
 		)
 		(pin "5"
-			(uuid "98e1c3a7-ec70-46d3-a5dc-804e6dedb035")
+			(uuid "7ccd6d36-de13-477d-b046-178c7f8277e3")
 		)
 		(pin "3"
-			(uuid "ccfc0315-a830-4b32-ba94-f33e84dd075c")
+			(uuid "d98de289-5010-4cab-a100-6b41de324532")
 		)
 		(pin "8"
-			(uuid "852f89b1-f19d-46a2-8bbc-c2aece86659c")
+			(uuid "d3d6daed-34d7-42a6-bb5b-dda7097a7925")
 		)
 		(pin "7"
-			(uuid "5487ea17-9ce6-42e1-af28-0122347fe8a6")
+			(uuid "71af2ac7-81e9-48e2-a27d-8fec87e5b883")
 		)
 		(pin "2"
-			(uuid "03a36c49-b164-448e-b048-40417c858776")
+			(uuid "0af098bd-4cba-401d-9fc2-a478049af815")
 		)
 		(instances
 			(project "CurrSense 1B"
 				(path "/5f9f1c89-5fe4-42d1-b6aa-1aaaa043829f/58f769a1-70ee-4fb2-afcb-49ba5e66a1c3"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/271408e9-0010-4c59-8c9c-96a1532c4998"
 					(reference "U2")
 					(unit 1)
 				)
@@ -6181,26 +5917,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "7a7294cb-0d48-4452-8892-bd82eed71e5a")
+			(uuid "3ef1f00e-84b9-48d4-b850-0b840c7ce72a")
 		)
 		(pin "2"
-			(uuid "c24f8e89-7f79-4f14-8ecb-1c0081c94126")
+			(uuid "9b397634-a99f-49b5-a943-3e9d9c80b283")
 		)
 		(instances
 			(project "CurrSense 1B"
 				(path "/5f9f1c89-5fe4-42d1-b6aa-1aaaa043829f/58f769a1-70ee-4fb2-afcb-49ba5e66a1c3"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/271408e9-0010-4c59-8c9c-96a1532c4998"
 					(reference "R13")
 					(unit 1)
 				)
@@ -6327,35 +6051,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "c6cf04d8-4b1b-4ebc-ab43-04222072e3ef")
+			(uuid "9d505419-d232-43de-87ce-62006a68f567")
 		)
 		(pin "2"
-			(uuid "e8584bc0-b84a-49c5-94b3-2dc6e16aba7c")
+			(uuid "6586d702-0106-40ea-bdc6-5597119be4e7")
 		)
 		(pin "3"
-			(uuid "80bcb597-69f0-4b84-83f8-0d959bc659ed")
+			(uuid "9bbdc6ad-0b3a-47c7-b131-e89bfa7edb42")
 		)
 		(pin "4"
-			(uuid "8f387895-1aa4-4c7e-b8f8-d7737a70966c")
+			(uuid "1106a608-b4cf-46d8-abf0-3ab4a470b483")
 		)
 		(pin "5"
-			(uuid "adb808c8-bb78-4a43-8af1-afcbf573f1c3")
+			(uuid "9228f9ad-1dc9-49f5-ac73-2e690351b5e2")
 		)
 		(instances
 			(project "CurrSense 1B"
 				(path "/5f9f1c89-5fe4-42d1-b6aa-1aaaa043829f/58f769a1-70ee-4fb2-afcb-49ba5e66a1c3"
-					(reference "U5")
-					(unit 1)
-				)
-			)
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
-					(reference "U5")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/271408e9-0010-4c59-8c9c-96a1532c4998"
 					(reference "U5")
 					(unit 1)
 				)
@@ -6459,26 +6171,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "a4ab2979-db40-4c6c-80f9-aa3ae4807a70")
+			(uuid "d155983c-44f4-4a6f-aeac-7e19bf84fa44")
 		)
 		(pin "2"
-			(uuid "316b1d67-d9ef-4f12-bfa0-bf68d11d60ae")
+			(uuid "f82c92f6-e11b-445f-887a-82151948ad64")
 		)
 		(instances
 			(project "CurrSense 1B"
 				(path "/5f9f1c89-5fe4-42d1-b6aa-1aaaa043829f/58f769a1-70ee-4fb2-afcb-49ba5e66a1c3"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/271408e9-0010-4c59-8c9c-96a1532c4998"
 					(reference "R8")
 					(unit 1)
 				)
@@ -6581,44 +6281,32 @@
 			)
 		)
 		(pin "1"
-			(uuid "83bb1755-83f7-4934-b8ec-a78dc6672f81")
+			(uuid "1c76ce7b-1018-445a-967d-e700c9aa05f8")
 		)
 		(pin "4"
-			(uuid "d5cdeae0-fa9d-4ab9-97eb-36e6ae4b913a")
+			(uuid "9ee273b7-7a8d-4241-858d-6b29f9181928")
 		)
 		(pin "6"
-			(uuid "03aeeaa7-8197-4ee4-8263-355ca58e072c")
+			(uuid "c5c3a124-0bfd-44ea-a7f5-6c03060e3ee8")
 		)
 		(pin "5"
-			(uuid "9798df0b-be65-4805-9aa0-543889e3e6ab")
+			(uuid "a96cd978-e2d3-40af-b81e-dccc3cfa1308")
 		)
 		(pin "3"
-			(uuid "246f0a21-3a13-4a33-8ef1-7c97473c0614")
+			(uuid "ee4633ca-52b8-40fd-8a59-3952d16d5bbe")
 		)
 		(pin "8"
-			(uuid "ad827544-a7f9-41be-8cd7-08e9db44a743")
+			(uuid "9d102c2d-8571-435a-b521-836ebf1523af")
 		)
 		(pin "7"
-			(uuid "a9aca09c-f207-44d1-9abd-5922c38a1245")
+			(uuid "d56dd791-c103-460b-8a42-1bfedf821c75")
 		)
 		(pin "2"
-			(uuid "eb13fb9d-b2ea-43da-b08a-27c20a6605b4")
+			(uuid "cadd690a-35fb-4404-bb89-ff6a7ba7f5cd")
 		)
 		(instances
 			(project "CurrSense 1B"
 				(path "/5f9f1c89-5fe4-42d1-b6aa-1aaaa043829f/58f769a1-70ee-4fb2-afcb-49ba5e66a1c3"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/271408e9-0010-4c59-8c9c-96a1532c4998"
 					(reference "U4")
 					(unit 1)
 				)
@@ -6719,26 +6407,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "417ea289-7200-48e0-a2a5-1a9e2268555f")
+			(uuid "08f4ae17-462c-4903-a39c-3fbaa7043b64")
 		)
 		(pin "2"
-			(uuid "f3b369f4-24ad-4c2e-bfce-67ce4ec384ec")
+			(uuid "416b4be8-12d2-482d-a3b4-17c7b11e29c6")
 		)
 		(instances
 			(project "CurrSense 1B"
 				(path "/5f9f1c89-5fe4-42d1-b6aa-1aaaa043829f/58f769a1-70ee-4fb2-afcb-49ba5e66a1c3"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/271408e9-0010-4c59-8c9c-96a1532c4998"
 					(reference "R7")
 					(unit 1)
 				)
@@ -6755,7 +6431,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86e23a71-87ae-4f30-8569-64bee0880856")
-		(property "Reference" "#PWR0117"
+		(property "Reference" "#PWR049"
 			(at 130.81 109.22 0)
 			(effects
 				(font
@@ -6800,23 +6476,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "12a9f705-2f61-4b43-bea5-67cce35ddb2d")
+			(uuid "ec16be9a-335f-43a1-aaa1-47dede1dce0a")
 		)
 		(instances
 			(project "CurrSense 1B"
 				(path "/5f9f1c89-5fe4-42d1-b6aa-1aaaa043829f/58f769a1-70ee-4fb2-afcb-49ba5e66a1c3"
-					(reference "#PWR0117")
-					(unit 1)
-				)
-			)
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
-					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/271408e9-0010-4c59-8c9c-96a1532c4998"
 					(reference "#PWR049")
 					(unit 1)
 				)
@@ -6918,26 +6582,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "7009b291-a099-4806-ad19-7beafdf3b379")
+			(uuid "23910cd9-4571-4129-ad4b-26d7fa4f860b")
 		)
 		(pin "2"
-			(uuid "49414b47-26ca-4fce-8d46-b3d101da43de")
+			(uuid "79079233-20e6-4c11-ab12-5ad6fac2a3fd")
 		)
 		(instances
 			(project "CurrSense 1B"
 				(path "/5f9f1c89-5fe4-42d1-b6aa-1aaaa043829f/58f769a1-70ee-4fb2-afcb-49ba5e66a1c3"
-					(reference "R18")
-					(unit 1)
-				)
-			)
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
-					(reference "R18")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/271408e9-0010-4c59-8c9c-96a1532c4998"
 					(reference "R18")
 					(unit 1)
 				)
@@ -7041,26 +6693,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "948fdc3b-cffc-4608-a40e-0bad83544ccd")
+			(uuid "8a02d77f-d10f-4286-b86e-6ca8605a1ac0")
 		)
 		(pin "2"
-			(uuid "a6098d35-2dbe-4fd6-9606-e36e340a31ef")
+			(uuid "bbd896ba-abac-4622-80df-0c08ba147f80")
 		)
 		(instances
 			(project "CurrSense 1B"
 				(path "/5f9f1c89-5fe4-42d1-b6aa-1aaaa043829f/58f769a1-70ee-4fb2-afcb-49ba5e66a1c3"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/271408e9-0010-4c59-8c9c-96a1532c4998"
 					(reference "D1")
 					(unit 1)
 				)
@@ -7169,26 +6809,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "8b1e8b34-8c39-4d70-8b83-8cb70437a1da")
+			(uuid "3f54448c-aac7-40eb-891c-e16b59e390a6")
 		)
 		(pin "1"
-			(uuid "0e898c2f-93f5-4881-ab37-8b66c591d649")
+			(uuid "fc0a7720-c930-4523-ba98-5c1ce3e2b256")
 		)
 		(instances
 			(project "CurrSense 1B"
 				(path "/5f9f1c89-5fe4-42d1-b6aa-1aaaa043829f/58f769a1-70ee-4fb2-afcb-49ba5e66a1c3"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/271408e9-0010-4c59-8c9c-96a1532c4998"
 					(reference "C6")
 					(unit 1)
 				)
@@ -7205,7 +6833,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a34ff6ce-d086-4393-ad88-16f7e10efed6")
-		(property "Reference" "#PWR0112"
+		(property "Reference" "#PWR055"
 			(at 243.84 143.51 0)
 			(effects
 				(font
@@ -7250,23 +6878,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "1d3d4045-589e-44ba-b117-225fe91665cc")
+			(uuid "1bbf7b68-d5b3-4a96-af68-eb413409c888")
 		)
 		(instances
 			(project "CurrSense 1B"
 				(path "/5f9f1c89-5fe4-42d1-b6aa-1aaaa043829f/58f769a1-70ee-4fb2-afcb-49ba5e66a1c3"
-					(reference "#PWR0112")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
-					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/271408e9-0010-4c59-8c9c-96a1532c4998"
 					(reference "#PWR055")
 					(unit 1)
 				)
@@ -7378,26 +6994,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "84d3c6ab-8822-41dd-9fad-d9b6d0492272")
+			(uuid "6d997833-7103-44a3-9b49-9ed04825ba4a")
 		)
 		(pin "1"
-			(uuid "9fd7c166-fcb0-49e9-916e-ee175f631704")
+			(uuid "69ad15e0-75a1-4e28-bbb3-0313e761586a")
 		)
 		(instances
 			(project "CurrSense 1B"
 				(path "/5f9f1c89-5fe4-42d1-b6aa-1aaaa043829f/58f769a1-70ee-4fb2-afcb-49ba5e66a1c3"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/271408e9-0010-4c59-8c9c-96a1532c4998"
 					(reference "C5")
 					(unit 1)
 				)
@@ -7499,26 +7103,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "6c710a12-a819-47a8-a9ff-ca875c9f47b1")
+			(uuid "57365a4c-37c8-437b-a139-f237c4f4bf37")
 		)
 		(pin "2"
-			(uuid "14a391f6-29b6-4169-80f7-00ada46a6e78")
+			(uuid "ec4e638e-cd44-430b-8ff2-f7b1ef899782")
 		)
 		(instances
 			(project "CurrSense 1B"
 				(path "/5f9f1c89-5fe4-42d1-b6aa-1aaaa043829f/58f769a1-70ee-4fb2-afcb-49ba5e66a1c3"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/271408e9-0010-4c59-8c9c-96a1532c4998"
 					(reference "R9")
 					(unit 1)
 				)
@@ -7620,26 +7212,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "6c789701-7881-4c5d-b4a0-1d10d0b2530c")
+			(uuid "e83d08fd-566b-4cf7-b428-41391ffce56d")
 		)
 		(pin "2"
-			(uuid "b9d8a847-10da-4c71-b4da-55c114d0bbd8")
+			(uuid "170ddab5-ba24-4740-bb8f-a4bed27f3638")
 		)
 		(instances
 			(project "CurrSense 1B"
 				(path "/5f9f1c89-5fe4-42d1-b6aa-1aaaa043829f/58f769a1-70ee-4fb2-afcb-49ba5e66a1c3"
-					(reference "R15")
-					(unit 1)
-				)
-			)
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
-					(reference "R15")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/271408e9-0010-4c59-8c9c-96a1532c4998"
 					(reference "R15")
 					(unit 1)
 				)
@@ -7656,7 +7236,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b65e29aa-33f2-457b-89db-603324e33382")
-		(property "Reference" "#PWR0110"
+		(property "Reference" "#PWR046"
 			(at 243.84 87.63 0)
 			(effects
 				(font
@@ -7701,23 +7281,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "9a30a51f-7f19-409c-bfb4-e8f005d36858")
+			(uuid "5cfc8860-53b0-4309-81d8-ffafac96ce26")
 		)
 		(instances
 			(project "CurrSense 1B"
 				(path "/5f9f1c89-5fe4-42d1-b6aa-1aaaa043829f/58f769a1-70ee-4fb2-afcb-49ba5e66a1c3"
-					(reference "#PWR0110")
-					(unit 1)
-				)
-			)
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/271408e9-0010-4c59-8c9c-96a1532c4998"
 					(reference "#PWR046")
 					(unit 1)
 				)
@@ -7830,26 +7398,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "c66bf0b1-4e41-4f0d-963f-c740ae1444ec")
+			(uuid "6c1213d5-990a-4132-863a-53c6a7e1ecb0")
 		)
 		(pin "1"
-			(uuid "a9451262-1e1b-4c90-abfa-15f134a6cfc4")
+			(uuid "c18413c6-22c8-4752-876b-8483839005bc")
 		)
 		(instances
 			(project "CurrSense 1B"
 				(path "/5f9f1c89-5fe4-42d1-b6aa-1aaaa043829f/58f769a1-70ee-4fb2-afcb-49ba5e66a1c3"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/271408e9-0010-4c59-8c9c-96a1532c4998"
 					(reference "C3")
 					(unit 1)
 				)
@@ -7866,7 +7422,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc711080-d4fb-46ec-90e8-98c30a35592f")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR037"
 			(at 243.84 44.45 0)
 			(effects
 				(font
@@ -7911,23 +7467,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "718f56d5-3a03-4105-9fdd-1b578877ed28")
+			(uuid "813a993b-d075-45cb-be92-897dfd2bb5ea")
 		)
 		(instances
 			(project "CurrSense 1B"
 				(path "/5f9f1c89-5fe4-42d1-b6aa-1aaaa043829f/58f769a1-70ee-4fb2-afcb-49ba5e66a1c3"
-					(reference "#PWR0103")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/271408e9-0010-4c59-8c9c-96a1532c4998"
 					(reference "#PWR037")
 					(unit 1)
 				)
@@ -7944,7 +7488,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c27abc2f-4f12-46ba-a107-7edd91c7fde9")
-		(property "Reference" "#PWR0115"
+		(property "Reference" "#PWR051"
 			(at 130.81 128.27 0)
 			(effects
 				(font
@@ -7989,23 +7533,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "a27f679d-fdc1-4e71-849a-e195e5b55f28")
+			(uuid "d9b28306-ef0d-449c-9682-7af6142d67f9")
 		)
 		(instances
 			(project "CurrSense 1B"
 				(path "/5f9f1c89-5fe4-42d1-b6aa-1aaaa043829f/58f769a1-70ee-4fb2-afcb-49ba5e66a1c3"
-					(reference "#PWR0115")
-					(unit 1)
-				)
-			)
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
-					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/271408e9-0010-4c59-8c9c-96a1532c4998"
 					(reference "#PWR051")
 					(unit 1)
 				)
@@ -8022,7 +7554,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2efb506-d383-46c7-a7af-f80b80b066ba")
-		(property "Reference" "#PWR0111"
+		(property "Reference" "#PWR047"
 			(at 243.84 100.33 0)
 			(effects
 				(font
@@ -8067,23 +7599,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "85540897-1b5e-466e-a265-e7c44e30ecaf")
+			(uuid "9de7724c-3728-4050-88af-174811f10712")
 		)
 		(instances
 			(project "CurrSense 1B"
 				(path "/5f9f1c89-5fe4-42d1-b6aa-1aaaa043829f/58f769a1-70ee-4fb2-afcb-49ba5e66a1c3"
-					(reference "#PWR0111")
-					(unit 1)
-				)
-			)
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/271408e9-0010-4c59-8c9c-96a1532c4998"
 					(reference "#PWR047")
 					(unit 1)
 				)
@@ -8185,26 +7705,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "cded0d28-f6ba-4237-8c8b-eeed93dac395")
+			(uuid "6d001910-bca7-4ff2-9fe8-b28840874064")
 		)
 		(pin "2"
-			(uuid "0a677fb8-bec3-4ab8-b25f-39014ff1fa36")
+			(uuid "744dd8a7-c21d-46a6-a1d0-a6a2a097094e")
 		)
 		(instances
 			(project "CurrSense 1B"
 				(path "/5f9f1c89-5fe4-42d1-b6aa-1aaaa043829f/58f769a1-70ee-4fb2-afcb-49ba5e66a1c3"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/271408e9-0010-4c59-8c9c-96a1532c4998"
 					(reference "R4")
 					(unit 1)
 				)
@@ -8221,7 +7729,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cfe98e15-58f0-4f24-b812-e33f2957f93b")
-		(property "Reference" "#PWR0118"
+		(property "Reference" "#PWR053"
 			(at 93.98 140.97 0)
 			(effects
 				(font
@@ -8266,23 +7774,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "8d0a5ade-57f9-4d20-9a04-cb9c8cc04c9a")
+			(uuid "9d309b60-1e5a-4e4e-a610-8b4f6ffcf242")
 		)
 		(instances
 			(project "CurrSense 1B"
 				(path "/5f9f1c89-5fe4-42d1-b6aa-1aaaa043829f/58f769a1-70ee-4fb2-afcb-49ba5e66a1c3"
-					(reference "#PWR0118")
-					(unit 1)
-				)
-			)
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
-					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/271408e9-0010-4c59-8c9c-96a1532c4998"
 					(reference "#PWR053")
 					(unit 1)
 				)
@@ -8394,26 +7890,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "f4741f69-b77d-4bf2-99e9-026b28598b2c")
+			(uuid "e136c8dd-a7f5-4061-a9f9-9a40db058af4")
 		)
 		(pin "1"
-			(uuid "a205b176-3cd6-466b-808a-a4699b7f96fb")
+			(uuid "fed2509c-d4b5-4368-bec7-e5bd457ee6a8")
 		)
 		(instances
 			(project "CurrSense 1B"
 				(path "/5f9f1c89-5fe4-42d1-b6aa-1aaaa043829f/58f769a1-70ee-4fb2-afcb-49ba5e66a1c3"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/271408e9-0010-4c59-8c9c-96a1532c4998"
 					(reference "C1")
 					(unit 1)
 				)
@@ -8515,26 +7999,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "e23c8941-6a1e-441a-ba3e-ff19ffe1507f")
+			(uuid "5f7b1e91-7624-4159-aaf1-f5f580e620fd")
 		)
 		(pin "2"
-			(uuid "b09a7215-f7d2-481b-9cd1-f035c5edd8e5")
+			(uuid "00e87186-6234-4c37-aabc-9629cbf6c232")
 		)
 		(instances
 			(project "CurrSense 1B"
 				(path "/5f9f1c89-5fe4-42d1-b6aa-1aaaa043829f/58f769a1-70ee-4fb2-afcb-49ba5e66a1c3"
-					(reference "R14")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
-					(reference "R14")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/271408e9-0010-4c59-8c9c-96a1532c4998"
 					(reference "R14")
 					(unit 1)
 				)
@@ -8637,26 +8109,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "6fdeea99-e8dd-4df7-be65-11fd995d592f")
+			(uuid "a371f627-bb71-4f97-8de9-f6382f52e3ce")
 		)
 		(pin "2"
-			(uuid "354d4124-1cae-4550-a060-991f1a83f1c5")
+			(uuid "69bda020-9246-49aa-96fc-64a2c5477629")
 		)
 		(instances
 			(project "CurrSense 1B"
 				(path "/5f9f1c89-5fe4-42d1-b6aa-1aaaa043829f/58f769a1-70ee-4fb2-afcb-49ba5e66a1c3"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/271408e9-0010-4c59-8c9c-96a1532c4998"
 					(reference "R11")
 					(unit 1)
 				)
@@ -8783,35 +8243,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "1266b4aa-7c35-4571-9c78-e8f9cab82227")
+			(uuid "70d2e508-018c-4787-be96-b1a59bdb84f7")
 		)
 		(pin "2"
-			(uuid "ef43eeed-3bfd-49df-a202-2a70d1bfb327")
+			(uuid "ea065812-2623-4fc3-b99f-298ae7e751ad")
 		)
 		(pin "3"
-			(uuid "dbebccef-c6ac-4f5d-a906-9918b1531825")
+			(uuid "a48a5fa7-d99c-4620-a4fa-22746df41d8b")
 		)
 		(pin "4"
-			(uuid "1514c4b2-9ce6-4c70-a526-4a2eb642e26e")
+			(uuid "b6670de8-eaba-40ab-8c44-be90c221094e")
 		)
 		(pin "5"
-			(uuid "ad157d8b-4868-4671-a716-4476fa47f448")
+			(uuid "a1b4cbd6-eeda-497a-9376-bbd6b237557d")
 		)
 		(instances
 			(project "CurrSense 1B"
 				(path "/5f9f1c89-5fe4-42d1-b6aa-1aaaa043829f/58f769a1-70ee-4fb2-afcb-49ba5e66a1c3"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/271408e9-0010-4c59-8c9c-96a1532c4998"
 					(reference "U3")
 					(unit 1)
 				)
@@ -8828,7 +8276,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef191c82-570a-45fa-9876-ff8948de4581")
-		(property "Reference" "#PWR0106"
+		(property "Reference" "#PWR045"
 			(at 96.52 71.12 0)
 			(effects
 				(font
@@ -8873,29 +8321,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "13954782-1312-4e78-8dbd-7682f89af803")
+			(uuid "bbdfcf0a-92ca-4686-bb37-c46cc6851650")
 		)
 		(instances
 			(project "CurrSense 1B"
 				(path "/5f9f1c89-5fe4-42d1-b6aa-1aaaa043829f/58f769a1-70ee-4fb2-afcb-49ba5e66a1c3"
-					(reference "#PWR0106")
-					(unit 1)
-				)
-			)
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-			(project "Current Sense Rev1"
-				(path "/d149d1fa-5de7-4dc0-b1ef-e9c4223d2865/d74a941e-a2f2-4038-9bd8-2d6a304e330c"
-					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/271408e9-0010-4c59-8c9c-96a1532c4998"
 					(reference "#PWR045")
 					(unit 1)
 				)
@@ -9004,26 +8434,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "420aaaaa-0c48-439f-b1b7-2325ac9705a7")
+			(uuid "3aa86fcf-e5c1-4e8c-a371-6f5c5eacf407")
 		)
 		(pin "1"
-			(uuid "ecc0bc23-a9f2-4922-8e3d-1f54ba7c5801")
+			(uuid "f31f8f14-d565-4d6f-b15c-d4c2513aeed7")
 		)
 		(instances
 			(project "CurrSense 1B"
 				(path "/5f9f1c89-5fe4-42d1-b6aa-1aaaa043829f/58f769a1-70ee-4fb2-afcb-49ba5e66a1c3"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/271408e9-0010-4c59-8c9c-96a1532c4998"
 					(reference "C4")
 					(unit 1)
 				)
@@ -9040,7 +8458,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f28b3a52-7572-4ae1-b2b0-6ed56932f2fe")
-		(property "Reference" "#PWR0119"
+		(property "Reference" "#PWR052"
 			(at 93.98 129.54 0)
 			(effects
 				(font
@@ -9085,23 +8503,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "b009183e-765b-44a7-8a9d-ac3cd89fb3bf")
+			(uuid "6c0cf282-23a2-4de3-be91-11a868d07834")
 		)
 		(instances
 			(project "CurrSense 1B"
 				(path "/5f9f1c89-5fe4-42d1-b6aa-1aaaa043829f/58f769a1-70ee-4fb2-afcb-49ba5e66a1c3"
-					(reference "#PWR0119")
-					(unit 1)
-				)
-			)
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
-					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-			(project "Rev 1B"
-				(path "/e5f99deb-ef42-4c5f-b80a-388477910e20/271408e9-0010-4c59-8c9c-96a1532c4998"
 					(reference "#PWR052")
 					(unit 1)
 				)
