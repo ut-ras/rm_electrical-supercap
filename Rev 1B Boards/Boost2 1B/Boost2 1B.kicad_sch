@@ -441,6 +441,130 @@
 		(uuid "0b47d453-a76c-44c2-a580-3a963e4719e8")
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 66.04 63.5 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "057ea215-c784-476d-98e4-f4d882618056")
+		(property "Reference" "J3"
+			(at 66.675 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XT30_F"
+			(at 66.675 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical"
+			(at 66.04 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 66.04 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 66.04 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 66.04 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 66.04 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 66.04 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 66.04 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 66.04 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 66.04 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ae341385-97a4-44b8-963a-96381a70d6bf")
+		)
+		(pin "2"
+			(uuid "36ce3f7c-2191-4734-8f96-e241317b1592")
+		)
+		(instances
+			(project "Boost2 1B"
+				(path "/12d7d405-80bc-44f7-b268-462602cf0149"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDPWR")
 		(at 121.92 66.04 0)
 		(unit 1)
@@ -508,31 +632,31 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 66.04 60.96 0)
+		(at 129.54 63.5 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
-		(uuid "aa864ce2-d54d-43e7-8a7e-aca077da5d4d")
-		(property "Reference" "J27"
-			(at 66.675 55.88 0)
+		(uuid "86f43f47-f6bc-45d0-90b7-2cbdcac43bcc")
+		(property "Reference" "J4"
+			(at 128.905 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Banana 2P"
-			(at 66.675 58.42 0)
+		(property "Value" "XT30_F"
+			(at 128.905 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector:Banana_Jack_2Pin"
-			(at 66.04 60.96 0)
+		(property "Footprint" "Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical"
+			(at 129.54 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -541,7 +665,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 66.04 60.96 0)
+			(at 129.54 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -550,7 +674,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 66.04 60.96 0)
+			(at 129.54 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -559,7 +683,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 66.04 60.96 0)
+			(at 129.54 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -567,7 +691,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 66.04 60.96 0)
+			(at 129.54 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -575,7 +699,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 66.04 60.96 0)
+			(at 129.54 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -583,7 +707,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 66.04 60.96 0)
+			(at 129.54 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -591,7 +715,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 66.04 60.96 0)
+			(at 129.54 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -599,7 +723,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 66.04 60.96 0)
+			(at 129.54 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -607,7 +731,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 66.04 60.96 0)
+			(at 129.54 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -615,15 +739,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "1c97a9df-0438-42c7-bdec-a03ff2fdf22e")
+			(uuid "b6122b2d-0121-4552-a737-80593841589c")
 		)
 		(pin "2"
-			(uuid "f3a143b7-6277-4807-9a89-9f20064c6886")
+			(uuid "5a94fa1c-0c46-4322-b996-24fe60f8803b")
 		)
 		(instances
 			(project "Boost2 1B"
 				(path "/12d7d405-80bc-44f7-b268-462602cf0149"
-					(reference "J27")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -690,131 +814,6 @@
 			(project "Boost2 1B"
 				(path "/12d7d405-80bc-44f7-b268-462602cf0149"
 					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 129.54 60.96 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "fe5147ff-c24e-4b21-ae7d-65988ec0c94e")
-		(property "Reference" "J28"
-			(at 128.905 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Banana 2P"
-			(at 128.905 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector:Banana_Jack_2Pin"
-			(at 129.54 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 129.54 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 129.54 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 129.54 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 129.54 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 129.54 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 129.54 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 129.54 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 129.54 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 129.54 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "22132238-b41d-48b9-aec1-62cbf2803196")
-		)
-		(pin "2"
-			(uuid "9be8d025-8a44-4fcc-b171-2446e9f9e289")
-		)
-		(instances
-			(project "Boost2 1B"
-				(path "/12d7d405-80bc-44f7-b268-462602cf0149"
-					(reference "J28")
 					(unit 1)
 				)
 			)

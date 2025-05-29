@@ -3122,6 +3122,129 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 189.23 45.72 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "0b49971a-7664-4a23-977d-6129b9a5d946")
+		(property "Reference" "J16"
+			(at 188.595 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Banana"
+			(at 188.595 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "! Robomaster Connectors:RM_Banana_Jack_2Pin"
+			(at 189.23 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 189.23 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 189.23 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 189.23 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 189.23 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 189.23 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 189.23 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 189.23 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 189.23 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 189.23 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a7f6c350-6897-40cc-9577-6fb3c8fe8d9e")
+		)
+		(pin "2"
+			(uuid "2983a699-e909-479a-944b-cefc2fe2f362")
+		)
+		(instances
+			(project "CurrSense 1B"
+				(path "/5f9f1c89-5fe4-42d1-b6aa-1aaaa043829f"
+					(reference "J16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:Q_NMOS_SGD")
 		(at 147.32 45.72 270)
 		(mirror x)
@@ -3530,32 +3653,31 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 90.17 74.93 0)
+		(at 120.65 54.61 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "3786dd87-5bfa-498f-b302-e38906316db3")
+		(uuid "37f80d90-3449-454e-a3cc-4a754bf0f1b2")
 		(property "Reference" "J13"
-			(at 90.805 69.85 0)
+			(at 120.015 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Banana 2P"
-			(at 90.805 72.39 0)
+		(property "Value" "XT30_F"
+			(at 120.015 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector:Banana_Jack_2Pin"
-			(at 90.17 74.93 0)
+		(property "Footprint" "Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical"
+			(at 120.65 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3564,7 +3686,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 90.17 74.93 0)
+			(at 120.65 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3573,7 +3695,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 90.17 74.93 0)
+			(at 120.65 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3582,7 +3704,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 90.17 74.93 0)
+			(at 120.65 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3590,7 +3712,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 90.17 74.93 0)
+			(at 120.65 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3598,7 +3720,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 90.17 74.93 0)
+			(at 120.65 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3606,7 +3728,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 90.17 74.93 0)
+			(at 120.65 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3614,7 +3736,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 90.17 74.93 0)
+			(at 120.65 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3622,7 +3744,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 90.17 74.93 0)
+			(at 120.65 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3630,7 +3752,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 90.17 74.93 0)
+			(at 120.65 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3638,15 +3760,138 @@
 			)
 		)
 		(pin "1"
-			(uuid "6d3dd4fd-2d39-424b-ad96-e0b16bf10f9b")
+			(uuid "280c1dfc-cc3d-4564-bfce-99be1b6552ee")
 		)
 		(pin "2"
-			(uuid "2a55f738-38b1-4928-87ff-73130ec8f93e")
+			(uuid "3dba54a6-6db1-4bf1-916e-49c79de395ab")
 		)
 		(instances
 			(project "CurrSense 1B"
 				(path "/5f9f1c89-5fe4-42d1-b6aa-1aaaa043829f"
 					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 176.53 80.01 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "3f4705c6-80a6-4ae6-aaa1-527131ec7175")
+		(property "Reference" "J14"
+			(at 175.895 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XT30_F"
+			(at 175.895 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical"
+			(at 176.53 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 176.53 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 176.53 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 176.53 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 176.53 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 176.53 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 176.53 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 176.53 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 176.53 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ab074575-26bc-47e0-81a8-64395aadbb0e")
+		)
+		(pin "2"
+			(uuid "e48ceac0-45fd-4234-b068-db1ac957da85")
+		)
+		(instances
+			(project "CurrSense 1B"
+				(path "/5f9f1c89-5fe4-42d1-b6aa-1aaaa043829f"
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -4473,131 +4718,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 120.65 52.07 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "72dc5415-6c58-4253-a46a-699521538179")
-		(property "Reference" "J8"
-			(at 120.015 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Banana 2P"
-			(at 120.015 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector:Banana_Jack_2Pin"
-			(at 120.65 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 120.65 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 120.65 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 120.65 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 120.65 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 120.65 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 120.65 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 120.65 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 120.65 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 120.65 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b7a34bef-ab40-405c-8559-bc4eba16df60")
-		)
-		(pin "2"
-			(uuid "9dfcc388-55d3-4769-acc2-2c69cb016299")
-		)
-		(instances
-			(project "CurrSense 1B"
-				(path "/5f9f1c89-5fe4-42d1-b6aa-1aaaa043829f"
-					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 119.38 90.17 0)
 		(unit 1)
@@ -4921,33 +5041,32 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 176.53 77.47 0)
-		(mirror y)
+		(at 90.17 77.47 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "8b167e4c-fc76-4e3b-bd97-f5a419528363")
-		(property "Reference" "J14"
-			(at 175.895 72.39 0)
+		(uuid "8fd7583f-0252-4da2-89cd-12e8eff4b2ca")
+		(property "Reference" "J11"
+			(at 90.805 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Banana 2P"
-			(at 175.895 74.93 0)
+		(property "Value" "XT30_F"
+			(at 90.805 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector:Banana_Jack_2Pin"
-			(at 176.53 77.47 0)
+		(property "Footprint" "Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical"
+			(at 90.17 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4956,7 +5075,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 176.53 77.47 0)
+			(at 90.17 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4965,7 +5084,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 176.53 77.47 0)
+			(at 90.17 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4974,7 +5093,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 176.53 77.47 0)
+			(at 90.17 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4982,7 +5101,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 176.53 77.47 0)
+			(at 90.17 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4990,7 +5109,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 176.53 77.47 0)
+			(at 90.17 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4998,7 +5117,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 176.53 77.47 0)
+			(at 90.17 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5006,7 +5125,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 176.53 77.47 0)
+			(at 90.17 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5014,7 +5133,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 176.53 77.47 0)
+			(at 90.17 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5022,7 +5141,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 176.53 77.47 0)
+			(at 90.17 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5030,15 +5149,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "38ec9eb4-2013-49ee-9ddc-2d164892b960")
+			(uuid "a18e3a27-dbf5-468d-908a-af98c2b77b62")
 		)
 		(pin "2"
-			(uuid "121912e8-a5dd-4170-99dd-fa92da451348")
+			(uuid "763e1a7d-51c6-4abe-92f5-abeca2819948")
 		)
 		(instances
 			(project "CurrSense 1B"
 				(path "/5f9f1c89-5fe4-42d1-b6aa-1aaaa043829f"
-					(reference "J14")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -5444,130 +5563,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 90.17 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "aa5866a2-bdde-4c61-8c5f-313e572f7bdd")
-		(property "Reference" "J15"
-			(at 90.805 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Banana 2P"
-			(at 90.805 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector:Banana_Jack_2Pin"
-			(at 90.17 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 90.17 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 90.17 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 90.17 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 90.17 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 90.17 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 90.17 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 90.17 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 90.17 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 90.17 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d2626c82-300a-4e64-8d4e-f27b8b74cae2")
-		)
-		(pin "2"
-			(uuid "25359fad-3aa7-4a76-a42e-cbaf286fdffe")
-		)
-		(instances
-			(project "CurrSense 1B"
-				(path "/5f9f1c89-5fe4-42d1-b6aa-1aaaa043829f"
-					(reference "J15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 146.05 27.94 90)
 		(unit 1)
@@ -5944,32 +5939,32 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 20.32 43.18 0)
+		(at 90.17 96.52 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "c7c1563b-3f18-41ac-9ac4-4abdc26ab993")
-		(property "Reference" "J4"
-			(at 20.955 38.1 0)
+		(uuid "c05947ef-7a52-40ed-8121-53f5245268d4")
+		(property "Reference" "J12"
+			(at 90.805 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Banana 2P"
-			(at 20.955 40.64 0)
+		(property "Value" "XT30_F"
+			(at 90.805 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector:Banana_Jack_2Pin"
-			(at 20.32 43.18 0)
+		(property "Footprint" "Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical"
+			(at 90.17 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5978,7 +5973,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 20.32 43.18 0)
+			(at 90.17 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5987,7 +5982,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 20.32 43.18 0)
+			(at 90.17 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5996,7 +5991,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 20.32 43.18 0)
+			(at 90.17 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6004,7 +5999,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 20.32 43.18 0)
+			(at 90.17 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6012,7 +6007,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 20.32 43.18 0)
+			(at 90.17 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6020,7 +6015,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 20.32 43.18 0)
+			(at 90.17 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6028,7 +6023,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 20.32 43.18 0)
+			(at 90.17 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6036,7 +6031,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 20.32 43.18 0)
+			(at 90.17 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6044,7 +6039,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 20.32 43.18 0)
+			(at 90.17 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6052,15 +6047,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "630e1833-a3bb-4b79-a42b-2b25d8d83ec7")
+			(uuid "d4e26d25-9211-44a3-a55a-a9ff021cbdfc")
 		)
 		(pin "2"
-			(uuid "a0ebadb1-8ec2-4063-985e-f19600d62876")
+			(uuid "f4d6bd1a-9248-43ef-a7d7-d9841e0cbe11")
 		)
 		(instances
 			(project "CurrSense 1B"
 				(path "/5f9f1c89-5fe4-42d1-b6aa-1aaaa043829f"
-					(reference "J4")
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -6275,32 +6270,32 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 189.23 43.18 0)
-		(mirror y)
+		(at 20.32 45.72 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
-		(uuid "e71ef612-7cde-43e8-8188-f03583c524be")
-		(property "Reference" "J5"
-			(at 188.595 38.1 0)
+		(uuid "cf420dec-f8eb-4c76-9a0f-35dca454c6da")
+		(property "Reference" "J15"
+			(at 20.955 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Banana 2P"
-			(at 188.595 40.64 0)
+		(property "Value" "XT30_F"
+			(at 20.955 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector:Banana_Jack_2Pin"
-			(at 189.23 43.18 0)
+		(property "Footprint" "Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical"
+			(at 20.32 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6309,7 +6304,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 189.23 43.18 0)
+			(at 20.32 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6318,7 +6313,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 189.23 43.18 0)
+			(at 20.32 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6327,7 +6322,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 189.23 43.18 0)
+			(at 20.32 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6335,7 +6330,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 189.23 43.18 0)
+			(at 20.32 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6343,7 +6338,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 189.23 43.18 0)
+			(at 20.32 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6351,7 +6346,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 189.23 43.18 0)
+			(at 20.32 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6359,7 +6354,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 189.23 43.18 0)
+			(at 20.32 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6367,7 +6362,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 189.23 43.18 0)
+			(at 20.32 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6375,7 +6370,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 189.23 43.18 0)
+			(at 20.32 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6383,15 +6378,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "49f18adc-23fa-4709-bb4f-27c84e7d42d5")
+			(uuid "7b4842c6-f014-4b19-8cbc-ff2fe1c7e407")
 		)
 		(pin "2"
-			(uuid "b9cbea26-caff-4ac8-8e2b-4c57a1607745")
+			(uuid "da0abc09-eb15-49ae-9161-6dd596d070f9")
 		)
 		(instances
 			(project "CurrSense 1B"
 				(path "/5f9f1c89-5fe4-42d1-b6aa-1aaaa043829f"
-					(reference "J5")
+					(reference "J15")
 					(unit 1)
 				)
 			)
