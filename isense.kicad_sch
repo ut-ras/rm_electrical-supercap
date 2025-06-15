@@ -7084,7 +7084,7 @@
 				)
 			)
 		)
-		(property "Value" "1000p"
+		(property "Value" "100p"
 			(at 232.41 125.73 90)
 			(effects
 				(font
@@ -7119,7 +7119,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "80-C0603C102J3G"
+		(property "Mouser Part Number" ""
 			(at 232.41 130.81 90)
 			(effects
 				(font
@@ -8919,7 +8919,7 @@
 				)
 			)
 		)
-		(property "Value" "1000p"
+		(property "Value" "100p"
 			(at 232.41 69.85 90)
 			(effects
 				(font
@@ -8954,7 +8954,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "80-C0603C102J3G"
+		(property "Mouser Part Number" ""
 			(at 232.41 74.93 90)
 			(effects
 				(font
